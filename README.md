@@ -22,7 +22,7 @@ A minute-by-minute census of 2,070 days of Binance monthly against daily archive
 
 | Path | Contents |
 | --- | --- |
-| `paper/` | Preprint (LaTeX source and PDF) |
+| `paper/` | Preprint (PDF) |
 | `docs/confirmatory-protocol-v1.md` | Frozen Holdout A protocol (SHA-256 `38ef1aae...b9`) |
 | `docs/confirmatory-protocol-holdout-b.md` | Frozen Holdout B protocol (SHA-256 `6843156f...15`) |
 | `docs/phase3a-analysis-plan.md`, `configs/history-extension.toml` | Frozen historical-extension protocol and configuration |
