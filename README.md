@@ -2,7 +2,7 @@
 
 **Statistically Detectable, Economically Small: A Pre-Registered Out-of-Sample Test of Minute-Level Bitcoin Return Predictability**
 
-This repository contains the code, frozen protocols, execution contracts and evidence for a forthcoming preprint (to be added in `paper/` on its public release). It is **source-available, not open source**: noncommercial use only, citation required. See [Licensing](#licensing).
+This repository contains the code, frozen protocols, execution contracts and evidence for the preprint in [`paper/`](paper/). It is **source-available, not open source**: noncommercial use only, citation required. See [Licensing](#licensing).
 
 ## Summary
 
@@ -22,7 +22,7 @@ A minute-by-minute census of 2,070 days of Binance monthly against daily archive
 
 | Path | Contents |
 | --- | --- |
-| `paper/` | Preprint: not yet included; it will be added when the preprint is publicly released |
+| `paper/` | Preprint (LaTeX source and PDF) |
 | `docs/confirmatory-protocol-v1.md` | Frozen Holdout A protocol (SHA-256 `38ef1aae...b9`) |
 | `docs/confirmatory-protocol-holdout-b.md` | Frozen Holdout B protocol (SHA-256 `6843156f...15`) |
 | `docs/phase3a-analysis-plan.md`, `configs/history-extension.toml` | Frozen historical-extension protocol and configuration |
