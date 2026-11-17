@@ -1,0 +1,120 @@
+{
+  "baseline": {
+    "aggregation_note": "CW+DM+IC function entry count only; legacy HAC helper calls and R2/power calls are separately itemized.",
+    "collected": 930,
+    "counts": {
+      "forecast_tests.clark_west_differential": 2164,
+      "forecast_tests.dm_differential": 1067,
+      "forecast_tests.encompassing_approx": 403,
+      "forecast_tests.ic_product": 1058,
+      "forecast_tests.mde": 8267,
+      "forecast_tests.months_required": 5956,
+      "forecast_tests.normal_power": 6918,
+      "forecast_tests.r2_oos": 1065,
+      "forecast_tests.run_size_power_monte_carlo": 1,
+      "hac_tests._stats": 3889,
+      "sklearn.Ridge.fit": 1341
+    },
+    "elapsed_seconds": 329.9465906000114,
+    "exitstatus": 0,
+    "method": "Python 3.13 sys.monitoring local PY_START events; no function replacement",
+    "normal_returns": {
+      "forecast_tests.clark_west_differential": 2158,
+      "forecast_tests.dm_differential": 1059,
+      "forecast_tests.encompassing_approx": 403,
+      "forecast_tests.ic_product": 1058,
+      "forecast_tests.mde": 8264,
+      "forecast_tests.months_required": 5956,
+      "forecast_tests.normal_power": 6917,
+      "forecast_tests.r2_oos": 1059,
+      "forecast_tests.run_size_power_monte_carlo": 1,
+      "hac_tests._stats": 3889,
+      "sklearn.Ridge.fit": 1341
+    },
+    "scope": "existing synthetic pytest function entries, including validation-error calls",
+    "synthetic_ridge_fits_during_tests": 1341,
+    "synthetic_statistical_tests_during_tests": 4289,
+    "test_counts": {
+      "passed": 929,
+      "skipped": 1
+    }
+  },
+  "final": {
+    "collected": 981,
+    "counts": {
+      "forecast_tests.clark_west_differential": 2164,
+      "forecast_tests.dm_differential": 1067,
+      "forecast_tests.encompassing_approx": 403,
+      "forecast_tests.ic_product": 1058,
+      "forecast_tests.mde": 8267,
+      "forecast_tests.months_required": 5956,
+      "forecast_tests.normal_power": 6918,
+      "forecast_tests.r2_oos": 1065,
+      "forecast_tests.run_size_power_monte_carlo": 1,
+      "hac_tests._stats": 3889,
+      "sklearn.Ridge.fit": 1341
+    },
+    "elapsed_seconds": 333.35938469995745,
+    "exitstatus": 0,
+    "method": "Python 3.13 sys.monitoring local PY_START events; no function replacement",
+    "normal_returns": {
+      "forecast_tests.clark_west_differential": 2158,
+      "forecast_tests.dm_differential": 1059,
+      "forecast_tests.encompassing_approx": 403,
+      "forecast_tests.ic_product": 1058,
+      "forecast_tests.mde": 8264,
+      "forecast_tests.months_required": 5956,
+      "forecast_tests.normal_power": 6917,
+      "forecast_tests.r2_oos": 1059,
+      "forecast_tests.run_size_power_monte_carlo": 1,
+      "hac_tests._stats": 3889,
+      "sklearn.Ridge.fit": 1341
+    },
+    "scope": "existing synthetic pytest function entries, including validation-error calls",
+    "synthetic_ridge_fits_during_tests": 1341,
+    "synthetic_statistical_tests_during_tests": 4289,
+    "test_counts": {
+      "passed": 980,
+      "skipped": 1
+    }
+  },
+  "full": {
+    "collected": 979,
+    "counts": {
+      "forecast_tests.clark_west_differential": 2164,
+      "forecast_tests.dm_differential": 1067,
+      "forecast_tests.encompassing_approx": 403,
+      "forecast_tests.ic_product": 1058,
+      "forecast_tests.mde": 8267,
+      "forecast_tests.months_required": 5956,
+      "forecast_tests.normal_power": 6918,
+      "forecast_tests.r2_oos": 1065,
+      "forecast_tests.run_size_power_monte_carlo": 1,
+      "hac_tests._stats": 3889,
+      "sklearn.Ridge.fit": 1341
+    },
+    "elapsed_seconds": 336.92050649999874,
+    "exitstatus": 0,
+    "method": "Python 3.13 sys.monitoring local PY_START events; no function replacement",
+    "normal_returns": {
+      "forecast_tests.clark_west_differential": 2158,
+      "forecast_tests.dm_differential": 1059,
+      "forecast_tests.encompassing_approx": 403,
+      "forecast_tests.ic_product": 1058,
+      "forecast_tests.mde": 8264,
+      "forecast_tests.months_required": 5956,
+      "forecast_tests.normal_power": 6917,
+      "forecast_tests.r2_oos": 1059,
+      "forecast_tests.run_size_power_monte_carlo": 1,
+      "hac_tests._stats": 3889,
+      "sklearn.Ridge.fit": 1341
+    },
+    "scope": "existing synthetic pytest function entries, including validation-error calls",
+    "synthetic_ridge_fits_during_tests": 1341,
+    "synthetic_statistical_tests_during_tests": 4289,
+    "test_counts": {
+      "passed": 978,
+      "skipped": 1
+    }
+  }
+}

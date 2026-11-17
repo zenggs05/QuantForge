@@ -1,0 +1,11 @@
+{
+  "disk_free_bytes": 444914495488,
+  "elapsed_seconds": 15.710712000029162,
+  "head": "63573205648ba869e1cfbfdc2b4d6ab2d6763869",
+  "mode": "reproduction",
+  "output": "D:\\zgs_project\\QuantForge\\results\\holdout-b\\reproduction-20261117T092910924535Z-6357320",
+  "peak_process_bytes": 947900416,
+  "pid": 65916,
+  "ridge_fits": 6,
+  "utc": "2026-11-17T09:29:19.115362+00:00"
+}

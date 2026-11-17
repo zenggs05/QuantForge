@@ -1,0 +1,19 @@
+{
+  "base": "296c7a434234c3470ca73eccdc85b6565b8fab06",
+  "by_directory_added_removed": {
+    "src": [
+      850,
+      1
+    ],
+    "tests": [
+      1339,
+      0
+    ],
+    "tools": [
+      401,
+      0
+    ]
+  },
+  "files_changed": 28,
+  "implementation": "c893d757d18fead4993f2883fa61039c3305b5e5"
+}

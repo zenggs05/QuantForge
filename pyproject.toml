@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantforge"
+version = "0.1.0"
+description = "Reproducible financial machine learning research with explicit data and execution assumptions"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2.3,<3.1",
+    "pyarrow>=19,<24",
+    "numpy>=2,<3",
+    "scikit-learn>=1.6,<2",
+    "threadpoolctl>=3.5,<4",
+    "matplotlib>=3.9,<4",
+    "scipy>=1.14,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra --basetemp=.tmp/pytest"

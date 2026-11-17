@@ -1,0 +1,290 @@
+[experiment]
+mode = "frozen_design_historical_validation"
+horizons = [15, 5]
+seed = 42
+cpu_threads = 1
+precision = "float64"
+synthetic_only = true
+availability_delay_seconds = 1
+
+[data]
+symbol = "BTCUSDT"
+market = "spot"
+interval = "1m"
+
+[months]
+warm_up = ["2020-01", "2020-02", "2020-03", "2020-04", "2020-05", "2020-06", "2020-07", "2020-08", "2020-09", "2020-10", "2020-11", "2020-12"]
+evaluate = ["2021-01", "2021-02", "2021-03", "2021-04", "2021-05", "2021-06", "2021-07", "2021-08", "2021-09", "2021-10", "2021-11", "2021-12", "2022-01", "2022-02", "2022-03", "2022-04", "2022-05", "2022-06", "2022-07", "2022-08", "2022-09", "2022-10", "2022-11", "2022-12", "2023-01", "2023-02", "2023-03", "2023-04", "2023-05", "2023-06", "2023-07", "2023-08", "2023-09", "2023-10", "2023-11", "2023-12", "2024-01", "2024-02", "2024-03", "2024-04", "2024-05", "2024-06", "2024-07", "2024-08", "2024-09", "2024-10", "2024-11", "2024-12", "2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08"]
+total = 68
+start = "2020-01-01T00:00:00Z"
+end = "2025-09-01T00:00:00Z"
+
+[budget]
+zip_bytes = 402653184
+checksum_bytes = 1048576
+disk_reserve_bytes = 8589934592
+ridge_fits_per_run = 224
+formal_synthetic_runs = 2
+process_memory_bytes = 4000000000
+run_seconds = 1200
+
+[download]
+authorized = false
+max_concurrent = 1
+per_month_retry = 3
+backoff_seconds = [1, 4, 16]
+official_checksum_required = true
+estimated_month_zip_bytes = [2097152, 4718592]
+per_zip_limit_bytes = 8388608
+per_csv_limit_bytes = 33554432
+per_checksum_limit_bytes = 16384
+
+[timestamp]
+ms_window_end = "2024-12-31T23:59:59.999Z"
+us_window_start = "2025-01-01T00:00:00Z"
+detection = "per_month_from_first_row_magnitude"
+cross_validate = true
+
+[model]
+ridge_alpha = 1.0
+solver = "svd"
+fit_intercept = true
+scaler = "train_only_StandardScaler"
+baselines = ["zero", "historical_mean"]
+specifications = ["v1", "v2"]
+
+[inference]
+lags = [60, 275, "LLSW"]
+llsw_constant = 1.3
+llsw_min_lag = 60
+admissible_min_lag_multiple = 4
+pooling = ["n_weighted", "month_equal"]
+alpha = 0.05
+primary_test = "CW"
+primary_alternative = "greater"
+ic_alternative = "greater"
+dm_alternative = "two-sided"
+secondary_family = ["S1", "S2", "S3", "S4", "S5"]
+secondary_adjustment = "holm"
+
+[dependence]
+primary = "within_month_HAC_zero_cross_month"
+sensitivities = ["monthly_mean_hac_nw1994", "block_bootstrap", "equal_vs_nweighted"]
+monthly_lag = 4
+block_lengths = [3, 6, 12]
+bootstrap_draws = 2000
+confidence = 0.95
+bootstrap_method = "circular_percentile"
+quantile_method = "linear"
+
+[placebo]
+scope = "v1_15m_zero_primary"
+sign_flip_block_minutes = 60
+sign_flip_draws = 500
+time_shift_minutes = 1440
+pooling = "n_weighted"
+lags = [60, 275]
+include_llsw = true
+quantiles = [0.025, 0.5, 0.975]
+mean_abs_limit = 0.3
+sd_min = 0.8
+sd_max = 1.25
+role_id = 0
+
+[specification]
+v1_features = ["log_return_1m", "log_return_5m", "log_return_15m", "log_return_60m", "return_std_5m", "return_std_15m", "return_std_60m", "volume_change_1m", "volume_zscore_60m", "taker_buy_volume_ratio", "trades_change_60m", "log_high_low", "log_close_open", "close_range_position"]
+v2_drop_features = ["log_close_open"]
+v2_derived_from = "phase2e_spec_audit_2026-11-04"
+v2_evidence_tag = "post_hoc_specification_evaluated_on_earlier_data"
+
+[conditional_gw]
+instrument = "realized_vol_prev_month"
+info_set_rule = "label_available_time_le_fit_time"
+instrument_horizon_minutes = 1
+instrument_formula = "sqrt(sum(mature_previous_calendar_month_1m_target_return_squared))"
+bins = [0.0, 0.25, 0.5, 0.75, 1.0]
+hac_lag = 4
+loss = "primary_dm_month_mean"
+wald_null = "intercept_and_slope_zero"
+evidence_level = "exploratory_not_in_holm"
+
+[stability]
+window_months = 12
+label = "trailing_window_end"
+scope = "primary_cw_month_mean"
+outputs = ["signed_mean", "absolute_mean"]
+evidence_level = "exploratory_descriptive"
+
+[concentration]
+top_k = [1, 10, 100]
+scope = "primary_cw_within_month"
+
+[encompassing]
+scope = "primary_v1_15m_zero"
+effective_n = "within_month_cw_hac"
+
+[synthetic]
+minutes_per_month = 4096
+burnin = 1024
+ar_phi = 0.2
+garch_omega = 0.00000001
+garch_alpha = 0.05
+garch_beta = 0.9
+student_df = 5
+initial_price = 100.0
+volume_log_mean = 3.0
+volume_log_sd = 0.2
+price_gap_sd = 0.00005
+wick_min = 0.0001
+wick_scale = 0.0001
+taker_ratio_min = 0.2
+taker_ratio_max = 0.8
+trades_min = 10
+trades_max_exclusive = 100
+stream_ids = [0, 1, 2, 3, 4, 5]
+garch_initialization = "unconditional_innovation_variance"
+month_initialization = "independent_month_seedsequence"
+missing_minutes = "absent_between_month_fragments_no_filling"
+fixture_evidence_level = "synthetic_engineering_only"
+
+[synthetic_validation]
+stability_months = 56
+stability_break_month = 25
+stability_window_months = 12
+stability_beta_pairs = [[0.5, 1.0], [0.5, -0.5]]
+stability_noise_sd = 0.01
+stability_stream_ids = [0, 1, 2]
+stability_mc_samples = 50000
+stability_max_relative_mean_se = 0.01
+stability_pointwise_se_multiple = 3.0
+stability_abs_square_tolerance = 1e-18
+coverage_replications = 1000
+coverage_months = 56
+coverage_ar_phi = 0.3
+coverage_burnin = 256
+coverage_min = 0.85
+coverage_max = 0.99
+
+[holdouts]
+holdout_a = ["2026-07-01T00:00:00Z", "2026-09-01T00:00:00Z"]
+holdout_b = ["2026-09-02T00:00:00Z", "2026-11-01T00:00:00Z"]
+smoke_day_sealed = "2026-09-01"
+
+[power]
+source = "docs/phase2e-evidence/evidence-layers.csv"
+source_sha256 = "723ab3a5563f27157c54a3490a52919eb51c44fed4866f5192cd443f4c71bdc7"
+observed_months = 2
+future_months = 56
+target_power = 0.8
+machine_relative_tolerance = 1e-12
+display_relative_tolerance = 0.0001
+z_one_sided = 1.6448536269514722
+z_two_sided = 1.959963984540054
+z_power = 0.8416212335729143
+se_report_ratio = 2.0
+
+[legacy_policy]
+canonical_json = "{\"access\":{\"allowed_months\":[\"2025-09\",\"2025-10\",\"2025-11\",\"2025-12\",\"2026-01\",\"2026-02\",\"2026-03\",\"2026-04\",\"2026-05\",\"2026-06\"],\"expected_rows\":436320,\"final_holdout_access\":false},\"dataset\":{\"interval\":\"1m\",\"market\":\"spot\",\"symbol\":\"BTCUSDT\",\"timezone\":\"UTC\"},\"evaluation\":{\"availability_delay_seconds\":1,\"evaluation_cutoff\":\"month_end\",\"fit_at\":\"month_start\",\"months\":[\"2026-03\",\"2026-04\",\"2026-05\",\"2026-06\"]},\"periods\":{\"development_end\":\"2026-07-01T00:00:00Z\",\"development_evaluation_end\":\"2026-07-01T00:00:00Z\",\"development_evaluation_start\":\"2026-05-01T00:00:00Z\",\"development_start\":\"2025-09-01T00:00:00Z\",\"final_holdout_end\":\"2026-09-01T00:00:00Z\",\"final_holdout_start\":\"2026-07-01T00:00:00Z\",\"initial_train_end\":\"2026-03-01T00:00:00Z\",\"initial_train_start\":\"2025-09-01T00:00:00Z\",\"validation_end\":\"2026-05-01T00:00:00Z\",\"validation_start\":\"2026-03-01T00:00:00Z\"}}"
+policy_ast_sha256 = "fdafcf1bc9c2b8fb94cec2ce0a8db3928735e2b7580f1f4dde750def54f08f2f"
+
+[output]
+directory = "results/phase3a"
+float_format = "%.17g"
+newline = "LF"
+json_sort_keys = true
+
+[[power.anchors]]
+key = "15_validation_CW"
+se_2E = "4.330445321942128e-09"
+se_56 = "8.183772420015648e-10"
+mde_56 = "2.034874438662173e-09"
+pct_obs = "19.01395494184081"
+obs_mean = "1.0702005158244944e-08"
+
+[[power.anchors]]
+key = "15_validation_DM"
+se_2E = "4.326795335294619e-09"
+se_56 = "8.176874593617067e-10"
+mde_56 = "2.290821099184106e-09"
+pct_obs = "65.76901835183048"
+obs_mean = "-3.4831310495306305e-09"
+
+[[power.anchors]]
+key = "15_validation_IC"
+se_2E = "0.01101095402994968"
+se_56 = "0.0020808747186293786"
+mde_56 = "0.005174042675772705"
+pct_obs = "15.501303730194117"
+obs_mean = "0.033378113001517926"
+
+[[power.anchors]]
+key = "15_development_evaluation_CW"
+se_2E = "4.783212507512544e-09"
+se_56 = "9.039421973465615e-10"
+mde_56 = "2.247629549069399e-09"
+pct_obs = "23.38055282897031"
+obs_mean = "9.613243816392623e-09"
+
+[[power.anchors]]
+key = "15_development_evaluation_DM"
+se_2E = "4.8225709984444895e-09"
+se_56 = "9.113802529883271e-10"
+mde_56 = "2.5533094448521543e-09"
+pct_obs = "141.13818846342443"
+obs_mean = "-1.8090847506618222e-09"
+
+[[power.anchors]]
+key = "15_development_evaluation_IC"
+se_2E = "0.010423137780364284"
+se_56 = "0.0019697878891289764"
+mde_56 = "0.004897828066884597"
+pct_obs = "18.7398434923726"
+obs_mean = "0.026135906998786235"
+
+[[power.anchors]]
+key = "5_validation_CW"
+se_2E = "8.640729996716182e-10"
+se_56 = "1.6329444798119267e-10"
+mde_56 = "4.060275397684427e-10"
+pct_obs = "35.7203885037303"
+obs_mean = "1.1366828771362356e-09"
+
+[[power.anchors]]
+key = "5_validation_DM"
+se_2E = "8.885343560209244e-10"
+se_56 = "1.6791720981202088e-10"
+mde_56 = "4.704343728761316e-10"
+pct_obs = "88.42313825448302"
+obs_mean = "5.320263249673575e-10"
+
+[[power.anchors]]
+key = "5_validation_IC"
+se_2E = "0.00709812709482857"
+se_56 = "0.0013414199333746987"
+mde_56 = "0.003335406941742485"
+pct_obs = "29.663262229627513"
+obs_mean = "0.011244235094315075"
+
+[[power.anchors]]
+key = "5_development_evaluation_CW"
+se_2E = "7.717520543806254e-10"
+se_56 = "1.4584742926388075e-10"
+mde_56 = "3.6264596633674817e-10"
+pct_obs = "25.28135242840264"
+obs_mean = "1.4344405322609606e-09"
+
+[[power.anchors]]
+key = "5_development_evaluation_DM"
+se_2E = "7.838104675873235e-10"
+se_56 = "1.4812625516037933e-10"
+mde_56 = "4.1498832687174854e-10"
+pct_obs = "2073.5237704055958"
+obs_mean = "-2.001367588810298e-11"
+
+[[power.anchors]]
+key = "5_development_evaluation_IC"
+se_2E = "0.0065965028843915086"
+se_56 = "0.0012466218682014418"
+mde_56 = "0.0030996939358628297"
+pct_obs = "21.94780824033855"
+obs_mean = "0.014123022681443914"

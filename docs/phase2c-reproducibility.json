@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-03T01:31:30.855718+00:00",
+  "run_ids": [
+    "20261103T012342527623Z-d1bab75b",
+    "20261103T012551082603Z-c847d61f"
+  ],
+  "same_frozen_input": true,
+  "same_config": true,
+  "same_input_audit": true,
+  "byte_identical_artifacts": [
+    "paired-loss-summary.csv",
+    "bootstrap-results.csv",
+    "hac-results.csv",
+    "calibration-summary.csv",
+    "calibration-quantiles.csv",
+    "distribution-quantiles.csv",
+    "loss-autocorrelation.csv",
+    "pairing-audit.json",
+    "resolved-config.json",
+    "figures/prediction-target-15m.png",
+    "figures/quantile-calibration-15m.png",
+    "figures/residual-distribution-15m.png",
+    "figures/monthly-ic-15m.png",
+    "figures/monthly-mse-difference-15m.png",
+    "figures/bootstrap-ci-15m.png",
+    "figures/loss-acf-15m.png",
+    "figures/prediction-target-5m.png",
+    "figures/quantile-calibration-5m.png",
+    "figures/residual-distribution-5m.png",
+    "figures/monthly-ic-5m.png",
+    "figures/monthly-mse-difference-5m.png",
+    "figures/bootstrap-ci-5m.png",
+    "figures/loss-acf-5m.png"
+  ],
+  "count": 23,
+  "all_artifact_hashes_verified": true,
+  "all_runtime_source_hashes_match_current_files": true,
+  "frozen_prediction_unchanged": true,
+  "summary_sha256": [
+    "12d5ab77990a600b3e5a4d394c955edd905ec94357636ae3b62d7435a953746a",
+    "51e49622bd2fd4f29493a56db85d344e65cc32927b18c3fcef385ba8ed3146ea"
+  ],
+  "note": "Seven tables, pairing audit, config and fourteen PNGs are bit-identical. Report/summary include run ID and timings."
+}

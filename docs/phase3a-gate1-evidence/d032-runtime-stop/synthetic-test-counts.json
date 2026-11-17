@@ -1,0 +1,39 @@
+{
+  "scope": "existing synthetic pytest function entries, including validation-error calls",
+  "method": "Python 3.13 sys.monitoring local PY_START events; no function replacement",
+  "counts": {
+    "sklearn.Ridge.fit": 1341,
+    "forecast_tests.clark_west_differential": 2164,
+    "forecast_tests.dm_differential": 1067,
+    "forecast_tests.ic_product": 1058,
+    "forecast_tests.r2_oos": 1065,
+    "hac_tests._stats": 3889,
+    "forecast_tests.run_size_power_monte_carlo": 1,
+    "forecast_tests.mde": 8267,
+    "forecast_tests.normal_power": 6918,
+    "forecast_tests.months_required": 5956,
+    "forecast_tests.encompassing_approx": 403
+  },
+  "normal_returns": {
+    "sklearn.Ridge.fit": 1341,
+    "forecast_tests.clark_west_differential": 2158,
+    "forecast_tests.dm_differential": 1059,
+    "forecast_tests.ic_product": 1058,
+    "forecast_tests.r2_oos": 1059,
+    "hac_tests._stats": 3889,
+    "forecast_tests.run_size_power_monte_carlo": 1,
+    "forecast_tests.mde": 8264,
+    "forecast_tests.normal_power": 6917,
+    "forecast_tests.months_required": 5956,
+    "forecast_tests.encompassing_approx": 403
+  },
+  "synthetic_ridge_fits_during_tests": 1341,
+  "synthetic_statistical_tests_during_tests": 4289,
+  "elapsed_seconds": 385.8760363999754,
+  "collected": 1068,
+  "exitstatus": 0,
+  "test_counts": {
+    "passed": 1067,
+    "skipped": 1
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "elapsed_seconds": 7.582784199999878,
+  "evidence_level": "synthetic",
+  "level_passed": true,
+  "llsw_constant": 1.3,
+  "mean_empirical_signal_r2": 0.0010026831135387679,
+  "normal_critical_one_sided": 1.6448536269514722,
+  "normal_critical_two_sided": 1.959963984540054,
+  "note": "DM improvement t is minus the formal model-minus-baseline loss statistic; no DGP tuning.",
+  "power_passed": true,
+  "rows": [
+    {
+      "cw_one_sided": 0.065,
+      "cw_t_mean": -0.07283245277933867,
+      "cw_t_sd": 1.0671844334866116,
+      "dm_improvement_one_sided": 0.0025,
+      "dm_improvement_t_mean": -1.6138513925670939,
+      "dm_two_sided": 0.385,
+      "dm_z_mean": 1.6138513925670939,
+      "evidence_level": "synthetic",
+      "lag": 60,
+      "rejection_mc_se": {
+        "cw_one_sided": 0.01232629303562105,
+        "dm_improvement_one_sided": 0.0024968730444297725,
+        "dm_two_sided": 0.02432976572020372
+      },
+      "replications": 400,
+      "scenario": "null"
+    },
+    {
+      "cw_one_sided": 0.915,
+      "cw_t_mean": 3.0079951402216163,
+      "cw_t_sd": 1.0676548914442547,
+      "dm_improvement_one_sided": 0.415,
+      "dm_improvement_t_mean": 1.468553695858576,
+      "dm_two_sided": 0.31,
+      "dm_z_mean": -1.468553695858576,
+      "evidence_level": "synthetic",
+      "lag": 60,
+      "rejection_mc_se": {
+        "cw_one_sided": 0.013944084767384337,
+        "dm_improvement_one_sided": 0.024636101558485262,
+        "dm_two_sided": 0.023124662159694356
+      },
+      "replications": 400,
+      "scenario": "alternative"
+    },
+    {
+      "cw_one_sided": 0.055,
+      "cw_t_mean": -0.07159214883166469,
+      "cw_t_sd": 1.0464696355829253,
+      "dm_improvement_one_sided": 0.0025,
+      "dm_improvement_t_mean": -1.5797002306014598,
+      "dm_two_sided": 0.3675,
+      "dm_z_mean": 1.5797002306014598,
+      "evidence_level": "synthetic",
+      "lag": 275,
+      "rejection_mc_se": {
+        "cw_one_sided": 0.011399013115177999,
+        "dm_improvement_one_sided": 0.0024968730444297725,
+        "dm_two_sided": 0.024106210299422844
+      },
+      "replications": 400,
+      "scenario": "null"
+    },
+    {
+      "cw_one_sided": 0.9075,
+      "cw_t_mean": 2.9435152647878886,
+      "cw_t_sd": 1.0505324599716428,
+      "dm_improvement_one_sided": 0.3925,
+      "dm_improvement_t_mean": 1.4369009805057988,
+      "dm_two_sided": 0.295,
+      "dm_z_mean": -1.4369009805057988,
+      "evidence_level": "synthetic",
+      "lag": 275,
+      "rejection_mc_se": {
+        "cw_one_sided": 0.014486523910172518,
+        "dm_improvement_one_sided": 0.024415351215987043,
+        "dm_two_sided": 0.022802138057647137
+      },
+      "replications": 400,
+      "scenario": "alternative"
+    }
+  ],
+  "settings": {
+    "alpha": 0.05,
+    "alternative_model": "y=e+0.6*x; f=0.6*x",
+    "batch_size": 8,
+    "burnin_minutes": 1024,
+    "dm_direction_for_power": "-DM_z",
+    "future_horizon_minutes": 15,
+    "include_llsw": true,
+    "innovation_distribution": "standardized_student_t",
+    "known_slope": 0.6,
+    "label_horizon_minutes": 15,
+    "level_lags": [
+      60
+    ],
+    "level_max": 0.09,
+    "level_min": 0.02,
+    "logvol_ar1_phi": 0.98,
+    "max_seconds": 60,
+    "minute_points_per_month": 44640,
+    "months": 2,
+    "null_model": "y=e; f=0.6*x",
+    "replications": 400,
+    "reported_tests": [
+      "cw_one_sided",
+      "dm_two_sided",
+      "dm_improvement_one_sided"
+    ],
+    "seed": 42,
+    "signal_distribution": "standard_normal",
+    "signal_r2": 0.001,
+    "stationary_logvol_sd": 0.5,
+    "stream_ids": [
+      0,
+      1,
+      2
+    ],
+    "stream_seed_formula": "SeedSequence([seed, replicate, month, stream_id])",
+    "student_t_df": 5,
+    "volatility_process": "log_vol_ar1"
+  }
+}

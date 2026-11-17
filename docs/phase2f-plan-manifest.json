@@ -1,0 +1,22 @@
+{
+  "status": "frozen",
+  "frozen_at_utc": "2026-11-05T08:43:01.808703+00:00",
+  "base_git_commit": "9894ca25fe30812944e5a933fa5878315d876dd0",
+  "owner_decisions": [
+    "D-025",
+    "D-026"
+  ],
+  "plan_path": "docs/phase2f-plan.md",
+  "config_path": "configs/c1-engine-hardening.toml",
+  "confirmatory_protocol_v1_fingerprint_sha256_unchanged": {
+    "src/quantforge/features/__init__.py": "857819a0c3c718cf2b1100ea72995db989ed149f65d1ad3d5e4cd3eda1fcbec1",
+    "src/quantforge/labels/__init__.py": "b968218639387cb82ab1beccef5c5bf3ed3674e5975c3d2b25cb4d318037746e",
+    "src/quantforge/datasets/research_splits.py": "22c862f6e8e232dedfe17c3a9832f5b7d78737de1593d6b904e2c29c5949919c",
+    "src/quantforge/datasets/splits.py": "3459e5be5185eee2638709c3db4250e150d8e1deff140d1459882cb5257d93cd",
+    "src/quantforge/datasets/window_splits.py": "24de7804527d3dc805f46ee969d17267927e345b94af434303cd19793675fc22",
+    "src/quantforge/models/baselines.py": "a9269ca7f6147f653f608051746304596e898f49ec30f9e1714567e25a1ded83",
+    "src/quantforge/temporal.py": "6c262bbd1c77e6696c7d310eb31b321f3f27ffeea02fbd64a70f3dcee9bd648c"
+  },
+  "plan_sha256": "7e990f5a1a075860684f8e3ef6331bc97d814a569acffa8a2f03c6f66c5a3d11",
+  "config_sha256": "ebaee87992fedac0ac00c02476bd37fe1c35add7a7c76cf149c4e8e986c50e29"
+}

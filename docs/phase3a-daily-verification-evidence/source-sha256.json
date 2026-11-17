@@ -1,0 +1,90 @@
+[
+  {
+    "day": "2020-11-30",
+    "daily_zip_sha256": "8160f7562f88fac4296b46abdf25a33d18c7b3b575b64423c8e91f137fd7f841",
+    "daily_checksum_sha256": "a82f5ae3dbba7c6f76ac3577272274c52b2b89bf0e2eeba9e596f577a0471af6",
+    "daily_csv_sha256": "309d8837df302b3984f652fd82558763a40528d738069cdadc80acfe3946db74",
+    "monthly_zip_sha256": "07ff8e3aa21d340a9e25c32644a4cd6c15e4280879d39815159eb5c858895488",
+    "monthly_csv_sha256": "6d27e11092b4c749a0bbc2432c76bc6d8719139add2487f7314f10bb1a9ef7f1"
+  },
+  {
+    "day": "2020-12-21",
+    "daily_zip_sha256": "59543b0862faf5953ce8c4e4efe3892d681711de345ced3ec5cf4dd9185a7154",
+    "daily_checksum_sha256": "12789ed572c0c22c623fa96890edc89dd2d0111586ec9a3be4c7ef5faab69ac2",
+    "daily_csv_sha256": "0a92a1d83cea2d286c25538c2db431f28f6e542d4cf164253fadd7f5d48c71e6",
+    "monthly_zip_sha256": "a53a9352fd808d10981f68191138b39ef142e15ca88e03a061309f1699419749",
+    "monthly_csv_sha256": "89450bc26c774d5d8fdb3f8d86cd9c76a3f6ead364a89c66d37b3fe9c3714c56"
+  },
+  {
+    "day": "2021-01-11",
+    "daily_zip_sha256": "a2838ad0564be577320ee8d57fa280dae4a62978ff4793f02380f21fe64ca1a1",
+    "daily_checksum_sha256": "c773161e1f242a3449fc7f7d3a31e846cd3e508f0b41f42bcc567fd3b8fb83c9",
+    "daily_csv_sha256": "497fe3d1a71c3103b2a046f8c6c16a0e3bf578d2d621474de8844edf173c6d92",
+    "monthly_zip_sha256": "9364a063efa0604d5b9d2536fb68f922da5afa3d8f94a26a527471a1e2f87801",
+    "monthly_csv_sha256": "3858592fb2311d653b46b42cb3e949cba766ea45b9dbab6df41553613e91db6d"
+  },
+  {
+    "day": "2021-01-21",
+    "daily_zip_sha256": "5f7f937fdb0be4b9b0cca613dffdf6bef4f03f37db3f4e28a5093f2f29ed84a1",
+    "daily_checksum_sha256": "8ae76c42e7b1c6981866c6e2d9348c56992efaa833a8ff5e07803c39d0257620",
+    "daily_csv_sha256": "5b43e08486a8a1d6c386b3500df4ec9333768050797168c9f41f6a38f1c89f09",
+    "monthly_zip_sha256": "9364a063efa0604d5b9d2536fb68f922da5afa3d8f94a26a527471a1e2f87801",
+    "monthly_csv_sha256": "3858592fb2311d653b46b42cb3e949cba766ea45b9dbab6df41553613e91db6d"
+  },
+  {
+    "day": "2021-02-11",
+    "daily_zip_sha256": "f2c2fb98b3ac6a4839163f9e10d83a9d7a987ecd3a7d31ca1784ff52ead5aeae",
+    "daily_checksum_sha256": "db8825ad9f9914ed64f9e31fabff60b751abe41e639b9ff7969485ca2e52ebcb",
+    "daily_csv_sha256": "80648d3d24c0a6db1f4fea6bb8cd7a4a52130691a19fa00898d4819346da6989",
+    "monthly_zip_sha256": "21723e4951ba30037cb8417278b7cf4a38d47c625b1cb5ac97864d539ae6d407",
+    "monthly_csv_sha256": "9dd677da0c6aa74bbcfe6a0be5ed165ac349b206ab84a9534a1d8a6fdac0a923"
+  },
+  {
+    "day": "2021-04-22",
+    "daily_zip_sha256": "9044adf686eb593c455bca29b1ffd9f800d5f2bc260a524e286a71dac16be74e",
+    "daily_checksum_sha256": "9d3fc43a2db8bdbd1c39a0110fb283d00396cc63e88e8709e8ed268033672910",
+    "daily_csv_sha256": "134c8b32337a5fe100190dc976a5eb07752b085d4c4b236ef5239c6e2bafa623",
+    "monthly_zip_sha256": "016ea34ee7e52c4783c1e03ec65c710361c1ccf228d3a4c0b44a4d0baa859641",
+    "monthly_csv_sha256": "f84d3e4945e67d2d86d23fbb001b0d0f6e2dc2126b7b0aa485134dfd835977df"
+  },
+  {
+    "day": "2021-04-23",
+    "daily_zip_sha256": "3950336b09961d1b30c1fbdc6315c7ae3e5a4bd2651d47f43046ef604fb47c2a",
+    "daily_checksum_sha256": "945819512d93c49a4d3142b1cb28471bec030d005941e387717c0ec9e5b5b1ff",
+    "daily_csv_sha256": "de217bb022f5ca39526e6a14c95bcfe42347ef6bdab7bb73e82eb3ad6ce1d55a",
+    "monthly_zip_sha256": "016ea34ee7e52c4783c1e03ec65c710361c1ccf228d3a4c0b44a4d0baa859641",
+    "monthly_csv_sha256": "f84d3e4945e67d2d86d23fbb001b0d0f6e2dc2126b7b0aa485134dfd835977df"
+  },
+  {
+    "day": "2021-09-23",
+    "daily_zip_sha256": "456cabf12b7e1fee5484ac8ad35eeba06c77a740ecbd2d34b748b2da202bcb79",
+    "daily_checksum_sha256": "a6fee7ca4abb71ab77ea65abb7edffc2feaa36bf2879baeb699d7a87e07688ed",
+    "daily_csv_sha256": "558f0f2e4c281c402278eedeaa6d6d4b44178f9cf52dbcf203c92d6970bf27e8",
+    "monthly_zip_sha256": "27edb4a4623701ba3c5b3f6d4de1848964abb31188036236827fd28cf9bdb853",
+    "monthly_csv_sha256": "961507e83652a0d7fc47b91ab6dc824bd81e9827943ae28b659ae4ac7225676f"
+  },
+  {
+    "day": "2021-09-29",
+    "daily_zip_sha256": "35dc537929474ad75279dcb614ec0095f5c2d0ee36e64a6a05cfc744ed2018f8",
+    "daily_checksum_sha256": "ba9085f585172e1bc75cdf5d70b3c1d9777cd48460649dc53a08096c9ab01879",
+    "daily_csv_sha256": "af8e36988c4e289658b5e22b9c7ade38f556ddcb9d5f5bd6edb18faeb511ef72",
+    "monthly_zip_sha256": "27edb4a4623701ba3c5b3f6d4de1848964abb31188036236827fd28cf9bdb853",
+    "monthly_csv_sha256": "961507e83652a0d7fc47b91ab6dc824bd81e9827943ae28b659ae4ac7225676f"
+  },
+  {
+    "day": "2022-04-13",
+    "daily_zip_sha256": "690a8de5fe743386ac115fa0719bf01f9c3952ac5cf2e70e88e2b9d46744f17b",
+    "daily_checksum_sha256": "b579349443234f2aa474e78926d951fd42022a1a65dec6524691d0e37ee49e5c",
+    "daily_csv_sha256": "c15221eda49989cd16ea6f5b7f92d73c8cf865e5e9c3c75ba231b3dbd7d35b90",
+    "monthly_zip_sha256": "6e840c81076ac25e6acdbfe4aaeb7aa8b1895a70d8111a3c2908c5134072f097",
+    "monthly_csv_sha256": "7583d2b18ac90cddce8047e577b6e2f7363fffa35d9e779e9a91a737688f22a3"
+  },
+  {
+    "day": "2023-03-24",
+    "daily_zip_sha256": "305d0f6cdb8a6cfd8063a7d48c66f14b33727d934857746d549663e94b41312d",
+    "daily_checksum_sha256": "e50d1875c88f0cf246e8b568e552f43604832fddaa76e754c5acadde9436f5c6",
+    "daily_csv_sha256": "3e60da5c23a0e2c1d6935272d21c6bb82822dbcdb05317270920c07d7cc87c9f",
+    "monthly_zip_sha256": "5591171a15f210af647a2fb68ab8cbad45a3a595cfe9a0eec9d06e5e84928bec",
+    "monthly_csv_sha256": "dcf26a051aceaadb529cd14607cecc5c87db59313a8c623eb2cf7be0415825c3"
+  }
+]

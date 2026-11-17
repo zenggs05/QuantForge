@@ -1,0 +1,10 @@
+{
+  "started_at_utc": "2026-11-14T05:56:42.803755+00:00",
+  "finished_at_utc": "2026-11-14T06:02:01.530151+00:00",
+  "elapsed_seconds": 318.7264103998896,
+  "peak_process_bytes": 757063680,
+  "disk_free_bytes": 453665234944,
+  "evidence_bytes": 24596471,
+  "research_computations": 0,
+  "network_requests": 0
+}

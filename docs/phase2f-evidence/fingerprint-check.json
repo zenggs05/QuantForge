@@ -1,0 +1,30 @@
+{
+  "src/quantforge/datasets/research_splits.py": {
+    "sha256": "22c862f6e8e232dedfe17c3a9832f5b7d78737de1593d6b904e2c29c5949919c",
+    "unchanged": true
+  },
+  "src/quantforge/datasets/splits.py": {
+    "sha256": "3459e5be5185eee2638709c3db4250e150d8e1deff140d1459882cb5257d93cd",
+    "unchanged": true
+  },
+  "src/quantforge/datasets/window_splits.py": {
+    "sha256": "24de7804527d3dc805f46ee969d17267927e345b94af434303cd19793675fc22",
+    "unchanged": true
+  },
+  "src/quantforge/features/__init__.py": {
+    "sha256": "857819a0c3c718cf2b1100ea72995db989ed149f65d1ad3d5e4cd3eda1fcbec1",
+    "unchanged": true
+  },
+  "src/quantforge/labels/__init__.py": {
+    "sha256": "b968218639387cb82ab1beccef5c5bf3ed3674e5975c3d2b25cb4d318037746e",
+    "unchanged": true
+  },
+  "src/quantforge/models/baselines.py": {
+    "sha256": "a9269ca7f6147f653f608051746304596e898f49ec30f9e1714567e25a1ded83",
+    "unchanged": true
+  },
+  "src/quantforge/temporal.py": {
+    "sha256": "6c262bbd1c77e6696c7d310eb31b321f3f27ffeea02fbd64a70f3dcee9bd648c",
+    "unchanged": true
+  }
+}

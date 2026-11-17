@@ -1,0 +1,104 @@
+{
+  "checked_at_utc": "2026-11-09T03:30:08.620545+00:00",
+  "environment_isolation": {
+    "main": {
+      ".venv": {
+        "before_count": 10052,
+        "after_count": 10052,
+        "before_bytes": 397794209,
+        "after_bytes": 397794209,
+        "changed_paths_size_or_mtime": 0,
+        "unchanged": true
+      },
+      "results": {
+        "before_count": 248,
+        "after_count": 248,
+        "before_bytes": 596100123,
+        "after_bytes": 596100123,
+        "changed_paths_size_or_mtime": 0,
+        "unchanged": true
+      },
+      "data": {
+        "before_count": 61,
+        "after_count": 61,
+        "before_bytes": 60685680,
+        "after_bytes": 60685680,
+        "changed_paths_size_or_mtime": 0,
+        "unchanged": true
+      }
+    },
+    "phase2f": {
+      ".venv": {
+        "before_count": 10052,
+        "after_count": 10052,
+        "before_bytes": 397797395,
+        "after_bytes": 397797395,
+        "changed_paths_size_or_mtime": 0,
+        "unchanged": true
+      },
+      "results": {
+        "before_count": 1,
+        "after_count": 1,
+        "before_bytes": 2,
+        "after_bytes": 2,
+        "changed_paths_size_or_mtime": 0,
+        "unchanged": true
+      },
+      "data": {
+        "before_count": 2,
+        "after_count": 2,
+        "before_bytes": 4,
+        "after_bytes": 4,
+        "changed_paths_size_or_mtime": 0,
+        "unchanged": true
+      }
+    }
+  },
+  "frozen_artifacts": {
+    "configs/history-extension.toml": {
+      "sha256": "e9cbd19d884d046199f468f29e912cd6a9fbec1852e90ffc125b86d8df0bd9af",
+      "unchanged": true
+    },
+    "docs/confirmatory-protocol-v1-history-addendum.md": {
+      "sha256": "a4a99cfbfb9e33105d98ad44b439a57020a050b64b46b5a8e4a0bbc4b204fc07",
+      "unchanged": true
+    },
+    "docs/phase3a-analysis-plan.md": {
+      "sha256": "fea667f7689d2c45ab0697b0dd2e8877cf0894ae27e4a5f0277efae48e50cb3c",
+      "unchanged": true
+    },
+    "src/quantforge/datasets/research_splits.py": {
+      "sha256": "22c862f6e8e232dedfe17c3a9832f5b7d78737de1593d6b904e2c29c5949919c",
+      "unchanged": true
+    },
+    "src/quantforge/datasets/splits.py": {
+      "sha256": "3459e5be5185eee2638709c3db4250e150d8e1deff140d1459882cb5257d93cd",
+      "unchanged": true
+    },
+    "src/quantforge/datasets/window_splits.py": {
+      "sha256": "24de7804527d3dc805f46ee969d17267927e345b94af434303cd19793675fc22",
+      "unchanged": true
+    },
+    "src/quantforge/features/__init__.py": {
+      "sha256": "857819a0c3c718cf2b1100ea72995db989ed149f65d1ad3d5e4cd3eda1fcbec1",
+      "unchanged": true
+    },
+    "src/quantforge/labels/__init__.py": {
+      "sha256": "b968218639387cb82ab1beccef5c5bf3ed3674e5975c3d2b25cb4d318037746e",
+      "unchanged": true
+    },
+    "src/quantforge/models/baselines.py": {
+      "sha256": "a9269ca7f6147f653f608051746304596e898f49ec30f9e1714567e25a1ded83",
+      "unchanged": true
+    },
+    "src/quantforge/temporal.py": {
+      "sha256": "6c262bbd1c77e6696c7d310eb31b321f3f27ffeea02fbd64a70f3dcee9bd648c",
+      "unchanged": true
+    },
+    "docs/phase3a-download-manifest-draft.json": {
+      "sha256": "1a865966ff55094a5fa54fc245ed7f0e7543360fbd8a0a4da8459dda306ab0f6",
+      "unchanged": true
+    }
+  },
+  "passed": true
+}

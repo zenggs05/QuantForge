@@ -1,0 +1,98 @@
+{
+  "checked_at_utc": "2026-11-02T06:52:27.707080+00:00",
+  "review_date_asia_shanghai": "2026-11-02",
+  "cwd": "D:\\zgs_project\\QuantForge",
+  "repository_root": "D:\\zgs_project\\QuantForge",
+  "os": "Windows-11-10.0.26200-SP0",
+  "python_executable": "C:\\Users\\ttrs_\\miniconda3\\python.exe",
+  "tools": {
+    "python": "C:\\Users\\ttrs_\\miniconda3\\python.EXE",
+    "git": "C:\\Program Files\\Git\\cmd\\git.EXE",
+    "pip": "C:\\Users\\ttrs_\\miniconda3\\Scripts\\pip.EXE",
+    "uv": "C:\\Users\\ttrs_\\.local\\bin\\uv.EXE",
+    "gh": null,
+    "nvidia-smi": "C:\\Windows\\system32\\nvidia-smi.EXE"
+  },
+  "versions": [
+    {
+      "command": [
+        "C:\\Users\\ttrs_\\miniconda3\\python.exe",
+        "--version"
+      ],
+      "returncode": 0,
+      "output": "Python 3.13.5"
+    },
+    {
+      "command": [
+        "C:\\Users\\ttrs_\\miniconda3\\python.exe",
+        "-m",
+        "pip",
+        "--version"
+      ],
+      "returncode": 0,
+      "output": "pip 25.1 from C:\\Users\\ttrs_\\miniconda3\\Lib\\site-packages\\pip (python 3.13)"
+    },
+    {
+      "command": [
+        "C:\\Program Files\\Git\\cmd\\git.EXE",
+        "--version"
+      ],
+      "returncode": 0,
+      "output": "git version 2.50.1.windows.1"
+    },
+    {
+      "command": [
+        "C:\\Users\\ttrs_\\.local\\bin\\uv.EXE",
+        "--version"
+      ],
+      "returncode": 0,
+      "output": "uv 0.11.6 (65950801c 2026-04-09 x86_64-pc-windows-msvc)"
+    }
+  ],
+  "gh_logged_in": null,
+  "gpu": {
+    "command": [
+      "C:\\Windows\\system32\\nvidia-smi.EXE",
+      "--query-gpu=name,driver_version,memory.total",
+      "--format=csv,noheader"
+    ],
+    "returncode": 0,
+    "output": "NVIDIA GeForce RTX 5070 Laptop GPU, 592.01, 8151 MiB"
+  },
+  "base_python_torch": {
+    "command": [
+      "C:\\Users\\ttrs_\\miniconda3\\python.exe",
+      "-c",
+      "import torch; print('version=',torch.__version__); print('cuda_build=',torch.version.cuda); print('cuda_available=',torch.cuda.is_available()); print('device_count=',torch.cuda.device_count())"
+    ],
+    "returncode": 0,
+    "output": "version= 2.7.1+cpu\ncuda_build= None\ncuda_available= False\ndevice_count= 0"
+  },
+  "network": [
+    {
+      "url": "https://github.com",
+      "status": 200,
+      "reachable": true
+    },
+    {
+      "url": "https://api.github.com",
+      "status": 200,
+      "reachable": true
+    },
+    {
+      "url": "https://arxiv.org",
+      "status": 200,
+      "reachable": true
+    },
+    {
+      "url": "https://data.binance.vision/",
+      "status": 200,
+      "reachable": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/binance/binance-public-data/master/README.md",
+      "status": 200,
+      "reachable": true
+    }
+  ]
+}

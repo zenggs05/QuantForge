@@ -1,0 +1,28 @@
+{
+ "checks": {
+  "history_mean_matches_frozen": true,
+  "history_t_matches_frozen": true,
+  "holdout_frozen_t": 1.88841972904,
+  "holdout_t": 1.88841972904,
+  "holdout_t_matches_frozen": true
+ },
+ "label": "exploratory_post_hoc",
+ "recomputed": {
+  "history": {
+   "mean": 3.01717705647e-08,
+   "months": 56,
+   "n": 2451190,
+   "p": 2.60433704415e-08,
+   "se": 5.54216974353e-09,
+   "t": 5.44403581284
+  },
+  "holdout": {
+   "mean": 5.43933886278e-09,
+   "months": 2,
+   "n": 89250,
+   "p": 0.0294848124055,
+   "se": 2.88036540771e-09,
+   "t": 1.88841972904
+  }
+ }
+}

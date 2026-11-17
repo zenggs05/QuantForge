@@ -1,0 +1,465 @@
+{
+  "passed": true,
+  "days": [
+    {
+      "day": "2020-11-30",
+      "counts": {
+        "both_equal": 1380,
+        "value_conflict": 0,
+        "missing_in_monthly": 0,
+        "extra_in_monthly": 0,
+        "both_missing": 60
+      },
+      "field_conflicts": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "close_time": 0,
+        "quote_asset_volume": 0,
+        "number_of_trades": 0,
+        "taker_buy_base_asset_volume": 0,
+        "taker_buy_quote_asset_volume": 0,
+        "ignore": 0
+      },
+      "placeholder_crosstab": {
+        "monthly_placeholder": {
+          "daily_missing": 0,
+          "daily_placeholder": 0,
+          "daily_traded": 0
+        },
+        "monthly_missing": {
+          "daily_missing": 60,
+          "daily_placeholder": 0,
+          "daily_traded": 0
+        },
+        "daily_placeholder": {
+          "monthly_missing": 0,
+          "monthly_placeholder": 0,
+          "monthly_traded": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "day": "2020-12-21",
+      "counts": {
+        "both_equal": 1159,
+        "value_conflict": 29,
+        "missing_in_monthly": 0,
+        "extra_in_monthly": 22,
+        "both_missing": 230
+      },
+      "field_conflicts": {
+        "open": 27,
+        "high": 29,
+        "low": 24,
+        "close": 28,
+        "volume": 29,
+        "close_time": 1,
+        "quote_asset_volume": 29,
+        "number_of_trades": 29,
+        "taker_buy_base_asset_volume": 29,
+        "taker_buy_quote_asset_volume": 29,
+        "ignore": 0
+      },
+      "placeholder_crosstab": {
+        "monthly_placeholder": {
+          "daily_missing": 22,
+          "daily_placeholder": 0,
+          "daily_traded": 28
+        },
+        "monthly_missing": {
+          "daily_missing": 230,
+          "daily_placeholder": 0,
+          "daily_traded": 0
+        },
+        "daily_placeholder": {
+          "monthly_missing": 0,
+          "monthly_placeholder": 0,
+          "monthly_traded": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "day": "2021-01-11",
+      "counts": {
+        "both_equal": 1430,
+        "value_conflict": 10,
+        "missing_in_monthly": 0,
+        "extra_in_monthly": 0,
+        "both_missing": 0
+      },
+      "field_conflicts": {
+        "open": 9,
+        "high": 8,
+        "low": 9,
+        "close": 9,
+        "volume": 10,
+        "close_time": 0,
+        "quote_asset_volume": 10,
+        "number_of_trades": 10,
+        "taker_buy_base_asset_volume": 10,
+        "taker_buy_quote_asset_volume": 10,
+        "ignore": 0
+      },
+      "placeholder_crosstab": {
+        "monthly_placeholder": {
+          "daily_missing": 0,
+          "daily_placeholder": 0,
+          "daily_traded": 8
+        },
+        "monthly_missing": {
+          "daily_missing": 0,
+          "daily_placeholder": 0,
+          "daily_traded": 0
+        },
+        "daily_placeholder": {
+          "monthly_missing": 0,
+          "monthly_placeholder": 0,
+          "monthly_traded": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "day": "2021-01-21",
+      "counts": {
+        "both_equal": 1440,
+        "value_conflict": 0,
+        "missing_in_monthly": 0,
+        "extra_in_monthly": 0,
+        "both_missing": 0
+      },
+      "field_conflicts": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "close_time": 0,
+        "quote_asset_volume": 0,
+        "number_of_trades": 0,
+        "taker_buy_base_asset_volume": 0,
+        "taker_buy_quote_asset_volume": 0,
+        "ignore": 0
+      },
+      "placeholder_crosstab": {
+        "monthly_placeholder": {
+          "daily_missing": 0,
+          "daily_placeholder": 0,
+          "daily_traded": 0
+        },
+        "monthly_missing": {
+          "daily_missing": 0,
+          "daily_placeholder": 0,
+          "daily_traded": 0
+        },
+        "daily_placeholder": {
+          "monthly_missing": 0,
+          "monthly_placeholder": 0,
+          "monthly_traded": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "day": "2021-02-11",
+      "counts": {
+        "both_equal": 1361,
+        "value_conflict": 0,
+        "missing_in_monthly": 0,
+        "extra_in_monthly": 0,
+        "both_missing": 79
+      },
+      "field_conflicts": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "close_time": 0,
+        "quote_asset_volume": 0,
+        "number_of_trades": 0,
+        "taker_buy_base_asset_volume": 0,
+        "taker_buy_quote_asset_volume": 0,
+        "ignore": 0
+      },
+      "placeholder_crosstab": {
+        "monthly_placeholder": {
+          "daily_missing": 0,
+          "daily_placeholder": 81,
+          "daily_traded": 0
+        },
+        "monthly_missing": {
+          "daily_missing": 79,
+          "daily_placeholder": 0,
+          "daily_traded": 0
+        },
+        "daily_placeholder": {
+          "monthly_missing": 0,
+          "monthly_placeholder": 81,
+          "monthly_traded": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "day": "2021-04-22",
+      "counts": {
+        "both_equal": 1424,
+        "value_conflict": 16,
+        "missing_in_monthly": 0,
+        "extra_in_monthly": 0,
+        "both_missing": 0
+      },
+      "field_conflicts": {
+        "open": 0,
+        "high": 2,
+        "low": 7,
+        "close": 16,
+        "volume": 16,
+        "close_time": 0,
+        "quote_asset_volume": 16,
+        "number_of_trades": 16,
+        "taker_buy_base_asset_volume": 16,
+        "taker_buy_quote_asset_volume": 16,
+        "ignore": 0
+      },
+      "placeholder_crosstab": {
+        "monthly_placeholder": {
+          "daily_missing": 0,
+          "daily_placeholder": 0,
+          "daily_traded": 0
+        },
+        "monthly_missing": {
+          "daily_missing": 0,
+          "daily_placeholder": 0,
+          "daily_traded": 0
+        },
+        "daily_placeholder": {
+          "monthly_missing": 0,
+          "monthly_placeholder": 0,
+          "monthly_traded": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "day": "2021-04-23",
+      "counts": {
+        "both_equal": 1386,
+        "value_conflict": 54,
+        "missing_in_monthly": 0,
+        "extra_in_monthly": 0,
+        "both_missing": 0
+      },
+      "field_conflicts": {
+        "open": 0,
+        "high": 23,
+        "low": 26,
+        "close": 54,
+        "volume": 54,
+        "close_time": 0,
+        "quote_asset_volume": 54,
+        "number_of_trades": 54,
+        "taker_buy_base_asset_volume": 54,
+        "taker_buy_quote_asset_volume": 54,
+        "ignore": 0
+      },
+      "placeholder_crosstab": {
+        "monthly_placeholder": {
+          "daily_missing": 0,
+          "daily_placeholder": 0,
+          "daily_traded": 0
+        },
+        "monthly_missing": {
+          "daily_missing": 0,
+          "daily_placeholder": 0,
+          "daily_traded": 0
+        },
+        "daily_placeholder": {
+          "monthly_missing": 0,
+          "monthly_placeholder": 0,
+          "monthly_traded": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "day": "2021-09-23",
+      "counts": {
+        "both_equal": 1439,
+        "value_conflict": 1,
+        "missing_in_monthly": 0,
+        "extra_in_monthly": 0,
+        "both_missing": 0
+      },
+      "field_conflicts": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 1,
+        "volume": 1,
+        "close_time": 0,
+        "quote_asset_volume": 1,
+        "number_of_trades": 1,
+        "taker_buy_base_asset_volume": 1,
+        "taker_buy_quote_asset_volume": 1,
+        "ignore": 0
+      },
+      "placeholder_crosstab": {
+        "monthly_placeholder": {
+          "daily_missing": 0,
+          "daily_placeholder": 0,
+          "daily_traded": 0
+        },
+        "monthly_missing": {
+          "daily_missing": 0,
+          "daily_placeholder": 0,
+          "daily_traded": 0
+        },
+        "daily_placeholder": {
+          "monthly_missing": 0,
+          "monthly_placeholder": 0,
+          "monthly_traded": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "day": "2021-09-29",
+      "counts": {
+        "both_equal": 1320,
+        "value_conflict": 0,
+        "missing_in_monthly": 0,
+        "extra_in_monthly": 0,
+        "both_missing": 120
+      },
+      "field_conflicts": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "close_time": 0,
+        "quote_asset_volume": 0,
+        "number_of_trades": 0,
+        "taker_buy_base_asset_volume": 0,
+        "taker_buy_quote_asset_volume": 0,
+        "ignore": 0
+      },
+      "placeholder_crosstab": {
+        "monthly_placeholder": {
+          "daily_missing": 0,
+          "daily_placeholder": 0,
+          "daily_traded": 0
+        },
+        "monthly_missing": {
+          "daily_missing": 120,
+          "daily_placeholder": 0,
+          "daily_traded": 0
+        },
+        "daily_placeholder": {
+          "monthly_missing": 0,
+          "monthly_placeholder": 0,
+          "monthly_traded": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "day": "2022-04-13",
+      "counts": {
+        "both_equal": 1438,
+        "value_conflict": 2,
+        "missing_in_monthly": 0,
+        "extra_in_monthly": 0,
+        "both_missing": 0
+      },
+      "field_conflicts": {
+        "open": 0,
+        "high": 1,
+        "low": 0,
+        "close": 2,
+        "volume": 2,
+        "close_time": 0,
+        "quote_asset_volume": 2,
+        "number_of_trades": 2,
+        "taker_buy_base_asset_volume": 2,
+        "taker_buy_quote_asset_volume": 2,
+        "ignore": 0
+      },
+      "placeholder_crosstab": {
+        "monthly_placeholder": {
+          "daily_missing": 0,
+          "daily_placeholder": 0,
+          "daily_traded": 0
+        },
+        "monthly_missing": {
+          "daily_missing": 0,
+          "daily_placeholder": 0,
+          "daily_traded": 0
+        },
+        "daily_placeholder": {
+          "monthly_missing": 0,
+          "monthly_placeholder": 0,
+          "monthly_traded": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "day": "2023-03-24",
+      "counts": {
+        "both_equal": 1360,
+        "value_conflict": 0,
+        "missing_in_monthly": 0,
+        "extra_in_monthly": 0,
+        "both_missing": 80
+      },
+      "field_conflicts": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0,
+        "close_time": 0,
+        "quote_asset_volume": 0,
+        "number_of_trades": 0,
+        "taker_buy_base_asset_volume": 0,
+        "taker_buy_quote_asset_volume": 0,
+        "ignore": 0
+      },
+      "placeholder_crosstab": {
+        "monthly_placeholder": {
+          "daily_missing": 0,
+          "daily_placeholder": 72,
+          "daily_traded": 0
+        },
+        "monthly_missing": {
+          "daily_missing": 80,
+          "daily_placeholder": 0,
+          "daily_traded": 0
+        },
+        "daily_placeholder": {
+          "monthly_missing": 0,
+          "monthly_placeholder": 72,
+          "monthly_traded": 0
+        }
+      },
+      "passed": true
+    }
+  ],
+  "totals": {
+    "both_equal": 15137,
+    "value_conflict": 112,
+    "missing_in_monthly": 0,
+    "extra_in_monthly": 22,
+    "both_missing": 569
+  },
+  "minute_field_sets_equal": true,
+  "comparison_method": "new integer-microsecond parser; original D-039 files read only"
+}

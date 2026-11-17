@@ -1,0 +1,62 @@
+# Phase 2D-C1: audited delayed-feedback incremental Ridge foundation
+
+Frozen before algorithm implementation on 2026-11-03 (Asia/Shanghai), from commit `685d9a324766f3d19de9faaa4a213b9c210b5d6a`. This is a mathematical and event-processing engineering pilot on already observed development data, not a test of improved alpha, new confirmatory OOS performance, execution or profitability. Failures and numerical discrepancies remain reportable outcomes. No silent result-dependent tolerance, feature, schedule or parameter changes.
+
+## Fixed scientific and access contract
+
+Use existing verified Binance Spot BTCUSDT 1m development files from September 2025 through June 2026, the existing 14 causal features in their original order, availability delay 1 second, primary horizon 15m and auxiliary 5m, seed42, alpha1.0, float64, no forgetting, single-thread numerical CPU. No downloads, market requests, July/August holdout access, tuning, window search, drift detector, neural network, order or PnL. No global dependency, CUDA or driver changes. GPUs may be detected but are unnecessary for 14-dimensional algebra.
+
+Initial fit is exactly `2026-03-01T00:00:00Z`, using the original March research split's legal training indices and labels mature by that time. Each horizon fits its own StandardScaler on its legal initial training observations, then freezes mean/scale/variance and feature order. sklearn zero/near-constant scale treatment is retained. This initial problem must match the frozen Phase 2B March Ridge. Later batch comparisons use this SAME fixed initial scaler, not the monthly refitted scaler of the original expanding model.
+
+Existing all-month research loading/split code may inspect authorized development data in an offline preparation layer. The online engine is separated from that layer: it sees only current available features and explicitly released targets. Offline target calculation or validity cannot become an early input or an early sample-selection oracle. Do not select predictions by future label validity. Invalid features are rejected when observed; missing/invalid targets are rejected at maturity, with explicit audit, no synthetic label, backfill or holdout completion.
+
+Frozen reference summary: `results/research-baseline/20261103T010111153259Z-a2cb0858/summary.json`, SHA256 `7aa9f334a9e5b5f1085edd2362676d86d0898fcdd376f92bb1886efbc3dc6f12`. Frozen predictions SHA256 `66f74e1367ed816455d8df2af5c8fdd89009c893aa5fe064df29fe646c86407a`. All Phase 2B/2C/2D-A plans, source contracts, tests and outputs remain unchanged.
+
+## Queue, carry-in and logical clock
+
+Maintain independent horizon queues. Pending entries contain sample_id, decision_time, feature_available_time, target_start_time, target_end_time, label_available_time, feature reference, horizon and original_model_version. They contain NO target value. Queue ordering is `(label_available_time, decision_time, sample_id)`; IDs must be unique. Use explicit aware UTC, deterministic ties, monotone clocks and persistent released IDs.
+
+For decision t: (1) receive the available market/features; (2) release labels with availability <=t; (3) resolve each released target through mature_labels or equivalent pre-read timestamp gate, update sufficient statistics once; (4) solve after any new valid updates, then predict the current valid sample using the new model; (5) persist original prediction/version and register metadata; (6) advance. A label unavailable one second earlier is forbidden, one exactly at t is eligible. Previously emitted predictions are immutable. Duplicate replay of a completed event returns its existing result without repeated release/update/prediction; a conflicting duplicate fails.
+
+At initial fit, register valid-feature pre-fit observations whose labels are not yet mature as carry-in, without reading their values or future validity. Their original_model_version is the explicit sentinel `carry_in:no_prediction`; no pre-March forecast is invented. On continuous real data there should be h such entries per horizon. Mature carry-in may update later. Missing/invalid feedback is audited and consumed as a rejected event, never fabricated or retried indefinitely.
+
+Real pilot decisions are in `[2026-03-01T00:00:00Z, 2026-03-02T00:00:00Z)`: expected 1,440 minute decisions per horizon, 00:00:01 through 23:59:01. Stop after the last decision. Do not flush future labels at day end; remaining h pending entries stay in the checkpoint. Given complete inputs, carry-in plus within-day maturation yields 1,440 valid updates per horizon. These are expectations to verify, not claimed observations.
+
+## Fixed-scaler sufficient statistics and numerical policy
+
+For z=(x-mean_initial)/scale_initial maintain n, sum_z, sum_y, sum_zz, sum_zy in float64; coefficient penalty only, no intercept penalty:
+
+```
+A = sum_zz - outer(sum_z, sum_z)/n + alpha*I
+b = sum_zy - sum_z*sum_y/n
+coef = solve(A,b)
+intercept = sum_y/n - dot(sum_z/n,coef)
+```
+
+Single-sample update costs O(p^2), without rescanning history. Batch initialization may aggregate arrays; incremental updates use compensated summation. Persist compensation terms for exact continuation. Statistics updates and coefficient solves are distinct operations/counters; dirty unsolved state cannot silently predict as a newly updated model. No matrix inverse, forgetting factor, jitter or adaptive alpha.
+
+Symmetrize A, check finite values and positive definiteness; use symmetric eigenspectrum diagnostics and a Cholesky solve. Reject condition number above 1e12 or nonpositive A; reject materially negative centered-scatter eigenvalues below `-1e-10*max(1,||sum_zz||F)`. Record the condition number and failure. One solved state uses an eigendecomposition for conditioning plus Cholesky factorization; count matrix diagnostics and factors separately, including any extra validation decompositions. Compensated summation does not cure catastrophic centered-raw-moment cancellation under extreme future shifts. Such synthetic stress failures are reported, not repaired by changing the objective.
+
+Freeze tolerances BEFORE real results. For coefficients, componentwise absolute error <=`1e-9 + 1e-8*abs(batch_coef)`; for intercept <=`1e-10 + 1e-8*abs(batch_intercept)`; for predictions BOTH maximum absolute error <=1e-9 and relative L2 norm <=1e-8, denominator `max(||batch_predictions||2,1e-12)`. Report maximum absolute and relative coefficient/intercept error and prediction max/L2 norms; near-zero relative errors are descriptive, componentwise combined thresholds are authoritative. No unconditional cross-platform bitwise identity. If synthetic/real equality fails, investigate and report; do not widen frozen tolerances after seeing real data.
+
+Independent oracle: sklearn Ridge(alpha=1,fit_intercept=True,solver="svd") fitted to all and only the same matured rows transformed by the initial scaler. Initial sklearn StandardScaler+Ridge and incremental must also agree with frozen March state. Synthetic comparisons cover normal/linear, high correlation, constant columns, nonzero means/intercept, ordering, one-vs-batch, checkpoint continuation, large samples, invalid/nonfinite/ill-conditioned cases, and explicit difference from a refitted-scaler objective.
+
+## Pilot solves, batch checkpoints, recovery and budget
+
+At each pilot decision, accumulate all newly matured valid observations and solve once when nonempty, before prediction. The small p=14 makes this explicit schedule acceptable. Expected 1 initial +1,440 incremental solves per horizon; no skipped update schedule chosen from scores. Model version fingerprints actual solved state and fixed scaler, not a future model or wall-clock timer.
+
+Batch-equivalence checkpoints are fixed at initialization and after 360, 720, 1080 and 1440 completed decision events per horizon. Exactly 10 fresh fixed-scaler batch Ridge fits per formal pilot (including two initial oracles); the frozen initial reference supplies the original-baseline comparison without a new candidate fit. Checkpoint prediction comparison uses already observed pilot feature rows through that checkpoint, never a future test row; initialization can use a fixed suffix of legal initial training features. Compare coefficients/intercept/predictions and matured-ID set/hash at every checkpoint.
+
+Save versioned SHA256 JSON checkpoints at these event boundaries under the separate results/online-foundation subtree. Store fixed scaler/statistics/compensation, solved version, queue pending/released IDs, consumed feedback IDs, feature cache, logical clock, original audit, horizon and source/config bindings. Validate integrity and semantic compatibility on load, reject unknown schema, corruption, wrong version/bindings and path escape before use. No pickle or arbitrary code serialization. Checksums provide corruption detection, not authenticity against a malicious editor who can rewrite all state. Never overwrite another phase or an existing checkpoint.
+
+Main formal trace runs uninterrupted. Separately restore the 720-event checkpoint per horizon, replay that already-completed event once (no duplicate update), then continue the same remaining 720 events. Compare original and restored final numerical state, queue, predictions, update history and versions exactly in this environment, except timings/explicit recovery counters. Count recovery-branch updates, solves, reads and time separately; they are validation overhead, not extra candidates or hidden free compute. Run one identical full pilot reproduction from the same clean source/config/data, separately labeled and budgeted. No full March--June online performance study.
+
+Record initial scaler/statistics fit, statistics update, solve, prediction, label/feature access, checkpoint save/load and per-checkpoint batch fit times separately; queue current/peak size; valid/invalid/rejected/duplicate counts; training/feedback row visits; eigendiagnostics/factorizations/solves; state memory; peak PROCESS memory via platform high-water API (Windows PeakWorkingSetSize; no sampled DataFrame proxy); total runtime and dependencies/threadpool settings. Do not call measured Python wall time production zero latency, equal iterations equal cost, or this pilot a hardware performance benchmark.
+
+## Tests, execution, artifacts and interpretation
+
+Preserve all original345 tests. Add test_feedback_queue.py, test_incremental_ridge.py, test_online_replay.py, test_online_checkpoint.py. Assert mathematical results and mutation invariance, not merely successful calls. Test premature read rejection BEFORE target fetch, exact maturity boundary, independent horizons, deterministic ties, duplicate/refeeding refusal, carry-in, gaps, fixed scaling, ordering/grouping and accumulation, restart, future target/feature perturbation invariance, update-before-predict, corrupted model/state/provenance, holdout gate before file read, counts and deterministic output. Synthetic fixtures are explicitly synthetic. All synthetic/math tests must pass before real pilot.
+
+Commit frozen plan/config/manifest before code using `docs: freeze delayed-feedback incremental ridge foundation`. Commit all tested implementation as `feat: add delayed-feedback incremental ridge foundation`. Only then execute formal pilot from clean git (`git_dirty=false`), and one labeled reproduction, writing unique directories under results/online-foundation. At minimum retain summary.json, report.md, update-audit.csv, prediction-audit.csv, batch-equivalence.csv, budget.json, checkpoint-audit.json, actual checkpoints, source/config/code hashes and dependencies. Deterministic numerical/event artifacts are separated from timings, host memory and run identity. Write success summary LAST after artifact/count/tolerance verification; failures leave failure.json and no successful summary.
+
+Create execution, equivalence and pilot reports, reproducibility.json and research/delayed-feedback-online-learning.md; update README to distinguish numerical equivalence, temporal correctness, measured resource usage, untested statistical alpha and absent trading execution. Small aggregated evidence may be tracked; complete per-minute audits, checkpoint histories, market data and predictions stay Git-ignored. Final documentation commit: `docs: record online ridge equivalence and replay audit`. No remote, push or PR. Passing this foundation makes a separately frozen subsequent comparison technically plausible; it does not authorize it or establish alpha.

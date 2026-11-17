@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, its protocols or its results, you must cite the paper below (see NOTICE and LICENSES/README.md)."
+title: "QuantForge: pre-registered out-of-sample tests of minute-level Bitcoin return predictability"
+type: software
+authors:
+  - family-names: "Zeng"
+    given-names: "Gaoshan"
+    email: "zenggaoshan05@gmail.com"
+    affiliation: "Independent researcher"
+repository-code: "https://github.com/zenggs05/QuantForge"
+license-url: "https://polyformproject.org/licenses/noncommercial/1.0.0"
+version: "1.1.0"
+date-released: "2026-11-17"
+keywords:
+  - return predictability
+  - cryptocurrency
+  - out-of-sample forecasting
+  - pre-registration
+  - Clark-West test
+  - data quality
+preferred-citation:
+  type: article
+  title: "Statistically Detectable, Economically Small: A Pre-Registered Out-of-Sample Test of Minute-Level Bitcoin Return Predictability"
+  authors:
+    - family-names: "Zeng"
+      given-names: "Gaoshan"
+  year: 2026
+  status: preprint
+  notes: "Preprint; SSRN/arXiv identifier to be added on posting."

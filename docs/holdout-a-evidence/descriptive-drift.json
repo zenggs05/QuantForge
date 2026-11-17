@@ -1,0 +1,30 @@
+{
+  "evidence_level": "exploratory_post_hoc",
+  "months": [
+    {
+      "difference": 4.426242882667632e-09,
+      "mean_c": 2.778987975716957e-09,
+      "mean_f": -3.534890484312996e-05,
+      "mean_y": 2.3299942590312218e-05,
+      "month": "2026-07",
+      "n": 44625,
+      "twice_mean_f_mean_y": -1.6472549069506752e-09
+    },
+    {
+      "difference": 1.326395151283532e-08,
+      "mean_c": 8.09968974983373e-09,
+      "mean_f": -3.465965974824833e-05,
+      "mean_y": 7.449960271555446e-05,
+      "month": "2026-08",
+      "n": 44625,
+      "twice_mean_f_mean_y": -5.16426176300159e-09
+    }
+  ],
+  "pooled": {
+    "difference": 8.86274175505194e-09,
+    "mean_c": 5.439338862775343e-09,
+    "n": 89250,
+    "twice_mean_f_mean_y": -3.4234028922765973e-09
+  },
+  "pooling_note": "pooled drift product uses pooled mean(f) and mean(y), not the mean of monthly products"
+}

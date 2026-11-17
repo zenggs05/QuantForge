@@ -1,0 +1,13 @@
+{
+  "GP1": "passed: 68 planned URLs guarded; actual historical requests only; zero holdout/smoke access",
+  "GP2": "partial: 29 retained months passed official hashes and exact Parquet round trip; June ZIP unfinished",
+  "GP3": "incomplete: 29 retained ms months and 0 us; 2024-12/2025-01 not requested",
+  "GP4": "partial: D-031 graded checks passed for 29 months; full set unavailable",
+  "GP5": "superseded by GP11 under D-031",
+  "GP6": "passed: 64/408 GETs; 68371336/402653184 ZIP bytes; disk limits satisfied",
+  "GP7": "not_run: no full manifest B or clean 68-month reproduction",
+  "GP8": "passed: 1067 synthetic tests plus one unchanged default skip",
+  "GP9": "passed: six metadata snapshots unchanged and frozen hashes/fingerprints match",
+  "GP10": "partial: no retained-month hard failures; 2021-04 soft warning; final aggregates unavailable",
+  "GP11": "partial: 28 available boundaries passed; 67-pair audit incomplete"
+}

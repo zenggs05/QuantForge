@@ -1,0 +1,13 @@
+{
+  "disk_free_bytes": 451571220480,
+  "elapsed_seconds": 168.50840900000185,
+  "head_sha": "ce0dea2429b430a10b889c5b77bb2f195c570836",
+  "mode": "prefit",
+  "output_directory": "D:\\zgs_project\\QuantForge-3a\\docs\\phase3a-gate2-evidence",
+  "peak_process_bytes": 3148345344,
+  "pid": 84752,
+  "ridge_fits": 0,
+  "utc_timestamps": [
+    "2026-11-16T00:46:58.594099+00:00"
+  ]
+}

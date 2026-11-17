@@ -1,0 +1,8 @@
+{
+  "month": "2025-01",
+  "expected_unit": "us",
+  "detected_unit": "us",
+  "first_open_raw": "1735689600000000",
+  "first_open_parsed_utc": "2025-01-01T00:00:00+00:00",
+  "last_open_parsed_utc": "2025-01-31T23:59:00+00:00"
+}

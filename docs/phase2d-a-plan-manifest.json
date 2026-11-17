@@ -1,0 +1,15 @@
+{
+  "status": "frozen_before_algorithm_implementation",
+  "frozen_at_utc": "2026-11-03T02:40:07.094335+00:00",
+  "client_date": "2026-11-03",
+  "client_timezone": "Asia/Shanghai",
+  "base_git_commit": "83577059d6081ec39233713b07fa46d96cb6c681",
+  "evidence_level": "exploratory_follow_up_on_already_observed_development_months",
+  "plan_path": "docs/phase2d-a-analysis-plan.md",
+  "plan_sha256": "263368b6153750ba314dcd024878c61214141976b056d30871a6d384ccba7617",
+  "config_path": "configs/rolling-windows.toml",
+  "config_sha256": "9f3f75dd21b6bef5e41a309a7cdb73efc5ae908bc33b1d57d4e654d4d882acf4",
+  "reference_summary_path": "results/research-baseline/20261103T010111153259Z-a2cb0858/summary.json",
+  "reference_summary_sha256": "7aa9f334a9e5b5f1085edd2362676d86d0898fcdd376f92bb1886efbc3dc6f12",
+  "reference_prediction_sha256": "66f74e1367ed816455d8df2af5c8fdd89009c893aa5fe064df29fe646c86407a"
+}

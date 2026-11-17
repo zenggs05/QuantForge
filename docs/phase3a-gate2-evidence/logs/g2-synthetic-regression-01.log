@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "output_directory": "D:\\zgs_project\\QuantForge-3a\\results\\phase3a\\gate2-regression-synthetic-01",
+  "ridge_fits": 224,
+  "folds": 112,
+  "evidence_level": "synthetic_engineering_only"
+}

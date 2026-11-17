@@ -1,0 +1,40 @@
+{
+  "status": "failed",
+  "argv": [
+    "--config",
+    "configs/history-extension.toml",
+    "--output-root",
+    "data/raw/binance/spot/BTCUSDT/1m/historical",
+    "--resume-from",
+    "2020-03"
+  ],
+  "started_at_utc": "2026-11-06T07:24:06.494866+00:00",
+  "implementation_commit": "60581a1bcbd582ee305ebd7e13c2c37fb16010f5",
+  "error": {
+    "type": "PermissionError",
+    "message": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'D:\\\\zgs_project\\\\QuantForge-3a\\\\results\\\\phase3a-gate1\\\\.network-ledger-continuation.json.fd66248238fa4dfe9d73ed1919ae6990.tmp' -> 'D:\\\\zgs_project\\\\QuantForge-3a\\\\results\\\\phase3a-gate1\\\\network-ledger-continuation.json'"
+  },
+  "real_data_ridge_fits": 0,
+  "real_data_statistical_tests_count": 0,
+  "research_function_counts": {
+    "sklearn.Ridge.fit": 0,
+    "clark_west_differential": 0,
+    "dm_differential": 0,
+    "ic_product": 0,
+    "r2_oos": 0,
+    "run_size_power_monte_carlo": 0,
+    "mde": 0,
+    "normal_power": 0,
+    "months_required": 0,
+    "encompassing_approx": 0
+  },
+  "counter_method": "sys.monitoring PY_START on named function code objects, with immediate failure; CLI profile guard also active",
+  "elapsed_seconds": 290.0304308999912,
+  "peak_process_memory_bytes": 296325120,
+  "finished_at_utc": "2026-11-06T07:28:56.525428+00:00",
+  "market_network_requests": 58,
+  "holdout_requests": 0,
+  "holdout_access_count": 0,
+  "smoke_day_rows_read": 0,
+  "row_scope": "Only historical allowlist URLs and parsed historical month timestamps; smoke is outside both guards"
+}

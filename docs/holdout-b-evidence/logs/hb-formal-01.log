@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "D:\zgs_project\QuantForge\scripts\run_holdout_b.py", line 16, in <module>
+    main()
+    ~~~~^^
+  File "D:\zgs_project\QuantForge\scripts\run_holdout_b.py", line 12, in main
+    print(json.dumps(run(argv[0]), ensure_ascii=True, sort_keys=True))
+                     ~~~^^^^^^^^^
+  File "D:\zgs_project\QuantForge\src\quantforge\holdout_b.py", line 646, in run
+    result = execute(prepared, config, output, started)
+  File "D:\zgs_project\QuantForge\src\quantforge\holdout_b.py", line 531, in execute
+    pooled = runner._pool(monthly, config, evidence=LEVEL)
+  File "D:\zgs_project\QuantForge\src\quantforge\phase3a_runner.py", line 155, in _pool
+    raise AssertionError("All 56 months must contribute to every pooled candidate")
+AssertionError: All 56 months must contribute to every pooled candidate

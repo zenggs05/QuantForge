@@ -1,0 +1,124 @@
+{
+  "status": "passed",
+  "formal_run_id": "20261103T030302685501Z-d124511e",
+  "reproduction_run_id": "20261103T030457400531Z-daa632f2",
+  "implementation_commit": "5acaeb0b74e6a2c528e97ad1f53527c4eb4189a5",
+  "git_dirty_both": false,
+  "prediction_rows_exact": 2107680,
+  "prediction_columns_exact": [
+    "bar_open_time",
+    "bar_end_exclusive",
+    "feature_available_time",
+    "decision_time",
+    "target_start_time",
+    "target_end_time",
+    "label_available_time",
+    "target_return",
+    "prediction",
+    "model",
+    "model_version",
+    "horizon_minutes",
+    "fold",
+    "month",
+    "role",
+    "model_fit_time",
+    "evaluation_as_of",
+    "source_month",
+    "source_month_manifest_sha256",
+    "development_manifest_sha256",
+    "window_name",
+    "train_start",
+    "train_end_exclusive"
+  ],
+  "paired_observations": 351280,
+  "deterministic_artifact_count": 18,
+  "deterministic_artifacts": {
+    "predictions.parquet": {
+      "equal": true,
+      "sha256": "11aeb1404b4708da6a936487f0db5dade6a3831c22de503a2bd1f20fb07bcc32"
+    },
+    "metrics.csv": {
+      "equal": true,
+      "sha256": "ce4f27b70138de9a57eed21801a4e203d2d26598670dbc9adefe6239c790909a"
+    },
+    "model-states.json": {
+      "equal": true,
+      "sha256": "cfcd319f0c08ac693299bb18605bba70b933496ccec741152de039512ec9e776"
+    },
+    "window-audit.json": {
+      "equal": true,
+      "sha256": "eb319be395b8df67a9c7926d2630e628e52ad393faa27c31dfc98eee36a4f9b4"
+    },
+    "paired-losses.csv": {
+      "equal": true,
+      "sha256": "aea60eeb3bb6ade94528ade877282c354f911a1115957d072b216b155549859d"
+    },
+    "bootstrap-results.csv": {
+      "equal": true,
+      "sha256": "dfeee26438f1ccb50a2e8beae1b43e56fef2675f30e9ccdd5b03cf7ffd12fdda"
+    },
+    "hac-results.csv": {
+      "equal": true,
+      "sha256": "023a2a99fbd40e51de8e4af0b831ef652a6111f07d2461f3eddaead2b36a92ba"
+    },
+    "pairing-audit.json": {
+      "equal": true,
+      "sha256": "17c9fb7c09827c6539b3590e4858b8b7a258edcfe52f83a40ff1623a04ae43ad"
+    },
+    "resolved-config.json": {
+      "equal": true,
+      "sha256": "b1ee5de456d3f8ede7227d23183d0f87fa95c066360da6cf309471aa7b9f65b6"
+    },
+    "period-policy.json": {
+      "equal": true,
+      "sha256": "1b015ff36fd518cc43bb0cd55ada23e1e01750ccc770d7971be5f46ea9e9746f"
+    },
+    "report.md": {
+      "equal": true,
+      "sha256": "f10a2798b0d1ec742b37680873fd304304d658028542bbd92ab586a4e23b390a"
+    },
+    "figures/mse-15m.png": {
+      "equal": true,
+      "sha256": "5269b85d1d24ffc963077dd35f6b5cd0a79c991de07d82d73b22d620ee418d27"
+    },
+    "figures/mse-5m.png": {
+      "equal": true,
+      "sha256": "020848b1061d2f8e0e4ccf1831e45d5e3bad00e084ef6f43cd256999b8b17940"
+    },
+    "figures/ic-15m.png": {
+      "equal": true,
+      "sha256": "027cacc70f9956240bd1a388f55d7bb8182d8354a0c9e37e4ad9512888c8616b"
+    },
+    "figures/ic-5m.png": {
+      "equal": true,
+      "sha256": "10ce1f827f1bd6a09cb90fe4bca1d0a9e333f8d042d5840ef24d65ec1b52068e"
+    },
+    "figures/bootstrap-main-15m.png": {
+      "equal": true,
+      "sha256": "c1a09c3fa55cef9a4a53aec47c5672a6aecc2ab2427ed5f9f772f786d296bb9c"
+    },
+    "figures/bootstrap-main-5m.png": {
+      "equal": true,
+      "sha256": "a1c1dfe6c4f22e9bfe5595d46b6970e360b08b6d445a12011504f4b000540b8c"
+    },
+    "figures/training-samples.png": {
+      "equal": true,
+      "sha256": "e6508c380b7ef9cf84b038753475148b240e82271575bea2eae92fd921ffc292"
+    }
+  },
+  "model_states_exact": true,
+  "metrics_exact": true,
+  "source_manifests_config_and_nontiming_provenance_exact": true,
+  "formal_elapsed_seconds": 60.771808799996506,
+  "reproduction_elapsed_seconds": 58.458399900002405,
+  "ridge_fits_formal": 32,
+  "ridge_fits_reproduction_separately_counted": 32,
+  "excluded_from_byte_equality": [
+    "summary.json (run ID,run_kind,wall-clock timing,source.elapsed_seconds)",
+    "model-timings.csv"
+  ],
+  "plan_sha256": "263368b6153750ba314dcd024878c61214141976b056d30871a6d384ccba7617",
+  "config_sha256": "9f3f75dd21b6bef5e41a309a7cdb73efc5ae908bc33b1d57d4e654d4d882acf4",
+  "frozen_reference_prediction_sha256": "66f74e1367ed816455d8df2af5c8fdd89009c893aa5fe064df29fe646c86407a",
+  "limitation": "Same environment deterministic reproduction; no cross-environment bitwise guarantee."
+}

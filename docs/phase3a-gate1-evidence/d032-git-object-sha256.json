@@ -1,0 +1,88 @@
+{
+  "source_commit": "e0caaaf6d8e2ce94e9ce4f5300d850911f274d91",
+  "scope": "Immutable Git blob bytes in the runtime-stop documentation commit; local evidence-sha256.json describes pre-Git local bytes. Two CRLF originals are additionally retained byte-for-byte under the existing direct-child -text attribute.",
+  "artifacts": {
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/2020-02-refetch-success.json": {
+      "git_blob_sha256": "a072648e59589ab6181f540c8ec1cdd36391ca9f6890b4cc96633549d24da9b2",
+      "original_local_sha256": "a072648e59589ab6181f540c8ec1cdd36391ca9f6890b4cc96633549d24da9b2",
+      "same_bytes": true
+    },
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/2022-06-failure.json": {
+      "git_blob_sha256": "24ae1476af52394b7f2fd7f7fe03fa3540a691c0ff3618e2c1c3db3f2c6bcd1c",
+      "original_local_sha256": "24ae1476af52394b7f2fd7f7fe03fa3540a691c0ff3618e2c1c3db3f2c6bcd1c",
+      "same_bytes": true
+    },
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/anchor-status.json": {
+      "git_blob_sha256": "93f8b0183aeaf5bd9b6fcef25d2e8284cb6e69f9b2af9de38c7ab1aff29d59a8",
+      "original_local_sha256": "93f8b0183aeaf5bd9b6fcef25d2e8284cb6e69f9b2af9de38c7ab1aff29d59a8",
+      "same_bytes": true
+    },
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/environment-isolation.json": {
+      "git_blob_sha256": "56b637af4284b3d0499da1176b562167a057a9a48ec1f5df4c030958f8b08d05",
+      "original_local_sha256": "cae2b9b2fe93ae5ffcacf1d7c03def41bb317358431d90cb934595f53b389d73",
+      "same_bytes": false
+    },
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/history.json": {
+      "git_blob_sha256": "dc8bf537a14e97304499f933db60aa9fb925adb0fff96f1872878a49d677096a",
+      "original_local_sha256": "dc8bf537a14e97304499f933db60aa9fb925adb0fff96f1872878a49d677096a",
+      "same_bytes": true
+    },
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/interrupted-ledger-temporary.json": {
+      "git_blob_sha256": "da697ead31c4c59ad28eb11c3e0086acf3d7ee1435c800cc14ee52b50b263c2c",
+      "original_local_sha256": "da697ead31c4c59ad28eb11c3e0086acf3d7ee1435c800cc14ee52b50b263c2c",
+      "same_bytes": true
+    },
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/network-ledger-at-stop.json": {
+      "git_blob_sha256": "a68517f7dda44775ef6c20dfb1c88a144cebe1b05c1583662101318a533d9379",
+      "original_local_sha256": "a68517f7dda44775ef6c20dfb1c88a144cebe1b05c1583662101318a533d9379",
+      "same_bytes": true
+    },
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/partial-integrity-metadata.json": {
+      "git_blob_sha256": "016a29d66a8da0d110cbb4676cf9f56a341bf045c16ff9afbb1d57929fdae975",
+      "original_local_sha256": "016a29d66a8da0d110cbb4676cf9f56a341bf045c16ff9afbb1d57929fdae975",
+      "same_bytes": true
+    },
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/pytest.log": {
+      "git_blob_sha256": "20a2c772a47c821790bb6ea1804d9bd033e15253130b5c03d789bae73ce78ec3",
+      "original_local_sha256": "20a2c772a47c821790bb6ea1804d9bd033e15253130b5c03d789bae73ce78ec3",
+      "same_bytes": true
+    },
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/runtime-counter.py": {
+      "git_blob_sha256": "522687af9483e33dd22aa978f619951ebe4a7ed6e9a4304267c1d17ae5c8c57f",
+      "original_local_sha256": "522687af9483e33dd22aa978f619951ebe4a7ed6e9a4304267c1d17ae5c8c57f",
+      "same_bytes": true
+    },
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/runtime-refetch.json": {
+      "git_blob_sha256": "08f9e866ca5e97475c0aa2af870921d71ea6a8c6943726681d17d88577763d83",
+      "original_local_sha256": "08f9e866ca5e97475c0aa2af870921d71ea6a8c6943726681d17d88577763d83",
+      "same_bytes": true
+    },
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/runtime-resume.json": {
+      "git_blob_sha256": "68ee3d0acd16ca057d5e80f3744c8d4a00a6686bbeec596fc01a5f4d29dd0c25",
+      "original_local_sha256": "68ee3d0acd16ca057d5e80f3744c8d4a00a6686bbeec596fc01a5f4d29dd0c25",
+      "same_bytes": true
+    },
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/runtime-wrapper.py": {
+      "git_blob_sha256": "b6f7fc25adddc5dd8da4c5c647cf99f6acaaa835f5b8d21df7fe0157db620707",
+      "original_local_sha256": "b6f7fc25adddc5dd8da4c5c647cf99f6acaaa835f5b8d21df7fe0157db620707",
+      "same_bytes": true
+    },
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/synthetic-test-counts.json": {
+      "git_blob_sha256": "f96e0210053e991224f01e6142be82e578cdcb714e0fe5fa5f4cbddab6b8da9a",
+      "original_local_sha256": "0d3856353c64a2ed05f5ba2057dc069103907dc5026de71b89e43e5761408e81",
+      "same_bytes": false
+    }
+  },
+  "original_byte_copies": {
+    "docs/phase3a-gate1-evidence/d032-original-environment-isolation.json": {
+      "sha256": "cae2b9b2fe93ae5ffcacf1d7c03def41bb317358431d90cb934595f53b389d73",
+      "same_json_as": "docs/phase3a-gate1-evidence/d032-runtime-stop/environment-isolation.json",
+      "difference": "CRLF versus LF only"
+    },
+    "docs/phase3a-gate1-evidence/d032-original-synthetic-test-counts.json": {
+      "sha256": "0d3856353c64a2ed05f5ba2057dc069103907dc5026de71b89e43e5761408e81",
+      "same_json_as": "docs/phase3a-gate1-evidence/d032-runtime-stop/synthetic-test-counts.json",
+      "difference": "CRLF versus LF only"
+    }
+  }
+}

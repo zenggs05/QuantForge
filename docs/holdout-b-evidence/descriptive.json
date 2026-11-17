@@ -1,0 +1,140 @@
+{
+  "drift_decomposition_S1": [
+    {
+      "difference": 5.810303876741822e-09,
+      "mean_c": 4.525726075123349e-09,
+      "month": "2026-09",
+      "n": 41684,
+      "twice_mean_f_mean_y": -1.2845778016184732e-09
+    },
+    {
+      "difference": 4.132953330175591e-09,
+      "mean_c": 5.2362345612932744e-09,
+      "month": "2026-10",
+      "n": 44625,
+      "twice_mean_f_mean_y": 1.103281231117684e-09
+    }
+  ],
+  "economics": {
+    "abs_f_bp_quantiles": {
+      "max": 22.093930419979042,
+      "p50": 0.3698753334479471,
+      "p90": 0.8960549663786419,
+      "p99": 2.104466936028836,
+      "p999": 4.9834065877964075
+    },
+    "mean_f_bp": -0.2230895864637971,
+    "rules": [
+      {
+        "breakeven_fee_bp_per_side": 0.29085433695990454,
+        "gross_mean_bp_per_period": 0.1811962356447589,
+        "k_bp": 0.0,
+        "periods": 5753,
+        "traded_share": 1.0
+      },
+      {
+        "breakeven_fee_bp_per_side": -2.439161170865055,
+        "gross_mean_bp_per_period": -0.04578991942524352,
+        "k_bp": 2.0,
+        "periods": 5753,
+        "traded_share": 0.010603163566834694
+      },
+      {
+        "breakeven_fee_bp_per_side": -2.735233278636784,
+        "gross_mean_bp_per_period": -0.006656225604191722,
+        "k_bp": 5.0,
+        "periods": 5753,
+        "traded_share": 0.00121675647488267
+      }
+    ]
+  },
+  "label": "prespecified_descriptive_not_tests",
+  "pooled_holdout_a_and_b_ic": {
+    "label": "descriptive_only",
+    "mean": 0.02819826355007091,
+    "n": 175559,
+    "p_one_sided": 0.0015868652748926991,
+    "se": 0.00955746994256239,
+    "t": 2.9503899797262516
+  },
+  "r2_oos": {
+    "ci95": [
+      -0.0020857220232675796,
+      0.002327889866113024
+    ],
+    "estimate": 0.00012108392142272215,
+    "one_sided_upper95": 0.0019732246250020826
+  },
+  "v2_15m": {
+    "cw": {
+      "alternative": "greater",
+      "bandwidth": "LLSW",
+      "baseline": "zero",
+      "baseline_mae": 0.0011932215668637174,
+      "baseline_mse": 3.3163195677394e-06,
+      "cross_month_covariance": "assumed zero",
+      "evidence_level": "confirmatory_holdout_b_protocol",
+      "horizon_minutes": 15,
+      "iid_variance": 2.2242552863438685e-18,
+      "mean": 5.1049185711875164e-09,
+      "metric": "CW",
+      "model_mae": 0.0011930394733921977,
+      "model_mse": 3.3159924083136848e-06,
+      "month_count": 2,
+      "n": 86309,
+      "n_eff": 11681.081597985285,
+      "n_samples": 86309,
+      "p_value": 0.10397105456184724,
+      "pooling": "n_weighted",
+      "r2_oos": 9.865135703357453e-05,
+      "r2_pooling": "sum_sse_ratio",
+      "reason": null,
+      "se": 4.053954119333189e-09,
+      "specification": "v2",
+      "specification_evidence_level": "secondary_spec_v2",
+      "status": "estimable",
+      "t": 1.2592442886421207,
+      "variance": 1.6434544001658534e-17,
+      "weights": [
+        0.4829623793578885,
+        0.5170376206421115
+      ],
+      "z": 1.2592442886421207
+    },
+    "ic": {
+      "alternative": "greater",
+      "bandwidth": "LLSW",
+      "baseline": "zero",
+      "baseline_mae": 0.0011932215668637174,
+      "baseline_mse": 3.3163195677394e-06,
+      "cross_month_covariance": "assumed zero",
+      "evidence_level": "confirmatory_holdout_b_protocol",
+      "horizon_minutes": 15,
+      "iid_variance": 4.157098760946831e-05,
+      "mean": 0.02143133708874625,
+      "metric": "IC",
+      "model_mae": 0.0011930394733921977,
+      "model_mse": 3.3159924083136848e-06,
+      "month_count": 2,
+      "n": 86309,
+      "n_eff": 12193.765213083514,
+      "n_samples": 86309,
+      "p_value": 0.10576283989692575,
+      "pooling": "n_weighted",
+      "r2_oos": 9.865135703357453e-05,
+      "r2_pooling": "sum_sse_ratio",
+      "reason": null,
+      "se": 0.017153561314452663,
+      "specification": "v2",
+      "specification_evidence_level": "secondary_spec_v2",
+      "status": "estimable",
+      "t": 1.2493812040470784,
+      "variance": 0.00029424466576868696,
+      "weights": [
+        0.4829623793578885,
+        0.5170376206421115
+      ],
+      "z": 1.2493812040470784
+    }
+  }
+}

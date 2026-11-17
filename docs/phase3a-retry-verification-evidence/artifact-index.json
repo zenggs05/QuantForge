@@ -1,0 +1,111 @@
+{
+  "combined-summary.json": {
+    "root": "evidence",
+    "path": "final-v2/combined-summary.json",
+    "bytes": 3787,
+    "sha256": "41416801aeb8575f4abd89c6fb40abc07a48f4a69590524cd3d5ac3c7480cea2"
+  },
+  "conflict-fields.csv": {
+    "root": "evidence",
+    "path": "final-v2/conflict-fields.csv",
+    "bytes": 140867,
+    "sha256": "06649363c28b3cdeeb27fd8c7cef4287274e91990fa7d4efeeeb8a35d7936ce5"
+  },
+  "conflict-minutes.csv": {
+    "root": "evidence",
+    "path": "final-v2/conflict-minutes.csv",
+    "bytes": 124232,
+    "sha256": "6585e3c0a92154a0a9c7d0d12bfc5cc47589ce131896f527bb343ed4f2aba493"
+  },
+  "consistent-gaps.csv": {
+    "root": "evidence",
+    "path": "final-v2/consistent-gaps.csv",
+    "bytes": 1470,
+    "sha256": "bdbb95c321883c37d01d8076afcaf5a24f8b1033bf79fe602371af57533fad80"
+  },
+  "contamination-by-month.csv": {
+    "root": "evidence",
+    "path": "final-v2/contamination-by-month.csv",
+    "bytes": 40967,
+    "sha256": "828b8b2a006592b1a7560e92dbee11690135bcdfab4785c37177c9d619ff1182"
+  },
+  "coverage.json": {
+    "root": "evidence",
+    "path": "final-v2/coverage.json",
+    "bytes": 251,
+    "sha256": "3def8ae85eac680ae8206db6097b64786ffab6e640032fc9000931bc97f7baaf"
+  },
+  "daily-integrity.csv": {
+    "root": "evidence",
+    "path": "final-v2/daily-integrity.csv",
+    "bytes": 794941,
+    "sha256": "0ae4ebac36f6e54b6d5de22bd020b3326ed7073c197884031b6de63f9b6b0ce4"
+  },
+  "delta-vs-d041.json": {
+    "root": "evidence",
+    "path": "final-v2/delta-vs-d041.json",
+    "bytes": 11733054,
+    "sha256": "0ad12f511b5d8a5b3816c6a444c7ac51cdfc4bb5500e54fea7c3bb283212a9eb"
+  },
+  "derived/minute-flags-v2.csv.gz": {
+    "root": "external",
+    "path": "derived/minute-flags-v2.csv.gz",
+    "bytes": 15106087,
+    "sha256": "b1578e06c200cf526c1df20b9b1f3b6f7e5fc55760b63fcf5bd0a7f701a87370"
+  },
+  "distributions.json": {
+    "root": "evidence",
+    "path": "final-v2/distributions.json",
+    "bytes": 20764,
+    "sha256": "b7b604cca95bc7719f29adfca86c564dbc753ec1a1df19396f60a07c740b6b1c"
+  },
+  "episodes.csv": {
+    "root": "evidence",
+    "path": "final-v2/episodes.csv",
+    "bytes": 2160,
+    "sha256": "b8000f0f1fad8fc9fad54e5139e30b23764f436fc6270be2ab8cf2e70a0efc04"
+  },
+  "gw-instrument-exposure.csv": {
+    "root": "evidence",
+    "path": "final-v2/gw-instrument-exposure.csv",
+    "bytes": 4282,
+    "sha256": "84b92ed5b92311ccadfa3d789d371db424b9ea3a205b24cea36deaedfac8c0c8"
+  },
+  "intervals.csv": {
+    "root": "evidence",
+    "path": "final-v2/intervals.csv",
+    "bytes": 9903,
+    "sha256": "7319feedc5b377d59fdf5844d220274021be4b87005e2c0d8437a368bb0ed348"
+  },
+  "owner-categories.csv": {
+    "root": "evidence",
+    "path": "final-v2/owner-categories.csv",
+    "bytes": 518646,
+    "sha256": "dbdaad4eda2d71d7378d9abf2ba30716a8bdb95b50bc9fe99e07d97bebf6a56f",
+    "cohort_notes": {
+      "D-041": "Census counts for verified dates; not estimates for unverified dates.",
+      "D-043": "Census counts for verified dates; not estimates for unverified dates. These 14 dates were selected because earlier network requests failed.",
+      "census_non_selected": "Census counts for verified dates; not estimates for unverified dates. D-041 and D-043 form the 2,059-date non-purposively-selected census.",
+      "D-039": "Census counts for verified dates; not estimates for unverified dates. The 11 dates were purposively selected and cannot estimate the overall defect rate.",
+      "combined": "Census counts for verified dates; not estimates for unverified dates."
+    }
+  },
+  "summary-by-month.csv": {
+    "root": "evidence",
+    "path": "final-v2/summary-by-month.csv",
+    "bytes": 55978,
+    "sha256": "3df5b200d44a5c0a523f02add9dd99200fafd445f9158834ddbe27e278cb441c"
+  },
+  "summary-by-year.csv": {
+    "root": "evidence",
+    "path": "final-v2/summary-by-year.csv",
+    "bytes": 5299,
+    "sha256": "eb44f56c5464b3dc76c25ccff7c1bd24e55a452ba90145274b73c4ca235106a5"
+  },
+  "timestamp-anomalies.csv": {
+    "root": "evidence",
+    "path": "final-v2/timestamp-anomalies.csv",
+    "bytes": 3973,
+    "sha256": "c6ce4bc44fc5bde7d617837af33e0dd49954c7d8ca23f82205a2077dcd762a75"
+  }
+}

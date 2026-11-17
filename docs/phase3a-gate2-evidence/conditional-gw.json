@@ -1,0 +1,85 @@
+{
+  "beta": [
+    2.7155268893867626e-08,
+    -2.0173828137516907e-07
+  ],
+  "bins": [
+    {
+      "bin": 0,
+      "evidence_level": "exploratory_not_in_holm",
+      "instrument_high": 0.12154390560622855,
+      "instrument_low": 0.08065952209426204,
+      "mean_loss": -2.5706856601123994e-09,
+      "n": 14,
+      "quantile_high": 0.25,
+      "quantile_low": 0.0,
+      "upper_inclusive": false
+    },
+    {
+      "bin": 1,
+      "evidence_level": "exploratory_not_in_holm",
+      "instrument_high": 0.16519013900207635,
+      "instrument_low": 0.12154390560622855,
+      "mean_loss": 3.743584206641119e-09,
+      "n": 14,
+      "quantile_high": 0.5,
+      "quantile_low": 0.25,
+      "upper_inclusive": false
+    },
+    {
+      "bin": 2,
+      "evidence_level": "exploratory_not_in_holm",
+      "instrument_high": 0.20573794912250398,
+      "instrument_low": 0.16519013900207635,
+      "mean_loss": 3.983277088962553e-09,
+      "n": 14,
+      "quantile_high": 0.75,
+      "quantile_low": 0.5,
+      "upper_inclusive": false
+    },
+    {
+      "bin": 3,
+      "evidence_level": "exploratory_not_in_holm",
+      "instrument_high": 0.4335786732713381,
+      "instrument_low": 0.20573794912250398,
+      "mean_loss": -3.800703675607528e-08,
+      "n": 14,
+      "quantile_high": 1.0,
+      "quantile_low": 0.75,
+      "upper_inclusive": true
+    }
+  ],
+  "coefficient_names": [
+    "intercept",
+    "realized_vol_prev_month"
+  ],
+  "covariance": [
+    [
+      5.608360618495533e-16,
+      -3.764873938066856e-15
+    ],
+    [
+      -3.764873938066856e-15,
+      2.647539235510758e-14
+    ]
+  ],
+  "evidence_level": "exploratory_not_in_holm",
+  "finite_sample_correction": false,
+  "hac_lag": 4,
+  "method": "conditional_GW_monthly_OLS_HAC",
+  "n": 56,
+  "p_value": 0.4427603850876154,
+  "reason": null,
+  "se": [
+    2.368197757472026e-08,
+    1.6271260662624633e-07
+  ],
+  "status": "estimable",
+  "t": [
+    1.1466639054187344,
+    -1.2398441986647377
+  ],
+  "wald": 1.6294530934432592,
+  "wald_df": 2,
+  "wald_null": "intercept_and_slope_zero"
+}

@@ -1,0 +1,47 @@
+{
+  "counters": {
+    "attempts": {
+      "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-09.zip": 1,
+      "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-09.zip.CHECKSUM": 1,
+      "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-10.zip": 1,
+      "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-10.zip.CHECKSUM": 1
+    },
+    "gets": 4,
+    "used": {
+      "checksum": 176,
+      "zip": 4165939
+    }
+  },
+  "files": [
+    {
+      "bytes": 88,
+      "kind": "checksum",
+      "month": "2026-09",
+      "path": "data\\raw\\binance\\spot\\BTCUSDT\\1m\\holdout-b\\BTCUSDT-1m-2026-09.zip.CHECKSUM",
+      "sha256": "62aba1c1ad38ef6f83cb623e5105326132e043bbc4d26d2987a105b843e13d7b"
+    },
+    {
+      "bytes": 2054117,
+      "kind": "zip",
+      "month": "2026-09",
+      "path": "data\\raw\\binance\\spot\\BTCUSDT\\1m\\holdout-b\\BTCUSDT-1m-2026-09.zip",
+      "sha256": "7a021fb5981cfdb1a56457d68fa81360ab27350c981ddfe63112b2322df44b56"
+    },
+    {
+      "bytes": 88,
+      "kind": "checksum",
+      "month": "2026-10",
+      "path": "data\\raw\\binance\\spot\\BTCUSDT\\1m\\holdout-b\\BTCUSDT-1m-2026-10.zip.CHECKSUM",
+      "sha256": "bf97a7ab3098fa96af0c738f53a0544ef50ba5786f5ef832b7b20c5f9e64e57d"
+    },
+    {
+      "bytes": 2111822,
+      "kind": "zip",
+      "month": "2026-10",
+      "path": "data\\raw\\binance\\spot\\BTCUSDT\\1m\\holdout-b\\BTCUSDT-1m-2026-10.zip",
+      "sha256": "17168f260306752e39177a6c038bb8952f52bf08ff20e36d8da6068732621f1c"
+    }
+  ],
+  "protocol_sha256": "6843156fdcd455956a3dc9cbc27cb5c213cf22b2fa7932ca49e6c51e13e2f315",
+  "status": "passed"
+}

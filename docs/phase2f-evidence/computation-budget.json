@@ -1,0 +1,111 @@
+{
+  "kahan_initial_solves": 1,
+  "kahan_scalar_calls": 1000000,
+  "replay": [
+    {
+      "actual_model_counts": {
+        "cholesky_factorizations": 91,
+        "condition_evaluations": 91,
+        "solve_calls": 91,
+        "update_calls": 90,
+        "updated_samples": 90
+      },
+      "checkpoint_loads": 2,
+      "formal_ridge_solves": 90,
+      "formal_statistics_updates": 90,
+      "initial_ridge_solves": 1,
+      "initial_scaler_fits": 2,
+      "oracle_training_row_visits": 18855,
+      "per_event_svd_oracle_fits": 90,
+      "prediction_calls_including_stale_control": 180,
+      "recovery_actual_counts": [
+        {
+          "format_version": 1,
+          "load_validation_eigendecompositions": 2,
+          "model_count_deltas": {
+            "cholesky_factorizations": 45,
+            "condition_evaluations": 45,
+            "solve_calls": 45,
+            "update_calls": 45,
+            "updated_samples": 45
+          },
+          "recovery_prediction_calls": 45
+        },
+        {
+          "format_version": 2,
+          "load_validation_eigendecompositions": 2,
+          "model_count_deltas": {
+            "cholesky_factorizations": 45,
+            "condition_evaluations": 45,
+            "solve_calls": 45,
+            "update_calls": 45,
+            "updated_samples": 45
+          },
+          "recovery_prediction_calls": 45
+        }
+      ],
+      "recovery_branches": 2,
+      "recovery_ridge_solves": 90,
+      "recovery_statistics_updates": 90,
+      "stale_prediction_calls": 90,
+      "v1_saves": 2,
+      "v2_saves": 1
+    },
+    {
+      "actual_model_counts": {
+        "cholesky_factorizations": 91,
+        "condition_evaluations": 91,
+        "solve_calls": 91,
+        "update_calls": 90,
+        "updated_samples": 90
+      },
+      "checkpoint_loads": 2,
+      "formal_ridge_solves": 90,
+      "formal_statistics_updates": 90,
+      "initial_ridge_solves": 1,
+      "initial_scaler_fits": 2,
+      "oracle_training_row_visits": 19755,
+      "per_event_svd_oracle_fits": 90,
+      "prediction_calls_including_stale_control": 180,
+      "recovery_actual_counts": [
+        {
+          "format_version": 1,
+          "load_validation_eigendecompositions": 2,
+          "model_count_deltas": {
+            "cholesky_factorizations": 45,
+            "condition_evaluations": 45,
+            "solve_calls": 45,
+            "update_calls": 45,
+            "updated_samples": 45
+          },
+          "recovery_prediction_calls": 45
+        },
+        {
+          "format_version": 2,
+          "load_validation_eigendecompositions": 2,
+          "model_count_deltas": {
+            "cholesky_factorizations": 45,
+            "condition_evaluations": 45,
+            "solve_calls": 45,
+            "update_calls": 45,
+            "updated_samples": 45
+          },
+          "recovery_prediction_calls": 45
+        }
+      ],
+      "recovery_branches": 2,
+      "recovery_ridge_solves": 90,
+      "recovery_statistics_updates": 90,
+      "stale_prediction_calls": 90,
+      "v1_saves": 2,
+      "v2_saves": 1
+    }
+  ],
+  "stress_cholesky_solve_attempts": 18,
+  "stress_initial_solves": 18,
+  "stress_qr_row_updates": 6444,
+  "stress_qr_solve_attempts": 18,
+  "stress_qr_solves": 16,
+  "stress_statistics_updates": 4644,
+  "stress_svd_oracle_fits": 16
+}

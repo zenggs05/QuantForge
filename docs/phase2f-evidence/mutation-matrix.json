@@ -1,0 +1,260 @@
+{
+  "cumulative_seconds": 205.26308210002026,
+  "development_vector_seconds": 101.44670610001776,
+  "final_seconds": 103.81637600000249,
+  "mutants": [
+    {
+      "actual_assertion": "E       AssertionError: F1 released identity was registered again under a new reference",
+      "controls": {
+        "baseline": {
+          "output_sha256": "59b8cce6c619cad8af361976843b6c11a066cbd2f1d1075b5b21cfa948dfbeec",
+          "returncode": 0,
+          "seconds": 2.8566900999867357
+        },
+        "mutated": {
+          "output_sha256": "0722dfd138efb59843e62ed7be12c6b6fb82e323c1388b48f1db8b94622109ef",
+          "returncode": 1,
+          "seconds": 3.7214070999762043
+        },
+        "restored": {
+          "output_sha256": "fa2024f7b1addf6135eacdcff31a6852f6b6f0275ea8d7ad40bf57f96bb7ea06",
+          "returncode": 0,
+          "seconds": 3.1571425999864005
+        }
+      },
+      "expected_keyword": "F1 released identity",
+      "killer_test": "test_f1_released_identity_cannot_be_reused_with_new_reference",
+      "mutant": "f1",
+      "source_sha256": "19eb999f55f774e119c2c3164c8614cb8d5c45fbea6960a54456f960e88c3a05",
+      "valid_kill": true
+    },
+    {
+      "actual_assertion": "E       AssertionError: F4 consumed feedback IDs must match update audit",
+      "controls": {
+        "baseline": {
+          "output_sha256": "80f878abea1975bdf94853b925b5bd216c7bb801107ad91a882c07f48eedaf52",
+          "returncode": 0,
+          "seconds": 3.382167100033257
+        },
+        "mutated": {
+          "output_sha256": "76ac9ae8b7215a46d01afcd9f8b9a187a2401fb3e4fc319cb47654a795bb66c3",
+          "returncode": 1,
+          "seconds": 3.8342961999587715
+        },
+        "restored": {
+          "output_sha256": "31f2b12d852981175b117bcecb0662b3991c4d27286072f1b4554ac21ab115c7",
+          "returncode": 0,
+          "seconds": 3.3179053000058047
+        }
+      },
+      "expected_keyword": "F4 consumed feedback IDs",
+      "killer_test": "test_f4_consumed_ids_must_match_audit",
+      "mutant": "f4",
+      "source_sha256": "be8ac3cb4f4af13f78788aefafe789493f188d9a7415c93f5c787c628ccf1b2a",
+      "valid_kill": true
+    },
+    {
+      "actual_assertion": "E       AssertionError: R3 label metadata gate accepted a different target interval",
+      "controls": {
+        "baseline": {
+          "output_sha256": "fee1b06fef83902f6c6dcfdcf736e2ed3fc88d11ce69548eee59757d9438f620",
+          "returncode": 0,
+          "seconds": 3.294526500045322
+        },
+        "mutated": {
+          "output_sha256": "5bd47271e26dc920ea51ad276426cd31278472f9237c9491c8e548fcce31efb4",
+          "returncode": 1,
+          "seconds": 3.590276700037066
+        },
+        "restored": {
+          "output_sha256": "6262a8e2e6f2ad2d2de112173e9d549955762f82a7ab80d9fb2f247e0426b472",
+          "returncode": 0,
+          "seconds": 3.2721278999815695
+        }
+      },
+      "expected_keyword": "R3 label metadata gate",
+      "killer_test": "test_r3_released_target_metadata_must_match_pending_record",
+      "mutant": "r3",
+      "source_sha256": "be8ac3cb4f4af13f78788aefafe789493f188d9a7415c93f5c787c628ccf1b2a",
+      "valid_kill": true
+    },
+    {
+      "actual_assertion": "E       AssertionError: C4 compensated sum lost sub-ULP increments: 475712.0 ULP",
+      "controls": {
+        "baseline": {
+          "output_sha256": "5059e8cab1917830313cc43d37cfdd4ecf17d2efd090c6732645c0ea98e41ff8",
+          "returncode": 0,
+          "seconds": 3.2654381999745965
+        },
+        "mutated": {
+          "output_sha256": "465d066b4f4b7727bfc42ecf2557d665cd610181a344c314831b9ac2b0d5a582",
+          "returncode": 1,
+          "seconds": 4.4185471999808215
+        },
+        "restored": {
+          "output_sha256": "49ae1d28768606678fb46a3a1115bec23f60c30f324650f113d9783ee5d44d57",
+          "returncode": 0,
+          "seconds": 3.1662964000133798
+        }
+      },
+      "expected_keyword": "C4 compensated sum",
+      "killer_test": "test_c4_kahan_must_recover_sub_ulp_increments",
+      "mutant": "c4",
+      "source_sha256": "c44f4496952bafe4794208ee9176650c5607348333e671763b08f4f3ecf12b7b",
+      "valid_kill": true
+    },
+    {
+      "actual_assertion": "E       AssertionError: C5 compensation sign violates fsum reference: 475712.0 ULP",
+      "controls": {
+        "baseline": {
+          "output_sha256": "9ca0431a9d28c4a8e4298778c5611e8efe69e04e22f6175b3f20383a2bf45704",
+          "returncode": 0,
+          "seconds": 3.167467500024941
+        },
+        "mutated": {
+          "output_sha256": "e9656e1ccb1bc048c8ec1bf2d260b3c92a6fde39d1fba122a25edf0addb27d92",
+          "returncode": 1,
+          "seconds": 3.7278494000202045
+        },
+        "restored": {
+          "output_sha256": "faa6fbf2c36cbfd5fcd2722fbc0a0bf355b513efd3012ae1c4563fdc4127b14f",
+          "returncode": 0,
+          "seconds": 3.2062538000172935
+        }
+      },
+      "expected_keyword": "C5 compensation sign",
+      "killer_test": "test_c5_compensation_sign_preserves_small_increments",
+      "mutant": "c5",
+      "source_sha256": "c44f4496952bafe4794208ee9176650c5607348333e671763b08f4f3ecf12b7b",
+      "valid_kill": true
+    },
+    {
+      "actual_assertion": "E       AssertionError: C6 condition gate accepted a system above frozen 1e12",
+      "controls": {
+        "baseline": {
+          "output_sha256": "1a66abe03b6728e6f464afeaafc29f0b4ee7a563d2b6a2dc77c82c9c357a9fe3",
+          "returncode": 0,
+          "seconds": 3.2032070999848656
+        },
+        "mutated": {
+          "output_sha256": "b07e680c1291585d878cefa7ac6c3e50942d1634bccf8b5868eaa51487bdd96c",
+          "returncode": 1,
+          "seconds": 3.7216562000103295
+        },
+        "restored": {
+          "output_sha256": "2fe24a475414c12f5e62563f3cb0ca69a3b24cac0b9730544d2f37d3796701e4",
+          "returncode": 0,
+          "seconds": 3.3797530999872833
+        }
+      },
+      "expected_keyword": "C6 condition gate",
+      "killer_test": "test_c6_condition_gate_rejects_above_frozen_limit",
+      "mutant": "c6",
+      "source_sha256": "c44f4496952bafe4794208ee9176650c5607348333e671763b08f4f3ecf12b7b",
+      "valid_kill": true
+    },
+    {
+      "actual_assertion": "E       AssertionError: I9 legacy equivalence accepted coefficient error beyond frozen tolerance",
+      "controls": {
+        "baseline": {
+          "output_sha256": "4b6d07f3dd9162cdd77e3e17e4080e549552f0916da64fe26a751d430973d321",
+          "returncode": 0,
+          "seconds": 3.030894899973646
+        },
+        "mutated": {
+          "output_sha256": "e6c6ed588afd1c85ebb8662f41c93829eae2c90fd417da9a9a958566038525b5",
+          "returncode": 1,
+          "seconds": 3.391761100036092
+        },
+        "restored": {
+          "output_sha256": "faa6fbf2c36cbfd5fcd2722fbc0a0bf355b513efd3012ae1c4563fdc4127b14f",
+          "returncode": 0,
+          "seconds": 3.2807411000248976
+        }
+      },
+      "expected_keyword": "I9 legacy equivalence",
+      "killer_test": "test_i9_legacy_coefficient_tolerance_stays_frozen",
+      "mutant": "i9",
+      "source_sha256": "56d494afea46bcd0da70cebda305116484f1c81472cfe63657eff08ca06fb2cd",
+      "valid_kill": true
+    },
+    {
+      "actual_assertion": "E       AssertionError: I15 independent batch coefficient audit self-compared the altered model",
+      "controls": {
+        "baseline": {
+          "output_sha256": "fee1b06fef83902f6c6dcfdcf736e2ed3fc88d11ce69548eee59757d9438f620",
+          "returncode": 0,
+          "seconds": 3.4024560999823734
+        },
+        "mutated": {
+          "output_sha256": "58cb417f5698261a0a3b241e17291d536d217e17029b8e342e1dae4228fa6771",
+          "returncode": 1,
+          "seconds": 3.811431400012225
+        },
+        "restored": {
+          "output_sha256": "291395cfa7e2171a6532db4dea4d823d8119e8a6782d574808db9524c4661998",
+          "returncode": 0,
+          "seconds": 3.3320752999861725
+        }
+      },
+      "expected_keyword": "I15 independent batch coefficient",
+      "killer_test": "test_i15_batch_coefficient_error_uses_independent_fit",
+      "mutant": "i15",
+      "source_sha256": "56d494afea46bcd0da70cebda305116484f1c81472cfe63657eff08ca06fb2cd",
+      "valid_kill": true
+    },
+    {
+      "actual_assertion": "E       AssertionError: A8 distinct event at the current clock passed the clock gate",
+      "controls": {
+        "baseline": {
+          "output_sha256": "d0deb4e52e1bd4074ae74959d4a2ebfad828b825df07c466351f28c4ce29b9f8",
+          "returncode": 0,
+          "seconds": 3.2518097999854945
+        },
+        "mutated": {
+          "output_sha256": "241e1efdff73103fa10120a7481ef118f25e79364ff7557d1a4d88108991aa87",
+          "returncode": 1,
+          "seconds": 3.838702699984424
+        },
+        "restored": {
+          "output_sha256": "d0deb4e52e1bd4074ae74959d4a2ebfad828b825df07c466351f28c4ce29b9f8",
+          "returncode": 0,
+          "seconds": 3.227569099981338
+        }
+      },
+      "expected_keyword": "A8 distinct event",
+      "killer_test": "test_a8_distinct_event_cannot_share_current_clock",
+      "mutant": "a8",
+      "source_sha256": "be8ac3cb4f4af13f78788aefafe789493f188d9a7415c93f5c787c628ccf1b2a",
+      "valid_kill": true
+    },
+    {
+      "actual_assertion": "E       AssertionError: H3 normal interval coverage differs from 95 percent",
+      "controls": {
+        "baseline": {
+          "output_sha256": "d712501db6a5dd648dfe7d9ad8c2bf2d7c16acd6d77e574e1749d0cd9084e473",
+          "returncode": 0,
+          "seconds": 3.035021399962716
+        },
+        "mutated": {
+          "output_sha256": "bf04175c22a13a33ddf7f76adc76ece52651ea4c9b3bc4f1091e0b14ff23aa78",
+          "returncode": 1,
+          "seconds": 3.4563638999825343
+        },
+        "restored": {
+          "output_sha256": "8964ec0c2d96a99a0012763cb299d0385e0125f9a98c492b18fdae2e013f728a",
+          "returncode": 0,
+          "seconds": 3.1019631000235677
+        }
+      },
+      "expected_keyword": "H3 normal interval coverage",
+      "killer_test": "test_h3_normal_interval_has_95_percent_coverage_constant",
+      "mutant": "h3",
+      "source_sha256": "709d983dff3f9637fa5bd27f8b3eaea799eaa1ecfa90174f72f3a6d5686709fa",
+      "valid_kill": true
+    }
+  ],
+  "raw_logs": ".tmp/phase2f-mutation-final",
+  "status": "passed",
+  "valid_kills": 10
+}

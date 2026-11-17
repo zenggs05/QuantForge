@@ -1,0 +1,139 @@
+# configs/holdout-a-execution.toml
+# Research Lead authored, owner approved (D-059: "批准 D-059，协议 SHA-256 38ef1aae687b6cd1a9b8b59709b84047250e2a9f90396cb9089244133b38f1b9").
+# Raw LF bytes are hashed. Read-only for the executor. It fixes execution items that the frozen
+# Confirmatory Protocol v1 does not specify; it does not change the protocol, its hypothesis,
+# primary family, endpoints or release conditions. Fixed before any Holdout-A byte is read.
+
+[contract]
+name = "holdout_a_execution"
+version = "1.0"
+authorization = "D-059"
+protocol_file = "docs/confirmatory-protocol-v1.md"
+protocol_sha256 = "38ef1aae687b6cd1a9b8b59709b84047250e2a9f90396cb9089244133b38f1b9"
+changes_frozen_protocol = false
+evidence_level = "confirmatory_holdout_a_protocol_v1"
+
+[frozen_sha256]
+"docs/confirmatory-protocol-v1.md" = "38ef1aae687b6cd1a9b8b59709b84047250e2a9f90396cb9089244133b38f1b9"
+"configs/history-extension.toml" = "e9cbd19d884d046199f468f29e912cd6a9fbec1852e90ffc125b86d8df0bd9af"
+"src/quantforge/features/__init__.py" = "857819a0c3c718cf2b1100ea72995db989ed149f65d1ad3d5e4cd3eda1fcbec1"
+"src/quantforge/labels/__init__.py" = "b968218639387cb82ab1beccef5c5bf3ed3674e5975c3d2b25cb4d318037746e"
+"src/quantforge/datasets/research_splits.py" = "22c862f6e8e232dedfe17c3a9832f5b7d78737de1593d6b904e2c29c5949919c"
+"src/quantforge/datasets/splits.py" = "3459e5be5185eee2638709c3db4250e150d8e1deff140d1459882cb5257d93cd"
+"src/quantforge/datasets/window_splits.py" = "24de7804527d3dc805f46ee969d17267927e345b94af434303cd19793675fc22"
+"src/quantforge/models/baselines.py" = "a9269ca7f6147f653f608051746304596e898f49ec30f9e1714567e25a1ded83"
+"src/quantforge/temporal.py" = "6c262bbd1c77e6696c7d310eb31b321f3f27ffeea02fbd64a70f3dcee9bd648c"
+
+[auth]
+env_var = "QF_HOLDOUT_A_AUTH"
+env_value = "D-059:38ef1aae687b6cd1a9b8b59709b84047250e2a9f90396cb9089244133b38f1b9"
+holdout_months = ["2026-07", "2026-08"]
+series_start = "2025-09-01T00:00:00Z"
+series_end_exclusive = "2026-09-01T00:00:00Z"
+still_sealed = ["Holdout-B [2026-09-02, 2026-11-01)", "smoke day 2026-09-01", "anything on or after 2026-09-01"]
+
+[download]
+url_prefix = "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-"
+urls = [
+  "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-07.zip.CHECKSUM",
+  "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-07.zip",
+  "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-08.zip.CHECKSUM",
+  "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2026-08.zip",
+]
+order = "serial, listed order; a month's ZIP only after its CHECKSUM is accepted"
+attempts_per_url_max = 3
+gets_max = 12
+zip_bytes_max_each = 4194304
+zip_bytes_total_max = 16777216
+checksum_bytes_max_each = 4096
+retry_on = ["timeout", "connection reset/aborted", "remote disconnected", "incomplete read", "SSL EOF/zero return", "gaierror", "HTTP 429", "HTTP 5xx"]
+stop_on = ["any 3xx or final URL != requested URL", "status not in 200/429/5xx", "missing/non-numeric/oversize Content-Length", "bytes > Content-Length", "CHECKSUM text != recorded", "ZIP Content-Length != recorded", "ZIP SHA-256 != CHECKSUM", "permission or certificate error", "any unlisted exception", "budget exceeded"]
+recorded_source = "research/evidence/data-expansion-probes.json (Phase 2A metadata-only probe, 2026-11-02; no ZIP body read)"
+recorded = [
+  { month = "2026-07", checksum_text = "3ef15c84353da48e1c7c5fd99b9751cb036bf8986ed47f7cd1be63359c0d4f6b  BTCUSDT-1m-2026-07.zip", checksum_bytes = 88, zip_content_length = 2112275 },
+  { month = "2026-08", checksum_text = "acab442e02745177063031d402929703ae983715010064b40cf811c4beb843d4  BTCUSDT-1m-2026-08.zip", checksum_bytes = 88, zip_content_length = 2084946 },
+]
+recorded_mismatch = "stop; the archive was revised after the 2026-11-02 probe; owner decides"
+raw_dir = "data/raw/binance/spot/BTCUSDT/1m/holdout-a"
+
+[development]
+root = "D:/zgs_project/QuantForge"
+access = "read-only; exactly these 11 files; never any other path under that worktree"
+manifest = "data/processed/binance/spot/BTCUSDT/1m/development-manifest.json"
+manifest_sha256 = "6fc42cd53ab30e1282bc9202046edd1fb43e5bc3fa8c44595f1639958c66acb8"
+parquet_dir = "data/processed/binance/spot/BTCUSDT/1m/monthly"
+parquet_sha_source = "manifest.validation.month_sources[].parquet_sha256"
+months = ["2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06"]
+rows = 436320
+
+[data]
+construction = "single concatenated series 2025-09-01T00:00Z .. 2026-08-31T23:59Z; build_features once, build_labels once per horizon"
+holdout_parser = "new parser in quantforge.holdout_a; output schema and values identical to data_monthly.parse_monthly_klines (proved by synthetic equivalence tests); data_monthly stays unchanged"
+expected_unit = "microseconds"
+keep_columns = ["open_time", "open", "high", "low", "close", "volume", "quote_asset_volume", "number_of_trades", "taker_buy_base_asset_volume", "taker_buy_quote_asset_volume"]
+project_out_columns = ["close_time", "close_time_raw", "open_time_raw", "ignore"]
+close_time_rule = "every row close_time < open_time + 60s (otherwise stop); rows whose close_time is not open_time + 59.999999s are disclosed one by one (kind: truncated_with_trades or zero_trade_placeholder); not a stop"
+interpolation = "forbidden"
+row_deletion = "forbidden"
+gaps = "reported exactly; frozen continuous_segments handling; never filled"
+
+[splits]
+kernel = "quantforge.datasets.historical_splits._make_splits_internal (unmodified)"
+evaluate_months = ["2026-07", "2026-08"]
+start_bound = "2025-09-01T00:00:00Z"
+end_bound = "2026-09-01T00:00:00Z"
+eval_cutoff = "month_end"
+fit_times = ["2026-07-01T00:00:00Z", "2026-08-01T00:00:00Z"]
+
+[fits]
+model = "fit_predict_fold as used in Gate 2 (StandardScaler on legal training rows + Ridge(alpha=1.0, solver='svd', fit_intercept=True), seed from configs/history-extension.toml)"
+specs = { v1 = "14 frozen features in frozen order", v2 = "v1 without log_close_open (frozen spec v2 rule)" }
+per_run = [ "v1/h15 x 2 months", "v2/h15 x 2 months", "v1/h5 x 2 months" ]
+ridge_fits_per_run = 6
+runs = ["formal", "reproduction"]
+ridge_fits_total = 12
+
+[inference]
+primary = "v1, h=15, Ridge vs Zero, Clark-West c_t = 2(f_t-b_t)(y_t-b_t) with b_t=0, one-sided H1 E[c_t] > 0"
+monthly_hac = "quantforge.power_reanalysis.monthly_stat (unmodified): Bartlett within contiguous segments, zero cross-segment covariance"
+lag = "L_m = max(60, ceil(1.3*sqrt(T_m))) from the month total valid evaluation count"
+pooling = "n_weighted across 2026-07 and 2026-08; cross-month covariance zero"
+p_value = "one-sided normal reference via scipy.stats.norm"
+reject = "p < 0.05"
+primary_family_size = 1
+secondary = [
+  "S1 spec v2 vs Zero, 15m CW",
+  "S2 spec v1 vs Zero, 5m CW",
+  "S3 spec v1 vs HistoricalMean, 15m CW",
+  "S4 spec v1 vs Zero, 15m DM two-sided (+ MSE, MAE descriptive)",
+  "S5 spec v1 IC-HAC, 15m, monthly ddof0 centred products",
+]
+secondary_adjustment = "Holm within S1-S5; undefined p occupies its slot as 1.0 for adjustment and stays null in raw output with a reason"
+secondary_status = "descriptive, not confirmatory claims"
+short_segment_rule = "if undefined-feature rows or gaps leave an h=15 evaluation segment of length <= that month's LLSW, drop that segment from the h=15 evaluation set (v1 and v2 share the index; training unchanged); recompute the month lag on the remaining count; h=5 keeps frozen behaviour (short segment -> null); disclose every dropped segment (same rule as D-057 item 3)"
+row_level_hashes = "sha256 of every prediction row (decision_time, horizon, spec, prediction, target) plus a file-level SHA"
+
+[gates]
+n_train_min = 50000
+feature_undefined_ratio_max_per_month = 0.01
+feature_undefined_rule = "exceeding it in 2026-07 or 2026-08 is a stop for owner review (result-blind), never a sample-exclusion rule"
+real_data_processes = ["download", "audit", "formal", "reproduction"]
+real_data_process_max = 4
+run_seconds_max = 7200
+peak_process_bytes_max = 17179869184
+disk_free_bytes_min = 8589934592
+
+[descriptive]
+label = "exploratory_post_hoc (not part of the confirmatory conclusion)"
+drift_decomposition = "per month and pooled for v1/h15 vs Zero: mean(c_t), 2*mean(f)*mean(y) and their difference; motivated by the Gate 2 P2 placebo (D-058)"
+
+[report]
+banned_claims = ["交易或超额收益意义的 alpha", "可盈利", "可交易", "可泛化", "适用于未来", "tradable alpha", "profitable", "generalizes"]
+required_exposures = [
+  "2026-09-01 smoke day fixes the price level at the end of Holdout-A (protocol text)",
+  "Phase 2A metadata-only requests for 2026-07/08 file lengths and checksums (protocol text)",
+  "March-June 2026 results viewed repeatedly (protocol text)",
+  "Gate 2 historical results (D-058) were known before this run; the protocol, code and this contract were fixed before any Holdout-A byte was read",
+  "no daily-archive source verification for 2026-07/08 (owner decision D-059); monthly archives only",
+]
+release_record = "list protocol, feature/label/split/model code hashes and this contract hash in the execution record"

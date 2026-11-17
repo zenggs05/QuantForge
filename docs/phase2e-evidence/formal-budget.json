@@ -1,0 +1,46 @@
+{
+  "evidence_level": "exploratory_post_hoc",
+  "input_seconds": 22.763307400018675,
+  "prediction_reanalysis_seconds": 44.62684889999218,
+  "specification_audit_seconds": 11.439157999993768,
+  "elapsed_seconds": 79.0089144000085,
+  "memory": {
+    "peak_process_bytes": 2608308224,
+    "current_process_bytes": 566677504,
+    "method": "Windows GetProcessMemoryInfo.PeakWorkingSetSize; process lifetime"
+  },
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\zgs_project\\QuantForge\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\zgs_project\\QuantForge\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "filepath": "D:\\zgs_project\\QuantForge\\.venv\\Lib\\site-packages\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    }
+  ],
+  "new_evaluation_fits": 0,
+  "new_evaluation_predictions": 0,
+  "training_specification_fits": 6,
+  "network_requests": 0
+}

@@ -1,0 +1,8 @@
+{"argv": ["scripts\\run_holdout_a.py", "download"], "event": "start", "exit_code": null, "head": "31302087a8c25a1c14ecc3b116a39b7810740ad8", "launch": 1, "mode": "download", "utc": "2026-11-17T06:10:10.480806+00:00"}
+{"argv": ["scripts\\run_holdout_a.py", "download"], "event": "end", "exit_code": 0, "head": "31302087a8c25a1c14ecc3b116a39b7810740ad8", "launch": 1, "mode": "download", "utc": "2026-11-17T06:10:15.354091+00:00"}
+{"argv": ["scripts\\run_holdout_a.py", "audit"], "event": "start", "exit_code": null, "head": "31302087a8c25a1c14ecc3b116a39b7810740ad8", "launch": 2, "mode": "audit", "utc": "2026-11-17T06:10:51.050774+00:00"}
+{"argv": ["scripts\\run_holdout_a.py", "audit"], "event": "end", "exit_code": 0, "head": "31302087a8c25a1c14ecc3b116a39b7810740ad8", "launch": 2, "mode": "audit", "utc": "2026-11-17T06:10:58.655790+00:00"}
+{"argv": ["scripts\\run_holdout_a.py", "formal"], "event": "start", "exit_code": null, "head": "b6fd4d8c6695263639c7206563d091b574d790ee", "launch": 3, "mode": "formal", "utc": "2026-11-17T06:15:33.599996+00:00"}
+{"argv": ["scripts\\run_holdout_a.py", "formal"], "event": "end", "exit_code": 0, "head": "b6fd4d8c6695263639c7206563d091b574d790ee", "launch": 3, "mode": "formal", "utc": "2026-11-17T06:15:47.432701+00:00"}
+{"argv": ["scripts\\run_holdout_a.py", "reproduction"], "event": "start", "exit_code": null, "head": "b6fd4d8c6695263639c7206563d091b574d790ee", "launch": 4, "mode": "reproduction", "utc": "2026-11-17T06:16:16.382733+00:00"}
+{"argv": ["scripts\\run_holdout_a.py", "reproduction"], "event": "end", "exit_code": 0, "head": "b6fd4d8c6695263639c7206563d091b574d790ee", "launch": 4, "mode": "reproduction", "utc": "2026-11-17T06:16:32.096765+00:00"}

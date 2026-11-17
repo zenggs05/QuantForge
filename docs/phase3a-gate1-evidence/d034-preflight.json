@@ -1,0 +1,1151 @@
+{
+  "base_commit": "7ee5ab1873d53de3b4f5d388820c14ec1e374134",
+  "checked_at_utc": "2026-11-09T03:22:18.080437+00:00",
+  "protected_sha256": {
+    "docs/phase3a-gate1-evidence/d032-git-object-sha256.json": "cf39639ae14a6b1318e92d8260529c5713019d48c611e61884e471de99daa3eb",
+    "docs/phase3a-gate1-evidence/d032-original-environment-isolation.json": "cae2b9b2fe93ae5ffcacf1d7c03def41bb317358431d90cb934595f53b389d73",
+    "docs/phase3a-gate1-evidence/d032-original-synthetic-test-counts.json": "0d3856353c64a2ed05f5ba2057dc069103907dc5026de71b89e43e5761408e81",
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/2020-02-refetch-success.json": "a072648e59589ab6181f540c8ec1cdd36391ca9f6890b4cc96633549d24da9b2",
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/2022-06-failure.json": "24ae1476af52394b7f2fd7f7fe03fa3540a691c0ff3618e2c1c3db3f2c6bcd1c",
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/anchor-status.json": "93f8b0183aeaf5bd9b6fcef25d2e8284cb6e69f9b2af9de38c7ab1aff29d59a8",
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/environment-isolation.json": "cae2b9b2fe93ae5ffcacf1d7c03def41bb317358431d90cb934595f53b389d73",
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/evidence-sha256.json": "1aa3ccbee96ef26012a99b2040e622afb94ed57ce186a48f550f01079f43c5d6",
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/history.json": "dc8bf537a14e97304499f933db60aa9fb925adb0fff96f1872878a49d677096a",
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/interrupted-ledger-temporary.json": "da697ead31c4c59ad28eb11c3e0086acf3d7ee1435c800cc14ee52b50b263c2c",
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/network-ledger-at-stop.json": "a68517f7dda44775ef6c20dfb1c88a144cebe1b05c1583662101318a533d9379",
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/partial-integrity-metadata.json": "016a29d66a8da0d110cbb4676cf9f56a341bf045c16ff9afbb1d57929fdae975",
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/pytest.log": "20a2c772a47c821790bb6ea1804d9bd033e15253130b5c03d789bae73ce78ec3",
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/runtime-counter.py": "522687af9483e33dd22aa978f619951ebe4a7ed6e9a4304267c1d17ae5c8c57f",
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/runtime-refetch.json": "08f9e866ca5e97475c0aa2af870921d71ea6a8c6943726681d17d88577763d83",
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/runtime-resume.json": "68ee3d0acd16ca057d5e80f3744c8d4a00a6686bbeec596fc01a5f4d29dd0c25",
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/runtime-wrapper.py": "b6f7fc25adddc5dd8da4c5c647cf99f6acaaa835f5b8d21df7fe0157db620707",
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/synthetic-test-counts.json": "0d3856353c64a2ed05f5ba2057dc069103907dc5026de71b89e43e5761408e81",
+    "docs/phase3a-gate1-evidence/d033-acquisition-sha256.json": "67bc6969e36f7baa47c9c4416c033825deca12bb2724588bfd988ab6794340a5",
+    "docs/phase3a-gate1-evidence/d033-acquisition-summary.json": "0269d97fb2f619c522d5e3f176f520a926402bd3ee7837f27dc6a1353f735607",
+    "docs/phase3a-gate1-evidence/d033-acquisition.log": "2f13f4a705c5d7669a736c155374621d7afbc7bb60298520dbe6559d38cad7db",
+    "docs/phase3a-gate1-evidence/d033-final-isolation.json": "5144e833218add7f7d971d399ddc0213780db3005e7377935adfd24444adfcc5",
+    "docs/phase3a-gate1-evidence/d033-network-ledger.json": "cd5695f8611c6696b84963c87352b12172128cfc1805edb7b431a1cffb25c6de",
+    "docs/phase3a-gate1-evidence/d033-persistence-events.json": "60a9576dfcc4172d5419f17102bbab3ed772c49e2deb713d6b7a1c6e23ca807c",
+    "docs/phase3a-gate1-evidence/d033-pre-isolation.json": "714ccf17d3b056c4272786560fb29b75c3f83fe313a2412b2c17c800cf125333",
+    "docs/phase3a-gate1-evidence/d033-preflight.json": "7a7f1ec5b0c140d62d3e17556da9bbe37fdbdc2452befc23a4a2c7e6957b274b",
+    "docs/phase3a-gate1-evidence/d033-pytest.log": "37d6bd7fb817135c82f9260d02e99d7a30b8bb9229d277cb2790bb00a95c6a21",
+    "docs/phase3a-gate1-evidence/d033-revalidation-failure-diagnosis.json": "08f4c1925027fdfdf60b7b839bfd07c707c2b3968209aa1370c286f451c1a9d9",
+    "docs/phase3a-gate1-evidence/d033-revalidation-wrapper.py": "f04832ba6a7db9ccf6a97263b72ebb3666b432f9989a769717eee6e207b3c2a6",
+    "docs/phase3a-gate1-evidence/d033-revalidation.json": "ce01b3d59f5a20f2cd5549c495e4190db2734d1adfc8abe374d4d47c1c90cb0a",
+    "docs/phase3a-gate1-evidence/d033-revalidation.log": "cd834f8df457028d562c8b56b1f1634ea9bf29a24d63bde13ce536b1e557aa13",
+    "docs/phase3a-gate1-evidence/d033-runtime-counter.py": "522687af9483e33dd22aa978f619951ebe4a7ed6e9a4304267c1d17ae5c8c57f",
+    "docs/phase3a-gate1-evidence/d033-runtime-wrapper.py": "6007efc714599915913d7a922c87f910430fb294d32f8077e0a2263009470769",
+    "docs/phase3a-gate1-evidence/d033-runtime.json": "a0cfb18d38963fdca732663924ece02af644714de74a8509a29d6126043dccbb",
+    "docs/phase3a-gate1-evidence/d033-stop-evidence-sha256.json": "f825ef0814ebb454259714ec3769e63c92440e47f3e5709858d9b8072c0bfee2",
+    "docs/phase3a-gate1-evidence/d033-success-history.json": "f1724ae63eb73eff6350f72fbdd22912e9815e5e66538853a2cde7edfbce2799",
+    "docs/phase3a-gate1-evidence/d033-synthetic-test-counts.json": "5f9ecd6fdeba6c6f355f4648e7de21ea19774953f9f279b396d993c41f3c8063",
+    "docs/phase3a-gate1-evidence/isolation-at-stop.json": "37160a51c6de08ca2f6be5f6e0c8e194139b7dc4f93767ad7f0c1af12dd31b76",
+    "docs/phase3a-gate1-evidence/network-ledger-at-stop.json": "058cfaef502a451a865a283428d1624f207f6b9eb64ca844039a703e32d82887",
+    "docs/phase3a-gate1-evidence/synthetic-test-counts.json": "5ff4866c33992adf63b5236e529a701c0f79715607a790a3a4edbb9ca3cb3e2d",
+    "docs/phase3a-gate1-evidence/timestamp-boundary-2024-12.json": "28899d1bb0b22d5f3bff8635213f11f2bb01363c2273c55b11b6e2a17be5130d",
+    "docs/phase3a-gate1-evidence/timestamp-boundary-2025-01.json": "197437de1f247315840b5c600a1b8dfdf50c03db9bcb0f242d63920fc29822ab",
+    "data/processed/binance/spot/BTCUSDT/1m/historical/historical-manifest.json": "71920d90d95a3d6600db3b57540865949b8784ce8753b0dccfbea93d7bb1fa02",
+    "src/quantforge/data_monthly.py": "f87c35fbb23805b0bc81ac1bd52e63149d58fc2f37668791093eb07d19d7f33c",
+    "scripts/download_historical.py": "5dd66b3b2ba33ba189175d11cff03db5bad612892d812007728bf0420952e8bf"
+  },
+  "market_artifact_stat_metadata": {
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-01.zip": [
+      2224194,
+      1793937221219435600
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-01.zip.CHECKSUM": [
+      88,
+      1793937221847884200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-01.zip.source.json": [
+      2491,
+      1793937221862883800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-02.zip": [
+      2077466,
+      1793949545244072400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-02.zip.CHECKSUM": [
+      88,
+      1793949545736833600
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-02.zip.source.json": [
+      4519,
+      1793949545749382500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-03.zip": [
+      2277959,
+      1793949854086087700
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-03.zip.CHECKSUM": [
+      88,
+      1793949854611455400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-03.zip.source.json": [
+      3692,
+      1793949854624961500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-04.zip": [
+      2164104,
+      1793949858617857500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-04.zip.CHECKSUM": [
+      88,
+      1793949859112331600
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-04.zip.source.json": [
+      3578,
+      1793949859125344300
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-05.zip": [
+      2265162,
+      1793949868023885800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-05.zip.CHECKSUM": [
+      88,
+      1793949868518678200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-05.zip.source.json": [
+      3178,
+      1793949868530089000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-06.zip": [
+      2131275,
+      1793949878099039500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-06.zip.CHECKSUM": [
+      88,
+      1793949878605778300
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-06.zip.source.json": [
+      3578,
+      1793949878617805500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-07.zip": [
+      2203867,
+      1793949919392761600
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-07.zip.CHECKSUM": [
+      88,
+      1793949919887821400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-07.zip.source.json": [
+      3178,
+      1793949919900337300
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-08.zip": [
+      2257706,
+      1793949926665192300
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-08.zip.CHECKSUM": [
+      88,
+      1793949927166975500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-08.zip.source.json": [
+      3178,
+      1793949927179558100
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-09.zip": [
+      2174596,
+      1793949932484105300
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-09.zip.CHECKSUM": [
+      88,
+      1793949932975632800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-09.zip.source.json": [
+      3178,
+      1793949932986629900
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-10.zip": [
+      2220925,
+      1793949938351865600
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-10.zip.CHECKSUM": [
+      88,
+      1793949938856068900
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-10.zip.source.json": [
+      3178,
+      1793949938880582800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-11.zip": [
+      2228577,
+      1793949945475133800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-11.zip.CHECKSUM": [
+      88,
+      1793949945988254500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-11.zip.source.json": [
+      3572,
+      1793949946001250300
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-12.zip": [
+      2304125,
+      1793949951025999000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-12.zip.CHECKSUM": [
+      88,
+      1793949951549804800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2020-12.zip.source.json": [
+      3956,
+      1793949951561804800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-01.zip": [
+      2399851,
+      1793949958704223200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-01.zip.CHECKSUM": [
+      88,
+      1793949959219468400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-01.zip.source.json": [
+      3190,
+      1793949959230977300
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-02.zip": [
+      2157176,
+      1793949967496993100
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-02.zip.CHECKSUM": [
+      88,
+      1793949967992366900
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-02.zip.source.json": [
+      3698,
+      1793949968004367400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-03.zip": [
+      2375057,
+      1793949975127350900
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-03.zip.CHECKSUM": [
+      88,
+      1793949975651068700
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-03.zip.source.json": [
+      3586,
+      1793949975663069400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-04.zip": [
+      2265385,
+      1793949981222764000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-04.zip.CHECKSUM": [
+      88,
+      1793949981737455900
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-04.zip.source.json": [
+      3982,
+      1793949981749458700
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-05.zip": [
+      2407992,
+      1793949991029116400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-05.zip.CHECKSUM": [
+      88,
+      1793949991547373200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-05.zip.source.json": [
+      3190,
+      1793949991558884800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-06.zip": [
+      2299606,
+      1793949998381163800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-06.zip.CHECKSUM": [
+      88,
+      1793949998876995200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-06.zip.source.json": [
+      3190,
+      1793949998888007800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-07.zip": [
+      2322442,
+      1793950006406745500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-07.zip.CHECKSUM": [
+      88,
+      1793950006927422600
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-07.zip.source.json": [
+      3190,
+      1793950006939424500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-08.zip": [
+      2309698,
+      1793950012839896700
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-08.zip.CHECKSUM": [
+      88,
+      1793950013377202400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-08.zip.source.json": [
+      3704,
+      1793950013390202200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-09.zip": [
+      2172157,
+      1793950019584992500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-09.zip.CHECKSUM": [
+      88,
+      1793950020086246000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-09.zip.source.json": [
+      3590,
+      1793950020099250500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-10.zip": [
+      2259946,
+      1793950029614002500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-10.zip.CHECKSUM": [
+      88,
+      1793950030130600900
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-10.zip.source.json": [
+      3190,
+      1793950030140017400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-11.zip": [
+      2183167,
+      1793950040701012200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-11.zip.CHECKSUM": [
+      88,
+      1793950041207327200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-11.zip.source.json": [
+      3190,
+      1793950041218341600
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-12.zip": [
+      2242006,
+      1793950047618633600
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-12.zip.CHECKSUM": [
+      88,
+      1793950048154025700
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2021-12.zip.source.json": [
+      3284,
+      1793950048167050000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-01.zip": [
+      2229634,
+      1793950072758078200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-01.zip.CHECKSUM": [
+      88,
+      1793950073345620200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-01.zip.source.json": [
+      3191,
+      1793950073356127600
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-02.zip": [
+      2011133,
+      1793950109994376000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-02.zip.CHECKSUM": [
+      88,
+      1793950110479480200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-02.zip.source.json": [
+      3190,
+      1793950110491498200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-03.zip": [
+      2207992,
+      1793950118449023500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-03.zip.CHECKSUM": [
+      88,
+      1793950118977588500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-03.zip.source.json": [
+      3190,
+      1793950118989099500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-04.zip": [
+      2103010,
+      1793950123982678000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-04.zip.CHECKSUM": [
+      88,
+      1793950124544934800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-04.zip.source.json": [
+      3190,
+      1793950124558990800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-05.zip": [
+      2216492,
+      1793950130830774900
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-05.zip.CHECKSUM": [
+      88,
+      1793950131409291800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-05.zip.source.json": [
+      3190,
+      1793950131422800200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-06.zip": [
+      2158139,
+      1794191823292394700
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-06.zip.CHECKSUM": [
+      88,
+      1794191823974134800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-06.zip.source.json": [
+      3190,
+      1794191823987807000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-07.zip": [
+      2298791,
+      1794191829457072100
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-07.zip.CHECKSUM": [
+      88,
+      1794191829993548600
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-07.zip.source.json": [
+      3190,
+      1794191830006047100
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-08.zip": [
+      2318381,
+      1794191836251521900
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-08.zip.CHECKSUM": [
+      88,
+      1794191836834226800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-08.zip.source.json": [
+      3190,
+      1794191836849174500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-09.zip": [
+      2260540,
+      1794191841674366200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-09.zip.CHECKSUM": [
+      88,
+      1794191842234849100
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-09.zip.source.json": [
+      3190,
+      1794191842248977300
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-10.zip": [
+      2300603,
+      1794191848967067100
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-10.zip.CHECKSUM": [
+      88,
+      1794191849536299200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-10.zip.source.json": [
+      3190,
+      1794191849549591900
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-11.zip": [
+      2241831,
+      1794191854024882600
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-11.zip.CHECKSUM": [
+      88,
+      1794191854591023400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-11.zip.source.json": [
+      3190,
+      1794191854603427000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-12.zip": [
+      2261860,
+      1794191860170956000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-12.zip.CHECKSUM": [
+      88,
+      1794191860739247500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2022-12.zip.source.json": [
+      3190,
+      1794191860752247900
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-01.zip": [
+      2304509,
+      1794191867937934700
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-01.zip.CHECKSUM": [
+      88,
+      1794191868485648600
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-01.zip.source.json": [
+      3190,
+      1794191868501848500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-02.zip": [
+      2109501,
+      1794191874075285000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-02.zip.CHECKSUM": [
+      88,
+      1794191874572050200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-02.zip.source.json": [
+      3190,
+      1794191874584083400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-03.zip": [
+      2300446,
+      1794191885645734900
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-03.zip.CHECKSUM": [
+      88,
+      1794191886222142500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-03.zip.source.json": [
+      3701,
+      1794191886235139000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-04.zip": [
+      2064504,
+      1794191891520072200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-04.zip.CHECKSUM": [
+      88,
+      1794191892051482200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-04.zip.source.json": [
+      3190,
+      1794191892063819800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-05.zip": [
+      2111728,
+      1794191898045104700
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-05.zip.CHECKSUM": [
+      88,
+      1794191898593408200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-05.zip.source.json": [
+      3190,
+      1794191898603923500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-06.zip": [
+      2043702,
+      1794191904787506400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-06.zip.CHECKSUM": [
+      88,
+      1794191905324849800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-06.zip.source.json": [
+      3190,
+      1794191905337103200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-07.zip": [
+      2033186,
+      1794191911585538100
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-07.zip.CHECKSUM": [
+      88,
+      1794191912151674500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-07.zip.source.json": [
+      3190,
+      1794191912164680200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-08.zip": [
+      2018512,
+      1794191925926752000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-08.zip.CHECKSUM": [
+      88,
+      1794191926549492300
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-08.zip.source.json": [
+      3190,
+      1794191926563044200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-09.zip": [
+      1967613,
+      1794191951980184600
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-09.zip.CHECKSUM": [
+      88,
+      1794191952548757700
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-09.zip.source.json": [
+      3190,
+      1794191952561924000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-10.zip": [
+      2099200,
+      1794191968921417600
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-10.zip.CHECKSUM": [
+      88,
+      1794191969427774800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-10.zip.source.json": [
+      3190,
+      1794191969444499400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-11.zip": [
+      2056098,
+      1794191975861673600
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-11.zip.CHECKSUM": [
+      88,
+      1794191976436590700
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-11.zip.source.json": [
+      3190,
+      1794191976450541500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-12.zip": [
+      2144300,
+      1794191981637936600
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-12.zip.CHECKSUM": [
+      88,
+      1794191982201630000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2023-12.zip.source.json": [
+      3190,
+      1794191982216767700
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-01.zip": [
+      2169570,
+      1794191987464655500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-01.zip.CHECKSUM": [
+      88,
+      1794191988033496000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-01.zip.source.json": [
+      3190,
+      1794191988046510300
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-02.zip": [
+      2013843,
+      1794191992502665600
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-02.zip.CHECKSUM": [
+      88,
+      1794191993062467900
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-02.zip.source.json": [
+      3190,
+      1794191993074150000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-03.zip": [
+      2221094,
+      1794191999008591100
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-03.zip.CHECKSUM": [
+      88,
+      1794191999532676100
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-03.zip.source.json": [
+      3190,
+      1794191999544675400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-04.zip": [
+      2120723,
+      1794192004571315200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-04.zip.CHECKSUM": [
+      88,
+      1794192005095719800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-04.zip.source.json": [
+      3190,
+      1794192005104220200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-05.zip": [
+      2144250,
+      1794192010217328000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-05.zip.CHECKSUM": [
+      88,
+      1794192010757109400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-05.zip.source.json": [
+      3190,
+      1794192010771107100
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-06.zip": [
+      2018857,
+      1794192016973653100
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-06.zip.CHECKSUM": [
+      88,
+      1794192017472387500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-06.zip.source.json": [
+      3190,
+      1794192017488164300
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-07.zip": [
+      2141506,
+      1794192023110601500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-07.zip.CHECKSUM": [
+      88,
+      1794192023684721800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-07.zip.source.json": [
+      3190,
+      1794192023700099800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-08.zip": [
+      2164472,
+      1794192029048975700
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-08.zip.CHECKSUM": [
+      88,
+      1794192029587072700
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-08.zip.source.json": [
+      3190,
+      1794192029598408300
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-09.zip": [
+      2049758,
+      1794192033891167400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-09.zip.CHECKSUM": [
+      88,
+      1794192034464087800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-09.zip.source.json": [
+      3190,
+      1794192034473986800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-10.zip": [
+      2121607,
+      1794192059561259100
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-10.zip.CHECKSUM": [
+      88,
+      1794192060147205000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-10.zip.source.json": [
+      3190,
+      1794192060160097500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-11.zip": [
+      2146495,
+      1794192088445710900
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-11.zip.CHECKSUM": [
+      88,
+      1794192089032498800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-11.zip.source.json": [
+      3190,
+      1794192089043500900
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-12.zip": [
+      2218893,
+      1794192097120217400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-12.zip.CHECKSUM": [
+      88,
+      1794192097699723900
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2024-12.zip.source.json": [
+      3190,
+      1794192097723726500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-01.zip": [
+      2222830,
+      1794192110002478500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-01.zip.CHECKSUM": [
+      88,
+      1794192110544170100
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-01.zip.source.json": [
+      3208,
+      1794192110556160900
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-02.zip": [
+      1993970,
+      1794192124040360800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-02.zip.CHECKSUM": [
+      88,
+      1794192124579432400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-02.zip.source.json": [
+      3208,
+      1794192124592096500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-03.zip": [
+      2215591,
+      1794192137012381700
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-03.zip.CHECKSUM": [
+      88,
+      1794192137578639300
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-03.zip.source.json": [
+      3208,
+      1794192137598943300
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-04.zip": [
+      2120466,
+      1794192152933711000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-04.zip.CHECKSUM": [
+      88,
+      1794192153488897000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-04.zip.source.json": [
+      3208,
+      1794192153499897400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-05.zip": [
+      2184868,
+      1794192158775691600
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-05.zip.CHECKSUM": [
+      88,
+      1794192159361495900
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-05.zip.source.json": [
+      3208,
+      1794192159379713700
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-06.zip": [
+      2074513,
+      1794192165485503800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-06.zip.CHECKSUM": [
+      88,
+      1794192166047987000
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-06.zip.source.json": [
+      3208,
+      1794192166061624300
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-07.zip": [
+      2136490,
+      1794192172527643500
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-07.zip.CHECKSUM": [
+      88,
+      1794192173090980200
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-07.zip.source.json": [
+      3208,
+      1794192173102490400
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-08.zip": [
+      2150048,
+      1794192178923503800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-08.zip.CHECKSUM": [
+      88,
+      1794192179485717800
+    ],
+    "data/raw/binance/spot/BTCUSDT/1m/historical/2025-08.zip.source.json": [
+      3208,
+      1794192179499554800
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2020-01.parquet": [
+      4256600,
+      1793937221853884800
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2020-02.parquet": [
+      3942921,
+      1793949545740826700
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2020-03.parquet": [
+      4313383,
+      1793949854616449100
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2020-04.parquet": [
+      4073949,
+      1793949859118328300
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2020-05.parquet": [
+      4245112,
+      1793949868522362900
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2020-06.parquet": [
+      4017328,
+      1793949878610807800
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2020-07.parquet": [
+      4156654,
+      1793949919892325800
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2020-08.parquet": [
+      4212692,
+      1793949927172498100
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2020-09.parquet": [
+      4121993,
+      1793949932979630900
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2020-10.parquet": [
+      4268966,
+      1793949938874580600
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2020-11.parquet": [
+      4240088,
+      1793949945993250400
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2020-12.parquet": [
+      4361919,
+      1793949951554804800
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2021-01.parquet": [
+      4446130,
+      1793949959224468200
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2021-02.parquet": [
+      4014473,
+      1793949967997365100
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2021-03.parquet": [
+      4432854,
+      1793949975656068300
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2021-04.parquet": [
+      4254745,
+      1793949981742459300
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2021-05.parquet": [
+      4469975,
+      1793949991551374400
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2021-06.parquet": [
+      4293067,
+      1793949998881500200
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2021-07.parquet": [
+      4411126,
+      1793950006932422300
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2021-08.parquet": [
+      4397991,
+      1793950013383202300
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2021-09.parquet": [
+      4268470,
+      1793950020092246500
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2021-10.parquet": [
+      4429429,
+      1793950030135601400
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2021-11.parquet": [
+      4275052,
+      1793950041211326700
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2021-12.parquet": [
+      4408415,
+      1793950048159539100
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2022-01.parquet": [
+      4414830,
+      1793950073350620800
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2022-02.parquet": [
+      3993343,
+      1793950110484497400
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2022-03.parquet": [
+      4359765,
+      1793950118982098500
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2022-04.parquet": [
+      4212319,
+      1793950124549925600
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2022-05.parquet": [
+      4384736,
+      1793950131415290200
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2022-06.parquet": [
+      4273211,
+      1794191823979125500
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2022-07.parquet": [
+      4436770,
+      1794191829999557400
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2022-08.parquet": [
+      4403968,
+      1794191836840160500
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2022-09.parquet": [
+      4266988,
+      1794191842240850300
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2022-10.parquet": [
+      4319324,
+      1794191849542510600
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2022-11.parquet": [
+      4240176,
+      1794191854596284300
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2022-12.parquet": [
+      4225415,
+      1794191860743248500
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2023-01.parquet": [
+      4388346,
+      1794191868490648100
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2023-02.parquet": [
+      4002260,
+      1794191874577560500
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2023-03.parquet": [
+      4427431,
+      1794191886228146800
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2023-04.parquet": [
+      4143959,
+      1794191892056479600
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2023-05.parquet": [
+      4275960,
+      1794191898597914300
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2023-06.parquet": [
+      4125075,
+      1794191905330850300
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2023-07.parquet": [
+      4070470,
+      1794191912157674700
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2023-08.parquet": [
+      4067425,
+      1794191926555493400
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2023-09.parquet": [
+      3970420,
+      1794191952554756600
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2023-10.parquet": [
+      4229785,
+      1794191969437500800
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2023-11.parquet": [
+      4100130,
+      1794191976442113400
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2023-12.parquet": [
+      4227376,
+      1794191982208783200
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2024-01.parquet": [
+      4287914,
+      1794191988038496000
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2024-02.parquet": [
+      4009698,
+      1794191993067095000
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2024-03.parquet": [
+      4311788,
+      1794191999537675400
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2024-04.parquet": [
+      4154373,
+      1794192005099215700
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2024-05.parquet": [
+      4265558,
+      1794192010762102800
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2024-06.parquet": [
+      4045152,
+      1794192017479652900
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2024-07.parquet": [
+      4186788,
+      1794192023690096500
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2024-08.parquet": [
+      4239806,
+      1794192029592074400
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2024-09.parquet": [
+      4025685,
+      1794192034468098400
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2024-10.parquet": [
+      4191459,
+      1794192060152203700
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2024-11.parquet": [
+      4194415,
+      1794192089037500800
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2024-12.parquet": [
+      4362846,
+      1794192097714726600
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2025-01.parquet": [
+      4409949,
+      1794192110549160100
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2025-02.parquet": [
+      3971164,
+      1794192124584506600
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2025-03.parquet": [
+      4391542,
+      1794192137584640500
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2025-04.parquet": [
+      4223589,
+      1794192153493897300
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2025-05.parquet": [
+      4347424,
+      1794192159366002500
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2025-06.parquet": [
+      4169274,
+      1794192166054006300
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2025-07.parquet": [
+      4248596,
+      1794192173096488100
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/2025-08.parquet": [
+      4311606,
+      1794192179491732900
+    ],
+    "data/processed/binance/spot/BTCUSDT/1m/historical/historical-manifest.json": [
+      642194,
+      1794192181135036100
+    ]
+  },
+  "prior_run_time_metadata": {
+    "source": ".tmp/gate1-d033-revalidation.json",
+    "file_mtime_utc": "2026-11-09T02:46:17.847124+00:00",
+    "meaning": "Artifact last-write timestamp only; prior harness did not instrument start/finish UTC",
+    "elapsed_seconds": 48.31830680009443
+  }
+}

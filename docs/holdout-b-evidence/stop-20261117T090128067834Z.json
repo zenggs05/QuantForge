@@ -1,0 +1,7 @@
+{
+  "error": "All 56 months must contribute to every pooled candidate",
+  "error_type": "AssertionError",
+  "head": "183b8dfe0daf539fecc8a591397a7c177bd02fac",
+  "mode": "formal",
+  "utc": "2026-11-17T09:01:28.067862+00:00"
+}

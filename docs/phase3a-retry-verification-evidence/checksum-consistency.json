@@ -1,0 +1,128 @@
+[
+  {
+    "day": "2020-02-13",
+    "old_file": "D:\\zgs_project\\QuantForge-verification\\binance-spot-daily-1m-full-d041\\failed\\000088.bin",
+    "old_bytes": 91,
+    "old_sha256": "0ceba65b3adbcb5d1811f20609f2656b3467447ef11b2c055bc2801f995929a1",
+    "new_sha256": "0ceba65b3adbcb5d1811f20609f2656b3467447ef11b2c055bc2801f995929a1",
+    "byte_equal": true,
+    "status": "accepted"
+  },
+  {
+    "day": "2020-02-14",
+    "old_file": null,
+    "old_bytes": null,
+    "old_sha256": null,
+    "new_sha256": "ef2f7f048ffc75771dcbde54c6b4f27af0edf174f849cb5c702cfc38e1ca92c3",
+    "byte_equal": null,
+    "status": "accepted"
+  },
+  {
+    "day": "2020-02-15",
+    "old_file": null,
+    "old_bytes": null,
+    "old_sha256": null,
+    "new_sha256": "88a2ea1deb62be8966dbcfd8e92029979ce4bc6a46f842aed37579880524199c",
+    "byte_equal": null,
+    "status": "accepted"
+  },
+  {
+    "day": "2020-02-16",
+    "old_file": null,
+    "old_bytes": null,
+    "old_sha256": null,
+    "new_sha256": "eb88af048a9cbc157f4ec6f91d88d65109bd76aba9ffb9473d2b36bee0cb18ae",
+    "byte_equal": null,
+    "status": "accepted"
+  },
+  {
+    "day": "2020-02-17",
+    "old_file": null,
+    "old_bytes": null,
+    "old_sha256": null,
+    "new_sha256": "3b14188f07bcf20a805a94633d2227a19f890b962a30ed661579834d74e99aac",
+    "byte_equal": null,
+    "status": "accepted"
+  },
+  {
+    "day": "2020-02-18",
+    "old_file": null,
+    "old_bytes": null,
+    "old_sha256": null,
+    "new_sha256": "d07f0d003fa8d85e4cf700e45e96f08121b6199d0b10a90abbb777e58153b72d",
+    "byte_equal": null,
+    "status": "accepted"
+  },
+  {
+    "day": "2020-02-19",
+    "old_file": null,
+    "old_bytes": null,
+    "old_sha256": null,
+    "new_sha256": "a09ac0148155bbba95bd37f927f255915fb4d9939c4327b0423230c7d4207b3f",
+    "byte_equal": null,
+    "status": "accepted"
+  },
+  {
+    "day": "2020-02-20",
+    "old_file": null,
+    "old_bytes": null,
+    "old_sha256": null,
+    "new_sha256": "6e1ff064487df476c080c4ee3765c14130d5cc8a3ca19dabd90b42354de81de8",
+    "byte_equal": null,
+    "status": "accepted"
+  },
+  {
+    "day": "2020-02-21",
+    "old_file": null,
+    "old_bytes": null,
+    "old_sha256": null,
+    "new_sha256": "4bab076a9f07ae6a0f1a1958ed1e3f48da03b6aef0b7632b87bc158da65ca40d",
+    "byte_equal": null,
+    "status": "accepted"
+  },
+  {
+    "day": "2020-02-22",
+    "old_file": null,
+    "old_bytes": null,
+    "old_sha256": null,
+    "new_sha256": "fd019d6a5fc26b55caa280e1b513f1c02d2f23b25bb1bb2a8d567a29949c4a80",
+    "byte_equal": null,
+    "status": "accepted"
+  },
+  {
+    "day": "2020-02-23",
+    "old_file": null,
+    "old_bytes": null,
+    "old_sha256": null,
+    "new_sha256": "85b31f34d5bd6e82f52daccce9b0bb31e719363a187208f8a56adeeaeed501b2",
+    "byte_equal": null,
+    "status": "accepted"
+  },
+  {
+    "day": "2020-02-24",
+    "old_file": null,
+    "old_bytes": null,
+    "old_sha256": null,
+    "new_sha256": "d3b0a5fd1f64579b3c450c8c500f2e7ddf5f943a1a8a059d1ca5957fe3ebf721",
+    "byte_equal": null,
+    "status": "accepted"
+  },
+  {
+    "day": "2020-12-09",
+    "old_file": "D:\\zgs_project\\QuantForge-verification\\binance-spot-daily-1m-full-d041\\failed\\000713.bin",
+    "old_bytes": 91,
+    "old_sha256": "a902b0410f04b913b7ca9d5f06f9da9f9d53bb7dbd160736eca33918db8e22ec",
+    "new_sha256": "a902b0410f04b913b7ca9d5f06f9da9f9d53bb7dbd160736eca33918db8e22ec",
+    "byte_equal": true,
+    "status": "accepted"
+  },
+  {
+    "day": "2024-03-17",
+    "old_file": "D:\\zgs_project\\QuantForge-verification\\binance-spot-daily-1m-full-d041\\failed\\003133.bin",
+    "old_bytes": 91,
+    "old_sha256": "051bffaad17856717344874804fc48cf6414ccd5aeba71bf7f6c75ab2135504f",
+    "new_sha256": "051bffaad17856717344874804fc48cf6414ccd5aeba71bf7f6c75ab2135504f",
+    "byte_equal": true,
+    "status": "accepted"
+  }
+]

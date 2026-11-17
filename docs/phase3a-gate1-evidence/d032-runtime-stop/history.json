@@ -1,0 +1,21 @@
+{
+  "month": "2020-02",
+  "history": [
+    {
+      "result": "fail-then-cleanup",
+      "commit": "1d6e1f2"
+    },
+    {
+      "result": "refetch-success",
+      "implementation_commit": "60581a1bcbd582ee305ebd7e13c2c37fb16010f5",
+      "evidence": "2020-02-refetch-success.json",
+      "documentation_commit_locator": "Git commit introducing this history.json"
+    },
+    {
+      "result": "later-runtime-stop",
+      "month": "2022-06",
+      "evidence": "2022-06-failure.json"
+    }
+  ],
+  "success_commit_note": "No success B/C commit exists: acquisition stopped at 2022-06. The refetch remains successful and its implementation SHA is retained; do not invent a B/C SHA."
+}

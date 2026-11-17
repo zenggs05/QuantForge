@@ -1,0 +1,200 @@
+[
+  {
+    "day": "2020-11-30",
+    "monthly_placeholder": {
+      "daily_missing": 0,
+      "daily_placeholder": 0,
+      "daily_traded": 0
+    },
+    "monthly_missing": {
+      "daily_missing": 60,
+      "daily_placeholder": 0,
+      "daily_traded": 0
+    },
+    "daily_placeholder": {
+      "monthly_missing": 0,
+      "monthly_placeholder": 0,
+      "monthly_traded": 0
+    }
+  },
+  {
+    "day": "2020-12-21",
+    "monthly_placeholder": {
+      "daily_missing": 22,
+      "daily_placeholder": 0,
+      "daily_traded": 28
+    },
+    "monthly_missing": {
+      "daily_missing": 230,
+      "daily_placeholder": 0,
+      "daily_traded": 0
+    },
+    "daily_placeholder": {
+      "monthly_missing": 0,
+      "monthly_placeholder": 0,
+      "monthly_traded": 0
+    }
+  },
+  {
+    "day": "2021-01-11",
+    "monthly_placeholder": {
+      "daily_missing": 0,
+      "daily_placeholder": 0,
+      "daily_traded": 8
+    },
+    "monthly_missing": {
+      "daily_missing": 0,
+      "daily_placeholder": 0,
+      "daily_traded": 0
+    },
+    "daily_placeholder": {
+      "monthly_missing": 0,
+      "monthly_placeholder": 0,
+      "monthly_traded": 0
+    }
+  },
+  {
+    "day": "2021-01-21",
+    "monthly_placeholder": {
+      "daily_missing": 0,
+      "daily_placeholder": 0,
+      "daily_traded": 0
+    },
+    "monthly_missing": {
+      "daily_missing": 0,
+      "daily_placeholder": 0,
+      "daily_traded": 0
+    },
+    "daily_placeholder": {
+      "monthly_missing": 0,
+      "monthly_placeholder": 0,
+      "monthly_traded": 0
+    }
+  },
+  {
+    "day": "2021-02-11",
+    "monthly_placeholder": {
+      "daily_missing": 0,
+      "daily_placeholder": 81,
+      "daily_traded": 0
+    },
+    "monthly_missing": {
+      "daily_missing": 79,
+      "daily_placeholder": 0,
+      "daily_traded": 0
+    },
+    "daily_placeholder": {
+      "monthly_missing": 0,
+      "monthly_placeholder": 81,
+      "monthly_traded": 0
+    }
+  },
+  {
+    "day": "2021-04-22",
+    "monthly_placeholder": {
+      "daily_missing": 0,
+      "daily_placeholder": 0,
+      "daily_traded": 0
+    },
+    "monthly_missing": {
+      "daily_missing": 0,
+      "daily_placeholder": 0,
+      "daily_traded": 0
+    },
+    "daily_placeholder": {
+      "monthly_missing": 0,
+      "monthly_placeholder": 0,
+      "monthly_traded": 0
+    }
+  },
+  {
+    "day": "2021-04-23",
+    "monthly_placeholder": {
+      "daily_missing": 0,
+      "daily_placeholder": 0,
+      "daily_traded": 0
+    },
+    "monthly_missing": {
+      "daily_missing": 0,
+      "daily_placeholder": 0,
+      "daily_traded": 0
+    },
+    "daily_placeholder": {
+      "monthly_missing": 0,
+      "monthly_placeholder": 0,
+      "monthly_traded": 0
+    }
+  },
+  {
+    "day": "2021-09-23",
+    "monthly_placeholder": {
+      "daily_missing": 0,
+      "daily_placeholder": 0,
+      "daily_traded": 0
+    },
+    "monthly_missing": {
+      "daily_missing": 0,
+      "daily_placeholder": 0,
+      "daily_traded": 0
+    },
+    "daily_placeholder": {
+      "monthly_missing": 0,
+      "monthly_placeholder": 0,
+      "monthly_traded": 0
+    }
+  },
+  {
+    "day": "2021-09-29",
+    "monthly_placeholder": {
+      "daily_missing": 0,
+      "daily_placeholder": 0,
+      "daily_traded": 0
+    },
+    "monthly_missing": {
+      "daily_missing": 120,
+      "daily_placeholder": 0,
+      "daily_traded": 0
+    },
+    "daily_placeholder": {
+      "monthly_missing": 0,
+      "monthly_placeholder": 0,
+      "monthly_traded": 0
+    }
+  },
+  {
+    "day": "2022-04-13",
+    "monthly_placeholder": {
+      "daily_missing": 0,
+      "daily_placeholder": 0,
+      "daily_traded": 0
+    },
+    "monthly_missing": {
+      "daily_missing": 0,
+      "daily_placeholder": 0,
+      "daily_traded": 0
+    },
+    "daily_placeholder": {
+      "monthly_missing": 0,
+      "monthly_placeholder": 0,
+      "monthly_traded": 0
+    }
+  },
+  {
+    "day": "2023-03-24",
+    "monthly_placeholder": {
+      "daily_missing": 0,
+      "daily_placeholder": 72,
+      "daily_traded": 0
+    },
+    "monthly_missing": {
+      "daily_missing": 80,
+      "daily_placeholder": 0,
+      "daily_traded": 0
+    },
+    "daily_placeholder": {
+      "monthly_missing": 0,
+      "monthly_placeholder": 72,
+      "monthly_traded": 0
+    }
+  }
+]

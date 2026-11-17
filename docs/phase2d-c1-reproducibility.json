@@ -1,0 +1,597 @@
+{
+  "status": "verified_same_environment_reproduction",
+  "checked_on": "2026-11-03",
+  "formal_run": "results/online-foundation/20261103T045308206581Z-5632721d",
+  "reproduction_run": "results/online-foundation/20261103T045523927874Z-0b7d1d55",
+  "implementation_commit": "9d35923625b0760b9b00d5fae861ef567ffb41b3",
+  "both_git_dirty_false": true,
+  "plan_sha256": "7876d1da1d867fa91184bdcfa2f3c2144142acc2ee9d70bbe6cc54a271d18752",
+  "config_sha256": "e823ec9d599892ba98085162de22c00d08691338d3d19598d9a1bbf0115afc78",
+  "source_manifest_sha256": "6fc42cd53ab30e1282bc9202046edd1fb43e5bc3fa8c44595f1639958c66acb8",
+  "original_summary_sha256": {
+    "formal": "fd1eb54825060905b8c87bb0853ad82fac218a7190494c89773aec93a869df98",
+    "reproduction": "cbf3817394b82261f5084e56f1ffd4122f3059465d64afc5109233be12266cc2"
+  },
+  "deterministic_artifact_count": 16,
+  "all_16_byte_equal": true,
+  "all_20_artifact_hashes_validated_per_run": true,
+  "identical_prediction_rows": 2880,
+  "identical_update_rows": 2880,
+  "identical_batch_checkpoints": 10,
+  "restored_continuation_exact_both": true,
+  "identical_code_dependencies_source_and_operation_counts": true,
+  "unchanged_frozen_reference_sha256": {
+    "summary.json": "7aa9f334a9e5b5f1085edd2362676d86d0898fcdd376f92bb1886efbc3dc6f12",
+    "predictions.parquet": "66f74e1367ed816455d8df2af5c8fdd89009c893aa5fe064df29fe646c86407a"
+  },
+  "artifact_checks": [
+    {
+      "path": "prediction-audit.csv",
+      "formal_sha256": "7490ba9f86703535f00a70d0a0b7ac1b18087074fb1770a6d24c5218a845d9d0",
+      "reproduction_sha256": "7490ba9f86703535f00a70d0a0b7ac1b18087074fb1770a6d24c5218a845d9d0",
+      "deterministic": true,
+      "byte_equal": true
+    },
+    {
+      "path": "update-audit.csv",
+      "formal_sha256": "9738a5cc3bec0296ce48002c2fa39ed996ff648650ffb22bd6414055f7fc3c45",
+      "reproduction_sha256": "9738a5cc3bec0296ce48002c2fa39ed996ff648650ffb22bd6414055f7fc3c45",
+      "deterministic": true,
+      "byte_equal": true
+    },
+    {
+      "path": "batch-equivalence.csv",
+      "formal_sha256": "a4c953702b84f4490f53364eca4d1a5ce5deaf32246700d837c273c725c1e48c",
+      "reproduction_sha256": "a4c953702b84f4490f53364eca4d1a5ce5deaf32246700d837c273c725c1e48c",
+      "deterministic": true,
+      "byte_equal": true
+    },
+    {
+      "path": "batch-timings.csv",
+      "formal_sha256": "2d4d839ee605bde26674249927b230481fbca57bf4b132ea63ab83a500d14c50",
+      "reproduction_sha256": "204990f5dee5edc8f1e42af7ad5cc9d94b928b8d93a4ad9be6628f58a21aaf94",
+      "deterministic": false,
+      "byte_equal": false
+    },
+    {
+      "path": "final-state.json",
+      "formal_sha256": "225e0d0476807c1ee05bbcf3ca10c19ca25b2713183b373a8d1310cbb80bb20e",
+      "reproduction_sha256": "225e0d0476807c1ee05bbcf3ca10c19ca25b2713183b373a8d1310cbb80bb20e",
+      "deterministic": true,
+      "byte_equal": true
+    },
+    {
+      "path": "initial-equivalence.json",
+      "formal_sha256": "7895ca4c78f9c736c5e6ad460dcd4ed506a0fab8f400ef8d3d6d69375bb030e7",
+      "reproduction_sha256": "7895ca4c78f9c736c5e6ad460dcd4ed506a0fab8f400ef8d3d6d69375bb030e7",
+      "deterministic": true,
+      "byte_equal": true
+    },
+    {
+      "path": "checkpoint-audit.json",
+      "formal_sha256": "1d8a7ba171d0050e0df8cecb3893f37887acdae9f6935c866e8340d40f5b30c1",
+      "reproduction_sha256": "6f8b599e3d407f1c919da3b84c23ff4ae0cfa6e8265b34f40db5e650b99f916a",
+      "deterministic": false,
+      "byte_equal": false
+    },
+    {
+      "path": "budget.json",
+      "formal_sha256": "bef44de5c89d38272e98148a9abe251e44d10630b543b6bf83a7083e1b19e995",
+      "reproduction_sha256": "ade09a7ff1c575904d23ee622a69845c4f7c6bfe517c018b196bc820a938886e",
+      "deterministic": false,
+      "byte_equal": false
+    },
+    {
+      "path": "resolved-config.json",
+      "formal_sha256": "214990cc0ba37f1a1918935dd1a4bb001ab4dc95ae165742ca6a842fe2e540b3",
+      "reproduction_sha256": "214990cc0ba37f1a1918935dd1a4bb001ab4dc95ae165742ca6a842fe2e540b3",
+      "deterministic": true,
+      "byte_equal": true
+    },
+    {
+      "path": "report.md",
+      "formal_sha256": "be000eb2e0c622c7d0f95cd68657580a79d97e5edb6d0f4504e9397efc7e2732",
+      "reproduction_sha256": "1a09f156896d33fd1bba664eb06f999565645c7fcaa09e749926202bb4657ae7",
+      "deterministic": false,
+      "byte_equal": false
+    },
+    {
+      "path": "checkpoints/h15-event0.json",
+      "formal_sha256": "58d33d108690703fa74738f8f12faaef0bdd0924775ae0ce46a9e79c173543ba",
+      "reproduction_sha256": "58d33d108690703fa74738f8f12faaef0bdd0924775ae0ce46a9e79c173543ba",
+      "deterministic": true,
+      "byte_equal": true
+    },
+    {
+      "path": "checkpoints/h15-event360.json",
+      "formal_sha256": "5b6d1587ddf5a67ddb8cca517aa18aa083982964523d150d0e68066723dc9f1a",
+      "reproduction_sha256": "5b6d1587ddf5a67ddb8cca517aa18aa083982964523d150d0e68066723dc9f1a",
+      "deterministic": true,
+      "byte_equal": true
+    },
+    {
+      "path": "checkpoints/h15-event720.json",
+      "formal_sha256": "d92f098cf5f8ab851b24c24cf01e8d95aa02a34e5924111537b5efcb44c44b51",
+      "reproduction_sha256": "d92f098cf5f8ab851b24c24cf01e8d95aa02a34e5924111537b5efcb44c44b51",
+      "deterministic": true,
+      "byte_equal": true
+    },
+    {
+      "path": "checkpoints/h15-event1080.json",
+      "formal_sha256": "a4958bb7f8c46cdecfbdf93db135b0bee2d44c6bbe9bf87d184cef706f5dd46c",
+      "reproduction_sha256": "a4958bb7f8c46cdecfbdf93db135b0bee2d44c6bbe9bf87d184cef706f5dd46c",
+      "deterministic": true,
+      "byte_equal": true
+    },
+    {
+      "path": "checkpoints/h15-event1440.json",
+      "formal_sha256": "634af2564858673a592df39091ae47447f9924fc80cec89fa14c0f905ac88c38",
+      "reproduction_sha256": "634af2564858673a592df39091ae47447f9924fc80cec89fa14c0f905ac88c38",
+      "deterministic": true,
+      "byte_equal": true
+    },
+    {
+      "path": "checkpoints/h5-event0.json",
+      "formal_sha256": "6adfd6f93b9b79ada57a5ff54ae2c56d1bd99836e9fa94614ae207cf3865adfd",
+      "reproduction_sha256": "6adfd6f93b9b79ada57a5ff54ae2c56d1bd99836e9fa94614ae207cf3865adfd",
+      "deterministic": true,
+      "byte_equal": true
+    },
+    {
+      "path": "checkpoints/h5-event360.json",
+      "formal_sha256": "52725fb08dca291f2d23dd078cfdc11a49dca5a4d344f70e5706cb6025b03922",
+      "reproduction_sha256": "52725fb08dca291f2d23dd078cfdc11a49dca5a4d344f70e5706cb6025b03922",
+      "deterministic": true,
+      "byte_equal": true
+    },
+    {
+      "path": "checkpoints/h5-event720.json",
+      "formal_sha256": "3e6b71290a5978c546938ce068a54c2f372266da224b65321d563f52c1b0fcea",
+      "reproduction_sha256": "3e6b71290a5978c546938ce068a54c2f372266da224b65321d563f52c1b0fcea",
+      "deterministic": true,
+      "byte_equal": true
+    },
+    {
+      "path": "checkpoints/h5-event1080.json",
+      "formal_sha256": "a996d2089b3f6411ded25354ebd0dd08c17a8cff837756e2b6f43e8b79008a19",
+      "reproduction_sha256": "a996d2089b3f6411ded25354ebd0dd08c17a8cff837756e2b6f43e8b79008a19",
+      "deterministic": true,
+      "byte_equal": true
+    },
+    {
+      "path": "checkpoints/h5-event1440.json",
+      "formal_sha256": "eb7c05cf5f679611d268976ce112a80816f5c8fd4d07ea727a1aabd9a4ec4e09",
+      "reproduction_sha256": "eb7c05cf5f679611d268976ce112a80816f5c8fd4d07ea727a1aabd9a4ec4e09",
+      "deterministic": true,
+      "byte_equal": true
+    }
+  ],
+  "allowed_summary_differences": [
+    {
+      "path": "/run_id",
+      "formal": "20261103T045308206581Z-5632721d",
+      "reproduction": "20261103T045523927874Z-0b7d1d55"
+    },
+    {
+      "path": "/run_kind",
+      "formal": "formal",
+      "reproduction": "reproduction"
+    },
+    {
+      "path": "/output_directory",
+      "formal": "results/online-foundation/20261103T045308206581Z-5632721d",
+      "reproduction": "results/online-foundation/20261103T045523927874Z-0b7d1d55"
+    },
+    {
+      "path": "/source/elapsed_seconds",
+      "formal": 2.747385499998927,
+      "reproduction": 2.5809536000015214
+    },
+    {
+      "path": "/budget/horizons/0/initial_model/timings_seconds/initialize",
+      "formal": 0.08106639998732135,
+      "reproduction": 0.08505000000877772
+    },
+    {
+      "path": "/budget/horizons/0/initial_model/timings_seconds/solve",
+      "formal": 0.00043259999074507505,
+      "reproduction": 0.0004604999994626269
+    },
+    {
+      "path": "/budget/horizons/0/formal_event_loop_including_checkpoints_seconds",
+      "formal": 4.082131500006653,
+      "reproduction": 4.462971100001596
+    },
+    {
+      "path": "/budget/horizons/0/formal/model/timings_seconds/initialize",
+      "formal": 0.08106639998732135,
+      "reproduction": 0.08505000000877772
+    },
+    {
+      "path": "/budget/horizons/0/formal/model/timings_seconds/update",
+      "formal": 0.06698930039419793,
+      "reproduction": 0.07081089989515021
+    },
+    {
+      "path": "/budget/horizons/0/formal/model/timings_seconds/solve",
+      "formal": 0.2282497002306627,
+      "reproduction": 0.2420073001558194
+    },
+    {
+      "path": "/budget/horizons/0/formal/model/timings_seconds/predict",
+      "formal": 0.023063400469254702,
+      "reproduction": 0.024504199987859465
+    },
+    {
+      "path": "/budget/horizons/0/formal/runtime/feature_access_seconds",
+      "formal": 0.2604358997341478,
+      "reproduction": 0.28064790010103025
+    },
+    {
+      "path": "/budget/horizons/0/formal/runtime/label_access_seconds",
+      "formal": 1.8974863000476034,
+      "reproduction": 2.0053576001228066
+    },
+    {
+      "path": "/budget/horizons/0/formal/runtime/update_seconds",
+      "formal": 0.070692700042855,
+      "reproduction": 0.07487149978987873
+    },
+    {
+      "path": "/budget/horizons/0/formal/runtime/solve_seconds",
+      "formal": 0.22947270009899512,
+      "reproduction": 0.24334460018144455
+    },
+    {
+      "path": "/budget/horizons/0/formal/runtime/prediction_seconds",
+      "formal": 0.0257034999813186,
+      "reproduction": 0.02744010032620281
+    },
+    {
+      "path": "/budget/horizons/0/formal/runtime/checkpoint_save_seconds",
+      "formal": 0.16031219997967128,
+      "reproduction": 0.17164359999878798
+    },
+    {
+      "path": "/budget/horizons/0/recovery/model/timings_seconds/update",
+      "formal": 0.03245020027679857,
+      "reproduction": 0.0339175003755372
+    },
+    {
+      "path": "/budget/horizons/0/recovery/model/timings_seconds/solve",
+      "formal": 0.10876860005373601,
+      "reproduction": 0.11440650020085741
+    },
+    {
+      "path": "/budget/horizons/0/recovery/model/timings_seconds/predict",
+      "formal": 0.011009299953002483,
+      "reproduction": 0.011682699914672412
+    },
+    {
+      "path": "/budget/horizons/0/recovery/model/timings_seconds/state_load",
+      "formal": 0.0009175999875878915,
+      "reproduction": 0.0011439999943831936
+    },
+    {
+      "path": "/budget/horizons/0/recovery/runtime/feature_access_seconds",
+      "formal": 0.12371959995653015,
+      "reproduction": 0.12889079979504459
+    },
+    {
+      "path": "/budget/horizons/0/recovery/runtime/label_access_seconds",
+      "formal": 0.909477100125514,
+      "reproduction": 0.9419092999887653
+    },
+    {
+      "path": "/budget/horizons/0/recovery/runtime/update_seconds",
+      "formal": 0.0341813000413822,
+      "reproduction": 0.035785099942586385
+    },
+    {
+      "path": "/budget/horizons/0/recovery/runtime/solve_seconds",
+      "formal": 0.1095648996415548,
+      "reproduction": 0.11523270026373211
+    },
+    {
+      "path": "/budget/horizons/0/recovery/runtime/prediction_seconds",
+      "formal": 0.01226180003141053,
+      "reproduction": 0.013112699831253849
+    },
+    {
+      "path": "/budget/horizons/0/recovery/runtime/checkpoint_load_seconds",
+      "formal": 0.19542240000737365,
+      "reproduction": 0.21415089999209158
+    },
+    {
+      "path": "/budget/horizons/0/recovery_continuation_seconds",
+      "formal": 1.5178245999995852,
+      "reproduction": 1.5782584999979008
+    },
+    {
+      "path": "/budget/horizons/0/checkpoint_load_seconds",
+      "formal": 0.19575590000022203,
+      "reproduction": 0.21444830000109505
+    },
+    {
+      "path": "/budget/horizons/1/initial_model/timings_seconds/initialize",
+      "formal": 0.05885420000413433,
+      "reproduction": 0.06016700000327546
+    },
+    {
+      "path": "/budget/horizons/1/initial_model/timings_seconds/solve",
+      "formal": 0.00029399999766610563,
+      "reproduction": 0.0003015000111190602
+    },
+    {
+      "path": "/budget/horizons/1/formal_event_loop_including_checkpoints_seconds",
+      "formal": 4.006440400000429,
+      "reproduction": 4.386307900000247
+    },
+    {
+      "path": "/budget/horizons/1/formal/model/timings_seconds/initialize",
+      "formal": 0.05885420000413433,
+      "reproduction": 0.06016700000327546
+    },
+    {
+      "path": "/budget/horizons/1/formal/model/timings_seconds/update",
+      "formal": 0.06680110053275712,
+      "reproduction": 0.07381469986285083
+    },
+    {
+      "path": "/budget/horizons/1/formal/model/timings_seconds/solve",
+      "formal": 0.21982339963142294,
+      "reproduction": 0.245867900113808
+    },
+    {
+      "path": "/budget/horizons/1/formal/model/timings_seconds/predict",
+      "formal": 0.022510599796078168,
+      "reproduction": 0.024912199965910986
+    },
+    {
+      "path": "/budget/horizons/1/formal/runtime/feature_access_seconds",
+      "formal": 0.25554539941367693,
+      "reproduction": 0.27994470004341565
+    },
+    {
+      "path": "/budget/horizons/1/formal/runtime/label_access_seconds",
+      "formal": 1.853421499603428,
+      "reproduction": 2.0310818003636086
+    },
+    {
+      "path": "/budget/horizons/1/formal/runtime/update_seconds",
+      "formal": 0.07027640043816064,
+      "reproduction": 0.07770509985857643
+    },
+    {
+      "path": "/budget/horizons/1/formal/runtime/solve_seconds",
+      "formal": 0.2211382998211775,
+      "reproduction": 0.24728280017734505
+    },
+    {
+      "path": "/budget/horizons/1/formal/runtime/prediction_seconds",
+      "formal": 0.02521909977076575,
+      "reproduction": 0.027757199568441138
+    },
+    {
+      "path": "/budget/horizons/1/formal/runtime/checkpoint_save_seconds",
+      "formal": 0.15748930000700057,
+      "reproduction": 0.17437360000621993
+    },
+    {
+      "path": "/budget/horizons/1/recovery/model/timings_seconds/update",
+      "formal": 0.032478799985256046,
+      "reproduction": 0.03274109998892527
+    },
+    {
+      "path": "/budget/horizons/1/recovery/model/timings_seconds/solve",
+      "formal": 0.10970509982143994,
+      "reproduction": 0.1088387000199873
+    },
+    {
+      "path": "/budget/horizons/1/recovery/model/timings_seconds/predict",
+      "formal": 0.01111980015411973,
+      "reproduction": 0.011120800074422732
+    },
+    {
+      "path": "/budget/horizons/1/recovery/model/timings_seconds/state_load",
+      "formal": 0.0012458999990485609,
+      "reproduction": 0.0009329000022262335
+    },
+    {
+      "path": "/budget/horizons/1/recovery/runtime/feature_access_seconds",
+      "formal": 0.12537670017627534,
+      "reproduction": 0.12485770026978571
+    },
+    {
+      "path": "/budget/horizons/1/recovery/runtime/label_access_seconds",
+      "formal": 0.9139593999279896,
+      "reproduction": 0.9159455998742487
+    },
+    {
+      "path": "/budget/horizons/1/recovery/runtime/update_seconds",
+      "formal": 0.034174200089182705,
+      "reproduction": 0.034493099912651815
+    },
+    {
+      "path": "/budget/horizons/1/recovery/runtime/solve_seconds",
+      "formal": 0.11050130023795646,
+      "reproduction": 0.10964330004935618
+    },
+    {
+      "path": "/budget/horizons/1/recovery/runtime/prediction_seconds",
+      "formal": 0.012434399861376733,
+      "reproduction": 0.012463899765862152
+    },
+    {
+      "path": "/budget/horizons/1/recovery/runtime/checkpoint_load_seconds",
+      "formal": 0.20335460000205785,
+      "reproduction": 0.18895799999882001
+    },
+    {
+      "path": "/budget/horizons/1/recovery_continuation_seconds",
+      "formal": 1.5285088999953587,
+      "reproduction": 1.533006400000886
+    },
+    {
+      "path": "/budget/horizons/1/checkpoint_load_seconds",
+      "formal": 0.20468140000593849,
+      "reproduction": 0.19012890000885818
+    },
+    {
+      "path": "/budget/batch_fit_seconds",
+      "formal": 1.2694877999892924,
+      "reproduction": 1.423449800015078
+    },
+    {
+      "path": "/budget/checkpoint_save_seconds",
+      "formal": 0.32393309999315534,
+      "reproduction": 0.35549409996019676
+    },
+    {
+      "path": "/budget/stage_timings/frozen_reference_validation_seconds",
+      "formal": 0.03190300001006108,
+      "reproduction": 0.031629900011466816
+    },
+    {
+      "path": "/budget/stage_timings/data_load_seconds",
+      "formal": 2.7971942000003764,
+      "reproduction": 2.628479100007098
+    },
+    {
+      "path": "/budget/stage_timings/feature_build_seconds",
+      "formal": 0.29365859999961685,
+      "reproduction": 0.31390220001048874
+    },
+    {
+      "path": "/budget/memory/peak_process_bytes",
+      "formal": 670986240,
+      "reproduction": 711929856
+    },
+    {
+      "path": "/budget/memory/current_process_bytes",
+      "formal": 440430592,
+      "reproduction": 497868800
+    },
+    {
+      "path": "/artifacts_sha256/batch-timings.csv",
+      "formal": "2d4d839ee605bde26674249927b230481fbca57bf4b132ea63ab83a500d14c50",
+      "reproduction": "204990f5dee5edc8f1e42af7ad5cc9d94b928b8d93a4ad9be6628f58a21aaf94"
+    },
+    {
+      "path": "/artifacts_sha256/checkpoint-audit.json",
+      "formal": "1d8a7ba171d0050e0df8cecb3893f37887acdae9f6935c866e8340d40f5b30c1",
+      "reproduction": "6f8b599e3d407f1c919da3b84c23ff4ae0cfa6e8265b34f40db5e650b99f916a"
+    },
+    {
+      "path": "/artifacts_sha256/budget.json",
+      "formal": "bef44de5c89d38272e98148a9abe251e44d10630b543b6bf83a7083e1b19e995",
+      "reproduction": "ade09a7ff1c575904d23ee622a69845c4f7c6bfe517c018b196bc820a938886e"
+    },
+    {
+      "path": "/artifacts_sha256/report.md",
+      "formal": "be000eb2e0c622c7d0f95cd68657580a79d97e5edb6d0f4504e9397efc7e2732",
+      "reproduction": "1a09f156896d33fd1bba664eb06f999565645c7fcaa09e749926202bb4657ae7"
+    },
+    {
+      "path": "/elapsed_seconds",
+      "formal": 17.08524580000085,
+      "reproduction": 17.886686600002577
+    }
+  ],
+  "unexpected_summary_differences": [],
+  "real_batch_error_maxima": {
+    "coefficient_max_abs_error": 1.916557190728696e-13,
+    "coefficient_max_relative_error": 8.012613965453407e-11,
+    "intercept_abs_error": 5.180453505407301e-18,
+    "intercept_relative_error": 1.901344442098518e-13,
+    "prediction_max_abs_error": 1.475404000361724e-14,
+    "prediction_l2_error": 3.98035631763633e-14,
+    "prediction_relative_l2_error": 1.7876320586613474e-11,
+    "condition_number": 51989.059907533476
+  },
+  "formal_operation_totals": {
+    "initial_fits": 2,
+    "formal_updates": 2880,
+    "formal_solves_including_initial": 2882,
+    "formal_condition_eigendecompositions": 2882,
+    "formal_cholesky_factorizations": 2882,
+    "formal_training_row_visits": 524018,
+    "recovery_extra_updates": 1440,
+    "recovery_extra_solves": 1440,
+    "checkpoint_load_validation_eigendecompositions": 4,
+    "duplicate_replay_attempts": 2,
+    "formal_rejected_queue_operations": 0
+  },
+  "reproduction_operation_totals": {
+    "initial_fits": 2,
+    "formal_updates": 2880,
+    "formal_solves_including_initial": 2882,
+    "formal_condition_eigendecompositions": 2882,
+    "formal_cholesky_factorizations": 2882,
+    "formal_training_row_visits": 524018,
+    "recovery_extra_updates": 1440,
+    "recovery_extra_solves": 1440,
+    "checkpoint_load_validation_eigendecompositions": 4,
+    "duplicate_replay_attempts": 2,
+    "formal_rejected_queue_operations": 0
+  },
+  "elapsed_seconds": {
+    "formal": 17.08524580000085,
+    "reproduction": 17.886686600002577
+  },
+  "peak_process_bytes": {
+    "formal": 670986240,
+    "reproduction": 711929856
+  },
+  "copied_aggregate_evidence": [
+    {
+      "path": "docs/phase2d-c1-evidence/batch-equivalence.csv",
+      "source": "results/online-foundation/20261103T045308206581Z-5632721d/batch-equivalence.csv",
+      "sha256": "a4c953702b84f4490f53364eca4d1a5ce5deaf32246700d837c273c725c1e48c"
+    },
+    {
+      "path": "docs/phase2d-c1-evidence/batch-timings.csv",
+      "source": "results/online-foundation/20261103T045308206581Z-5632721d/batch-timings.csv",
+      "sha256": "2d4d839ee605bde26674249927b230481fbca57bf4b132ea63ab83a500d14c50"
+    },
+    {
+      "path": "docs/phase2d-c1-evidence/initial-equivalence.json",
+      "source": "results/online-foundation/20261103T045308206581Z-5632721d/initial-equivalence.json",
+      "sha256": "7895ca4c78f9c736c5e6ad460dcd4ed506a0fab8f400ef8d3d6d69375bb030e7"
+    },
+    {
+      "path": "docs/phase2d-c1-evidence/budget.json",
+      "source": "results/online-foundation/20261103T045308206581Z-5632721d/budget.json",
+      "sha256": "bef44de5c89d38272e98148a9abe251e44d10630b543b6bf83a7083e1b19e995"
+    },
+    {
+      "path": "docs/phase2d-c1-evidence/checkpoint-audit.json",
+      "source": "results/online-foundation/20261103T045308206581Z-5632721d/checkpoint-audit.json",
+      "sha256": "1d8a7ba171d0050e0df8cecb3893f37887acdae9f6935c866e8340d40f5b30c1"
+    },
+    {
+      "path": "docs/phase2d-c1-evidence/synthetic-equivalence.json",
+      "source": "results/phase2d-c1-synthetic-equivalence.json",
+      "sha256": "887e43053827ae8ff0ffa7817f5839748e69d804f01bb264486c66bc01c6db55"
+    }
+  ],
+  "original_scope_flags": {
+    "holdout_accessed": false,
+    "new_market_downloads": false,
+    "alpha_evaluated": false,
+    "trading_implemented": false
+  },
+  "tests": {
+    "original": 345,
+    "new": 139,
+    "total": 484,
+    "passed": 484,
+    "full_suite_seconds": 77.22
+  },
+  "limitations": [
+    "Same host and dependency environment; byte equality is an observation, not a cross-platform guarantee.",
+    "Aggregate documents exclude per-minute forecasts, updates and checkpoint histories; these remain Git-ignored.",
+    "Timing, process memory and run identity differ; no unexpected numerical/event/count/source differences.",
+    "No fresh out-of-sample alpha, full March-June comparison, market latency or execution claim."
+  ]
+}

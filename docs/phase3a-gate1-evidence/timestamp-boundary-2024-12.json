@@ -1,0 +1,8 @@
+{
+  "month": "2024-12",
+  "expected_unit": "ms",
+  "detected_unit": "ms",
+  "first_open_raw": "1733011200000",
+  "first_open_parsed_utc": "2024-12-01T00:00:00+00:00",
+  "last_open_parsed_utc": "2024-12-31T23:59:00+00:00"
+}

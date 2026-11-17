@@ -1,0 +1,6 @@
+{"argv": ["scripts/run_holdout_b.py", "download"], "event": "start", "exit_code": null, "head": "ecbff80efd539d2daa99bee6b3f365d66945e549", "launch": 1, "mode": "download", "utc": "2026-11-17T08:59:23.153684+00:00"}
+{"argv": ["scripts/run_holdout_b.py", "download"], "event": "end", "exit_code": 0, "head": "ecbff80efd539d2daa99bee6b3f365d66945e549", "launch": 1, "mode": "download", "utc": "2026-11-17T08:59:28.095144+00:00"}
+{"argv": ["scripts/run_holdout_b.py", "audit"], "event": "start", "exit_code": null, "head": "ecbff80efd539d2daa99bee6b3f365d66945e549", "launch": 2, "mode": "audit", "utc": "2026-11-17T09:00:04.908674+00:00"}
+{"argv": ["scripts/run_holdout_b.py", "audit"], "event": "end", "exit_code": 0, "head": "ecbff80efd539d2daa99bee6b3f365d66945e549", "launch": 2, "mode": "audit", "utc": "2026-11-17T09:00:13.822378+00:00"}
+{"argv": ["scripts/run_holdout_b.py", "formal"], "event": "start", "exit_code": null, "head": "183b8dfe0daf539fecc8a591397a7c177bd02fac", "launch": 3, "mode": "formal", "utc": "2026-11-17T09:01:10.887981+00:00"}
+{"argv": ["scripts/run_holdout_b.py", "formal"], "event": "end", "exit_code": 1, "head": "183b8dfe0daf539fecc8a591397a7c177bd02fac", "launch": 3, "mode": "formal", "utc": "2026-11-17T09:01:28.070333+00:00"}

@@ -1,0 +1,163 @@
+{
+  "status": "passed",
+  "input_rows": 1053840,
+  "paired_rows": 351280,
+  "groups": [
+    {
+      "month": "2026-03",
+      "role": "validation",
+      "fold": 1,
+      "horizon_minutes": 5,
+      "paired_rows": 44635
+    },
+    {
+      "month": "2026-03",
+      "role": "validation",
+      "fold": 1,
+      "horizon_minutes": 15,
+      "paired_rows": 44625
+    },
+    {
+      "month": "2026-04",
+      "role": "validation",
+      "fold": 2,
+      "horizon_minutes": 5,
+      "paired_rows": 43195
+    },
+    {
+      "month": "2026-04",
+      "role": "validation",
+      "fold": 2,
+      "horizon_minutes": 15,
+      "paired_rows": 43185
+    },
+    {
+      "month": "2026-05",
+      "role": "development_evaluation",
+      "fold": 3,
+      "horizon_minutes": 5,
+      "paired_rows": 44635
+    },
+    {
+      "month": "2026-05",
+      "role": "development_evaluation",
+      "fold": 3,
+      "horizon_minutes": 15,
+      "paired_rows": 44625
+    },
+    {
+      "month": "2026-06",
+      "role": "development_evaluation",
+      "fold": 4,
+      "horizon_minutes": 5,
+      "paired_rows": 43195
+    },
+    {
+      "month": "2026-06",
+      "role": "development_evaluation",
+      "fold": 4,
+      "horizon_minutes": 15,
+      "paired_rows": 43185
+    }
+  ],
+  "prediction_key": [
+    "bar_open_time",
+    "horizon_minutes",
+    "model"
+  ],
+  "pair_key": [
+    "bar_open_time",
+    "horizon_minutes"
+  ],
+  "dropped_rows": 0,
+  "loss_difference_definition": "Ridge loss minus comparator loss; negative favors Ridge",
+  "source_months": [
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06"
+  ],
+  "holdout_accessed": false,
+  "model_versions": {
+    "2026-03/15/zero": "36fe5b5b27d47848f734c2eff4990eb560c354c411715afc16ec820f24b789eb",
+    "2026-03/15/historical_mean": "c8a85e31466801a5b6bcb830fc34a158d5591eaea3ff36c409c43a2c47153182",
+    "2026-03/15/ridge": "9a0268c7142884864b47af0e190f9a979ff0880bbdf3260bbf1690a307551085",
+    "2026-04/15/zero": "309fd1117aebbe29fd89737a2fd34edff1cfb3cd5ec9a5d4f4cbb58a34c780ca",
+    "2026-04/15/historical_mean": "81908b9adc68ae639f5c9f9cc23f4ae6b7435615f4ee4ec50ed536a8f50f0a2a",
+    "2026-04/15/ridge": "3276fb252da56da46e921bf4f0c6351718a7a526fa391f7ab55b34ad6ff8057d",
+    "2026-05/15/zero": "ac0eb2bdfa4005f7b9142eeef65e241b52c6f73fd996d91df0e287fa0a606962",
+    "2026-05/15/historical_mean": "8b7603d799752065c161ce14f1a07875fd6ac004f4e3f4d39e62411973660366",
+    "2026-05/15/ridge": "3c1fb9b0d32f2d8729389632d9f5d056773c3a7707d11609a2ed2c1b1f828764",
+    "2026-06/15/zero": "47c28cd2e2d1e6730a839579512cf1dc4a0eadfe9796edb67f25ef1686c3620b",
+    "2026-06/15/historical_mean": "c6edbb951e62f9230204b7bddbab8ffafe4821b98713b6c91f5b62aac58821e1",
+    "2026-06/15/ridge": "13751f8adbdbdd097ea636cd39e658bc96d82a2853c8b8e170c51bc467be3b29",
+    "2026-03/5/zero": "28bc54f65625e4799743890023e4502ef9fc19f942f830e4c867e79525e39b7c",
+    "2026-03/5/historical_mean": "8441ce333f7f1663c7f2040d59ded55e7c89b80ce291e03065e420f161d21504",
+    "2026-03/5/ridge": "1f1003212e048ab5e12f397361142c01832be4ba83d1226ba5be341532ae190c",
+    "2026-04/5/zero": "0ce949fdb7db1b4a638afd2d0fcd708e6999c0e100dcaae2181b4cf4d6f9f785",
+    "2026-04/5/historical_mean": "f992cee33e365c57f07d539122ade7c90a3a808d24ecc1146e940c84f3880e9b",
+    "2026-04/5/ridge": "042cb23284eee5a893596d3a8be36d91bbed58e81091b1ecec07b8d89b9ec8b9",
+    "2026-05/5/zero": "18ce43909349acf668024069adafc0901dc50a77c11d882fac5a422ff92e3417",
+    "2026-05/5/historical_mean": "864182c2a6e377d4ec77f638fddd4368f5ea7ee11657bda8d46f2ba8871b5936",
+    "2026-05/5/ridge": "efa608b1ffc98c96183c565a6dffe40a81aa0a11c227a1ff6b59597fa059c805",
+    "2026-06/5/zero": "7caf433de975659dfc62f6a995b9fffdd5184af96118bc4c6ade2e2686066582",
+    "2026-06/5/historical_mean": "414e8fb1f19aceed40d122ebcde987d9a6eb39abb0e47c17d712c744d1076407",
+    "2026-06/5/ridge": "fd78072ce930c05a9985980f3ca11e1f1e55de7809b83ff2e7d527aa73843d9f"
+  },
+  "interpretation": "Artifact/metadata consistency, not an independent reconstruction of fitted models or market data.",
+  "mode": "frozen_production_artifact",
+  "baseline_run_id": "20261103T010111153259Z-a2cb0858",
+  "baseline_git_commit": "a431190283c7c508751d4175a45ec84bff5e4bcf",
+  "baseline_git_dirty": false,
+  "summary_path": "results/research-baseline/20261103T010111153259Z-a2cb0858/summary.json",
+  "summary_sha256": "7aa9f334a9e5b5f1085edd2362676d86d0898fcdd376f92bb1886efbc3dc6f12",
+  "predictions_path": "results/research-baseline/20261103T010111153259Z-a2cb0858/predictions.parquet",
+  "predictions_sha256": "66f74e1367ed816455d8df2af5c8fdd89009c893aa5fe064df29fe646c86407a",
+  "plan_path": "docs/phase2c-analysis-plan.md",
+  "plan_sha256": "1dcb6c79d947a3c13e478efb367a1d77e8e3d671698fc0b6fb2c1864daac40d3",
+  "plan_manifest_sha256": "58e53fd4555c36731ded26b23edb86dc5a6296a6d078269e030dce2f42870500",
+  "verified_source_manifests": {
+    "data/processed/binance/spot/BTCUSDT/1m/development-manifest.json": "6fc42cd53ab30e1282bc9202046edd1fb43e5bc3fa8c44595f1639958c66acb8",
+    "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2025-09.json": "4327b550adbeca7629f2ddce884bc990c46afafc10f6610a91d7cad7019490ae",
+    "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2025-10.json": "abce20ad223b92afe304eb749c6aeaa4dc2099d25194eadf228b4ae93d2f2c95",
+    "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2025-11.json": "9fb672a5150a871e0bd80611069a2fe7311e46c4b78c246cb59ac5ecbf155d38",
+    "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2025-12.json": "8d24266b91a286dde3bcf15b70b36dcc815bb0686e4ed251dfd8d81352ec2251",
+    "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2026-01.json": "a7c9010e90324ac5df5703256a23fe7edc17224f0705fac1e7a1f726f436f11f",
+    "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2026-02.json": "d4bf7a8205bceeb16eae6393caf05632eedff9449daf1ea157785586d541a645",
+    "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2026-03.json": "40fa703c0a47ace428d246e55f5cba68b1b6fb68a884ee011903a733689753d1",
+    "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2026-04.json": "d5ee06da3a8966d31257b977404fcc048f47b113e27c6dfd4ee7e6295c058f9a",
+    "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2026-05.json": "aadd40028fbe7947b9f8392a3756d7551cc5ade6c5ba203af96b0523866fcc04",
+    "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2026-06.json": "904eec1c3ca69239c2f0ff4f66c2c33aacbb6a8851044c076dd9126985160602"
+  },
+  "baseline_source_code_sha256": {
+    "src/quantforge/__init__.py": "055268edd0b6f5c5ac561cd9dd4f7380da97ec7fa1a761f2c958b8d3ee822ddd",
+    "src/quantforge/data.py": "4580169fe8d3b604c395c6bfca9ef4dae493f468ca0104d672bcd83f3b38c484",
+    "src/quantforge/data_monthly.py": "1a436fed8abc4199cd9274dcfdcdd9aac1e429382f24b2f30bddb4cf85fa14c4",
+    "src/quantforge/datasets/__init__.py": "d94ef065433363f556a2e8e51355553d882edef9ccc8295eb135d3b64b3157cb",
+    "src/quantforge/datasets/research_dataset.py": "fde22a50a96492a4fc506ba7c98209fda1a70379153f0d01570c9ae761c4cb80",
+    "src/quantforge/datasets/research_splits.py": "22c862f6e8e232dedfe17c3a9832f5b7d78737de1593d6b904e2c29c5949919c",
+    "src/quantforge/datasets/splits.py": "3459e5be5185eee2638709c3db4250e150d8e1deff140d1459882cb5257d93cd",
+    "src/quantforge/experiment.py": "ca3a43fa3bfc9b3f27409c538de2d1a43eb9911a0b61fac549c08a12d0b10420",
+    "src/quantforge/features/__init__.py": "857819a0c3c718cf2b1100ea72995db989ed149f65d1ad3d5e4cd3eda1fcbec1",
+    "src/quantforge/labels/__init__.py": "b968218639387cb82ab1beccef5c5bf3ed3674e5975c3d2b25cb4d318037746e",
+    "src/quantforge/models/__init__.py": "6efe9a59a752b71f67d386633ef71ca6b0bce5bd27d650b5201d21e8c321d973",
+    "src/quantforge/models/baselines.py": "a9269ca7f6147f653f608051746304596e898f49ec30f9e1714567e25a1ded83",
+    "src/quantforge/research_experiment.py": "9f24440f559f7283ee5b67ab2988b3dac3e7a02aee4c0ef2facc08bd6b9caf41",
+    "src/quantforge/research_policy.py": "91dc87fb977468034ec1a734eb367a06007f1580eb272501c2f6edb3d9a39ff6",
+    "src/quantforge/temporal.py": "6c262bbd1c77e6696c7d310eb31b321f3f27ffeea02fbd64a70f3dcee9bd648c",
+    "scripts/run_baseline.py": "8a362f6c10d865aef2846a2f3faacdba49517ecd297ffb63cd64fd950a4de1a5",
+    "pyproject.toml": "f16ae14e902b2bfb059095637d71fa461a9c8a5c4485cd2c146f4f236d98d675",
+    "uv.lock": "f2fdfdee8144eb1240cbc1edcad7bb6d24cdf795dbcfd383e2499798dea48c19",
+    "requirements-lock.txt": "1c62be2a6041eaf239088479ea3cb49cb5634ffa136c3da2dbcf499358b40bad",
+    "scripts/run_research_baseline.py": "1972df7eaeaf80cb6481e5a23a38283ec9311fe2540a7f86755c88d82ec1d02b",
+    "configs/research-baseline.toml": "a344b39f651254e2a2b033184d95b8431a6b151f611679292b54a93410ddc05c",
+    "configs/research-periods.toml": "ff3fdc4912e3c894c00f67bd1a0713adc5956ea16386d3a463c38a29f6f50593"
+  },
+  "market_bar_payloads_read": false
+}

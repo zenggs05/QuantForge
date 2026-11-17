@@ -1,0 +1,78 @@
+{
+  "15": {
+    "checkpoint-audit.json": {
+      "core": {
+        "bytes": 28476,
+        "name": "core.json",
+        "sha256": "19e5d8e0582939e4251c634c311652a63d939a6fee98aa78de0c5a207f307bb7"
+      },
+      "log": {
+        "bytes": 83539,
+        "head": "0c20eb5f012341b143141d7e5c8346f5d2b32bfd5cfc34f3e6098600e0a4c42c",
+        "name": "events.jsonl",
+        "rows": 45,
+        "sha256": "c6df1f474c8757050ef72e845f3b06356f0c7b755ff594fbf6e2a96394fc1112"
+      },
+      "schema_version": 2,
+      "summary": {
+        "bytes": 361,
+        "name": "summary.json",
+        "sha256": "3c8f10e72237a799fad1758c44d208d863ae02812a821be9f4582ef69c27c605"
+      }
+    },
+    "summary.json": {
+      "history": {
+        "events": 45,
+        "predictions": 45,
+        "updates": 45
+      },
+      "log": {
+        "bytes": 83539,
+        "head": "0c20eb5f012341b143141d7e5c8346f5d2b32bfd5cfc34f3e6098600e0a4c42c",
+        "name": "events.jsonl",
+        "rows": 45,
+        "sha256": "c6df1f474c8757050ef72e845f3b06356f0c7b755ff594fbf6e2a96394fc1112"
+      },
+      "schema_version": 2,
+      "state_sha256": "ec1af90bbbdb62ac2e207440bb7be87cc5e1f688d5ad7588fcdad4fe0cd02763"
+    }
+  },
+  "5": {
+    "checkpoint-audit.json": {
+      "core": {
+        "bytes": 20530,
+        "name": "core.json",
+        "sha256": "50897fd23a3aa096e38009d792232d78bd87061e6d6349e0540790766c13c188"
+      },
+      "log": {
+        "bytes": 83687,
+        "head": "5cc0dddd2990b96640448c53dc87be4c86016d08e41808b4a9988dce3c3aa18e",
+        "name": "events.jsonl",
+        "rows": 45,
+        "sha256": "97c842d6f8710ec5a9d8834eb3e0ca52f982a0e78c449a10c4507aaa1009529f"
+      },
+      "schema_version": 2,
+      "summary": {
+        "bytes": 361,
+        "name": "summary.json",
+        "sha256": "6f35b402aba0b662c10ef07cbfb79e0dd33487e429998b0181ee5a511a47213e"
+      }
+    },
+    "summary.json": {
+      "history": {
+        "events": 45,
+        "predictions": 45,
+        "updates": 45
+      },
+      "log": {
+        "bytes": 83687,
+        "head": "5cc0dddd2990b96640448c53dc87be4c86016d08e41808b4a9988dce3c3aa18e",
+        "name": "events.jsonl",
+        "rows": 45,
+        "sha256": "97c842d6f8710ec5a9d8834eb3e0ca52f982a0e78c449a10c4507aaa1009529f"
+      },
+      "schema_version": 2,
+      "state_sha256": "20f70bca075784b5bab5896875156f36c2e880ab2c2b52f3a9e43cae676936f8"
+    }
+  }
+}

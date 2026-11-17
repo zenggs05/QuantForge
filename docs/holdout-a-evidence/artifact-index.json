@@ -1,0 +1,34 @@
+{
+  "descriptive-drift.json": {
+    "bytes": 876,
+    "sha256": "8dd9558a4afa8cc009f8c2fa2b23098493b89ebd27b55be446e178f56d64a94b"
+  },
+  "fold-audit.json": {
+    "bytes": 7247,
+    "sha256": "bd6c6e41b3765168debc7021c4bb406525a504de6ab6182c9931928bf751f25e"
+  },
+  "models.json": {
+    "bytes": 16979,
+    "sha256": "460d66572e93ba6d4db9d1badccdfc075f0a6e22e0a40732ca0882f7980caec5"
+  },
+  "monthly.csv": {
+    "bytes": 20438,
+    "sha256": "cdbbc9de55170fbc0666562d8191c6a9f2e7334739c54e656089841c61d5cd59"
+  },
+  "predictions.parquet": {
+    "bytes": 14208491,
+    "sha256": "5c1efd6b0e956bb13f2a1fbdeef9d3961bddb5439a7621735cd18ca60ff8fee3"
+  },
+  "primary.json": {
+    "bytes": 3863,
+    "sha256": "9f634935cd804bd7bc7a2b891b1966632f370239f3728fd59160780bd38064a7"
+  },
+  "secondary.csv": {
+    "bytes": 2759,
+    "sha256": "f1482d1d7e42f8e448c83a05cfeb1add166ec984ba6a758b1f2f2cba59c582c9"
+  },
+  "summary.json": {
+    "bytes": 4611,
+    "sha256": "8932d28833a2b9484fca1827e8d16764960955b5ef5f54fc0c280545f2f33be8"
+  }
+}

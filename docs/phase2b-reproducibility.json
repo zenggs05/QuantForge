@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-02T09:17:15.987066+00:00",
+  "runs": [
+    "20261102T091156471478Z-20164d2d",
+    "20261102T091351136724Z-2a6fda52"
+  ],
+  "prediction_rows_compared": 1053840,
+  "all_prediction_columns_exactly_equal": true,
+  "metrics_excluding_timings_exactly_equal": true,
+  "model_state_exactly_equal": true,
+  "folds_exactly_equal": true,
+  "all_run_artifact_hashes_verified": true,
+  "current_source_hashes_match_both_runs": true,
+  "prediction_sha256": [
+    "66f74e1367ed816455d8df2af5c8fdd89009c893aa5fe064df29fe646c86407a",
+    "66f74e1367ed816455d8df2af5c8fdd89009c893aa5fe064df29fe646c86407a"
+  ],
+  "summary_sha256": [
+    "ce1b450de2ae77b0e82f94644771cabeebc09c6b2a138ad0de99c997acdd457b",
+    "c6304342e17c494dabf74e02ff6a567ae2549626005f0b1be0ebf8b548ff384e"
+  ],
+  "limitation": "Deterministic repeat on the same data/config/environment, not independent statistical evidence."
+}

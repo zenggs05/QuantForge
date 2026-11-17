@@ -1,0 +1,16 @@
+{
+  "compensated_sum": 10000000001.0,
+  "compensated_ulp": 0.0,
+  "fsum_reference": 10000000001.0,
+  "increment": 1e-06,
+  "increments": 1000000,
+  "initial_rows": 100,
+  "initial_solves": 1,
+  "initial_sum": 10000000000.0,
+  "kahan_scalar_calls": 1000000,
+  "plain_sum": 10000000001.907349,
+  "plain_to_compensated_ulp_ratio": 475712.0,
+  "plain_ulp": 475712.0,
+  "statistics_updates": 0,
+  "ulp_limit": 10
+}

@@ -1,0 +1,460 @@
+{
+  "status": "passed",
+  "authorization": [
+    "D-056 v1.1",
+    "D-057"
+  ],
+  "base_commit": "be5f837385786590f572386ceee67647be9a7053",
+  "implementation_commit": "ce0dea2429b430a10b889c5b77bb2f195c570836",
+  "result_blind_prefit_commit": "3a9b93649911f691172e4a222bee98d80182892d",
+  "success_evidence_commit": "8c2ce2acbb93215ea6a18b53fe44fe1003f9d6a0",
+  "documentation_commit_location": "The commit containing this file, located through Git history and the owner's final report; no self-reference.",
+  "execution_conformance": "Deviations and evidence_missing items disclosed in phase3a-gate2-record.md; successful outputs do not erase procedural deviations.",
+  "tests": {
+    "baseline_passed": 1419,
+    "new_passed": 62,
+    "total_passed": 1481,
+    "skipped": 1,
+    "full_run_02_log_success": true,
+    "full_run_02_original_session_exit_code": null,
+    "missing_exit_code_reason": "evidence_missing after tool runtime replacement; successful complete pytest output preserved, no test restart",
+    "synthetic_hash_reference_count": 19,
+    "baseline_hash_check": "SYNTH_OK 19",
+    "regression_hash_check": "SYNTH_OK 19",
+    "new_instrumented_workflow_tests": {
+      "ridge": 560,
+      "cw": 1120,
+      "dm": 1008,
+      "ic": 1008
+    },
+    "old_suite_global_call_counts": "evidence_missing; not globally instrumented"
+  },
+  "real_processes": {
+    "count": 3,
+    "stages": [
+      "prefit",
+      "formal",
+      "reproduction"
+    ],
+    "exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "ridge_fits": [
+      0,
+      280,
+      280
+    ],
+    "total_real_ridge_fits": 560,
+    "formal_results_read_before_reproduction_launch": false
+  },
+  "determinism": {
+    "all_byte_identical": true,
+    "files_compared": 26,
+    "excluded": [
+      "runtime.json"
+    ],
+    "evidence": "phase3a-gate2-evidence/determinism-check.json",
+    "sha256": "073f6dfdb8dafc4db69c08cba1cb1dd14dac59e084bdb226371d5f2ea3ecf738"
+  },
+  "isolation": {
+    "before_after_byte_identical": true,
+    "sha256": "ea473a036adbdcb5830b171c328ab9caa2788f4777534b8dfcfd07423ceaa92c"
+  },
+  "prefit": {
+    "gates": {
+      "PF-1": true,
+      "PF-2": true,
+      "PF-3": true,
+      "PF-4": true,
+      "PF-5": true,
+      "PF-6": true,
+      "PF-7": true,
+      "PF-8": true
+    },
+    "expected_prediction_rows": 9805980,
+    "undefined_feature_rows": 212,
+    "d057_main_segments_removed": [],
+    "sensitivity_segments_removed": [
+      {
+        "start": "2021-12-24T04:29:00Z",
+        "end": "2021-12-24T04:43:00Z",
+        "length": 15,
+        "threshold": 274,
+        "reason": "S_DQ_post_mask_short_segment"
+      }
+    ]
+  },
+  "result": {
+    "classification": "R-A",
+    "primary": {
+      "alternative": "greater",
+      "bandwidth": "LLSW",
+      "baseline": "zero",
+      "baseline_mae": 0.002025963623869332,
+      "baseline_mse": 0.000011361757832634638,
+      "cross_month_covariance": "assumed zero",
+      "evidence_level": "historical_external_validation_frozen_design_2026",
+      "family_size": 1,
+      "horizon_minutes": 15,
+      "iid_variance": 1.0130384497665235e-17,
+      "mean": 3.017177056466297e-8,
+      "metric": "CW",
+      "model_mae": 0.002022493982905129,
+      "model_mse": 0.000011353646062194458,
+      "month_count": 56,
+      "n": 2451190,
+      "n_eff": 808431.5598773238,
+      "n_samples": 2451190,
+      "p_value": 2.604337044153904e-8,
+      "pooling": "n_weighted",
+      "r2_oos": 0.0007139538229620213,
+      "r2_pooling": "sum_sse_ratio",
+      "reason": null,
+      "reject": true,
+      "se": 5.542169743533847e-9,
+      "specification": "v1",
+      "specification_evidence_level": "design_frozen_v1",
+      "status": "estimable",
+      "t": 5.444035812844768,
+      "test_id": "F_main",
+      "variance": 3.071564546614203e-17,
+      "z": 5.444035812844768
+    },
+    "sensitivity_flag": "data_source_robust",
+    "sensitivity_primary": {
+      "alternative": "greater",
+      "bandwidth": "LLSW",
+      "baseline": "zero",
+      "baseline_mae": 0.002025004953390799,
+      "baseline_mse": 0.000011347843359972763,
+      "cross_month_covariance": "assumed zero",
+      "evidence_level": "prespecified_data_quality_sensitivity",
+      "horizon_minutes": 15,
+      "iid_variance": 9.934500052426883e-18,
+      "mean": 2.984683841885107e-8,
+      "metric": "CW",
+      "model_mae": 0.002021569684644708,
+      "model_mse": 0.00001133985948541218,
+      "month_count": 56,
+      "n": 2449472,
+      "n_eff": 784378.3496810927,
+      "n_samples": 2449472,
+      "p_value": 4.1933092747009995e-8,
+      "pooling": "n_weighted",
+      "r2_oos": 0.0007035587562607137,
+      "r2_pooling": "sum_sse_ratio",
+      "reason": null,
+      "se": 5.569887827729768e-9,
+      "specification": "v1",
+      "specification_evidence_level": "design_frozen_v1",
+      "status": "estimable",
+      "t": 5.3586067335608005,
+      "variance": 3.102365041349223e-17,
+      "z": 5.3586067335608005
+    },
+    "FR1": false,
+    "FR2": false,
+    "FR3": false,
+    "primary_se_ratios": [
+      6.7721454838833965,
+      6.131110772129426
+    ],
+    "placebo_pipeline_warning": false,
+    "dm_reject": false,
+    "changes_primary_decision": false
+  },
+  "contract_sha256": "0db8183ee1cbc6af80f429920794209d3ffd4cbe5b37d5ed8cdae94275c99419",
+  "structural_expectations_sha256": "90983610b7a7cd311b49c903d9c3ec8cc33b20e7e7286c5b67762024fef87bea",
+  "sensitivity_conflicts_sha256": "c2b9cfb5183abf57ea07d9bda67d2314b5612c8f63cdcc5e97b37f153e9fe660",
+  "frozen_sha256": {
+    "docs/phase3a-analysis-plan.md": "fea667f7689d2c45ab0697b0dd2e8877cf0894ae27e4a5f0277efae48e50cb3c",
+    "configs/history-extension.toml": "e9cbd19d884d046199f468f29e912cd6a9fbec1852e90ffc125b86d8df0bd9af",
+    "docs/confirmatory-protocol-v1-history-addendum.md": "a4a99cfbfb9e33105d98ad44b439a57020a050b64b46b5a8e4a0bbc4b204fc07",
+    "docs/phase3a-plan-manifest.json": "ceb56c5683ff682240563c87991c96298b3f6c45baa93eee03134efc7d34c54a",
+    "docs/phase3a-download-manifest-draft.json": "1a865966ff55094a5fa54fc245ed7f0e7543360fbd8a0a4da8459dda306ab0f6",
+    "docs/confirmatory-protocol-v1.md": "38ef1aae687b6cd1a9b8b59709b84047250e2a9f90396cb9089244133b38f1b9",
+    "data/processed/binance/spot/BTCUSDT/1m/historical/historical-manifest.json": "71920d90d95a3d6600db3b57540865949b8784ce8753b0dccfbea93d7bb1fa02",
+    "src/quantforge/features/__init__.py": "857819a0c3c718cf2b1100ea72995db989ed149f65d1ad3d5e4cd3eda1fcbec1",
+    "src/quantforge/labels/__init__.py": "b968218639387cb82ab1beccef5c5bf3ed3674e5975c3d2b25cb4d318037746e",
+    "src/quantforge/datasets/research_splits.py": "22c862f6e8e232dedfe17c3a9832f5b7d78737de1593d6b904e2c29c5949919c",
+    "src/quantforge/datasets/splits.py": "3459e5be5185eee2638709c3db4250e150d8e1deff140d1459882cb5257d93cd",
+    "src/quantforge/datasets/window_splits.py": "24de7804527d3dc805f46ee969d17267927e345b94af434303cd19793675fc22",
+    "src/quantforge/models/baselines.py": "a9269ca7f6147f653f608051746304596e898f49ec30f9e1714567e25a1ded83",
+    "src/quantforge/temporal.py": "6c262bbd1c77e6696c7d310eb31b321f3f27ffeea02fbd64a70f3dcee9bd648c"
+  },
+  "runtime_evidence": {
+    "runtime-prefit.json": {
+      "disk_free_bytes": 451571220480,
+      "elapsed_seconds": 168.50840900000185,
+      "head_sha": "ce0dea2429b430a10b889c5b77bb2f195c570836",
+      "mode": "prefit",
+      "output_directory": "D:\\zgs_project\\QuantForge-3a\\docs\\phase3a-gate2-evidence",
+      "peak_process_bytes": 3148345344,
+      "pid": 84752,
+      "ridge_fits": 0,
+      "utc_timestamps": [
+        "2026-11-16T00:46:58.594099+00:00"
+      ]
+    },
+    "rehearsal-runtime.json": {
+      "disk_free_bytes": 451585490944,
+      "elapsed_seconds": 1488.3570428001694,
+      "head_sha": "ce0dea2429b430a10b889c5b77bb2f195c570836",
+      "measurement": "process lifetime peak working set; timings excluded from deterministic comparison",
+      "mode": "rehearsal",
+      "output_directory": "D:\\zgs_project\\QuantForge-3a\\results\\phase3a\\gate2-rehearsal\\20261116T001738610483Z",
+      "peak_process_bytes": 5693460480,
+      "pid": 72672,
+      "ridge_fits": 224,
+      "sensitivity_ridge_fits": 56,
+      "total_ridge_fits": 280,
+      "utc_timestamps": [
+        "2026-11-16T00:42:26.832876+00:00"
+      ]
+    },
+    "runtime-formal.json": {
+      "disk_free_bytes": 450122952704,
+      "elapsed_seconds": 1607.6914250000846,
+      "head_sha": "3a9b93649911f691172e4a222bee98d80182892d",
+      "measurement": "process lifetime peak working set; timings excluded from deterministic comparison",
+      "mode": "formal",
+      "output_directory": "D:\\zgs_project\\QuantForge-3a\\results\\phase3a\\gate2\\formal-20261116T005902063597Z-3a9b936",
+      "peak_process_bytes": 6298857472,
+      "pid": 11320,
+      "ridge_fits": 224,
+      "sensitivity_ridge_fits": 56,
+      "total_ridge_fits": 280,
+      "utc_timestamps": [
+        "2026-11-16T01:23:09.019071+00:00"
+      ]
+    },
+    "runtime-reproduction.json": {
+      "disk_free_bytes": 448488091648,
+      "elapsed_seconds": 1568.9503073999658,
+      "head_sha": "3a9b93649911f691172e4a222bee98d80182892d",
+      "measurement": "process lifetime peak working set; timings excluded from deterministic comparison",
+      "mode": "reproduction",
+      "output_directory": "D:\\zgs_project\\QuantForge-3a\\results\\phase3a\\gate2\\reproduction-20261116T012626557618Z-3a9b936",
+      "peak_process_bytes": 5172858880,
+      "pid": 33756,
+      "ridge_fits": 224,
+      "sensitivity_ridge_fits": 56,
+      "total_ridge_fits": 280,
+      "utc_timestamps": [
+        "2026-11-16T01:50:01.124167+00:00"
+      ]
+    }
+  },
+  "artifacts": {
+    "concentration.csv": {
+      "bytes": 105297,
+      "sha256": "0c6e36a54e95463436d5bff3a3e1c81209cbdf4fefabcda90af24bd9124a7a53"
+    },
+    "conditional-gw.csv": {
+      "bytes": 358,
+      "sha256": "715a7d63cb45a3866ce8e7f2792916e3c10dc0d9f597465b822bf7610c21b332"
+    },
+    "conditional-gw.json": {
+      "bytes": 2047,
+      "sha256": "7fbf5241a67229bea0390b64ab45e8796c410c0cd68200e65029a1af80a26bfc"
+    },
+    "dependence.json": {
+      "bytes": 7219,
+      "sha256": "a35c146d216a1ecd5d843e87d2aab657007efe5e2dbbf245ecca3222c95bd3bc"
+    },
+    "download-plan.json": {
+      "bytes": 26397,
+      "sha256": "1a865966ff55094a5fa54fc245ed7f0e7543360fbd8a0a4da8459dda306ab0f6"
+    },
+    "encompassing.csv": {
+      "bytes": 10562,
+      "sha256": "6285c818c79030511e75961fafd4661f9f09a8467cb47b122d7d1736e8a905d0"
+    },
+    "fold-audit.json": {
+      "bytes": 3614563,
+      "sha256": "ccf6ec9033f0772fd94bd8918132c1d631701d6aa80fe62367b3b85dc43483f1"
+    },
+    "gw-instrument.csv": {
+      "bytes": 16922,
+      "sha256": "a3cd343f7aa1df45c8bba0771e21db31fd92ced7f11ccde32853494015cb1655"
+    },
+    "interpretation.json": {
+      "bytes": 25382,
+      "sha256": "a866bdafe832857559c7962e2884e0e38e762ddcbc6cf03b9ad9784bf0af25fd"
+    },
+    "models.json": {
+      "bytes": 644089,
+      "sha256": "338c206c13d8cc5de8657f61170c90f8ebc918f65f7adadc1fdc81eaf4a7b955"
+    },
+    "monthly-tests.csv": {
+      "bytes": 2368605,
+      "sha256": "ca9815802966b30823d49a34eecbf849a658332c69da0e1a0e2bbdb2229a07fc"
+    },
+    "placebo.csv": {
+      "bytes": 8627,
+      "sha256": "5e02bfd950696b5ad5cda4871ab7dc1a72c8d7a1d3da81ad22c0ae246095c9dc"
+    },
+    "pooled-tests.csv": {
+      "bytes": 241072,
+      "sha256": "0302ff1eb23de89097b404d4d9474602efd36a3121f893f31a7145b974db9a1c"
+    },
+    "power-planning.csv": {
+      "bytes": 4832,
+      "sha256": "49334e760b55994a5fda490bd0567ce2887d420a4e71ffad15d9e3722de0c30f"
+    },
+    "predictions.parquet": {
+      "bytes": 429496305,
+      "sha256": "059a59b44532a84fd1d632aa3ab2ce60799892e1f1ca1aeed6e99ab408f4371d"
+    },
+    "secondary-tests.csv": {
+      "bytes": 8722,
+      "sha256": "dbb748181e7557b6c12f38c32098bff41783de9a1787b5b789ffdbc258626f16"
+    },
+    "sensitivity-dq-monthly.csv": {
+      "bytes": 32114,
+      "sha256": "d0d971455429f69b255b82f9e1dbee092c00f0ce2c8adbf6c0ad69ca2a9c8f1b"
+    },
+    "sensitivity-dq.json": {
+      "bytes": 65866,
+      "sha256": "dfadcd2e4764406f827970b83eb5bd8a51b4cf5ec2bbad7d6286b6ec0bbc728b"
+    },
+    "sensitivity-fold-audit.json": {
+      "bytes": 25903,
+      "sha256": "87dd80b874c78cb22728b70edff48a26b49f3aa5f29b17999b01bb4c9849e922"
+    },
+    "sensitivity-models.json": {
+      "bytes": 164378,
+      "sha256": "db22267260a1a2b65803b23c75b87f0ab352958f385deabd1e70c0c768393c1e"
+    },
+    "sensitivity-predictions.parquet": {
+      "bytes": 107369625,
+      "sha256": "90046d01d70aad09ff60b0e04ead9e36c02520a9db8f01b70c2abcd8f02b4f0a"
+    },
+    "stability.csv": {
+      "bytes": 4991,
+      "sha256": "de66b1a0099cfafc921fe0e111b676cc7c6ac093c0cb67f506451de3cd8d34ad"
+    },
+    "subperiods.csv": {
+      "bytes": 8265,
+      "sha256": "c5dbff801407741d22c2b0e8f0bff24ed3c6718b9f239f1ab14a760200eb50f0"
+    },
+    "summary.json": {
+      "bytes": 48344,
+      "sha256": "d015b968fd5b7796fc97f023588965d82ba6a3f80f60ba74d92bab248c250f40"
+    },
+    "training-indices.npz": {
+      "bytes": 901369872,
+      "sha256": "a34935d2c68f2c8ba3a63d0d95c7e04ae441cd82b2babe2f274dda26ab17ab5f"
+    }
+  },
+  "logs": [
+    {
+      "name": "g2-formal-01.log",
+      "bytes": 41,
+      "sha256": "ed7f8b0b2b614dedda5ebe835283d489765221793553f18b635afe07872c576e",
+      "source": ".tmp/g2-formal-01.log",
+      "target": "docs/phase3a-gate2-evidence/logs/g2-formal-01.log",
+      "byte_identical": true
+    },
+    {
+      "name": "g2-prefit-01.log",
+      "bytes": 60,
+      "sha256": "3ec4ede56416ddc862b9972a565d71b5d44a83e8ef9e059f1edebf8a5454a8c6",
+      "source": ".tmp/g2-prefit-01.log",
+      "target": "docs/phase3a-gate2-evidence/logs/g2-prefit-01.log",
+      "byte_identical": true
+    },
+    {
+      "name": "g2-pytest-run-01.log",
+      "bytes": 1867,
+      "sha256": "313d7f03277175340915b37285954be0492e6acbd5ff5e5302a9d98828653262",
+      "source": ".tmp/g2-pytest-run-01.log",
+      "target": "docs/phase3a-gate2-evidence/logs/g2-pytest-run-01.log",
+      "byte_identical": true
+    },
+    {
+      "name": "g2-pytest-run-02.log",
+      "bytes": 1958,
+      "sha256": "ce7184341b82d379b22fc59b490cb18b127e196cfebe9bf39a7aa6b3128285cd",
+      "source": ".tmp/g2-pytest-run-02.log",
+      "target": "docs/phase3a-gate2-evidence/logs/g2-pytest-run-02.log",
+      "byte_identical": true
+    },
+    {
+      "name": "g2-real-data-launch-ledger.jsonl",
+      "bytes": 1685,
+      "sha256": "29968d7bfb151644c0e0e0181f752e58d2bafd89fafe3279120cc2afbef262d9",
+      "source": ".tmp/g2-real-data-launch-ledger.jsonl",
+      "target": "docs/phase3a-gate2-evidence/logs/g2-real-data-launch-ledger.jsonl",
+      "byte_identical": true
+    },
+    {
+      "name": "g2-rehearsal-01.log",
+      "bytes": 86,
+      "sha256": "f9dec8e518f581ba928338fccee70cb5d5855c3603b521c015a7c8db858a7278",
+      "source": ".tmp/g2-rehearsal-01.log",
+      "target": "docs/phase3a-gate2-evidence/logs/g2-rehearsal-01.log",
+      "byte_identical": true
+    },
+    {
+      "name": "g2-reproduction-01.log",
+      "bytes": 41,
+      "sha256": "ed7f8b0b2b614dedda5ebe835283d489765221793553f18b635afe07872c576e",
+      "source": ".tmp/g2-reproduction-01.log",
+      "target": "docs/phase3a-gate2-evidence/logs/g2-reproduction-01.log",
+      "byte_identical": true
+    },
+    {
+      "name": "g2-synthetic-baseline-01.log",
+      "bytes": 222,
+      "sha256": "64f8c90e0f915a0f91467155e53df86932764a0c84fd132970bfefb263490eb9",
+      "source": ".tmp/g2-synthetic-baseline-01.log",
+      "target": "docs/phase3a-gate2-evidence/logs/g2-synthetic-baseline-01.log",
+      "byte_identical": true
+    },
+    {
+      "name": "g2-synthetic-regression-01.log",
+      "bytes": 224,
+      "sha256": "cf947a1f3c22524a7f7ccd710bfbf8c6936aeb35a3c2604570483ea26e424fc4",
+      "source": ".tmp/g2-synthetic-regression-01.log",
+      "target": "docs/phase3a-gate2-evidence/logs/g2-synthetic-regression-01.log",
+      "byte_identical": true
+    }
+  ],
+  "documents": {
+    "docs/phase3a-gate2-record.md": {
+      "bytes": 21508,
+      "sha256": "3c457e8b9b18802b985135ad29cfe790e0cd36980170dc5865c19ce57a2d6b3e"
+    },
+    "docs/phase3a-gate2-report.md": {
+      "bytes": 77943,
+      "sha256": "fa3f2115b479d7647e09f6d0f4f40332c173036965ebb3cb98a3960493ca601d"
+    }
+  },
+  "document_validation": {
+    "record": "DOC_OK {'bytes': 21508, 'bom': False, 'ctrl': 0, 'fffd': 0, 'qmark': 0, 'cjk': 3149}",
+    "report": "DOC_OK {'bytes': 77943, 'bom': False, 'ctrl': 0, 'fffd': 0, 'qmark': 0, 'cjk': 2696}"
+  },
+  "environment": {
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+    "quantforge_file": "D:\\zgs_project\\QuantForge-3a\\src\\quantforge\\__init__.py",
+    "packages": {
+      "numpy": "2.5.4",
+      "pandas": "3.0.6",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "pyarrow": "23.0.1",
+      "pytest": "9.2.0"
+    }
+  },
+  "evidence_directory_bytes_at_documentation": 15451726,
+  "disk_free_bytes_at_documentation": 448474849280,
+  "network_requests": 0,
+  "holdout_accessed": false,
+  "smoke_accessed": false,
+  "remote_publication": false,
+  "review_status": "Research Lead independent audit and main merge pending; not performed by Codex-A."
+}
+

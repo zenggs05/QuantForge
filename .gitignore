@@ -1,0 +1,46 @@
+# Local environment, caches and temporary files
+.venv/
+.cache/
+.tmp/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials.json
+secrets/
+.ruff_cache/
+.mypy_cache/
+checkpoints/
+outputs/
+runs/
+wandb/
+venv/
+
+# Market data and generated experiment artifacts
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+results/*
+!results/.gitkeep
+
+# Machine-local editor state
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+paper/build/

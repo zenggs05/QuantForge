@@ -1,0 +1,287 @@
+{
+  "all_information_before_frozen_availability": true,
+  "anomalies": [
+    {
+      "close": "2020-02-19T11:35:32.286000+00:00",
+      "close_before_open": false,
+      "feature_exclusion_reason": "",
+      "following_60_feature_inputs": [],
+      "interpretation": "measurement_time_advanced; availability remains derived only from open_time",
+      "kind": "truncated_with_trades",
+      "label_close_endpoints": {
+        "1": [
+          "2020-02-19T11:34:00+00:00"
+        ],
+        "15": [
+          "2020-02-19T11:20:00+00:00"
+        ],
+        "5": [
+          "2020-02-19T11:30:00+00:00"
+        ]
+      },
+      "label_validity": {
+        "1": false,
+        "15": false,
+        "5": false
+      },
+      "measurement_advance_ns": 27713000000,
+      "open": "2020-02-19T11:35:00+00:00",
+      "valid_features": true
+    },
+    {
+      "close": "2020-03-04T09:21:46.694000+00:00",
+      "close_before_open": false,
+      "feature_exclusion_reason": "",
+      "following_60_feature_inputs": [],
+      "interpretation": "measurement_time_advanced; availability remains derived only from open_time",
+      "kind": "truncated_with_trades",
+      "label_close_endpoints": {
+        "1": [
+          "2020-03-04T09:20:00+00:00"
+        ],
+        "15": [
+          "2020-03-04T09:06:00+00:00"
+        ],
+        "5": [
+          "2020-03-04T09:16:00+00:00"
+        ]
+      },
+      "label_validity": {
+        "1": false,
+        "15": false,
+        "5": false
+      },
+      "measurement_advance_ns": 13305000000,
+      "open": "2020-03-04T09:21:00+00:00",
+      "valid_features": true
+    },
+    {
+      "close": "2020-12-21T13:47:20.521000+00:00",
+      "close_before_open": true,
+      "feature_exclusion_reason": "undefined_ratio_or_variance",
+      "following_60_feature_inputs": [],
+      "interpretation": "measurement_time_advanced; availability remains derived only from open_time",
+      "kind": "zero_trade_placeholder",
+      "label_close_endpoints": {
+        "1": [
+          "2020-12-21T14:08:00+00:00"
+        ],
+        "15": [
+          "2020-12-21T13:54:00+00:00"
+        ],
+        "5": [
+          "2020-12-21T14:04:00+00:00"
+        ]
+      },
+      "label_validity": {
+        "1": false,
+        "15": false,
+        "5": false
+      },
+      "measurement_advance_ns": 1359478000000,
+      "open": "2020-12-21T14:09:00+00:00",
+      "role_note": "warmup only; candidate for training at fit_time >= 2021-01-01, validity gates retained",
+      "valid_features": false
+    },
+    {
+      "close": "2021-02-11T03:40:54.773000+00:00",
+      "close_before_open": false,
+      "feature_exclusion_reason": "undefined_ratio_or_variance",
+      "following_60_feature_inputs": [],
+      "interpretation": "measurement_time_advanced; availability remains derived only from open_time",
+      "kind": "zero_trade_placeholder",
+      "label_close_endpoints": {
+        "1": [
+          "2021-02-11T03:39:00+00:00"
+        ],
+        "15": [
+          "2021-02-11T03:25:00+00:00"
+        ],
+        "5": [
+          "2021-02-11T03:35:00+00:00"
+        ]
+      },
+      "label_validity": {
+        "1": false,
+        "15": false,
+        "5": false
+      },
+      "measurement_advance_ns": 5226000000,
+      "open": "2021-02-11T03:40:00+00:00",
+      "valid_features": false
+    },
+    {
+      "close": "2021-04-25T04:00:58.146000+00:00",
+      "close_before_open": false,
+      "feature_exclusion_reason": "",
+      "following_60_feature_inputs": [],
+      "interpretation": "measurement_time_advanced; availability remains derived only from open_time",
+      "kind": "truncated_with_trades",
+      "label_close_endpoints": {
+        "1": [
+          "2021-04-25T03:59:00+00:00"
+        ],
+        "15": [
+          "2021-04-25T03:45:00+00:00"
+        ],
+        "5": [
+          "2021-04-25T03:55:00+00:00"
+        ]
+      },
+      "label_validity": {
+        "1": false,
+        "15": false,
+        "5": false
+      },
+      "measurement_advance_ns": 1853000000,
+      "open": "2021-04-25T04:00:00+00:00",
+      "valid_features": true
+    },
+    {
+      "close": "2021-08-13T01:59:59+00:00",
+      "close_before_open": false,
+      "feature_exclusion_reason": "",
+      "following_60_feature_inputs": [],
+      "interpretation": "measurement_time_advanced; availability remains derived only from open_time",
+      "kind": "truncated_with_trades",
+      "label_close_endpoints": {
+        "1": [
+          "2021-08-13T01:58:00+00:00"
+        ],
+        "15": [
+          "2021-08-13T01:44:00+00:00"
+        ],
+        "5": [
+          "2021-08-13T01:54:00+00:00"
+        ]
+      },
+      "label_validity": {
+        "1": false,
+        "15": false,
+        "5": false
+      },
+      "measurement_advance_ns": 999000000,
+      "open": "2021-08-13T01:59:00+00:00",
+      "valid_features": true
+    },
+    {
+      "close": "2021-12-24T04:59:54.362000+00:00",
+      "close_before_open": false,
+      "feature_exclusion_reason": "",
+      "following_60_feature_inputs": [
+        "2021-12-24T05:00:00+00:00",
+        "2021-12-24T05:01:00+00:00",
+        "2021-12-24T05:02:00+00:00",
+        "2021-12-24T05:03:00+00:00",
+        "2021-12-24T05:04:00+00:00",
+        "2021-12-24T05:05:00+00:00",
+        "2021-12-24T05:06:00+00:00",
+        "2021-12-24T05:07:00+00:00",
+        "2021-12-24T05:08:00+00:00",
+        "2021-12-24T05:09:00+00:00",
+        "2021-12-24T05:10:00+00:00",
+        "2021-12-24T05:11:00+00:00",
+        "2021-12-24T05:12:00+00:00",
+        "2021-12-24T05:13:00+00:00",
+        "2021-12-24T05:14:00+00:00",
+        "2021-12-24T05:15:00+00:00",
+        "2021-12-24T05:16:00+00:00",
+        "2021-12-24T05:17:00+00:00",
+        "2021-12-24T05:18:00+00:00",
+        "2021-12-24T05:19:00+00:00",
+        "2021-12-24T05:20:00+00:00",
+        "2021-12-24T05:21:00+00:00",
+        "2021-12-24T05:22:00+00:00",
+        "2021-12-24T05:23:00+00:00",
+        "2021-12-24T05:24:00+00:00",
+        "2021-12-24T05:25:00+00:00",
+        "2021-12-24T05:26:00+00:00",
+        "2021-12-24T05:27:00+00:00",
+        "2021-12-24T05:28:00+00:00",
+        "2021-12-24T05:29:00+00:00",
+        "2021-12-24T05:30:00+00:00",
+        "2021-12-24T05:31:00+00:00",
+        "2021-12-24T05:32:00+00:00",
+        "2021-12-24T05:33:00+00:00",
+        "2021-12-24T05:34:00+00:00",
+        "2021-12-24T05:35:00+00:00",
+        "2021-12-24T05:36:00+00:00",
+        "2021-12-24T05:37:00+00:00",
+        "2021-12-24T05:38:00+00:00",
+        "2021-12-24T05:39:00+00:00",
+        "2021-12-24T05:40:00+00:00",
+        "2021-12-24T05:41:00+00:00",
+        "2021-12-24T05:42:00+00:00",
+        "2021-12-24T05:43:00+00:00",
+        "2021-12-24T05:44:00+00:00",
+        "2021-12-24T05:45:00+00:00",
+        "2021-12-24T05:46:00+00:00",
+        "2021-12-24T05:47:00+00:00",
+        "2021-12-24T05:48:00+00:00",
+        "2021-12-24T05:49:00+00:00",
+        "2021-12-24T05:50:00+00:00",
+        "2021-12-24T05:51:00+00:00",
+        "2021-12-24T05:52:00+00:00",
+        "2021-12-24T05:53:00+00:00",
+        "2021-12-24T05:54:00+00:00",
+        "2021-12-24T05:55:00+00:00",
+        "2021-12-24T05:56:00+00:00",
+        "2021-12-24T05:57:00+00:00",
+        "2021-12-24T05:58:00+00:00",
+        "2021-12-24T05:59:00+00:00"
+      ],
+      "interpretation": "measurement_time_advanced; availability remains derived only from open_time",
+      "kind": "truncated_with_trades",
+      "label_close_endpoints": {
+        "1": [
+          "2021-12-24T04:59:00+00:00",
+          "2021-12-24T04:58:00+00:00"
+        ],
+        "15": [
+          "2021-12-24T04:59:00+00:00",
+          "2021-12-24T04:44:00+00:00"
+        ],
+        "5": [
+          "2021-12-24T04:59:00+00:00",
+          "2021-12-24T04:54:00+00:00"
+        ]
+      },
+      "label_validity": {
+        "1": true,
+        "15": true,
+        "5": true
+      },
+      "measurement_advance_ns": 5637000000,
+      "open": "2021-12-24T04:59:00+00:00",
+      "valid_features": true
+    },
+    {
+      "close": "2023-03-24T12:39:41.646000+00:00",
+      "close_before_open": false,
+      "feature_exclusion_reason": "undefined_ratio_or_variance",
+      "following_60_feature_inputs": [],
+      "interpretation": "measurement_time_advanced; availability remains derived only from open_time",
+      "kind": "zero_trade_placeholder",
+      "label_close_endpoints": {
+        "1": [
+          "2023-03-24T12:38:00+00:00"
+        ],
+        "15": [
+          "2023-03-24T12:24:00+00:00"
+        ],
+        "5": [
+          "2023-03-24T12:34:00+00:00"
+        ]
+      },
+      "label_validity": {
+        "1": false,
+        "15": false,
+        "5": false
+      },
+      "measurement_advance_ns": 18353000000,
+      "open": "2023-03-24T12:39:00+00:00",
+      "valid_features": false
+    }
+  ],
+  "rows": 2978475
+}

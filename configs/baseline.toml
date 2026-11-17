@@ -1,0 +1,27 @@
+# Functional smoke test only: fixed hyperparameters, no strategy or tuning.
+[experiment]
+mode = "smoke"
+seed = 42
+horizons_minutes = [15, 5]
+availability_delay_seconds = 1.0
+min_total_samples = 300
+
+[data]
+parquet_path = "data/processed/binance/spot/BTCUSDT/1m/BTCUSDT-1m-2026-09-01.parquet"
+manifest_path = "docs/data-validation-manifest.json"
+
+[split]
+mode = "chronological"
+train_minutes = 720
+eval_minutes = 240
+step_minutes = 240
+rolling_train_minutes = 720
+min_train_samples = 100
+min_eval_samples = 20
+embargo_minutes = 0
+
+[model]
+ridge_alpha = 1.0
+
+[output]
+directory = "results/baseline-smoke"

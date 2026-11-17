@@ -1,0 +1,50 @@
+{
+  "all_byte_identical": true,
+  "files": {
+    "artifact-index.json": {
+      "byte_identical": true,
+      "formal_sha256": "fee6266ad9c5a16518cf333f7347b440c0816cc52d10270e1062087e3dce7eb8",
+      "reproduction_sha256": "fee6266ad9c5a16518cf333f7347b440c0816cc52d10270e1062087e3dce7eb8"
+    },
+    "descriptive.json": {
+      "byte_identical": true,
+      "formal_sha256": "996f71530e438899dd58f512309fc148370e7cb59e48c2140b43c92337d3f269",
+      "reproduction_sha256": "996f71530e438899dd58f512309fc148370e7cb59e48c2140b43c92337d3f269"
+    },
+    "fold-audit.json": {
+      "byte_identical": true,
+      "formal_sha256": "2f560132ac652fa309bace72aba187e3c1c943d7421308b266ce653487a3c57f",
+      "reproduction_sha256": "2f560132ac652fa309bace72aba187e3c1c943d7421308b266ce653487a3c57f"
+    },
+    "models.json": {
+      "byte_identical": true,
+      "formal_sha256": "b5582ab851d52ed8025202b983a5aebc31b57f3695b7d69509034cbc97922f97",
+      "reproduction_sha256": "b5582ab851d52ed8025202b983a5aebc31b57f3695b7d69509034cbc97922f97"
+    },
+    "monthly.csv": {
+      "byte_identical": true,
+      "formal_sha256": "e68faa86f0a2db2f5c7ec49f5106781c7173b35453a4461c17676f97c775156e",
+      "reproduction_sha256": "e68faa86f0a2db2f5c7ec49f5106781c7173b35453a4461c17676f97c775156e"
+    },
+    "predictions.parquet": {
+      "byte_identical": true,
+      "formal_sha256": "19f3093caff36d0630fa9330f58c9b86ba7bda24b46c2c03a0e292bf9db20af7",
+      "reproduction_sha256": "19f3093caff36d0630fa9330f58c9b86ba7bda24b46c2c03a0e292bf9db20af7"
+    },
+    "primary.json": {
+      "byte_identical": true,
+      "formal_sha256": "2efc3a6f4a322ed35e7565b840b3214827fac25588f134a3cb1b8d629d2ff747",
+      "reproduction_sha256": "2efc3a6f4a322ed35e7565b840b3214827fac25588f134a3cb1b8d629d2ff747"
+    },
+    "secondary.csv": {
+      "byte_identical": true,
+      "formal_sha256": "c8db4a68a7fbec7c6c71253d274845f5a7e057cd3e1cdd426a14c5070fd5298f",
+      "reproduction_sha256": "c8db4a68a7fbec7c6c71253d274845f5a7e057cd3e1cdd426a14c5070fd5298f"
+    },
+    "summary.json": {
+      "byte_identical": true,
+      "formal_sha256": "0d3d8ef14d952d7e98ad898f082170699e41c0abd9a5857a43a80eaa9f62857b",
+      "reproduction_sha256": "0d3d8ef14d952d7e98ad898f082170699e41c0abd9a5857a43a80eaa9f62857b"
+    }
+  }
+}

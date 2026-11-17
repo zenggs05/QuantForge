@@ -1,0 +1,135 @@
+{
+  "all_byte_identical": true,
+  "files": {
+    "artifact-index.json": {
+      "byte_identical": true,
+      "formal_sha256": "3ff4254dda569cd8706a8bbe511c2a2a7e8049a45c138e625d5c332aafb327f4",
+      "reproduction_sha256": "3ff4254dda569cd8706a8bbe511c2a2a7e8049a45c138e625d5c332aafb327f4"
+    },
+    "concentration.csv": {
+      "byte_identical": true,
+      "formal_sha256": "0c6e36a54e95463436d5bff3a3e1c81209cbdf4fefabcda90af24bd9124a7a53",
+      "reproduction_sha256": "0c6e36a54e95463436d5bff3a3e1c81209cbdf4fefabcda90af24bd9124a7a53"
+    },
+    "conditional-gw.csv": {
+      "byte_identical": true,
+      "formal_sha256": "715a7d63cb45a3866ce8e7f2792916e3c10dc0d9f597465b822bf7610c21b332",
+      "reproduction_sha256": "715a7d63cb45a3866ce8e7f2792916e3c10dc0d9f597465b822bf7610c21b332"
+    },
+    "conditional-gw.json": {
+      "byte_identical": true,
+      "formal_sha256": "7fbf5241a67229bea0390b64ab45e8796c410c0cd68200e65029a1af80a26bfc",
+      "reproduction_sha256": "7fbf5241a67229bea0390b64ab45e8796c410c0cd68200e65029a1af80a26bfc"
+    },
+    "dependence.json": {
+      "byte_identical": true,
+      "formal_sha256": "a35c146d216a1ecd5d843e87d2aab657007efe5e2dbbf245ecca3222c95bd3bc",
+      "reproduction_sha256": "a35c146d216a1ecd5d843e87d2aab657007efe5e2dbbf245ecca3222c95bd3bc"
+    },
+    "download-plan.json": {
+      "byte_identical": true,
+      "formal_sha256": "1a865966ff55094a5fa54fc245ed7f0e7543360fbd8a0a4da8459dda306ab0f6",
+      "reproduction_sha256": "1a865966ff55094a5fa54fc245ed7f0e7543360fbd8a0a4da8459dda306ab0f6"
+    },
+    "encompassing.csv": {
+      "byte_identical": true,
+      "formal_sha256": "6285c818c79030511e75961fafd4661f9f09a8467cb47b122d7d1736e8a905d0",
+      "reproduction_sha256": "6285c818c79030511e75961fafd4661f9f09a8467cb47b122d7d1736e8a905d0"
+    },
+    "fold-audit.json": {
+      "byte_identical": true,
+      "formal_sha256": "ccf6ec9033f0772fd94bd8918132c1d631701d6aa80fe62367b3b85dc43483f1",
+      "reproduction_sha256": "ccf6ec9033f0772fd94bd8918132c1d631701d6aa80fe62367b3b85dc43483f1"
+    },
+    "gw-instrument.csv": {
+      "byte_identical": true,
+      "formal_sha256": "a3cd343f7aa1df45c8bba0771e21db31fd92ced7f11ccde32853494015cb1655",
+      "reproduction_sha256": "a3cd343f7aa1df45c8bba0771e21db31fd92ced7f11ccde32853494015cb1655"
+    },
+    "interpretation.json": {
+      "byte_identical": true,
+      "formal_sha256": "a866bdafe832857559c7962e2884e0e38e762ddcbc6cf03b9ad9784bf0af25fd",
+      "reproduction_sha256": "a866bdafe832857559c7962e2884e0e38e762ddcbc6cf03b9ad9784bf0af25fd"
+    },
+    "models.json": {
+      "byte_identical": true,
+      "formal_sha256": "338c206c13d8cc5de8657f61170c90f8ebc918f65f7adadc1fdc81eaf4a7b955",
+      "reproduction_sha256": "338c206c13d8cc5de8657f61170c90f8ebc918f65f7adadc1fdc81eaf4a7b955"
+    },
+    "monthly-tests.csv": {
+      "byte_identical": true,
+      "formal_sha256": "ca9815802966b30823d49a34eecbf849a658332c69da0e1a0e2bbdb2229a07fc",
+      "reproduction_sha256": "ca9815802966b30823d49a34eecbf849a658332c69da0e1a0e2bbdb2229a07fc"
+    },
+    "placebo.csv": {
+      "byte_identical": true,
+      "formal_sha256": "5e02bfd950696b5ad5cda4871ab7dc1a72c8d7a1d3da81ad22c0ae246095c9dc",
+      "reproduction_sha256": "5e02bfd950696b5ad5cda4871ab7dc1a72c8d7a1d3da81ad22c0ae246095c9dc"
+    },
+    "pooled-tests.csv": {
+      "byte_identical": true,
+      "formal_sha256": "0302ff1eb23de89097b404d4d9474602efd36a3121f893f31a7145b974db9a1c",
+      "reproduction_sha256": "0302ff1eb23de89097b404d4d9474602efd36a3121f893f31a7145b974db9a1c"
+    },
+    "power-planning.csv": {
+      "byte_identical": true,
+      "formal_sha256": "49334e760b55994a5fda490bd0567ce2887d420a4e71ffad15d9e3722de0c30f",
+      "reproduction_sha256": "49334e760b55994a5fda490bd0567ce2887d420a4e71ffad15d9e3722de0c30f"
+    },
+    "predictions.parquet": {
+      "byte_identical": true,
+      "formal_sha256": "059a59b44532a84fd1d632aa3ab2ce60799892e1f1ca1aeed6e99ab408f4371d",
+      "reproduction_sha256": "059a59b44532a84fd1d632aa3ab2ce60799892e1f1ca1aeed6e99ab408f4371d"
+    },
+    "secondary-tests.csv": {
+      "byte_identical": true,
+      "formal_sha256": "dbb748181e7557b6c12f38c32098bff41783de9a1787b5b789ffdbc258626f16",
+      "reproduction_sha256": "dbb748181e7557b6c12f38c32098bff41783de9a1787b5b789ffdbc258626f16"
+    },
+    "sensitivity-dq-monthly.csv": {
+      "byte_identical": true,
+      "formal_sha256": "d0d971455429f69b255b82f9e1dbee092c00f0ce2c8adbf6c0ad69ca2a9c8f1b",
+      "reproduction_sha256": "d0d971455429f69b255b82f9e1dbee092c00f0ce2c8adbf6c0ad69ca2a9c8f1b"
+    },
+    "sensitivity-dq.json": {
+      "byte_identical": true,
+      "formal_sha256": "dfadcd2e4764406f827970b83eb5bd8a51b4cf5ec2bbad7d6286b6ec0bbc728b",
+      "reproduction_sha256": "dfadcd2e4764406f827970b83eb5bd8a51b4cf5ec2bbad7d6286b6ec0bbc728b"
+    },
+    "sensitivity-fold-audit.json": {
+      "byte_identical": true,
+      "formal_sha256": "87dd80b874c78cb22728b70edff48a26b49f3aa5f29b17999b01bb4c9849e922",
+      "reproduction_sha256": "87dd80b874c78cb22728b70edff48a26b49f3aa5f29b17999b01bb4c9849e922"
+    },
+    "sensitivity-models.json": {
+      "byte_identical": true,
+      "formal_sha256": "db22267260a1a2b65803b23c75b87f0ab352958f385deabd1e70c0c768393c1e",
+      "reproduction_sha256": "db22267260a1a2b65803b23c75b87f0ab352958f385deabd1e70c0c768393c1e"
+    },
+    "sensitivity-predictions.parquet": {
+      "byte_identical": true,
+      "formal_sha256": "90046d01d70aad09ff60b0e04ead9e36c02520a9db8f01b70c2abcd8f02b4f0a",
+      "reproduction_sha256": "90046d01d70aad09ff60b0e04ead9e36c02520a9db8f01b70c2abcd8f02b4f0a"
+    },
+    "stability.csv": {
+      "byte_identical": true,
+      "formal_sha256": "de66b1a0099cfafc921fe0e111b676cc7c6ac093c0cb67f506451de3cd8d34ad",
+      "reproduction_sha256": "de66b1a0099cfafc921fe0e111b676cc7c6ac093c0cb67f506451de3cd8d34ad"
+    },
+    "subperiods.csv": {
+      "byte_identical": true,
+      "formal_sha256": "c5dbff801407741d22c2b0e8f0bff24ed3c6718b9f239f1ab14a760200eb50f0",
+      "reproduction_sha256": "c5dbff801407741d22c2b0e8f0bff24ed3c6718b9f239f1ab14a760200eb50f0"
+    },
+    "summary.json": {
+      "byte_identical": true,
+      "formal_sha256": "d015b968fd5b7796fc97f023588965d82ba6a3f80f60ba74d92bab248c250f40",
+      "reproduction_sha256": "d015b968fd5b7796fc97f023588965d82ba6a3f80f60ba74d92bab248c250f40"
+    },
+    "training-indices.npz": {
+      "byte_identical": true,
+      "formal_sha256": "a34935d2c68f2c8ba3a63d0d95c7e04ae441cd82b2babe2f274dda26ab17ab5f",
+      "reproduction_sha256": "a34935d2c68f2c8ba3a63d0d95c7e04ae441cd82b2babe2f274dda26ab17ab5f"
+    }
+  }
+}

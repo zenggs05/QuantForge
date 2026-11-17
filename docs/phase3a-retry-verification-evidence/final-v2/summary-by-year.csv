@@ -1,0 +1,31 @@
+year,source,dates,verified_dates,note,both_equal,value_conflict,missing_in_monthly,extra_in_monthly,both_missing,structural,major,moderate,minor,timestamp_only,format_only,numeric_value_conflict,time_semantics_events,time_semantics_rows,time_semantics_minutes,unit_incomparable_minutes,unverifiable_missing_file,unverifiable_network,unverifiable_abnormal_file,checksum_failure
+2020,D-041,351,351,Census counts for verified dates; not estimates for unverified dates.,504827,5,0,0,608,0,3,2,0,0,0,5,2,2,1,0,0,0,0,0
+2020,D-043,13,13,Census counts for verified dates; not estimates for unverified dates. These 14 dates were selected because earlier network requests failed.,18366,0,0,0,354,0,0,0,0,0,0,0,2,2,1,0,0,0,0,0
+2020,census_non_selected,364,364,"Census counts for verified dates; not estimates for unverified dates. D-041 and D-043 form the 2,059-date non-purposively-selected census.",523193,5,0,0,962,0,3,2,0,0,0,5,4,4,2,0,0,0,0,0
+2020,D-039,2,2,Census counts for verified dates; not estimates for unverified dates.,2539,29,0,22,290,50,1,0,0,0,0,29,3,2,2,0,0,0,0,0
+2020,combined,366,366,Census counts for verified dates; not estimates for unverified dates.,525732,34,0,22,1252,50,4,2,0,0,0,34,7,6,4,0,0,0,0,0
+2021,D-041,358,358,Census counts for verified dates; not estimates for unverified dates.,514713,13,0,0,794,0,6,3,4,0,0,13,6,6,3,0,0,0,0,0
+2021,D-043,0,0,Census counts for verified dates; not estimates for unverified dates. These 14 dates were selected because earlier network requests failed.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021,census_non_selected,358,358,"Census counts for verified dates; not estimates for unverified dates. D-041 and D-043 form the 2,059-date non-purposively-selected census.",514713,13,0,0,794,0,6,3,4,0,0,13,6,6,3,0,0,0,0,0
+2021,D-039,7,7,Census counts for verified dates; not estimates for unverified dates.,9800,81,0,0,199,8,54,19,0,0,0,81,2,2,1,0,0,0,0,0
+2021,combined,365,365,Census counts for verified dates; not estimates for unverified dates.,524513,94,0,0,993,8,60,22,4,0,0,94,8,8,4,0,0,0,0,0
+2022,D-041,364,364,Census counts for verified dates; not estimates for unverified dates.,524155,5,0,0,0,0,3,2,0,0,0,5,0,0,0,0,0,0,0,0
+2022,D-043,0,0,Census counts for verified dates; not estimates for unverified dates. These 14 dates were selected because earlier network requests failed.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2022,census_non_selected,364,364,"Census counts for verified dates; not estimates for unverified dates. D-041 and D-043 form the 2,059-date non-purposively-selected census.",524155,5,0,0,0,0,3,2,0,0,0,5,0,0,0,0,0,0,0,0
+2022,D-039,1,1,Census counts for verified dates; not estimates for unverified dates.,1438,2,0,0,0,0,2,0,0,0,0,2,0,0,0,0,0,0,0,0
+2022,combined,365,365,Census counts for verified dates; not estimates for unverified dates.,525593,7,0,0,0,0,5,2,0,0,0,7,0,0,0,0,0,0,0,0
+2023,D-041,364,364,Census counts for verified dates; not estimates for unverified dates.,524160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2023,D-043,0,0,Census counts for verified dates; not estimates for unverified dates. These 14 dates were selected because earlier network requests failed.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2023,census_non_selected,364,364,"Census counts for verified dates; not estimates for unverified dates. D-041 and D-043 form the 2,059-date non-purposively-selected census.",524160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2023,D-039,1,1,Census counts for verified dates; not estimates for unverified dates.,1360,0,0,0,80,0,0,0,0,0,0,0,2,2,1,0,0,0,0,0
+2023,combined,365,365,Census counts for verified dates; not estimates for unverified dates.,525520,0,0,0,80,0,0,0,0,0,0,0,2,2,1,0,0,0,0,0
+2024,D-041,365,365,Census counts for verified dates; not estimates for unverified dates.,525600,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024,D-043,1,1,Census counts for verified dates; not estimates for unverified dates. These 14 dates were selected because earlier network requests failed.,1440,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024,census_non_selected,366,366,"Census counts for verified dates; not estimates for unverified dates. D-041 and D-043 form the 2,059-date non-purposively-selected census.",527040,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024,D-039,0,0,Census counts for verified dates; not estimates for unverified dates.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2024,combined,366,366,Census counts for verified dates; not estimates for unverified dates.,527040,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025,D-041,243,243,Census counts for verified dates; not estimates for unverified dates.,349920,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025,D-043,0,0,Census counts for verified dates; not estimates for unverified dates. These 14 dates were selected because earlier network requests failed.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025,census_non_selected,243,243,"Census counts for verified dates; not estimates for unverified dates. D-041 and D-043 form the 2,059-date non-purposively-selected census.",349920,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025,D-039,0,0,Census counts for verified dates; not estimates for unverified dates.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025,combined,243,243,Census counts for verified dates; not estimates for unverified dates.,349920,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

@@ -1,0 +1,16 @@
+{
+  "disk_free_bytes": 448488091648,
+  "elapsed_seconds": 1568.9503073999658,
+  "head_sha": "3a9b93649911f691172e4a222bee98d80182892d",
+  "measurement": "process lifetime peak working set; timings excluded from deterministic comparison",
+  "mode": "reproduction",
+  "output_directory": "D:\\zgs_project\\QuantForge-3a\\results\\phase3a\\gate2\\reproduction-20261116T012626557618Z-3a9b936",
+  "peak_process_bytes": 5172858880,
+  "pid": 33756,
+  "ridge_fits": 224,
+  "sensitivity_ridge_fits": 56,
+  "total_ridge_fits": 280,
+  "utc_timestamps": [
+    "2026-11-16T01:50:01.124167+00:00"
+  ]
+}

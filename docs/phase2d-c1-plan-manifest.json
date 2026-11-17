@@ -1,0 +1,10 @@
+{
+  "status": "frozen_before_algorithm_implementation",
+  "base_git_commit": "685d9a324766f3d19de9faaa4a213b9c210b5d6a",
+  "frozen_at_utc": "2026-11-03T04:30:49.849322+00:00",
+  "scope": "mathematical_and_event_engineering_pilot_not_alpha_evidence",
+  "plan_path": "docs/phase2d-c1-analysis-plan.md",
+  "plan_sha256": "7876d1da1d867fa91184bdcfa2f3c2144142acc2ee9d70bbe6cc54a271d18752",
+  "config_path": "configs/online-foundation.toml",
+  "config_sha256": "e823ec9d599892ba98085162de22c00d08691338d3d19598d9a1bbf0115afc78"
+}

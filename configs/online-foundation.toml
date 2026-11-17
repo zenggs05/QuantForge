@@ -1,0 +1,46 @@
+[experiment]
+mode = "delayed_feedback_incremental_ridge_foundation"
+horizons_minutes = [15, 5]
+feature_count = 14
+availability_delay_seconds = 1
+seed = 42
+cpu_threads = 1
+precision = "float64"
+
+[data]
+manifest_path = "data/processed/binance/spot/BTCUSDT/1m/development-manifest.json"
+period_policy_path = "configs/research-periods.toml"
+
+[model]
+ridge_alpha = 1.0
+fit_intercept = true
+scaler = "initial_mature_training_fixed"
+forgetting = false
+condition_limit = 1e12
+negative_scatter_relative_limit = 1e-10
+
+[replay]
+initial_fit_time = "2026-03-01T00:00:00Z"
+pilot_end_exclusive = "2026-03-02T00:00:00Z"
+solve_schedule = "after_new_valid_feedback_before_each_prediction"
+checkpoint_events = [0, 360, 720, 1080, 1440]
+restore_event = 720
+carry_in_model_version = "carry_in:no_prediction"
+flush_after_pilot = false
+
+[tolerance]
+coefficient_atol = 1e-9
+coefficient_rtol = 1e-8
+intercept_atol = 1e-10
+intercept_rtol = 1e-8
+prediction_max_abs = 1e-9
+prediction_relative_l2 = 1e-8
+norm_denominator_floor = 1e-12
+
+[reference]
+summary_path = "results/research-baseline/20261103T010111153259Z-a2cb0858/summary.json"
+summary_sha256 = "7aa9f334a9e5b5f1085edd2362676d86d0898fcdd376f92bb1886efbc3dc6f12"
+prediction_sha256 = "66f74e1367ed816455d8df2af5c8fdd89009c893aa5fe064df29fe646c86407a"
+
+[output]
+directory = "results/online-foundation"

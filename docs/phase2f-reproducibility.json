@@ -1,0 +1,99 @@
+{
+  "allowed_differences": [
+    "run kind",
+    "output directory",
+    "elapsed and stage time",
+    "process memory"
+  ],
+  "deterministic_file_count": 16,
+  "environment_isolation": {
+    "main": {
+      "after_file_count": 10052,
+      "before_file_count": 10052,
+      "changed_files": [],
+      "comparison": "all file relative names, size and mtime_ns; metadata only",
+      "snapshot_sha256": "2d3c4af550e6bee100ed30fe51be915e6147f8749180cf3c7a92f5dcb2a1f11c"
+    },
+    "phase3a": {
+      "after_file_count": 10052,
+      "before_file_count": 10052,
+      "changed_files": [],
+      "comparison": "all file relative names, size and mtime_ns; metadata only",
+      "snapshot_sha256": "272c95f80ead11a840320f8411774abbb576775ab56463d41f1237d432c362d7"
+    }
+  },
+  "evidence_level": "synthetic_engineering_only",
+  "freeze_commit": "296c7a434234c3470ca73eccdc85b6565b8fab06",
+  "frozen_hashes": {
+    "config": "ebaee87992fedac0ac00c02476bd37fe1c35add7a7c76cf149c4e8e986c50e29",
+    "manifest": "41412e52bae4669cf2a7b76070c55b4fc38aa6337753e5e7818fe6ebd237fbc0",
+    "plan": "7e990f5a1a075860684f8e3ef6331bc97d814a569acffa8a2f03c6f66c5a3d11"
+  },
+  "historical_v1_integration": "optional; not enabled; no historical checkpoint reads",
+  "holdout_accessed": false,
+  "implementation_commit": "c893d757d18fead4993f2883fa61039c3305b5e5",
+  "market_network_requests": 0,
+  "market_rows_read": 0,
+  "mutations": {
+    "cumulative_seconds": 205.26308210002026,
+    "final_seconds": 103.81637600000249,
+    "valid_kills": 10
+  },
+  "runs": {
+    "formal": {
+      "artifact_sha256": {
+        "computation-budget.json": "098ca39858cfd93532ef3fef390049e429ac425581167273f2bb6e53a61d3e79",
+        "kahan.json": "0d0a303a3a2290ccd5df10bc691fc8ce096d2cc6de4f868a97bb395e2d674c08",
+        "numerical-stress.json": "599c16f0e10fed9994486f8d59823f543e30c7eeeb9288fa843256e0bd201ea4",
+        "replay-equivalence.json": "463dd1f342570adb6e5910806534cc1eb09300ac75fac722b5cec8cc61ee1cc9",
+        "synthetic/results/online-foundation/h15/final-v1.json": "bb3d61f16340165d5050b1a76e4c46c249099f12ddb107c1602a201ba4aa464a",
+        "synthetic/results/online-foundation/h15/v1.json": "400b305f2d1a1e90cfed813c450e384c0a0efe3bd784dfb2f92bd169836ace8f",
+        "synthetic/results/online-foundation/h15/v2/checkpoint-audit.json": "2b1b8e2cf51b2d42b9d9567175448cba78c13028b688709e5317a4db5a68151b",
+        "synthetic/results/online-foundation/h15/v2/core.json": "19e5d8e0582939e4251c634c311652a63d939a6fee98aa78de0c5a207f307bb7",
+        "synthetic/results/online-foundation/h15/v2/events.jsonl": "c6df1f474c8757050ef72e845f3b06356f0c7b755ff594fbf6e2a96394fc1112",
+        "synthetic/results/online-foundation/h15/v2/summary.json": "3c8f10e72237a799fad1758c44d208d863ae02812a821be9f4582ef69c27c605",
+        "synthetic/results/online-foundation/h5/final-v1.json": "ef188ada78bc084cf6f6227f8f3b8e5c71c2d4c43bfcf30959a81abba427c651",
+        "synthetic/results/online-foundation/h5/v1.json": "dc8ab9bf48fc21cbaa76a40943a9f82d9c5f63f8a49cd912437b2a6a630f4862",
+        "synthetic/results/online-foundation/h5/v2/checkpoint-audit.json": "69f927fa08c0d1fd74a71aac2a356372883ca1cd19c87c266efc6f9a51b84762",
+        "synthetic/results/online-foundation/h5/v2/core.json": "50897fd23a3aa096e38009d792232d78bd87061e6d6349e0540790766c13c188",
+        "synthetic/results/online-foundation/h5/v2/events.jsonl": "97c842d6f8710ec5a9d8834eb3e0ca52f982a0e78c449a10c4507aaa1009529f",
+        "synthetic/results/online-foundation/h5/v2/summary.json": "6f35b402aba0b662c10ef07cbfb79e0dd33487e429998b0181ee5a511a47213e"
+      },
+      "directory": ".tmp/phase2f-runs/20261105T094225281952Z-f4c9af12",
+      "elapsed_seconds": 5.376439700019546,
+      "git_dirty": false,
+      "peak_process_bytes": 181350400
+    },
+    "reproduction": {
+      "artifact_sha256": {
+        "computation-budget.json": "098ca39858cfd93532ef3fef390049e429ac425581167273f2bb6e53a61d3e79",
+        "kahan.json": "0d0a303a3a2290ccd5df10bc691fc8ce096d2cc6de4f868a97bb395e2d674c08",
+        "numerical-stress.json": "599c16f0e10fed9994486f8d59823f543e30c7eeeb9288fa843256e0bd201ea4",
+        "replay-equivalence.json": "463dd1f342570adb6e5910806534cc1eb09300ac75fac722b5cec8cc61ee1cc9",
+        "synthetic/results/online-foundation/h15/final-v1.json": "bb3d61f16340165d5050b1a76e4c46c249099f12ddb107c1602a201ba4aa464a",
+        "synthetic/results/online-foundation/h15/v1.json": "400b305f2d1a1e90cfed813c450e384c0a0efe3bd784dfb2f92bd169836ace8f",
+        "synthetic/results/online-foundation/h15/v2/checkpoint-audit.json": "2b1b8e2cf51b2d42b9d9567175448cba78c13028b688709e5317a4db5a68151b",
+        "synthetic/results/online-foundation/h15/v2/core.json": "19e5d8e0582939e4251c634c311652a63d939a6fee98aa78de0c5a207f307bb7",
+        "synthetic/results/online-foundation/h15/v2/events.jsonl": "c6df1f474c8757050ef72e845f3b06356f0c7b755ff594fbf6e2a96394fc1112",
+        "synthetic/results/online-foundation/h15/v2/summary.json": "3c8f10e72237a799fad1758c44d208d863ae02812a821be9f4582ef69c27c605",
+        "synthetic/results/online-foundation/h5/final-v1.json": "ef188ada78bc084cf6f6227f8f3b8e5c71c2d4c43bfcf30959a81abba427c651",
+        "synthetic/results/online-foundation/h5/v1.json": "dc8ab9bf48fc21cbaa76a40943a9f82d9c5f63f8a49cd912437b2a6a630f4862",
+        "synthetic/results/online-foundation/h5/v2/checkpoint-audit.json": "69f927fa08c0d1fd74a71aac2a356372883ca1cd19c87c266efc6f9a51b84762",
+        "synthetic/results/online-foundation/h5/v2/core.json": "50897fd23a3aa096e38009d792232d78bd87061e6d6349e0540790766c13c188",
+        "synthetic/results/online-foundation/h5/v2/events.jsonl": "97c842d6f8710ec5a9d8834eb3e0ca52f982a0e78c449a10c4507aaa1009529f",
+        "synthetic/results/online-foundation/h5/v2/summary.json": "6f35b402aba0b662c10ef07cbfb79e0dd33487e429998b0181ee5a511a47213e"
+      },
+      "directory": ".tmp/phase2f-runs/20261105T094351240241Z-05c94889",
+      "elapsed_seconds": 5.371638300013728,
+      "git_dirty": false,
+      "peak_process_bytes": 182120448
+    }
+  },
+  "status": "passed",
+  "tests": {
+    "baseline": 794,
+    "new_passed": 135,
+    "skipped": 1,
+    "total_passed": 929
+  }
+}

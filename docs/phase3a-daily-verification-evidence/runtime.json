@@ -1,0 +1,22 @@
+{
+  "acquire": {
+    "mode": "acquire",
+    "started_at_utc": "2026-11-10T03:55:00.795667+00:00",
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+    "commit": "14721cd7a3d0b59d45d92484dd659b76b10bdc68",
+    "research_computations": 0,
+    "elapsed_seconds": 41.11383020004723,
+    "finished_at_utc": "2026-11-10T03:55:41.909499+00:00",
+    "isolation_unchanged": true
+  },
+  "replay": {
+    "mode": "replay",
+    "started_at_utc": "2026-11-10T03:59:14.447024+00:00",
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+    "commit": "14721cd7a3d0b59d45d92484dd659b76b10bdc68",
+    "research_computations": 0,
+    "elapsed_seconds": 2.9634845999535173,
+    "finished_at_utc": "2026-11-10T03:59:17.410510+00:00",
+    "network_requests": 0
+  }
+}

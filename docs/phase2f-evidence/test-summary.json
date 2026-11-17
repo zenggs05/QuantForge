@@ -1,0 +1,24 @@
+{
+  "baseline_retained": 794,
+  "full_suite": {
+    "errors": "0",
+    "failures": "0",
+    "hostname": "TTRS_LEGION_04",
+    "name": "pytest",
+    "skipped": "1",
+    "tests": "930",
+    "time": "299.543",
+    "timestamp": "2026-11-05T17:32:02.977483+08:00"
+  },
+  "junit_path": ".tmp/phase2f-commit-b-tests.xml",
+  "junit_sha256": "b21dce08c2acb056b4622ca58052453a43044a1a9bed9fb8b0f2b385207d3155",
+  "new_passed": 135,
+  "note": "Six existing new tests moved unchanged into the requested v1_v2_equivalence_on_synthetic filename after full collection; total unchanged.",
+  "passed": 929,
+  "post_organization_regression": {
+    "passed": 31,
+    "seconds": 10.76
+  },
+  "skipped": 1,
+  "wall_seconds": 299.54
+}

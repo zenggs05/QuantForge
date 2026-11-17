@@ -1,0 +1,13 @@
+QuantForge
+Copyright (c) 2026 Gaoshan Zeng (GitHub: zenggs05). All rights reserved except as expressly licensed below.
+
+Required Notice: Copyright (c) 2026 Gaoshan Zeng (https://github.com/zenggs05/QuantForge).
+Required Notice: Licensed under the PolyForm Noncommercial License 1.0.0 (https://polyformproject.org/licenses/noncommercial/1.0.0). Commercial use of any kind requires a separate written license from the copyright holder; see COMMERCIAL-LICENSING.md.
+Required Notice: Any publication, report, presentation, thesis, model, dataset or software that uses or builds on this work must cite: Gaoshan Zeng (2026), "Statistically Detectable, Economically Small: A Pre-Registered Out-of-Sample Test of Minute-Level Bitcoin Return Predictability", preprint. See CITATION.cff.
+
+Licensing by path (see LICENSES/README.md for details):
+  - Source code, scripts, tests, configuration and tools: PolyForm Noncommercial License 1.0.0 (file LICENSE).
+  - Paper (paper/), reports, protocols, records and other documentation text (docs/*.md, README.md): Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).
+  - Evidence files derived from Binance market data (docs/*-evidence/, docs/supplementary-evidence/): Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0), as required by the Binance Vision dataset terms. Attribution: "Contains information derived from Binance Vision public market data (https://data.binance.vision)."
+
+No raw market data are distributed in this repository. No warranty of any kind is given; nothing in this repository is investment advice or an offer of any trading service.

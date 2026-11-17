@@ -1,0 +1,6 @@
+{
+  "evidence_level": "exploratory_post_hoc",
+  "max_abs_error": 3.9979955110402976e-19,
+  "tolerance": 1e-18,
+  "passed": true
+}

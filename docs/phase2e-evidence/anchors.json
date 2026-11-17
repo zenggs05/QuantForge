@@ -1,0 +1,134 @@
+{
+  "evidence_level": "exploratory_post_hoc",
+  "status": "passed",
+  "checks": [
+    {
+      "evidence_level": "exploratory_post_hoc",
+      "name": "A1_relative_mse_pct",
+      "actual": -0.05734562572813351,
+      "expected": -0.057346,
+      "absolute_tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "evidence_level": "exploratory_post_hoc",
+      "name": "A1_abs_dm_z",
+      "actual": 0.7669124939163913,
+      "expected": 0.7669,
+      "absolute_tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "evidence_level": "exploratory_post_hoc",
+      "name": "A2_cw",
+      "actual": 2.3543310389129957,
+      "expected": 2.354,
+      "absolute_tolerance": 0.001,
+      "passed": true
+    },
+    {
+      "evidence_level": "exploratory_post_hoc",
+      "name": "A3_cw",
+      "actual": 1.5752999470841207,
+      "expected": 1.575,
+      "absolute_tolerance": 0.001,
+      "passed": true
+    },
+    {
+      "evidence_level": "exploratory_post_hoc",
+      "name": "A5_ic",
+      "actual": 0.033378113001517926,
+      "expected": 0.03338,
+      "absolute_tolerance": 1e-05,
+      "passed": true
+    },
+    {
+      "evidence_level": "exploratory_post_hoc",
+      "name": "A4_legacy-hac-2c_rows",
+      "actual": 96,
+      "expected": 96,
+      "absolute_tolerance": 0,
+      "passed": true
+    },
+    {
+      "evidence_level": "exploratory_post_hoc",
+      "name": "A4_legacy-hac-2da_rows",
+      "actual": 144,
+      "expected": 144,
+      "absolute_tolerance": 0,
+      "passed": true
+    },
+    {
+      "evidence_level": "exploratory_post_hoc",
+      "name": "A4_min_p",
+      "actual": 0.2011929919895862,
+      "expected": 0.201192992,
+      "absolute_tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "evidence_level": "exploratory_post_hoc",
+      "name": "A4_window_nulls",
+      "actual": 6,
+      "expected": 6,
+      "absolute_tolerance": 0,
+      "passed": true
+    },
+    {
+      "evidence_level": "exploratory_post_hoc",
+      "name": "A7_metrics_rows",
+      "actual": 24,
+      "expected": 24,
+      "absolute_tolerance": 0,
+      "passed": true
+    },
+    {
+      "evidence_level": "training_period_diagnostic",
+      "name": "A6_train_n_15m",
+      "actual": 260564,
+      "expected": 260564,
+      "absolute_tolerance": 0,
+      "passed": true
+    },
+    {
+      "evidence_level": "training_period_diagnostic",
+      "name": "A6_duplicate_corr_15m",
+      "actual": 0.9999339266632077,
+      "expected": 0.99993,
+      "absolute_tolerance": 1e-05,
+      "passed": true
+    },
+    {
+      "evidence_level": "training_period_diagnostic",
+      "name": "A6_condition",
+      "actual": 51607.949780189745,
+      "expected": 51607.95,
+      "absolute_tolerance": 0.05,
+      "passed": true
+    },
+    {
+      "evidence_level": "training_period_diagnostic",
+      "name": "A6_shrinkage",
+      "actual": 0.9433263913825561,
+      "expected": 0.94333,
+      "absolute_tolerance": 1e-05,
+      "passed": true
+    },
+    {
+      "evidence_level": "training_period_diagnostic",
+      "name": "A6_train_n_5m",
+      "actual": 260574,
+      "expected": 260574,
+      "absolute_tolerance": 0,
+      "passed": true
+    },
+    {
+      "evidence_level": "training_period_diagnostic",
+      "name": "A6_duplicate_corr_5m",
+      "actual": 0.9999339285889516,
+      "expected": 0.99993,
+      "absolute_tolerance": 1e-05,
+      "passed": true
+    }
+  ]
+}

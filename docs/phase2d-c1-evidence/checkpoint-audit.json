@@ -1,0 +1,75 @@
+{
+  "checkpoints": [
+    {
+      "horizon_minutes": 15,
+      "completed_events": 0,
+      "path": "checkpoints/h15-event0.json",
+      "sha256": "58d33d108690703fa74738f8f12faaef0bdd0924775ae0ce46a9e79c173543ba",
+      "save_seconds": 0.0043600000062724575
+    },
+    {
+      "horizon_minutes": 15,
+      "completed_events": 360,
+      "path": "checkpoints/h15-event360.json",
+      "sha256": "5b6d1587ddf5a67ddb8cca517aa18aa083982964523d150d0e68066723dc9f1a",
+      "save_seconds": 0.01899029999913182
+    },
+    {
+      "horizon_minutes": 15,
+      "completed_events": 720,
+      "path": "checkpoints/h15-event720.json",
+      "sha256": "d92f098cf5f8ab851b24c24cf01e8d95aa02a34e5924111537b5efcb44c44b51",
+      "save_seconds": 0.032821100001456216
+    },
+    {
+      "horizon_minutes": 15,
+      "completed_events": 1080,
+      "path": "checkpoints/h15-event1080.json",
+      "sha256": "a4958bb7f8c46cdecfbdf93db135b0bee2d44c6bbe9bf87d184cef706f5dd46c",
+      "save_seconds": 0.047641699988162145
+    },
+    {
+      "horizon_minutes": 15,
+      "completed_events": 1440,
+      "path": "checkpoints/h15-event1440.json",
+      "sha256": "634af2564858673a592df39091ae47447f9924fc80cec89fa14c0f905ac88c38",
+      "save_seconds": 0.0595649000024423
+    },
+    {
+      "horizon_minutes": 5,
+      "completed_events": 0,
+      "path": "checkpoints/h5-event0.json",
+      "sha256": "6adfd6f93b9b79ada57a5ff54ae2c56d1bd99836e9fa94614ae207cf3865adfd",
+      "save_seconds": 0.004238299996359274
+    },
+    {
+      "horizon_minutes": 5,
+      "completed_events": 360,
+      "path": "checkpoints/h5-event360.json",
+      "sha256": "52725fb08dca291f2d23dd078cfdc11a49dca5a4d344f70e5706cb6025b03922",
+      "save_seconds": 0.01819210000394378
+    },
+    {
+      "horizon_minutes": 5,
+      "completed_events": 720,
+      "path": "checkpoints/h5-event720.json",
+      "sha256": "3e6b71290a5978c546938ce068a54c2f372266da224b65321d563f52c1b0fcea",
+      "save_seconds": 0.0317088000010699
+    },
+    {
+      "horizon_minutes": 5,
+      "completed_events": 1080,
+      "path": "checkpoints/h5-event1080.json",
+      "sha256": "a996d2089b3f6411ded25354ebd0dd08c17a8cff837756e2b6f43e8b79008a19",
+      "save_seconds": 0.044236200003069825
+    },
+    {
+      "horizon_minutes": 5,
+      "completed_events": 1440,
+      "path": "checkpoints/h5-event1440.json",
+      "sha256": "eb7c05cf5f679611d268976ce112a80816f5c8fd4d07ea727a1aabd9a4ec4e09",
+      "save_seconds": 0.06217969999124762
+    }
+  ],
+  "recovery_exact": true
+}

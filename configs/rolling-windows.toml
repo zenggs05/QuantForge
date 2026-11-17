@@ -1,0 +1,56 @@
+# Frozen exploratory follow-up: the four evaluation months have already been seen.
+[experiment]
+mode = "window_comparison"
+seed = 42
+horizons_minutes = [15, 5]
+availability_delay_seconds = 1.0
+cpu_threads = 1
+max_ridge_fits = 32
+
+[data]
+manifest_path = "data/processed/binance/spot/BTCUSDT/1m/development-manifest.json"
+period_policy_path = "configs/research-periods.toml"
+
+[evaluation]
+fold_months = ["2026-03", "2026-04", "2026-05", "2026-06"]
+roles = ["validation", "validation", "development_evaluation", "development_evaluation"]
+label_cutoff = "month_end"
+
+[model]
+names = ["expanding", "rolling_1m", "rolling_3m", "rolling_6m"]
+reference_names = ["zero", "historical_mean"]
+ridge_alpha = 1.0
+solver = "svd"
+
+[reference]
+summary_path = "results/research-baseline/20261103T010111153259Z-a2cb0858/summary.json"
+summary_sha256 = "7aa9f334a9e5b5f1085edd2362676d86d0898fcdd376f92bb1886efbc3dc6f12"
+prediction_sha256 = "66f74e1367ed816455d8df2af5c8fdd89009c893aa5fe064df29fe646c86407a"
+
+[plan]
+path = "docs/phase2d-a-analysis-plan.md"
+sha256 = "263368b6153750ba314dcd024878c61214141976b056d30871a6d384ccba7617"
+
+[analysis]
+confidence = 0.95
+weightings = ["n_weighted", "month_equal"]
+primary_horizon = 15
+primary_window = "rolling_3m"
+primary_role = "validation"
+primary_weighting = "n_weighted"
+
+[bootstrap]
+replicates = 2000
+main_block_length = 1440
+block_lengths = [60, 360, 1440, 2880]
+method = "non_circular_moving_block_percentile"
+
+[hac]
+main_lag = 60
+lags = [15, 60, 240]
+kernel = "bartlett"
+primary_family_size = 6
+global_family_size = 144
+
+[output]
+directory = "results/rolling-window-comparison"

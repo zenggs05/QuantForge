@@ -1,0 +1,9 @@
+{
+  "evidence": "synthetic unit test with long IDs, not prolonged market replay",
+  "next_event_exact": true,
+  "v1_bytes": 88121258,
+  "v1_load": "rejected by existing 32 MiB limit",
+  "v2_core_bytes": 20355,
+  "v2_log_bytes": 50353563,
+  "v2_state_sha_matches": true
+}

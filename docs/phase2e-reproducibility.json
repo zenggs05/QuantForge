@@ -1,0 +1,462 @@
+{
+  "evidence_level": "exploratory_post_hoc",
+  "status": "verified_same_environment_reproduction",
+  "checked_on": "2026-11-04",
+  "formal_run": "results/power-reanalysis/20261104T052452783302Z-7d3a5497",
+  "reproduction_run": "results/power-reanalysis/20261104T052644575077Z-2ebd386a",
+  "implementation_commit": "56f26a998d81b35d019a726d432ca3e896ad0efd",
+  "both_git_dirty_false": true,
+  "protocol_hashes": {
+    "docs/phase2e-analysis-plan.md": "14fc9100e87a4056906dd398f80859e6871ecc0b1eb91e143f159f69f919e411",
+    "configs/power-reanalysis.toml": "3dd5e36a454cec2425587c9bd2b3f219f514ce930a58db8e0ced659a8b2b31b6",
+    "docs/confirmatory-protocol-v1.md": "38ef1aae687b6cd1a9b8b59709b84047250e2a9f90396cb9089244133b38f1b9"
+  },
+  "deterministic_artifact_count": 19,
+  "artifact_checks": [
+    {
+      "path": "anchors.json",
+      "sha256": "05d92fea1f8f9ff36cb78c0772332a2c86d2cd4f2795b1ab9a727a3558b863b4",
+      "byte_equal": true
+    },
+    {
+      "path": "baseline-metrics.csv",
+      "sha256": "c27a0af04cdf33836750385fe1d18f5de996edc429ca2706c8a9b8e8d17f585b",
+      "byte_equal": true
+    },
+    {
+      "path": "concentration.csv",
+      "sha256": "12239c48f9523b699ac2f23d21adde21faa45d9671a41615bdb02d787ece3d81",
+      "byte_equal": true
+    },
+    {
+      "path": "cost-magnitude.csv",
+      "sha256": "406e6652afabedfe3ef000cf73066597eb8234b2f95ae7d96b7521dd2b112202",
+      "byte_equal": true
+    },
+    {
+      "path": "encompassing-calibration.csv",
+      "sha256": "e0b163705762cabd57cbdd4727314e282fb7b7431db5cd9362ab01c907fb9a20",
+      "byte_equal": true
+    },
+    {
+      "path": "encompassing-grid.csv",
+      "sha256": "66a6099fc9aa4e5c1b089b5f36b1a1a0aa6b85e467fcf920dbae1bc59757bd35",
+      "byte_equal": true
+    },
+    {
+      "path": "evidence-layers.csv",
+      "sha256": "723ab3a5563f27157c54a3490a52919eb51c44fed4866f5192cd443f4c71bdc7",
+      "byte_equal": true
+    },
+    {
+      "path": "identity.json",
+      "sha256": "c26ce44f55b2a00a1ae348333c8548303e59f321232c43ad5f59d72738876f10",
+      "byte_equal": true
+    },
+    {
+      "path": "legacy-hac-2c.csv",
+      "sha256": "6e3516b63f390a95dc5335e352dda771448db373f27670402d248c4a548dc9ef",
+      "byte_equal": true
+    },
+    {
+      "path": "legacy-hac-2da.csv",
+      "sha256": "3e6b529ece70de2ac4d80652276795255ad3d2646beb367e39dacfe506b03c07",
+      "byte_equal": true
+    },
+    {
+      "path": "mde-power.csv",
+      "sha256": "43ec969f6ec7b016e1b09228324e7d5d96cc055d100dfda9bcc01d978b4049e9",
+      "byte_equal": true
+    },
+    {
+      "path": "monthly-tests.csv",
+      "sha256": "85ed8ce5a9449e75dc00fbe48111ce61e6e9731e0cb31abb0d309c7ecf66b6ce",
+      "byte_equal": true
+    },
+    {
+      "path": "placebo.csv",
+      "sha256": "8326046c12784e90fadf51bceb9a765ad43ecbbcb1cc0d7327df21047c96b899",
+      "byte_equal": true
+    },
+    {
+      "path": "report.md",
+      "sha256": "2ec408f150ab39a983823278be7991ab40b7bb629bc97eeb423a1eecab979099",
+      "byte_equal": true
+    },
+    {
+      "path": "resolved-config.json",
+      "sha256": "b65f2b161bbbc0a1e4c85672c8abb294eb2635b773a620bc92aefae3eaf2bbd1",
+      "byte_equal": true
+    },
+    {
+      "path": "role-tests.csv",
+      "sha256": "201722d4b434f9eff6054ddbc96ee0567b32f4322a71a69d86218f237f730c68",
+      "byte_equal": true
+    },
+    {
+      "path": "specification-audit.json",
+      "sha256": "13153e252000581b9aaa9b6510a169d781e15c41c90760d5145f3f631d7dd460",
+      "byte_equal": true
+    },
+    {
+      "path": "window-monthly.csv",
+      "sha256": "146ea03cca06aa27501143e08c8a54551305665ec03bdaf762b9f88c62cc7c73",
+      "byte_equal": true
+    },
+    {
+      "path": "window-tests.csv",
+      "sha256": "525192938232874c863d4e622a8fede29dde1c0876a54e3e881b4748f8b494e0",
+      "byte_equal": true
+    }
+  ],
+  "allowed_summary_differences": [
+    {
+      "field": "run_id",
+      "formal": "20261104T052452783302Z-7d3a5497",
+      "reproduction": "20261104T052644575077Z-2ebd386a"
+    },
+    {
+      "field": "run_kind",
+      "formal": "formal",
+      "reproduction": "reproduction"
+    },
+    {
+      "field": "output_directory",
+      "formal": "results/power-reanalysis/20261104T052452783302Z-7d3a5497",
+      "reproduction": "results/power-reanalysis/20261104T052644575077Z-2ebd386a"
+    },
+    {
+      "field": "elapsed_seconds",
+      "formal": 79.0089144000085,
+      "reproduction": 74.52762749997783
+    }
+  ],
+  "unexpected_summary_differences": [],
+  "budget_differences": "Measured durations, process memory and permitted host runtime metadata; six training fits and zero evaluation fits in each run.",
+  "formal_budget": {
+    "evidence_level": "exploratory_post_hoc",
+    "input_seconds": 22.763307400018675,
+    "prediction_reanalysis_seconds": 44.62684889999218,
+    "specification_audit_seconds": 11.439157999993768,
+    "elapsed_seconds": 79.0089144000085,
+    "memory": {
+      "peak_process_bytes": 2608308224,
+      "current_process_bytes": 566677504,
+      "method": "Windows GetProcessMemoryInfo.PeakWorkingSetSize; process lifetime"
+    },
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "D:\\zgs_project\\QuantForge\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+        "version": "0.3.34.106.0",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "D:\\zgs_project\\QuantForge\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+        "version": "0.3.31.dev",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      },
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "vcomp",
+        "filepath": "D:\\zgs_project\\QuantForge\\.venv\\Lib\\site-packages\\sklearn\\.libs\\vcomp140.dll",
+        "version": null
+      }
+    ],
+    "new_evaluation_fits": 0,
+    "new_evaluation_predictions": 0,
+    "training_specification_fits": 6,
+    "network_requests": 0
+  },
+  "reproduction_budget": {
+    "evidence_level": "exploratory_post_hoc",
+    "input_seconds": 21.777876599982847,
+    "prediction_reanalysis_seconds": 41.88941319999867,
+    "specification_audit_seconds": 10.718230800004676,
+    "elapsed_seconds": 74.52762749997783,
+    "memory": {
+      "peak_process_bytes": 2654752768,
+      "current_process_bytes": 576040960,
+      "method": "Windows GetProcessMemoryInfo.PeakWorkingSetSize; process lifetime"
+    },
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "D:\\zgs_project\\QuantForge\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+        "version": "0.3.34.106.0",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "D:\\zgs_project\\QuantForge\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+        "version": "0.3.31.dev",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      },
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "vcomp",
+        "filepath": "D:\\zgs_project\\QuantForge\\.venv\\Lib\\site-packages\\sklearn\\.libs\\vcomp140.dll",
+        "version": null
+      }
+    ],
+    "new_evaluation_fits": 0,
+    "new_evaluation_predictions": 0,
+    "training_specification_fits": 6,
+    "network_requests": 0
+  },
+  "summary_sha256": {
+    "formal": "3aee100de2210ce4cfc598171333b509c5619f76a8f65e803cd99e1fbfb3b766",
+    "reproduction": "061065537db9353ffdad845a304f284af5e1b417125eb8f75eafb6cfb860ad5e"
+  },
+  "input_sha256": {
+    "results/research-baseline/20261103T010111153259Z-a2cb0858/predictions.parquet": "66f74e1367ed816455d8df2af5c8fdd89009c893aa5fe064df29fe646c86407a",
+    "results/research-baseline/20261103T010111153259Z-a2cb0858/summary.json": "7aa9f334a9e5b5f1085edd2362676d86d0898fcdd376f92bb1886efbc3dc6f12",
+    "results/rolling-window-comparison/20261103T030302685501Z-d124511e/predictions.parquet": "11aeb1404b4708da6a936487f0db5dade6a3831c22de503a2bd1f20fb07bcc32",
+    "data/processed/binance/spot/BTCUSDT/1m/development-manifest.json": "6fc42cd53ab30e1282bc9202046edd1fb43e5bc3fa8c44595f1639958c66acb8",
+    "results/research-baseline/20261103T010111153259Z-a2cb0858/metrics.csv": "fa3cb8b3d595eb9d92c4e6acec93080625545bc53297fa86757c795f5e4b3d5a",
+    "docs/statistical-evidence/hac-results.csv": "0ab7ae30920261cc731743fe9e39c553b80204d03c0a8668ae4017ee990a2884",
+    "docs/phase2d-a-evidence/hac-results.csv": "023a2a99fbd40e51de8e4af0b831ef652a6111f07d2461f3eddaead2b36a92ba",
+    "results/rolling-window-comparison/20261103T030302685501Z-d124511e/summary.json": "55135aad824878f664422db403af8341373560b02b6c1bafe7fb1713d98bceac"
+  },
+  "source_sha256": {
+    "src/quantforge/__init__.py": "055268edd0b6f5c5ac561cd9dd4f7380da97ec7fa1a761f2c958b8d3ee822ddd",
+    "src/quantforge/data.py": "4fea08af9a14fc57dd44e7e78482c4c9058eaa0346944559e1ae93d63d3f0467",
+    "src/quantforge/data_monthly.py": "1a436fed8abc4199cd9274dcfdcdd9aac1e429382f24b2f30bddb4cf85fa14c4",
+    "src/quantforge/datasets/__init__.py": "d94ef065433363f556a2e8e51355553d882edef9ccc8295eb135d3b64b3157cb",
+    "src/quantforge/datasets/research_dataset.py": "fde22a50a96492a4fc506ba7c98209fda1a70379153f0d01570c9ae761c4cb80",
+    "src/quantforge/datasets/research_splits.py": "22c862f6e8e232dedfe17c3a9832f5b7d78737de1593d6b904e2c29c5949919c",
+    "src/quantforge/datasets/splits.py": "3459e5be5185eee2638709c3db4250e150d8e1deff140d1459882cb5257d93cd",
+    "src/quantforge/datasets/window_splits.py": "24de7804527d3dc805f46ee969d17267927e345b94af434303cd19793675fc22",
+    "src/quantforge/diagnostics/__init__.py": "cbf67e504e5770e4729b083ee88cad6b2734f34d0cab6333d392f7020ecf1ddf",
+    "src/quantforge/diagnostics/block_bootstrap.py": "0ba1efc1549ce7246b590e469ee835c88432f2d57d09895e3e6f2cb296a98387",
+    "src/quantforge/diagnostics/calibration.py": "9d51212bcc5c5b879438ecff9ae3435deb1cbaaf1cc0aacaf0d271d6b479b79a",
+    "src/quantforge/diagnostics/experiment.py": "2f300961179448f02ecf47c969373d2530696466036b730b6d350f138ef7d969",
+    "src/quantforge/diagnostics/figures.py": "4fce742c0a959f951866d18c31a321ef967253db6377437a997b6270ed769f0c",
+    "src/quantforge/diagnostics/forecast_tests.py": "48a3100829c72024e952dc9151f10b80fd243e8b96953966d47ab8a6fd1eee29",
+    "src/quantforge/diagnostics/hac_tests.py": "75719159243325c62ce352bd76b6be42adb4fa6629b32ecf308084d92097f3ec",
+    "src/quantforge/diagnostics/paired_losses.py": "3e4968687a5fe04919e5b12fe21b57866281c015fa54221bce570b72f002d2bc",
+    "src/quantforge/diagnostics/placebo.py": "d0e6521764fcc4e7c81e3466ad4b06559429e741ac78f74fe01cc451f8eada1f",
+    "src/quantforge/diagnostics/spec_audit.py": "be560436491eea147d7c94947eb74da53ce012a0f87b7798ac9314ad9b0ee9ef",
+    "src/quantforge/diagnostics/window_comparison.py": "d1c6bab2e6c4bd9cb5ee795f4a7ebb6c9fd07c3fff2fe8bd985f4348382eea82",
+    "src/quantforge/diagnostics/window_figures.py": "8477fe3e21471c9942e4692c623ff2518732beb770b988e5ffdf36337d8b2b5c",
+    "src/quantforge/experiment.py": "ffd623c6345082e2170a46d4f71ba82d0afdf327e9791da2a41b7501aeda3f84",
+    "src/quantforge/features/__init__.py": "857819a0c3c718cf2b1100ea72995db989ed149f65d1ad3d5e4cd3eda1fcbec1",
+    "src/quantforge/labels/__init__.py": "b968218639387cb82ab1beccef5c5bf3ed3674e5975c3d2b25cb4d318037746e",
+    "src/quantforge/models/__init__.py": "6efe9a59a752b71f67d386633ef71ca6b0bce5bd27d650b5201d21e8c321d973",
+    "src/quantforge/models/baselines.py": "a9269ca7f6147f653f608051746304596e898f49ec30f9e1714567e25a1ded83",
+    "src/quantforge/online/__init__.py": "61436c838dc82efe13f413c4a661c376f5be98d1b0d62f92ce954fe163e1052c",
+    "src/quantforge/online/feedback_queue.py": "3d137d4a1e5f4ee49df3dd5fca7c213bf94f168484d1b9f7a2c1edc551af2f71",
+    "src/quantforge/online/foundation.py": "a162bca9e5df9fc6b4a1036ab4c84ff635e842e8d9e56f1a9f8d7a4a5a5f4a7c",
+    "src/quantforge/online/incremental_ridge.py": "cb9ee836e695779b7582c468c1776b999d149438e9be7ca20d9c104836b4f46d",
+    "src/quantforge/online/replay.py": "acc595029e821e42d9d30aec6ffebf9247a7907a2d46d594eee93f5eb34a6dec",
+    "src/quantforge/power_reanalysis.py": "3a935ab27292d9b63b9505912ad4e661f6e1ab4d885fbcef1bcaa4888bf6c22b",
+    "src/quantforge/research_experiment.py": "9f24440f559f7283ee5b67ab2988b3dac3e7a02aee4c0ef2facc08bd6b9caf41",
+    "src/quantforge/research_policy.py": "d1e8269fc9e47d3f3b0e854a69ee9b439e92ebd9e2a019cb9b76429263c4a68e",
+    "src/quantforge/temporal.py": "6c262bbd1c77e6696c7d310eb31b321f3f27ffeea02fbd64a70f3dcee9bd648c",
+    "src/quantforge/window_experiment.py": "79c71107cc56a8f4dd2aaf91166a57aa1a9edc86bcc42326e95474604e430b2c",
+    "scripts/run_baseline.py": "8a362f6c10d865aef2846a2f3faacdba49517ecd297ffb63cd64fd950a4de1a5",
+    "pyproject.toml": "6801305a862573f6371b3469cec6c5f06a481602cdde7efa2781cd969a31ed69",
+    "uv.lock": "3cc5c097fca53050546c8227ef1adc6d62e5f175b9fe4e76093d6abef3aeedaf",
+    "requirements-lock.txt": "7d475bfe752f44bfaf0bc6fcb3e55069e9ffd23ee0a1df52574346cfec42ad04",
+    "scripts/run_power_reanalysis.py": "71010a25ab378778b745eafa71683f765e3d3be5f17607af5cf54f79b1164ef7"
+  },
+  "table_rows": {
+    "evidence-layers": 8,
+    "monthly-tests": 64,
+    "role-tests": 64,
+    "window-tests": 96,
+    "window-monthly": 96,
+    "concentration": 672,
+    "mde-power": 1728,
+    "encompassing-calibration": 72,
+    "encompassing-grid": 384,
+    "placebo": 16,
+    "cost-magnitude": 8,
+    "baseline-metrics": 24,
+    "legacy-hac-2c": 96,
+    "legacy-hac-2da": 144
+  },
+  "anchors": {
+    "evidence_level": "exploratory_post_hoc",
+    "status": "passed",
+    "checks": [
+      {
+        "evidence_level": "exploratory_post_hoc",
+        "name": "A1_relative_mse_pct",
+        "actual": -0.05734562572813351,
+        "expected": -0.057346,
+        "absolute_tolerance": 1e-06,
+        "passed": true
+      },
+      {
+        "evidence_level": "exploratory_post_hoc",
+        "name": "A1_abs_dm_z",
+        "actual": 0.7669124939163913,
+        "expected": 0.7669,
+        "absolute_tolerance": 0.0005,
+        "passed": true
+      },
+      {
+        "evidence_level": "exploratory_post_hoc",
+        "name": "A2_cw",
+        "actual": 2.3543310389129957,
+        "expected": 2.354,
+        "absolute_tolerance": 0.001,
+        "passed": true
+      },
+      {
+        "evidence_level": "exploratory_post_hoc",
+        "name": "A3_cw",
+        "actual": 1.5752999470841207,
+        "expected": 1.575,
+        "absolute_tolerance": 0.001,
+        "passed": true
+      },
+      {
+        "evidence_level": "exploratory_post_hoc",
+        "name": "A5_ic",
+        "actual": 0.033378113001517926,
+        "expected": 0.03338,
+        "absolute_tolerance": 1e-05,
+        "passed": true
+      },
+      {
+        "evidence_level": "exploratory_post_hoc",
+        "name": "A4_legacy-hac-2c_rows",
+        "actual": 96,
+        "expected": 96,
+        "absolute_tolerance": 0,
+        "passed": true
+      },
+      {
+        "evidence_level": "exploratory_post_hoc",
+        "name": "A4_legacy-hac-2da_rows",
+        "actual": 144,
+        "expected": 144,
+        "absolute_tolerance": 0,
+        "passed": true
+      },
+      {
+        "evidence_level": "exploratory_post_hoc",
+        "name": "A4_min_p",
+        "actual": 0.2011929919895862,
+        "expected": 0.201192992,
+        "absolute_tolerance": 1e-10,
+        "passed": true
+      },
+      {
+        "evidence_level": "exploratory_post_hoc",
+        "name": "A4_window_nulls",
+        "actual": 6,
+        "expected": 6,
+        "absolute_tolerance": 0,
+        "passed": true
+      },
+      {
+        "evidence_level": "exploratory_post_hoc",
+        "name": "A7_metrics_rows",
+        "actual": 24,
+        "expected": 24,
+        "absolute_tolerance": 0,
+        "passed": true
+      },
+      {
+        "evidence_level": "training_period_diagnostic",
+        "name": "A6_train_n_15m",
+        "actual": 260564,
+        "expected": 260564,
+        "absolute_tolerance": 0,
+        "passed": true
+      },
+      {
+        "evidence_level": "training_period_diagnostic",
+        "name": "A6_duplicate_corr_15m",
+        "actual": 0.9999339266632077,
+        "expected": 0.99993,
+        "absolute_tolerance": 1e-05,
+        "passed": true
+      },
+      {
+        "evidence_level": "training_period_diagnostic",
+        "name": "A6_condition",
+        "actual": 51607.949780189745,
+        "expected": 51607.95,
+        "absolute_tolerance": 0.05,
+        "passed": true
+      },
+      {
+        "evidence_level": "training_period_diagnostic",
+        "name": "A6_shrinkage",
+        "actual": 0.9433263913825561,
+        "expected": 0.94333,
+        "absolute_tolerance": 1e-05,
+        "passed": true
+      },
+      {
+        "evidence_level": "training_period_diagnostic",
+        "name": "A6_train_n_5m",
+        "actual": 260574,
+        "expected": 260574,
+        "absolute_tolerance": 0,
+        "passed": true
+      },
+      {
+        "evidence_level": "training_period_diagnostic",
+        "name": "A6_duplicate_corr_5m",
+        "actual": 0.9999339285889516,
+        "expected": 0.99993,
+        "absolute_tolerance": 1e-05,
+        "passed": true
+      }
+    ]
+  },
+  "identity": {
+    "evidence_level": "exploratory_post_hoc",
+    "max_abs_error": 3.9979955110402976e-19,
+    "tolerance": 1e-18,
+    "passed": true
+  },
+  "tests": {
+    "original": 484,
+    "new": 110,
+    "total": 594,
+    "passed": 594,
+    "full_seconds": 97.42,
+    "preflight_seconds": 85.01
+  },
+  "monte_carlo_sha256": "5321e40dc172bab31258e1f8faf44669ca311108e06b54d0d5835c148e9d9814",
+  "scope": {
+    "network_requests": 0,
+    "holdout_accessed": false,
+    "new_evaluation_models": 0,
+    "training_fits_per_run": 6,
+    "trading": "not evaluated",
+    "confirmatory_evidence": "none"
+  },
+  "limitations": [
+    "Same environment byte equality observed; cross-platform identity not asserted.",
+    "All real prediction inference is post-hoc on already-seen months.",
+    "Initial Train fits are diagnostic only; no spec-v2 validation/development forecast."
+  ]
+}

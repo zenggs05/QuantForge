@@ -1,0 +1,112 @@
+{
+  "status": "acquisition_passed_clean_offline_revalidation_pending",
+  "gate": "gate1",
+  "gate2_authorised": false,
+  "evidence_level": "real_data_integrity_only",
+  "months": 68,
+  "rows": 2978475,
+  "aggregates": {
+    "aggregate_expected_minutes": 2980800,
+    "aggregate_missing_minutes": 2325,
+    "aggregate_missing_ratio": 0.0007799919484702093,
+    "evaluate_expected_minutes": 2453760,
+    "evaluate_aggregate_missing_minutes": 1073,
+    "evaluate_aggregate_missing_ratio": 0.000437288080333855,
+    "aggregate_status_tier": "normal",
+    "evaluate_aggregate_status_tier": "normal",
+    "warmup_aggregate_expected_minutes": 527040,
+    "warmup_aggregate_missing_minutes": 1252,
+    "warmup_aggregate_missing_ratio": 0.002375531268973892,
+    "evaluate_months_over_3pct_count": 0,
+    "warmup_months_over_5pct_count": 0,
+    "boundary_gap_minutes_total": 0
+  },
+  "transfer_accounting": {
+    "successful_payload_bytes": {
+      "zip": 148415988,
+      "checksum": 5984
+    },
+    "successful_month_transfer_body_bytes": {
+      "zip": 148415988,
+      "checksum": 6160
+    },
+    "retry_body_bytes": {
+      "zip": 0,
+      "checksum": 176
+    },
+    "prior_failed_payload_bytes": {
+      "checksum": 176,
+      "zip": 3678636
+    },
+    "cumulative_body_bytes": {
+      "zip": 152094624,
+      "checksum": 6336
+    },
+    "unresolved_reserved_bytes": {
+      "zip": 0,
+      "checksum": 0
+    },
+    "cumulative_charged_bytes": {
+      "zip": 152094624,
+      "checksum": 6336
+    },
+    "cumulative_http_gets": 144,
+    "prior_failed_events": {
+      "2020-02": {
+        "zip_body_bytes": 2077466,
+        "checksum_body_bytes": 88
+      },
+      "2022-06": {
+        "zip_body_bytes": 1601170,
+        "checksum_body_bytes": 88
+      }
+    }
+  },
+  "runtime": {
+    "status": "passed",
+    "argv": [
+      "--config",
+      "configs/history-extension.toml",
+      "--output-root",
+      "data/raw/binance/spot/BTCUSDT/1m/historical",
+      "--resume-from",
+      "2022-06"
+    ],
+    "started_at_utc": "2026-11-09T02:36:53.927918+00:00",
+    "implementation_commit": "87aacbe2b6c1c0e967d865ddde2b5b87ef356517",
+    "carry_in_http_gets": 64,
+    "carry_in_zip_bytes": 68371336,
+    "carry_in_checksum_bytes": 2816,
+    "real_data_ridge_fits": 0,
+    "real_data_statistical_tests_count": 0,
+    "research_function_counts": {
+      "sklearn.Ridge.fit": 0,
+      "clark_west_differential": 0,
+      "dm_differential": 0,
+      "ic_product": 0,
+      "r2_oos": 0,
+      "run_size_power_monte_carlo": 0,
+      "mde": 0,
+      "normal_power": 0,
+      "months_required": 0,
+      "encompassing_approx": 0
+    },
+    "counter_method": "sys.monitoring PY_START on named function code objects, with immediate failure; CLI profile guard also active",
+    "persistence_retries_count_total": 1,
+    "persistence_wait_seconds_total": 0.1,
+    "raw_permission_error_count": 1,
+    "permission_error_hard_fail_count": 0,
+    "elapsed_seconds": 367.2184612000128,
+    "peak_process_memory_bytes": 272384000,
+    "finished_at_utc": "2026-11-09T02:43:01.146533+00:00",
+    "market_network_requests": 80,
+    "http_gets_count_total": 144,
+    "new_zip_bytes": 83723288,
+    "new_checksum_bytes": 3520,
+    "market_rows_read_total_in_ledger": 3195087,
+    "holdout_requests": 0,
+    "holdout_access_count": 0,
+    "smoke_day_rows_read": 0,
+    "row_scope": "Historical month timestamps and URLs guarded by the fixed allowlist"
+  }
+}

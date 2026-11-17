@@ -1,0 +1,26 @@
+{
+  "scope": "Acquisition success only; GP7 stopped",
+  "2020-02": [
+    {
+      "result": "fail-then-cleanup",
+      "commit": "1d6e1f2"
+    },
+    {
+      "result": "refetch-success",
+      "commit": "b4683f3c0051b486ef081f310919ab72e7d6f12b"
+    }
+  ],
+  "2022-06": {
+    "incident_commit": "e0caaaf",
+    "incident_partial_bytes_charged": 1601170,
+    "incident_cumulative_gets_before_resume": 64,
+    "resume_commit": "b4683f3c0051b486ef081f310919ab72e7d6f12b",
+    "resume_checksum_sha_matches_archived_incident": true,
+    "resume_tier": "normal",
+    "resume_missing_minutes": 0,
+    "resume_anomalous_close_time_rows": 0,
+    "resume_zip_sha256": "0ced8899e9c3b2c098e1c5fc4993250bac22d8684d2d38404310351f35e32c0c",
+    "resume_checksum_sha256": "30ed4c4ce515aceb2df64d36fd1c87e720f7747c0d3f26c3579b7d718d05905d",
+    "resume_implementation_commit": "87aacbe2b6c1c0e967d865ddde2b5b87ef356517"
+  }
+}

@@ -1,0 +1,6 @@
+{"argv": ["scripts/run_holdout_b.py", "audit"], "attempt": 2, "event": "start", "exit_code": null, "head": "2de4e494f72a5ba3c2aea075885269d578d4367f", "launch": 1, "mode": "audit", "utc": "2026-11-17T09:28:03.761469+00:00"}
+{"argv": ["scripts/run_holdout_b.py", "audit"], "attempt": 2, "event": "end", "exit_code": 0, "head": "2de4e494f72a5ba3c2aea075885269d578d4367f", "launch": 1, "mode": "audit", "utc": "2026-11-17T09:28:11.770791+00:00"}
+{"argv": ["scripts/run_holdout_b.py", "formal"], "attempt": 2, "event": "start", "exit_code": null, "head": "63573205648ba869e1cfbfdc2b4d6ab2d6763869", "launch": 2, "mode": "formal", "utc": "2026-11-17T09:28:43.655009+00:00"}
+{"argv": ["scripts/run_holdout_b.py", "formal"], "attempt": 2, "event": "end", "exit_code": 0, "head": "63573205648ba869e1cfbfdc2b4d6ab2d6763869", "launch": 2, "mode": "formal", "utc": "2026-11-17T09:28:59.885725+00:00"}
+{"argv": ["scripts/run_holdout_b.py", "reproduction"], "attempt": 2, "event": "start", "exit_code": null, "head": "63573205648ba869e1cfbfdc2b4d6ab2d6763869", "launch": 3, "mode": "reproduction", "utc": "2026-11-17T09:29:03.545898+00:00"}
+{"argv": ["scripts/run_holdout_b.py", "reproduction"], "attempt": 2, "event": "end", "exit_code": 0, "head": "63573205648ba869e1cfbfdc2b4d6ab2d6763869", "launch": 3, "mode": "reproduction", "utc": "2026-11-17T09:29:19.147935+00:00"}

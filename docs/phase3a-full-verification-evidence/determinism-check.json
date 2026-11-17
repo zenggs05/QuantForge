@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "artifacts": {
+    "combined-summary.json": {
+      "sha256": "d75279d9f78da6867489c34295a02c80387e808fc05414ac60efaf3a3b42263f",
+      "stored_sha256": "d75279d9f78da6867489c34295a02c80387e808fc05414ac60efaf3a3b42263f",
+      "byte_identical": true
+    },
+    "conflict-fields.csv": {
+      "sha256": "06649363c28b3cdeeb27fd8c7cef4287274e91990fa7d4efeeeb8a35d7936ce5",
+      "stored_sha256": "06649363c28b3cdeeb27fd8c7cef4287274e91990fa7d4efeeeb8a35d7936ce5",
+      "byte_identical": true
+    },
+    "conflict-minutes.csv": {
+      "sha256": "6585e3c0a92154a0a9c7d0d12bfc5cc47589ce131896f527bb343ed4f2aba493",
+      "stored_sha256": "6585e3c0a92154a0a9c7d0d12bfc5cc47589ce131896f527bb343ed4f2aba493",
+      "byte_identical": true
+    },
+    "consistent-gaps.csv": {
+      "sha256": "d510e9566920233867d9560e878d1c3757e58c31697ca64b73b86ff7ba763fe8",
+      "stored_sha256": "d510e9566920233867d9560e878d1c3757e58c31697ca64b73b86ff7ba763fe8",
+      "byte_identical": true
+    },
+    "contamination-by-month.csv": {
+      "sha256": "9b156806f89b68119d21983b44f7f08cb852b05887d84335e8571d504f7b2323",
+      "stored_sha256": "9b156806f89b68119d21983b44f7f08cb852b05887d84335e8571d504f7b2323",
+      "byte_identical": true
+    },
+    "coverage.json": {
+      "sha256": "8b1b78183c52a3523189878fc6197a264645e276d24c4a4af4425dcacf0b0155",
+      "stored_sha256": "8b1b78183c52a3523189878fc6197a264645e276d24c4a4af4425dcacf0b0155",
+      "byte_identical": true
+    },
+    "d039-reconciliation.json": {
+      "sha256": "1e37b29f65ec5ce71e1d5913d1e4bee61ef018fc83fcff0372d7292e5f89ee43",
+      "stored_sha256": "1e37b29f65ec5ce71e1d5913d1e4bee61ef018fc83fcff0372d7292e5f89ee43",
+      "byte_identical": true
+    },
+    "daily-integrity.csv": {
+      "sha256": "b68304b70deabbeb8dc4d2366e9bff7c16d8c85c5e9b4c85ca70c2b82e6ef44e",
+      "stored_sha256": "b68304b70deabbeb8dc4d2366e9bff7c16d8c85c5e9b4c85ca70c2b82e6ef44e",
+      "byte_identical": true
+    },
+    "derived/minute-flags.csv.gz": {
+      "sha256": "71283ab3b619bb370f22dae62db5111ff5f5accb3d5e226b6b7e068372ebf984",
+      "stored_sha256": "71283ab3b619bb370f22dae62db5111ff5f5accb3d5e226b6b7e068372ebf984",
+      "byte_identical": true
+    },
+    "distributions.json": {
+      "sha256": "9b82c79d548e3a655972d9942c2e70e0e951d72a5b8a81d9ccf0dc2bd7d11cef",
+      "stored_sha256": "9b82c79d548e3a655972d9942c2e70e0e951d72a5b8a81d9ccf0dc2bd7d11cef",
+      "byte_identical": true
+    },
+    "episodes.csv": {
+      "sha256": "b8000f0f1fad8fc9fad54e5139e30b23764f436fc6270be2ab8cf2e70a0efc04",
+      "stored_sha256": "b8000f0f1fad8fc9fad54e5139e30b23764f436fc6270be2ab8cf2e70a0efc04",
+      "byte_identical": true
+    },
+    "gw-instrument-exposure.csv": {
+      "sha256": "cb81030d785115345b8fbc163f471f42bc14b4c6dc8171f674405d432ad9763d",
+      "stored_sha256": "cb81030d785115345b8fbc163f471f42bc14b4c6dc8171f674405d432ad9763d",
+      "byte_identical": true
+    },
+    "intervals.csv": {
+      "sha256": "f791868e51be4c79676dd0f94177ae3e9d355a12d64b42b639d37d39879aaed3",
+      "stored_sha256": "f791868e51be4c79676dd0f94177ae3e9d355a12d64b42b639d37d39879aaed3",
+      "byte_identical": true
+    },
+    "owner-categories.csv": {
+      "sha256": "64b3d29b5884838aeb5b130646e09538094a93a22fc8aaff968bcc41a8665609",
+      "stored_sha256": "64b3d29b5884838aeb5b130646e09538094a93a22fc8aaff968bcc41a8665609",
+      "byte_identical": true
+    },
+    "summary-by-month.csv": {
+      "sha256": "a5eaed4126fa27e6cd2e4a7cb55df2e1022dc19470353710d2430b32c9bbcc8f",
+      "stored_sha256": "a5eaed4126fa27e6cd2e4a7cb55df2e1022dc19470353710d2430b32c9bbcc8f",
+      "byte_identical": true
+    },
+    "summary-by-year.csv": {
+      "sha256": "ed79ff9af94c429f7c68f70241beb43c937bbb14adef54550f5dd950d1064731",
+      "stored_sha256": "ed79ff9af94c429f7c68f70241beb43c937bbb14adef54550f5dd950d1064731",
+      "byte_identical": true
+    },
+    "timestamp-anomalies.csv": {
+      "sha256": "cb3ec04a3c7fa282268bfbac661f4222bd35c7a7165ecd41dfba31dd24581356",
+      "stored_sha256": "cb3ec04a3c7fa282268bfbac661f4222bd35c7a7165ecd41dfba31dd24581356",
+      "byte_identical": true
+    }
+  },
+  "network_requests": 0,
+  "isolation_unchanged": true
+}

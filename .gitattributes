@@ -1,0 +1,80 @@
+# The frozen analysis plan is hashed as UTF-8 LF bytes on every platform.
+docs/phase2c-analysis-plan.md text eol=lf
+docs/phase2d-a-analysis-plan.md text eol=lf
+configs/rolling-windows.toml text eol=lf
+docs/phase2d-a-plan-manifest.json text eol=lf
+docs/phase2d-c1-analysis-plan.md text eol=lf
+configs/online-foundation.toml text eol=lf
+docs/phase2d-c1-plan-manifest.json text eol=lf
+# Preserve hashed evidence bytes and recognize original CRLF line endings.
+docs/phase2d-c1-evidence/* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+docs/phase2e-analysis-plan.md text eol=lf
+configs/power-reanalysis.toml text eol=lf
+docs/confirmatory-protocol-v1.md text eol=lf
+docs/phase2e-plan-manifest.json text eol=lf
+docs/phase2e-evidence/* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+tools/provenance/*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Pin LF line endings for the seven prediction-code files whose SHA-256 is
+# recorded in docs/confirmatory-protocol-v1.md (lines 63-69). Blobs are
+# already LF in git history; this guarantees that any future `git worktree
+# add` or fresh clone with core.autocrlf=true produces an LF working-tree
+# file whose SHA-256 matches the frozen protocol fingerprints. Modifying
+# these files (byte content) requires a new confirmatory protocol freeze.
+src/quantforge/features/__init__.py text eol=lf
+src/quantforge/labels/__init__.py text eol=lf
+src/quantforge/datasets/research_splits.py text eol=lf
+src/quantforge/datasets/splits.py text eol=lf
+src/quantforge/datasets/window_splits.py text eol=lf
+src/quantforge/models/baselines.py text eol=lf
+src/quantforge/temporal.py text eol=lf
+
+# Phase 3A new frozen artifacts.
+docs/phase3a-analysis-plan.md text eol=lf
+configs/history-extension.toml text eol=lf
+docs/confirmatory-protocol-v1-history-addendum.md text eol=lf
+docs/phase3a-plan-manifest.json text eol=lf
+docs/phase3a-download-manifest-draft.json text eol=lf
+docs/phase3a-evidence/* -text
+
+# Phase 2F new frozen artifacts.
+docs/phase2f-plan.md text eol=lf
+configs/c1-engine-hardening.toml text eol=lf
+docs/phase2f-plan-manifest.json text eol=lf
+docs/phase2f-evidence/* -text
+# Phase 3A Gate 1 new tracked artifacts.
+data/processed/binance/spot/BTCUSDT/1m/historical/historical-manifest.json text eol=lf
+docs/phase3a-gate1-record.md text eol=lf
+docs/phase3a-gate1-report.md text eol=lf
+docs/phase3a-gate1-reproducibility.json text eol=lf
+docs/phase3a-gate1-evidence/* -text
+# D-039 targeted daily-archive verification artifacts.
+docs/phase3a-daily-verification-record.md text eol=lf
+docs/phase3a-daily-verification-evidence/* -text
+# D-041 full daily-archive verification artifacts.
+docs/phase3a-full-verification-record.md text eol=lf
+docs/phase3a-full-verification-evidence/* -text
+# D-043 14-day retry artifacts.
+docs/phase3a-retry-verification-record.md text eol=lf
+docs/phase3a-retry-verification-evidence/** -text
+tools/d043_precheck.py text eol=lf
+# Phase 3A Gate 2 (D-056) frozen inputs and outputs.
+configs/phase3a-gate2-execution.toml text eol=lf
+docs/phase3a-gate2-structural-expectations.json -text
+docs/phase3a-gate2-sensitivity-conflicts.csv text eol=lf
+docs/phase3a-gate2-record.md text eol=lf
+docs/phase3a-gate2-report.md text eol=lf
+docs/phase3a-gate2-reproducibility.json text eol=lf
+docs/phase3a-gate2-evidence/** -text
+tools/gate2_precheck.py text eol=lf
+# Holdout-A confirmatory run (D-059).
+configs/holdout-a-execution.toml text eol=lf
+docs/holdout-a-record.md text eol=lf
+docs/holdout-a-report.md text eol=lf
+docs/holdout-a-evidence/** -text
+tools/holdout_a_precheck.py text eol=lf
+docs/confirmatory-protocol-holdout-b.md text eol=lf
+LICENSE -text
+docs/supplementary-evidence/* -text
+analysis/*.py text eol=lf
+docs/holdout-b-evidence/** -text
+src/quantforge/holdout_b.py text eol=lf

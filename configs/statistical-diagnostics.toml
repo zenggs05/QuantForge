@@ -1,0 +1,33 @@
+# Frozen follow-up diagnostics; Phase 2B performance was already observed.
+[input]
+summary_path = "results/research-baseline/20261103T010111153259Z-a2cb0858/summary.json"
+summary_sha256 = "7aa9f334a9e5b5f1085edd2362676d86d0898fcdd376f92bb1886efbc3dc6f12"
+prediction_sha256 = "66f74e1367ed816455d8df2af5c8fdd89009c893aa5fe064df29fe646c86407a"
+
+[plan]
+path = "docs/phase2c-analysis-plan.md"
+sha256 = "1dcb6c79d947a3c13e478efb367a1d77e8e3d671698fc0b6fb2c1864daac40d3"
+
+[analysis]
+seed = 42
+horizons = [15, 5]
+baselines = ["zero", "historical_mean"]
+confidence = 0.95
+roles = ["validation", "development_evaluation"]
+months = ["2026-03", "2026-04", "2026-05", "2026-06"]
+
+[bootstrap]
+replicates = 2000
+main_block_length = 1440
+block_lengths = [60, 360, 1440, 2880]
+method = "non_circular_moving_block_percentile"
+
+[hac]
+main_lag = 60
+lags = [15, 60, 240]
+kernel = "bartlett"
+main_family_size = 32
+global_family_size = 96
+
+[output]
+directory = "results/statistical-diagnostics"

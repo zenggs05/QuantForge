@@ -1,0 +1,6 @@
+# A single UTC day; this configuration does not authorize bulk downloads.
+[sample]
+market = "spot"
+symbol = "BTCUSDT"
+interval = "1m"
+date = "2026-09-01"

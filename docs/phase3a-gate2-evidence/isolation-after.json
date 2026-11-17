@@ -1,0 +1,32 @@
+{
+  "QuantForge-2f/.venv": {
+    "bytes": 397797398,
+    "files": 10052,
+    "size_mtime_sha256": "56bbf8c38282dad09a00b5c9b827e8ebe40549f584f4f2cdcf3a661b5d10c7bf"
+  },
+  "QuantForge-2f/data": {
+    "bytes": 4,
+    "files": 2,
+    "size_mtime_sha256": "102fc0cf36195fca5c9eb30c7b571f903614e5820a39e4f87cf4e154468b6238"
+  },
+  "QuantForge-2f/results": {
+    "bytes": 2,
+    "files": 1,
+    "size_mtime_sha256": "e9db52a1105316b72e56e60dde5a6ea5601a6a077fc6dfb4569543f4b30d6345"
+  },
+  "QuantForge/.venv": {
+    "bytes": 397794209,
+    "files": 10052,
+    "size_mtime_sha256": "3ed5b35b949b1dc992d07057275a39c878104888df73aa32350ff70ca5e5492f"
+  },
+  "QuantForge/data": {
+    "bytes": 61327874,
+    "files": 62,
+    "size_mtime_sha256": "0d197d2c14ee1c69252453789f3ad1912c39a2fbf614f14ab097a7ea0bfe9f77"
+  },
+  "QuantForge/results": {
+    "bytes": 596100123,
+    "files": 248,
+    "size_mtime_sha256": "5da46d5ad9f8e4b4ce4119e29d5347dcd35b95f669f8e46b44c4902f8637c331"
+  }
+}

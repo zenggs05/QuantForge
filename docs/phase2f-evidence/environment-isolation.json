@@ -1,0 +1,16 @@
+{
+  "main": {
+    "after_file_count": 10052,
+    "before_file_count": 10052,
+    "changed_files": [],
+    "comparison": "all file relative names, size and mtime_ns; metadata only",
+    "snapshot_sha256": "2d3c4af550e6bee100ed30fe51be915e6147f8749180cf3c7a92f5dcb2a1f11c"
+  },
+  "phase3a": {
+    "after_file_count": 10052,
+    "before_file_count": 10052,
+    "changed_files": [],
+    "comparison": "all file relative names, size and mtime_ns; metadata only",
+    "snapshot_sha256": "272c95f80ead11a840320f8411774abbb576775ab56463d41f1237d432c362d7"
+  }
+}

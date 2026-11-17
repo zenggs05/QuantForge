@@ -1,0 +1,290 @@
+{
+  "evidence_level": "exploratory_post_hoc",
+  "config": {
+    "experiment": {
+      "mode": "power_calibrated_reanalysis",
+      "horizons": [
+        15,
+        5
+      ],
+      "seed": 42,
+      "cpu_threads": 1,
+      "precision": "float64",
+      "fit_intercept": true,
+      "solver": "svd",
+      "ridge_alpha": 1.0,
+      "availability_delay_seconds": 1.0
+    },
+    "inputs": {
+      "phase2b_predictions_path": "results/research-baseline/20261103T010111153259Z-a2cb0858/predictions.parquet",
+      "phase2b_predictions_sha256": "66f74e1367ed816455d8df2af5c8fdd89009c893aa5fe064df29fe646c86407a",
+      "phase2b_summary_path": "results/research-baseline/20261103T010111153259Z-a2cb0858/summary.json",
+      "phase2b_summary_sha256": "7aa9f334a9e5b5f1085edd2362676d86d0898fcdd376f92bb1886efbc3dc6f12",
+      "phase2d_a_predictions_path": "results/rolling-window-comparison/20261103T030302685501Z-d124511e/predictions.parquet",
+      "phase2d_a_predictions_sha256": "11aeb1404b4708da6a936487f0db5dade6a3831c22de503a2bd1f20fb07bcc32",
+      "development_manifest_path": "data/processed/binance/spot/BTCUSDT/1m/development-manifest.json",
+      "development_manifest_sha256": "6fc42cd53ab30e1282bc9202046edd1fb43e5bc3fa8c44595f1639958c66acb8",
+      "phase2b_metrics_path": "results/research-baseline/20261103T010111153259Z-a2cb0858/metrics.csv",
+      "phase2b_metrics_sha256": "fa3cb8b3d595eb9d92c4e6acec93080625545bc53297fa86757c795f5e4b3d5a",
+      "phase2c_hac_path": "docs/statistical-evidence/hac-results.csv",
+      "phase2c_hac_sha256": "0ab7ae30920261cc731743fe9e39c553b80204d03c0a8668ae4017ee990a2884",
+      "phase2d_a_hac_path": "docs/phase2d-a-evidence/hac-results.csv",
+      "phase2d_a_hac_sha256": "023a2a99fbd40e51de8e4af0b831ef652a6111f07d2461f3eddaead2b36a92ba",
+      "phase2d_a_summary_path": "results/rolling-window-comparison/20261103T030302685501Z-d124511e/summary.json",
+      "phase2d_a_summary_sha256": "55135aad824878f664422db403af8341373560b02b6c1bafe7fb1713d98bceac"
+    },
+    "inference": {
+      "lags": [
+        15,
+        60,
+        240
+      ],
+      "llsw_constant": 1.3,
+      "admissible_min_lag_multiple": 4,
+      "pooling": [
+        "n_weighted",
+        "month_equal"
+      ],
+      "alpha": 0.05,
+      "power": 0.8,
+      "effect_scenarios": [
+        0.5,
+        0.75,
+        1.0
+      ],
+      "normal_reference": "scipy.stats.norm",
+      "roles": [
+        "validation",
+        "development_evaluation"
+      ],
+      "months": [
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06"
+      ],
+      "references": [
+        "zero",
+        "historical_mean"
+      ],
+      "windows": [
+        "rolling_1m",
+        "rolling_3m",
+        "rolling_6m"
+      ],
+      "primary_horizon": 15,
+      "primary_bandwidth": "LLSW",
+      "primary_pooling": "n_weighted",
+      "legacy_main_lag": 60,
+      "cw_holm_family_size": 8,
+      "window_holm_family_size": 6,
+      "legacy_global_family_2c": 32,
+      "legacy_global_family_2da": 144
+    },
+    "placebo": {
+      "sign_flip_block_minutes": 60,
+      "sign_flip_draws": 200,
+      "time_shift_minutes": 1440,
+      "quantiles": [
+        0.025,
+        0.05,
+        0.5,
+        0.95,
+        0.975
+      ],
+      "mean_abs_limit": 0.3,
+      "sd_min": 0.8,
+      "sd_max": 1.25,
+      "lags": [
+        60
+      ],
+      "include_llsw": true,
+      "pooling": "n_weighted",
+      "role_ids": {
+        "validation": 0,
+        "development_evaluation": 1
+      },
+      "month_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "empirical_p": "(1+count(t_draw>=t_observed))/(B+1)"
+    },
+    "monte_carlo": {
+      "seed": 42,
+      "replications": 400,
+      "alpha": 0.05,
+      "minute_points_per_month": 44640,
+      "months": 2,
+      "label_horizon_minutes": 15,
+      "innovation_distribution": "standardized_student_t",
+      "student_t_df": 5,
+      "signal_distribution": "standard_normal",
+      "stream_ids": [
+        0,
+        1,
+        2
+      ],
+      "batch_size": 8,
+      "level_lags": [
+        60
+      ],
+      "include_llsw": true,
+      "volatility_process": "log_vol_ar1",
+      "logvol_ar1_phi": 0.98,
+      "stationary_logvol_sd": 0.5,
+      "burnin_minutes": 1024,
+      "future_horizon_minutes": 15,
+      "stream_seed_formula": "SeedSequence([seed, replicate, month, stream_id])",
+      "signal_r2": 0.001,
+      "known_slope": 0.6,
+      "null_model": "y=e; f=0.6*x",
+      "alternative_model": "y=e+0.6*x; f=0.6*x",
+      "level_min": 0.02,
+      "level_max": 0.09,
+      "reported_tests": [
+        "cw_one_sided",
+        "dm_two_sided",
+        "dm_improvement_one_sided"
+      ],
+      "max_seconds": 60,
+      "dm_direction_for_power": "-DM_z"
+    },
+    "concentration": {
+      "top_k": [
+        1,
+        10,
+        100
+      ],
+      "tie_break": [
+        "abs_desc",
+        "decision_time_asc",
+        "stable_row_order"
+      ],
+      "remove_preserves_time_gaps": true
+    },
+    "encompassing": {
+      "rho_grid": [
+        0.0025,
+        0.005,
+        0.01,
+        0.02
+      ],
+      "delta_ratio_grid": [
+        0.01,
+        0.03,
+        0.1,
+        0.3
+      ],
+      "power_target_formula": "norm.ppf(1-alpha)+norm.ppf(power)",
+      "compare_to": "-DM_z"
+    },
+    "spec_audit": {
+      "initial_fit_time": "2026-03-01T00:00:00Z",
+      "duplicate_corr_threshold": 0.999,
+      "crash_session_start": "2025-10-10T20:00:00Z",
+      "crash_session_end": "2025-10-11T00:00:00Z",
+      "top_k": [
+        1,
+        10,
+        100,
+        1000
+      ],
+      "window_starts": {
+        "one_month": "2026-02-01T00:00:00Z",
+        "three_month": "2025-12-01T00:00:00Z",
+        "six_month": "2025-09-01T00:00:00Z"
+      },
+      "windows": [
+        "six_month",
+        "three_month",
+        "one_month"
+      ],
+      "specifications": [
+        "v1",
+        "v1_crash_excluded",
+        "v2"
+      ],
+      "model_fit_count": 6,
+      "correlation_ddof": 0,
+      "crash_basis": "decision_time",
+      "gap_max_abs_tolerance": 1e-12,
+      "gap_quantiles": [
+        0.0,
+        0.01,
+        0.5,
+        0.9,
+        0.99,
+        1.0
+      ],
+      "top_timestamps_count": 10,
+      "feature_count": 14,
+      "initial_start": "2025-09-01T00:00:00Z"
+    },
+    "cost_magnitude": {
+      "thresholds_bp": [
+        1,
+        2,
+        5,
+        10,
+        15,
+        20
+      ],
+      "return_to_bp": 10000.0,
+      "quantiles": [
+        0.5,
+        0.9,
+        0.99
+      ]
+    },
+    "holdouts": {
+      "holdout_a_start": "2026-07-01T00:00:00Z",
+      "holdout_a_end": "2026-09-01T00:00:00Z",
+      "holdout_b_start": "2026-09-02T00:00:00Z",
+      "holdout_b_end": "2026-11-01T00:00:00Z",
+      "smoke_day": "2026-09-01"
+    },
+    "anchors": {
+      "a1_relative_mse_pct": -0.057346,
+      "a1_relative_mse_pct_atol": 1e-06,
+      "a1_dm_abs_z": 0.7669,
+      "a1_dm_abs_z_atol": 0.0005,
+      "a2_cw_t": 2.354,
+      "a2_cw_t_atol": 0.001,
+      "a3_cw_t": 1.575,
+      "a3_cw_t_atol": 0.001,
+      "a5_validation_ic": 0.03338,
+      "a5_validation_ic_atol": 1e-05,
+      "a6_train_n_15m": 260564,
+      "a6_train_n_5m": 260574,
+      "a6_duplicate_corr": 0.99993,
+      "a6_duplicate_corr_atol": 1e-05,
+      "a6_condition_15m": 51607.95,
+      "a6_condition_15m_atol": 0.05,
+      "a6_weakest_shrinkage": 0.94333,
+      "a6_weakest_shrinkage_atol": 1e-05,
+      "a4_a7_rtol": 1e-12,
+      "a4_rows_2c": 96,
+      "a4_rows_2da": 144,
+      "a4_nulls_2da": 6,
+      "a4_min_p": 0.201192992,
+      "a4_min_p_atol": 1e-10,
+      "paired_observations": 351280,
+      "hac_library_rtol": 1e-15,
+      "identity_atol": 1e-18,
+      "rtol": 1e-12
+    },
+    "resource_limits": {
+      "max_run_minutes": 20,
+      "max_memory_gb": 4,
+      "bytes_per_gb": 1000000000,
+      "max_network_requests": 0,
+      "max_download_bytes": 0
+    },
+    "output": {
+      "directory": "results/power-reanalysis"
+    }
+  }
+}

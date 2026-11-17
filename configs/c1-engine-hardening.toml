@@ -1,0 +1,75 @@
+[tolerance]
+coef_atol = 1e-9
+coef_rtol = 1e-8
+intercept_atol = 1e-10
+intercept_rtol = 1e-8
+pred_max_abs = 1e-9
+pred_rel_l2 = 1e-8
+numerical_cross_check_tolerance = 1e-10
+norm_denominator_floor = 1e-12
+
+[stability]
+condition_limit = 1e12
+kahan_enabled = true
+cross_check_default = false
+drift_warning_factor = 10
+
+[acceptance_graded]
+enabled = true
+expected_floor_multiplier = 10
+kahan_ulp_multiplier = 10
+
+[checkpoint]
+format_version_default_for_save = 1
+v2_available = true
+state_core_max_bytes = 33554432
+audit_log_chunk_rows = 100000
+backward_compat_read_v1 = true
+hash_chain_anchor_mechanism = "owner_git_commit_of_checkpoint_audit_json_and_summary_json"
+
+[oracle]
+initial_sample_ids_source = "explicit_frozenset_from_caller"
+independence_assertion = "qr_reference_and_batch_oracle_must_not_read_incremental_ridge_sufficient_stats_enforced_by_ast"
+
+[synthetic]
+seed = 20261105
+feature_count = 14
+initial_rows = 100
+mean_shifts = [10.0, 100.0, 1000.0, 10000.0]
+update_ratios = [0.01, 0.1, 1.0, 10.0]
+extreme_shifts = [10000000.0, 100000000.0]
+kahan_initial_sum = 10000000000.0
+kahan_increment = 0.000001
+kahan_updates = 1000000
+periods = 430
+replay_events = 90
+start = "2026-02-28T20:00:00Z"
+fit_time = "2026-03-01T00:00:00Z"
+horizons = [15, 5]
+sigma_noise = 0.001
+sigma_signal = 0.0003
+signal_period_divisor = 97.0
+r2_max = 0.5
+stale_margin = 1e-8
+wick_scale = 0.0001
+initial_price = 100.0
+volume_base = 10.0
+volume_period = 17
+volume_trend = 0.05
+volume_gamma_shape = 2.0
+volume_gamma_scale = 3.0
+taker_mean = 0.4
+taker_sd = 0.1
+taker_min = 0.1
+taker_max = 0.9
+trades_base = 20
+trades_period = 23
+trades_poisson_mean = 5.0
+
+[budget]
+numeric_threads = 1
+formal_max_seconds = 1200
+formal_max_peak_bytes = 4294967296
+formal_runs = 1
+reproduction_runs = 1
+mutation_max_seconds = 1800

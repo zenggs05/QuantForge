@@ -1,0 +1,184 @@
+{
+  "ap10": [
+    {
+      "T": 45,
+      "abs_square_max_difference": 0.0,
+      "bound": 3.692314726024295,
+      "case": "same_sign",
+      "exceedances": 0,
+      "max_abs_error_over_SE": 3.4509418779209704,
+      "midpoint_error_months": 5
+    },
+    {
+      "T": 45,
+      "abs_square_max_difference": 0.0,
+      "bound": 3.692314726024295,
+      "case": "sign_flip",
+      "exceedances": 0,
+      "max_abs_error_over_SE": 2.9423598589915754,
+      "midpoint_error_months": 5
+    }
+  ],
+  "d023_merge_commit": "f1fc5f6175f20d35ebe5105d500ab4f9bece8317",
+  "deterministic_file_count": 19,
+  "deterministic_sha256": {
+    "concentration.csv": "215b8df1162b9a5eb260bff7495203a9898ca7f04ec563008d28359e180b0490",
+    "conditional-gw.csv": "659e9d4f0fb5d64a125f566469161713c9b486c9959e50c966d179f780e02c08",
+    "conditional-gw.json": "db452b2b4e10513046159d921d6481210249e504c71902b23588c04731248228",
+    "dependence.json": "86e7e162a3f1d1533d42b164320893193fec5f33c314fc54ea4f91da8fb61187",
+    "download-plan.json": "1a865966ff55094a5fa54fc245ed7f0e7543360fbd8a0a4da8459dda306ab0f6",
+    "encompassing.csv": "886036e30f10fb67a40b1f3fb3ded149e309aad514686f92ad14c39fcf17eb20",
+    "fold-audit.json": "e77d211987352f9a1e420dffac264e66e91003e337fa9c21a7cd9ab170d20907",
+    "gw-instrument.csv": "bc5dee2a3c73fb31b9419b41490ab5ffe18c147d4d259e111829aac9970ee523",
+    "models.json": "7161bdc37925a73cdd0b0f8dec055df19f340d6a64b576743cea273a3f0d1061",
+    "monthly-tests.csv": "8dc6f3ec01f830f32cae9a16d78c192df08de855ebee6852e98ff9f183cd1fb7",
+    "placebo.csv": "3f9e28b037a283c7678c69ea5075dae32b62668eefa8b28e6cf30f7f86f7b653",
+    "pooled-tests.csv": "49ca2c165aa12e37c99b0bcd6803575c340af766be8f416917bc519fa24e72a1",
+    "power-planning.csv": "49334e760b55994a5fda490bd0567ce2887d420a4e71ffad15d9e3722de0c30f",
+    "predictions.parquet": "862ee70e1e46c14e399cca10d3b472a336895f461289ae1e792e20bb4a8c73a1",
+    "secondary-tests.csv": "178fee98c536eb0fc534b0339c4d07e335b46365d706ac6916c527170f901eeb",
+    "stability.csv": "718c6226b0e6d7940b7bd09f8b14d3d240c793435f4810798c3be7a67ee0cfc5",
+    "subperiods.csv": "77fca8f10d9b780af2dbdf542abc137942fb85a3ccaadeee6639973e40527d20",
+    "summary.json": "d661bdeaa953a6e28a37dcabe9abc0831cc36cdaa2d3845c0662272eea25f42b",
+    "training-indices.npz": "a2637930810c9191a3c933ac4db089f60b760e461076311363f9e34586a5e085"
+  },
+  "environment_isolation": {
+    "main": {
+      "after_files": 10052,
+      "before_files": 10052,
+      "changed_files": [],
+      "unchanged": true
+    },
+    "phase2f": {
+      "after_files": 10052,
+      "before_files": 10052,
+      "changed_files": [],
+      "unchanged": true
+    }
+  },
+  "evidence_level": "synthetic_engineering_only",
+  "frozen_hashes": {
+    "configs/history-extension.toml": {
+      "matches": true,
+      "sha256": "e9cbd19d884d046199f468f29e912cd6a9fbec1852e90ffc125b86d8df0bd9af"
+    },
+    "docs/confirmatory-protocol-v1-history-addendum.md": {
+      "matches": true,
+      "sha256": "a4a99cfbfb9e33105d98ad44b439a57020a050b64b46b5a8e4a0bbc4b204fc07"
+    },
+    "docs/confirmatory-protocol-v1.md": {
+      "matches": true,
+      "sha256": "38ef1aae687b6cd1a9b8b59709b84047250e2a9f90396cb9089244133b38f1b9"
+    },
+    "docs/phase2e-evidence/evidence-layers.csv": {
+      "matches": true,
+      "sha256": "723ab3a5563f27157c54a3490a52919eb51c44fed4866f5192cd443f4c71bdc7"
+    },
+    "docs/phase3a-analysis-plan.md": {
+      "matches": true,
+      "sha256": "fea667f7689d2c45ab0697b0dd2e8877cf0894ae27e4a5f0277efae48e50cb3c"
+    },
+    "docs/phase3a-download-manifest-draft.json": {
+      "matches": true,
+      "sha256": "1a865966ff55094a5fa54fc245ed7f0e7543360fbd8a0a4da8459dda306ab0f6"
+    },
+    "docs/phase3a-plan-manifest.json": {
+      "matches": true,
+      "sha256": "ceb56c5683ff682240563c87991c96298b3f6c45baa93eee03134efc7d34c54a"
+    },
+    "src/quantforge/datasets/research_splits.py": {
+      "matches": true,
+      "sha256": "22c862f6e8e232dedfe17c3a9832f5b7d78737de1593d6b904e2c29c5949919c"
+    },
+    "src/quantforge/datasets/splits.py": {
+      "matches": true,
+      "sha256": "3459e5be5185eee2638709c3db4250e150d8e1deff140d1459882cb5257d93cd"
+    },
+    "src/quantforge/datasets/window_splits.py": {
+      "matches": true,
+      "sha256": "24de7804527d3dc805f46ee969d17267927e345b94af434303cd19793675fc22"
+    },
+    "src/quantforge/features/__init__.py": {
+      "matches": true,
+      "sha256": "857819a0c3c718cf2b1100ea72995db989ed149f65d1ad3d5e4cd3eda1fcbec1"
+    },
+    "src/quantforge/labels/__init__.py": {
+      "matches": true,
+      "sha256": "b968218639387cb82ab1beccef5c5bf3ed3674e5975c3d2b25cb4d318037746e"
+    },
+    "src/quantforge/models/baselines.py": {
+      "matches": true,
+      "sha256": "a9269ca7f6147f653f608051746304596e898f49ec30f9e1714567e25a1ded83"
+    },
+    "src/quantforge/temporal.py": {
+      "matches": true,
+      "sha256": "6c262bbd1c77e6696c7d310eb31b321f3f27ffeea02fbd64a70f3dcee9bd648c"
+    }
+  },
+  "holdout_accessed": false,
+  "implementation_commit": "53b3e3f2440fe6cf87c6c2bd646158437444ac43",
+  "limitation": "Sparse synthetic engineering validation; no historical result or Monte Carlo power estimate.",
+  "market_network_requests": 0,
+  "market_rows_read": 0,
+  "protocol_commit": "927145671910df600a1081d4ce6478439ca4b0a4",
+  "ridge_fit_counts": {
+    "formal": 224,
+    "new_phase3a_tests": 899,
+    "reproduction": 224
+  },
+  "runs": [
+    {
+      "clean_after": true,
+      "clean_before": true,
+      "command": [
+        "D:\\zgs_project\\QuantForge-3a\\.venv\\Scripts\\python.exe",
+        "-B",
+        "scripts/run_phase3a.py",
+        "--synthetic-only",
+        "--output-directory",
+        "results/phase3a/20261105-53b3e3f-formal"
+      ],
+      "exit_code": 0,
+      "head": "53b3e3f2440fe6cf87c6c2bd646158437444ac43",
+      "label": "formal",
+      "output_directory": "results/phase3a/20261105-53b3e3f-formal",
+      "runtime": {
+        "elapsed_seconds": 98.22426829999313,
+        "measurement": "process lifetime peak working set; timings excluded from deterministic comparison",
+        "peak_process_bytes": 718491648,
+        "ridge_fits": 224
+      },
+      "shell_elapsed_seconds": 101.86778770003002
+    },
+    {
+      "clean_after": true,
+      "clean_before": true,
+      "command": [
+        "D:\\zgs_project\\QuantForge-3a\\.venv\\Scripts\\python.exe",
+        "-B",
+        "scripts/run_phase3a.py",
+        "--synthetic-only",
+        "--output-directory",
+        "results/phase3a/20261105-53b3e3f-reproduction"
+      ],
+      "exit_code": 0,
+      "head": "53b3e3f2440fe6cf87c6c2bd646158437444ac43",
+      "label": "reproduction",
+      "output_directory": "results/phase3a/20261105-53b3e3f-reproduction",
+      "runtime": {
+        "elapsed_seconds": 99.40772290003952,
+        "measurement": "process lifetime peak working set; timings excluded from deterministic comparison",
+        "peak_process_bytes": 717918208,
+        "ridge_fits": 224
+      },
+      "shell_elapsed_seconds": 102.6724446999724
+    }
+  ],
+  "status": "passed",
+  "test_suite": {
+    "added_passed": 200,
+    "baseline_passed": 594,
+    "elapsed_seconds": 301.24,
+    "total_passed": 794
+  }
+}

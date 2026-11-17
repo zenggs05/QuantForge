@@ -1,0 +1,3098 @@
+{
+ "buckets": {
+  "history_h15": {
+   "abs_f_threshold": {
+    "0.0": {
+     "hit_rate": 0.517760512342,
+     "month_cluster_se_bp": 0.0484071790247,
+     "n": 2451190,
+     "signed_return_bp": 0.205305830431
+    },
+    "1.0": {
+     "hit_rate": 0.538177795353,
+     "month_cluster_se_bp": 0.108546130063,
+     "n": 624771,
+     "signed_return_bp": 0.608144575035
+    },
+    "2.0": {
+     "hit_rate": 0.543501178222,
+     "month_cluster_se_bp": 0.355624179246,
+     "n": 193525,
+     "signed_return_bp": 1.45036123188
+    },
+    "3.0": {
+     "hit_rate": 0.544127193589,
+     "month_cluster_se_bp": 0.660903058229,
+     "n": 93973,
+     "signed_return_bp": 2.41489170217
+    },
+    "5.0": {
+     "hit_rate": 0.552305419985,
+     "month_cluster_se_bp": 1.94393210476,
+     "n": 31146,
+     "signed_return_bp": 6.04550995602
+    }
+   },
+   "deciles_of_f": {
+    "1": {
+     "mean_f_bp": -1.58587283454,
+     "mean_y_bp": -0.31069561393,
+     "n": 245120
+    },
+    "10": {
+     "mean_f_bp": 2.79322976697,
+     "mean_y_bp": 1.25297109473,
+     "n": 245120
+    },
+    "2": {
+     "mean_f_bp": -0.926048760268,
+     "mean_y_bp": -0.252723442895,
+     "n": 245119
+    },
+    "3": {
+     "mean_f_bp": -0.677825756644,
+     "mean_y_bp": -0.166153907471,
+     "n": 245119
+    },
+    "4": {
+     "mean_f_bp": -0.477484738132,
+     "mean_y_bp": -0.0791739552516,
+     "n": 245118
+    },
+    "5": {
+     "mean_f_bp": -0.288864812475,
+     "mean_y_bp": 0.0615256770366,
+     "n": 245119
+    },
+    "6": {
+     "mean_f_bp": -0.0926339399702,
+     "mean_y_bp": 0.00480866477654,
+     "n": 245119
+    },
+    "7": {
+     "mean_f_bp": 0.134144102924,
+     "mean_y_bp": 0.00442811618054,
+     "n": 245118
+    },
+    "8": {
+     "mean_f_bp": 0.434611137549,
+     "mean_y_bp": 0.0991499589859,
+     "n": 245119
+    },
+    "9": {
+     "mean_f_bp": 0.928385574917,
+     "mean_y_bp": 0.169417133457,
+     "n": 245119
+    }
+   }
+  },
+  "history_h5": {
+   "abs_f_threshold": {
+    "0.0": {
+     "hit_rate": 0.514126508154,
+     "month_cluster_se_bp": 0.0329538339632,
+     "n": 2451800,
+     "signed_return_bp": 0.178877145095
+    },
+    "1.0": {
+     "hit_rate": 0.534170706031,
+     "month_cluster_se_bp": 0.115586170583,
+     "n": 345850,
+     "signed_return_bp": 0.623728482216
+    },
+    "2.0": {
+     "hit_rate": 0.544852785427,
+     "month_cluster_se_bp": 0.404660268875,
+     "n": 94429,
+     "signed_return_bp": 1.74180672817
+    },
+    "3.0": {
+     "hit_rate": 0.551287936751,
+     "month_cluster_se_bp": 0.801657801801,
+     "n": 39215,
+     "signed_return_bp": 3.34732414055
+    },
+    "5.0": {
+     "hit_rate": 0.555063641395,
+     "month_cluster_se_bp": 2.31386992087,
+     "n": 10845,
+     "signed_return_bp": 6.5694883827
+    }
+   },
+   "deciles_of_f": {
+    "1": {
+     "mean_f_bp": -1.28471861686,
+     "mean_y_bp": -0.319836320721,
+     "n": 245181
+    },
+    "10": {
+     "mean_f_bp": 1.75034588814,
+     "mean_y_bp": 0.644626026284,
+     "n": 245181
+    },
+    "2": {
+     "mean_f_bp": -0.688826689583,
+     "mean_y_bp": -0.211613908437,
+     "n": 245180
+    },
+    "3": {
+     "mean_f_bp": -0.481827178515,
+     "mean_y_bp": -0.135815032096,
+     "n": 245180
+    },
+    "4": {
+     "mean_f_bp": -0.314872521525,
+     "mean_y_bp": -0.0705275898236,
+     "n": 245179
+    },
+    "5": {
+     "mean_f_bp": -0.158731487561,
+     "mean_y_bp": -0.0838894059013,
+     "n": 245180
+    },
+    "6": {
+     "mean_f_bp": -0.0052888579493,
+     "mean_y_bp": 0.00129157888732,
+     "n": 245180
+    },
+    "7": {
+     "mean_f_bp": 0.153646509255,
+     "mean_y_bp": 0.0999777101476,
+     "n": 245179
+    },
+    "8": {
+     "mean_f_bp": 0.34378007387,
+     "mean_y_bp": 0.130549260403,
+     "n": 245180
+    },
+    "9": {
+     "mean_f_bp": 0.633921843568,
+     "mean_y_bp": 0.207131541412,
+     "n": 245180
+    }
+   }
+  },
+  "holdout_h15": {
+   "abs_f_threshold": {
+    "0.0": {
+     "hit_rate": 0.513027469382,
+     "month_cluster_se_bp": 0.058906980785,
+     "n": 89250,
+     "signed_return_bp": 0.142624416206
+    },
+    "1.0": {
+     "hit_rate": 0.536647194974,
+     "month_cluster_se_bp": 0.338914926216,
+     "n": 9089,
+     "signed_return_bp": 1.00948501498
+    },
+    "2.0": {
+     "hit_rate": 0.547044129892,
+     "month_cluster_se_bp": 0.171280986015,
+     "n": 1203,
+     "signed_return_bp": 3.00529620624
+    },
+    "3.0": {
+     "hit_rate": 0.538028169014,
+     "month_cluster_se_bp": 0.520879146769,
+     "n": 356,
+     "signed_return_bp": 4.44937693935
+    },
+    "5.0": {
+     "hit_rate": 0.554545454545,
+     "month_cluster_se_bp": 2.36881285173,
+     "n": 110,
+     "signed_return_bp": 4.71521329201
+    }
+   },
+   "deciles_of_f": {
+    "1": {
+     "mean_f_bp": -1.35055028381,
+     "mean_y_bp": 0.103570762053,
+     "n": 8925
+    },
+    "10": {
+     "mean_f_bp": 0.764743322046,
+     "mean_y_bp": 2.44849460566,
+     "n": 8925
+    },
+    "2": {
+     "mean_f_bp": -0.828059592759,
+     "mean_y_bp": 0.363428928221,
+     "n": 8925
+    },
+    "3": {
+     "mean_f_bp": -0.662879698047,
+     "mean_y_bp": 0.221103860492,
+     "n": 8925
+    },
+    "4": {
+     "mean_f_bp": -0.538085446371,
+     "mean_y_bp": -0.0496448009135,
+     "n": 8925
+    },
+    "5": {
+     "mean_f_bp": -0.426574945838,
+     "mean_y_bp": 0.19763489449,
+     "n": 8925
+    },
+    "6": {
+     "mean_f_bp": -0.317861683654,
+     "mean_y_bp": 0.387127395845,
+     "n": 8925
+    },
+    "7": {
+     "mean_f_bp": -0.199296830715,
+     "mean_y_bp": 0.266541007488,
+     "n": 8925
+    },
+    "8": {
+     "mean_f_bp": -0.0627219770503,
+     "mean_y_bp": 0.325835114032,
+     "n": 8925
+    },
+    "9": {
+     "mean_f_bp": 0.12085890663,
+     "mean_y_bp": 0.625885497925,
+     "n": 8925
+    }
+   }
+  },
+  "holdout_h5": {
+   "abs_f_threshold": {
+    "0.0": {
+     "hit_rate": 0.50899258239,
+     "month_cluster_se_bp": 0.0987392684114,
+     "n": 89270,
+     "signed_return_bp": 0.0847838180757
+    },
+    "1.0": {
+     "hit_rate": 0.509833585477,
+     "month_cluster_se_bp": 1.83288982679,
+     "n": 661,
+     "signed_return_bp": 2.82574202632
+    },
+    "2.0": {
+     "hit_rate": 0.505617977528,
+     "month_cluster_se_bp": 6.27613656876,
+     "n": 89,
+     "signed_return_bp": 8.64565734969
+    },
+    "3.0": {
+     "hit_rate": 0.571428571429,
+     "month_cluster_se_bp": 22.5163995058,
+     "n": 28,
+     "signed_return_bp": 21.960789712
+    },
+    "5.0": {
+     "hit_rate": 0.666666666667,
+     "month_cluster_se_bp": 50.384546885,
+     "n": 6,
+     "signed_return_bp": 67.0717742761
+    }
+   },
+   "deciles_of_f": {
+    "1": {
+     "mean_f_bp": -0.533508142694,
+     "mean_y_bp": 0.0470687572568,
+     "n": 8927
+    },
+    "10": {
+     "mean_f_bp": 0.377223528914,
+     "mean_y_bp": 0.722266640098,
+     "n": 8927
+    },
+    "2": {
+     "mean_f_bp": -0.349055875716,
+     "mean_y_bp": -0.173875960212,
+     "n": 8927
+    },
+    "3": {
+     "mean_f_bp": -0.276703217798,
+     "mean_y_bp": -0.0362010921295,
+     "n": 8927
+    },
+    "4": {
+     "mean_f_bp": -0.213688241799,
+     "mean_y_bp": -0.00198626912007,
+     "n": 8927
+    },
+    "5": {
+     "mean_f_bp": -0.15436440333,
+     "mean_y_bp": 0.202304294919,
+     "n": 8927
+    },
+    "6": {
+     "mean_f_bp": -0.0958163889003,
+     "mean_y_bp": 0.291621170401,
+     "n": 8927
+    },
+    "7": {
+     "mean_f_bp": -0.0359194776163,
+     "mean_y_bp": 0.0874331889395,
+     "n": 8927
+    },
+    "8": {
+     "mean_f_bp": 0.0296025539415,
+     "mean_y_bp": 0.386568197774,
+     "n": 8927
+    },
+    "9": {
+     "mean_f_bp": 0.114371815079,
+     "mean_y_bp": 0.105232137871,
+     "n": 8927
+    }
+   }
+  }
+ },
+ "campbell_thompson": {
+  "history_h15": {
+   "2021": {
+    "implied_annual_sharpe_gain": 8.60747807862,
+    "r2_oos": 0.00210994166904
+   },
+   "2022": {
+    "implied_annual_sharpe_gain": null,
+    "r2_oos": -0.00116296133888
+   },
+   "2023": {
+    "implied_annual_sharpe_gain": null,
+    "r2_oos": -0.000135713531126
+   },
+   "2024": {
+    "implied_annual_sharpe_gain": 3.03343516431,
+    "r2_oos": 0.000262537474241
+   },
+   "2025": {
+    "implied_annual_sharpe_gain": null,
+    "r2_oos": -0.00023360415747
+   },
+   "all": {
+    "implied_annual_sharpe_gain": 5.00348035461,
+    "r2_oos": 0.000713953822962
+   }
+  },
+  "history_h5": {
+   "2021": {
+    "implied_annual_sharpe_gain": 14.3903398824,
+    "r2_oos": 0.00196608391908
+   },
+   "2022": {
+    "implied_annual_sharpe_gain": null,
+    "r2_oos": -0.00115970119528
+   },
+   "2023": {
+    "implied_annual_sharpe_gain": null,
+    "r2_oos": -0.000397139084031
+   },
+   "2024": {
+    "implied_annual_sharpe_gain": null,
+    "r2_oos": -3.48974813169e-05
+   },
+   "2025": {
+    "implied_annual_sharpe_gain": 8.21324417138,
+    "r2_oos": 0.000641306306845
+   },
+   "all": {
+    "implied_annual_sharpe_gain": 8.32343437184,
+    "r2_oos": 0.000658618064809
+   }
+  },
+  "holdout_h15": {
+   "2026-07": {
+    "implied_annual_sharpe_gain": null,
+    "r2_oos": -0.000622531757868
+   },
+   "2026-08": {
+    "implied_annual_sharpe_gain": 4.01544646352,
+    "r2_oos": 0.000459942758892
+   },
+   "all": {
+    "implied_annual_sharpe_gain": null,
+    "r2_oos": -5.24135578217e-05
+   }
+  },
+  "holdout_h5": {
+   "2026-07": {
+    "implied_annual_sharpe_gain": null,
+    "r2_oos": -0.000338617570066
+   },
+   "2026-08": {
+    "implied_annual_sharpe_gain": 15.2200518314,
+    "r2_oos": 0.00219882629079
+   },
+   "all": {
+    "implied_annual_sharpe_gain": 10.3351077076,
+    "r2_oos": 0.00101508775956
+   }
+  }
+ },
+ "delay": {
+  "history_h15": {
+   "0": {
+    "breakeven_fee_bp_per_side_k0": 0.212723906778,
+    "cw_mean": 3.01717705647e-08,
+    "cw_t": 5.44403581284,
+    "ic_mean": 0.0235458387854,
+    "ic_t": 6.47175705637,
+    "n": 2451190
+   },
+   "1": {
+    "breakeven_fee_bp_per_side_k0": 0.354817930747,
+    "cw_mean": 2.82109317989e-08,
+    "cw_t": 5.19248352449,
+    "ic_mean": 0.0204474840486,
+    "ic_t": 5.69898745455,
+    "n": 2451126
+   },
+   "5": {
+    "breakeven_fee_bp_per_side_k0": 0.690762553278,
+    "cw_mean": 2.16522164278e-08,
+    "cw_t": 3.78226136726,
+    "ic_mean": 0.0125897023778,
+    "ic_t": 3.58901375245,
+    "n": 2450870
+   }
+  },
+  "history_h5": {
+   "0": {
+    "breakeven_fee_bp_per_side_k0": 0.146400901193,
+    "cw_mean": 1.27952225404e-08,
+    "cw_t": 9.30723303906,
+    "ic_mean": 0.0254099842742,
+    "ic_t": 9.68844180795,
+    "n": 2451800
+   },
+   "1": {
+    "breakeven_fee_bp_per_side_k0": 0.162273377479,
+    "cw_mean": 1.20025442742e-08,
+    "cw_t": 7.89309228021,
+    "ic_mean": 0.0193610558476,
+    "ic_t": 7.43497154133,
+    "n": 2451736
+   },
+   "5": {
+    "breakeven_fee_bp_per_side_k0": 0.0803375144929,
+    "cw_mean": 3.73801909038e-09,
+    "cw_t": 1.83260338184,
+    "ic_mean": 0.00566519081708,
+    "ic_t": 2.35198539629,
+    "n": 2451480
+   }
+  },
+  "holdout_h15": {
+   "0": {
+    "breakeven_fee_bp_per_side_k0": 0.279691479373,
+    "cw_mean": 5.43933886278e-09,
+    "cw_t": 1.88841972904,
+    "ic_mean": 0.0347282278435,
+    "ic_t": 3.3165649261,
+    "n": 89250
+   },
+   "1": {
+    "breakeven_fee_bp_per_side_k0": 0.302772755672,
+    "cw_mean": 3.29337425007e-09,
+    "cw_t": 0.95064157987,
+    "ic_mean": 0.0262866691153,
+    "ic_t": 2.21452323485,
+    "n": 89248
+   },
+   "5": {
+    "breakeven_fee_bp_per_side_k0": -0.0367477156044,
+    "cw_mean": 1.83180721756e-09,
+    "cw_t": 0.610170208642,
+    "ic_mean": 0.02027585747,
+    "ic_t": 1.95516903028,
+    "n": 89240
+   }
+  },
+  "holdout_h5": {
+   "0": {
+    "breakeven_fee_bp_per_side_k0": 0.0690951909128,
+    "cw_mean": 2.20802671915e-09,
+    "cw_t": 2.71147240685,
+    "ic_mean": 0.0370598622093,
+    "ic_t": 2.99347683647,
+    "n": 89270
+   },
+   "1": {
+    "breakeven_fee_bp_per_side_k0": 0.061806961478,
+    "cw_mean": 6.96727007524e-10,
+    "cw_t": 1.23297447742,
+    "ic_mean": 0.015288993356,
+    "ic_t": 1.91562624408,
+    "n": 89268
+   },
+   "5": {
+    "breakeven_fee_bp_per_side_k0": -0.0991795654293,
+    "cw_mean": -6.74265093724e-12,
+    "cw_t": -0.00807685217605,
+    "ic_mean": 0.00573181410556,
+    "ic_t": 0.514856668374,
+    "n": 89260
+   }
+  }
+ },
+ "fee_grid": {
+  "history_h15": {
+   "2021": {
+    "0.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.301510851277,
+      "net_sharpe_annualized": 1.14530591825
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.0604154521562,
+      "net_sharpe_annualized": -0.229458929666
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.422341755589,
+      "net_sharpe_annualized": -1.60368133462
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -6.93701521738,
+      "net_sharpe_annualized": -25.816434452
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -1.14619436245,
+      "net_sharpe_annualized": -4.34893638535
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -2.59389957619,
+      "net_sharpe_annualized": -9.81586295338
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -5.12738370022,
+      "net_sharpe_annualized": -19.2449200658
+     }
+    },
+    "2.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.3180557535,
+      "net_sharpe_annualized": 1.74990525638
+     },
+     "0.5": {
+      "net_mean_bp_per_period": 0.199236501919,
+      "net_sharpe_annualized": 1.09606438525
+     },
+     "1.0": {
+      "net_mean_bp_per_period": 0.0804172503368,
+      "net_sharpe_annualized": 0.44233753495
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -2.05832927814,
+      "net_sharpe_annualized": -11.2118223105
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -0.157221252827,
+      "net_sharpe_annualized": -0.864440960271
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -0.632498259154,
+      "net_sharpe_annualized": -3.4729769252
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -1.46423302023,
+      "net_sharpe_annualized": -8.00819464424
+     }
+    }
+   },
+   "2022": {
+    "0.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.0612782424838,
+      "net_sharpe_annualized": 0.336159773621
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.251528654855,
+      "net_sharpe_annualized": -1.37954381404
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.564335552195,
+      "net_sharpe_annualized": -3.0939550021
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -6.1948597043,
+      "net_sharpe_annualized": -32.7227229824
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -1.18994934687,
+      "net_sharpe_annualized": -6.51512720344
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -2.44117693623,
+      "net_sharpe_annualized": -13.3009626759
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -4.63082521761,
+      "net_sharpe_annualized": -24.8498694946
+     }
+    },
+    "2.0": {
+     "0.0": {
+      "net_mean_bp_per_period": -0.0479729148108,
+      "net_sharpe_annualized": -0.488934852138
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.105698163184,
+      "net_sharpe_annualized": -1.0771610081
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.163423411556,
+      "net_sharpe_annualized": -1.66514022175
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -1.20247788227,
+      "net_sharpe_annualized": -12.0498177594
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -0.278873908302,
+      "net_sharpe_annualized": -2.83979164743
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -0.509774901793,
+      "net_sharpe_annualized": -5.17993872537
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -0.913851640402,
+      "net_sharpe_annualized": -9.22307362699
+     }
+    }
+   },
+   "2022-2025": {
+    "0.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.101962324796,
+      "net_sharpe_annualized": 0.680005505286
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.231959922937,
+      "net_sharpe_annualized": -1.54675255318
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.56588217067,
+      "net_sharpe_annualized": -3.77178224557
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -6.57648262987,
+      "net_sharpe_annualized": -41.5692036701
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -1.23372666614,
+      "net_sharpe_annualized": -8.20916608886
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -2.56941565707,
+      "net_sharpe_annualized": -16.9820947099
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -4.9068713912,
+      "net_sharpe_annualized": -31.7289514838
+     }
+    },
+    "2.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.0217443605648,
+      "net_sharpe_annualized": 0.305036041667
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.00995583790195,
+      "net_sharpe_annualized": -0.13965708332
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.0416560363687,
+      "net_sharpe_annualized": -0.584259862069
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -0.61225960877,
+      "net_sharpe_annualized": -8.44345158069
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -0.105056433302,
+      "net_sharpe_annualized": -1.47273218955
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -0.231857227169,
+      "net_sharpe_annualized": -3.24353268282
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -0.453758616436,
+      "net_sharpe_annualized": -6.30409168539
+     }
+    }
+   },
+   "2023": {
+    "0.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.089188879338,
+      "net_sharpe_annualized": 0.722581621979
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.191592544705,
+      "net_sharpe_annualized": -1.55204971874
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.472373968747,
+      "net_sharpe_annualized": -3.82472002082
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -5.52643960151,
+      "net_sharpe_annualized": -41.782669486
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -1.03393681683,
+      "net_sharpe_annualized": -8.35393089972
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -2.157062513,
+      "net_sharpe_annualized": -17.2783256381
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -4.1225324813,
+      "net_sharpe_annualized": -32.0964922321
+     }
+    },
+    "2.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.0874536152117,
+      "net_sharpe_annualized": 1.77506980223
+     },
+     "0.5": {
+      "net_mean_bp_per_period": 0.0690604469599,
+      "net_sharpe_annualized": 1.40223383441
+     },
+     "1.0": {
+      "net_mean_bp_per_period": 0.0506672787082,
+      "net_sharpe_annualized": 1.02902319317
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -0.280409749824,
+      "net_sharpe_annualized": -5.61645219316
+     },
+     "2.0": {
+      "net_mean_bp_per_period": 0.0138809422046,
+      "net_sharpe_annualized": 0.281960811957
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -0.0596917308026,
+      "net_sharpe_annualized": -1.21133727605
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -0.188443908565,
+      "net_sharpe_annualized": -3.80198228613
+     }
+    }
+   },
+   "2024": {
+    "0.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.145900934077,
+      "net_sharpe_annualized": 0.964641635855
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.24109940757,
+      "net_sharpe_annualized": -1.59394304873
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.628099749217,
+      "net_sharpe_annualized": -4.1509317988
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -7.59410589886,
+      "net_sharpe_annualized": -47.5431829421
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -1.40210043251,
+      "net_sharpe_annualized": -9.25108955565
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -2.9501017991,
+      "net_sharpe_annualized": -19.3344065886
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -5.65910419062,
+      "net_sharpe_annualized": -36.2681976216
+     }
+    },
+    "2.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.0342430935898,
+      "net_sharpe_annualized": 0.494688524291
+     },
+     "0.5": {
+      "net_mean_bp_per_period": 0.00514617979867,
+      "net_sharpe_annualized": 0.0743344492612
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.0239507339925,
+      "net_sharpe_annualized": -0.345887103202
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -0.547695182233,
+      "net_sharpe_annualized": -7.77187981973
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -0.0821445615747,
+      "net_sharpe_annualized": -1.18551597888
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -0.198532216739,
+      "net_sharpe_annualized": -2.85862584864
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -0.402210613277,
+      "net_sharpe_annualized": -5.75010200982
+     }
+    }
+   },
+   "2025": {
+    "0.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.116071199955,
+      "net_sharpe_annualized": 0.90004429258
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.249409074488,
+      "net_sharpe_annualized": -1.9336363545
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.61488934893,
+      "net_sharpe_annualized": -4.76441986421
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -7.1935342889,
+      "net_sharpe_annualized": -51.8281949284
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -1.34584989782,
+      "net_sharpe_annualized": -10.4038853009
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -2.80777099559,
+      "net_sharpe_annualized": -21.5037158587
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -5.36613291668,
+      "net_sharpe_annualized": -39.8756731971
+     }
+    },
+    "2.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.00898162858075,
+      "net_sharpe_annualized": 0.17365382725
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.00752780538151,
+      "net_sharpe_annualized": -0.145538508108
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.0240372393438,
+      "net_sharpe_annualized": -0.464661857272
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -0.321207050665,
+      "net_sharpe_annualized": -6.10581974124
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -0.0570561072683,
+      "net_sharpe_annualized": -1.10237259074
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -0.123093843117,
+      "net_sharpe_annualized": -2.3733644024
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -0.238659880853,
+      "net_sharpe_annualized": -4.57012720731
+     }
+    }
+   },
+   "all": {
+    "0.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.144612995398,
+      "net_sharpe_annualized": 0.802283531424
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.195294722517,
+      "net_sharpe_annualized": -1.08329823743
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.535202440433,
+      "net_sharpe_annualized": -2.96774847036
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -6.65354136291,
+      "net_sharpe_annualized": -35.5077403885
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -1.21501787626,
+      "net_sharpe_annualized": -6.72882032021
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -2.57464874793,
+      "net_sharpe_annualized": -14.1891750558
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -4.95400277333,
+      "net_sharpe_annualized": -26.8760548962
+     }
+    },
+    "2.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.0850767230661,
+      "net_sharpe_annualized": 0.809094799099
+     },
+     "0.5": {
+      "net_mean_bp_per_period": 0.0347560611808,
+      "net_sharpe_annualized": 0.330512723148
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.0155646007045,
+      "net_sharpe_annualized": -0.147991833065
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -0.92133651464,
+      "net_sharpe_annualized": -8.64885866669
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -0.116205924475,
+      "net_sharpe_annualized": -1.10441397404
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -0.317488572016,
+      "net_sharpe_annualized": -3.0124440919
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -0.669733205213,
+      "net_sharpe_annualized": -6.32164805773
+     }
+    }
+   }
+  },
+  "history_h5": {
+   "2021": {
+    "0.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.318129208624,
+      "net_sharpe_annualized": 3.46207614187
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.160461437663,
+      "net_sharpe_annualized": -1.74595879076
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.639052083951,
+      "net_sharpe_annualized": -6.95036879921
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -9.25368371713,
+      "net_sharpe_annualized": -95.4444505136
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -1.59623337653,
+      "net_sharpe_annualized": -17.3308624978
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -3.51059596168,
+      "net_sharpe_annualized": -37.8593523141
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -6.86073048569,
+      "net_sharpe_annualized": -72.3872448058
+     }
+    },
+    "2.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.2183346412,
+      "net_sharpe_annualized": 3.80027828633
+     },
+     "0.5": {
+      "net_mean_bp_per_period": 0.13219156871,
+      "net_sharpe_annualized": 2.30127586026
+     },
+     "1.0": {
+      "net_mean_bp_per_period": 0.0460484962193,
+      "net_sharpe_annualized": 0.801678326698
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -1.50452680861,
+      "net_sharpe_annualized": -25.688694433
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -0.126237648761,
+      "net_sharpe_annualized": -2.19713061926
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -0.470809938723,
+      "net_sharpe_annualized": -8.17805828734
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -1.07381144615,
+      "net_sharpe_annualized": -18.5031337723
+     }
+    }
+   },
+   "2022": {
+    "0.0": {
+     "0.0": {
+      "net_mean_bp_per_period": -0.0350034957963,
+      "net_sharpe_annualized": -0.555672416044
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.470146396432,
+      "net_sharpe_annualized": -7.45941648403
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.905289297067,
+      "net_sharpe_annualized": -14.3472460563
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -8.73786150851,
+      "net_sharpe_annualized": -124.286365856
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -1.77557509834,
+      "net_sharpe_annualized": -28.0273526913
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -3.51614670088,
+      "net_sharpe_annualized": -54.6899085277
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -6.56214700533,
+      "net_sharpe_annualized": -97.5660307201
+     }
+    },
+    "2.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.0557496983063,
+      "net_sharpe_annualized": 2.00695345932
+     },
+     "0.5": {
+      "net_mean_bp_per_period": 0.0235066720857,
+      "net_sharpe_annualized": 0.846135037077
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.00873635413496,
+      "net_sharpe_annualized": -0.314372751832
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -0.589110826107,
+      "net_sharpe_annualized": -20.3978101812
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -0.0732224065763,
+      "net_sharpe_annualized": -2.63165437652
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -0.202194511459,
+      "net_sharpe_annualized": -7.2319819474
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -0.427895695003,
+      "net_sharpe_annualized": -15.0643956463
+     }
+    }
+   },
+   "2022-2025": {
+    "0.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.0853678283616,
+      "net_sharpe_annualized": 1.66967650654
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.37145303561,
+      "net_sharpe_annualized": -7.26085404007
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.828273899582,
+      "net_sharpe_annualized": -16.1663837158
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -9.05104945107,
+      "net_sharpe_annualized": -151.43388846
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -1.74191562753,
+      "net_sharpe_annualized": -33.808072032
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -3.56919908341,
+      "net_sharpe_annualized": -67.8060242865
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -6.76694513122,
+      "net_sharpe_annualized": -120.459679852
+     }
+    },
+    "2.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.0303147740221,
+      "net_sharpe_annualized": 1.47007572588
+     },
+     "0.5": {
+      "net_mean_bp_per_period": 0.0139483317132,
+      "net_sharpe_annualized": 0.676445423969
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.00241811059575,
+      "net_sharpe_annualized": -0.11725437524
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -0.297014072157,
+      "net_sharpe_annualized": -13.9237674078
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -0.0351509952136,
+      "net_sharpe_annualized": -1.7030504332
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -0.100616764449,
+      "net_sharpe_annualized": -4.85568696628
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -0.215181860612,
+      "net_sharpe_annualized": -10.2408718849
+     }
+    }
+   },
+   "2023": {
+    "0.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.269355146955,
+      "net_sharpe_annualized": 6.4527824801
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.189265706802,
+      "net_sharpe_annualized": -4.53182773398
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.647886560559,
+      "net_sharpe_annualized": -15.4843743992
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -8.90306192819,
+      "net_sharpe_annualized": -172.127771566
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -1.56512826807,
+      "net_sharpe_annualized": -37.1195062841
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -3.3996116831,
+      "net_sharpe_annualized": -78.222316037
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -6.6099576594,
+      "net_sharpe_annualized": -138.889133411
+     }
+    },
+    "2.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.0215183429617,
+      "net_sharpe_annualized": 1.26194451259
+     },
+     "0.5": {
+      "net_mean_bp_per_period": 0.0122383734191,
+      "net_sharpe_annualized": 0.717873325698
+     },
+     "1.0": {
+      "net_mean_bp_per_period": 0.00295840387642,
+      "net_sharpe_annualized": 0.173542085795
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -0.164081047892,
+      "net_sharpe_annualized": -9.38071338491
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -0.0156015352089,
+      "net_sharpe_annualized": -0.914856099768
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -0.0527214133796,
+      "net_sharpe_annualized": -3.08332142709
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -0.117681200178,
+      "net_sharpe_annualized": -6.80951395339
+     }
+    }
+   },
+   "2024": {
+    "0.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.0250838801586,
+      "net_sharpe_annualized": 0.49085315939
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.443985154719,
+      "net_sharpe_annualized": -8.68247676802
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.913054189597,
+      "net_sharpe_annualized": -17.8278008913
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -9.3562968174,
+      "net_sharpe_annualized": -156.38241728
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -1.85119225935,
+      "net_sharpe_annualized": -35.9372323762
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -3.72746839887,
+      "net_sharpe_annualized": -70.8066918053
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -7.01095164301,
+      "net_sharpe_annualized": -124.721936988
+     }
+    },
+    "2.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.0190611007015,
+      "net_sharpe_annualized": 0.993884776698
+     },
+     "0.5": {
+      "net_mean_bp_per_period": 0.00571144796322,
+      "net_sharpe_annualized": 0.297850976767
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.00763820477502,
+      "net_sharpe_annualized": -0.398319132911
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -0.247931954063,
+      "net_sharpe_annualized": -12.5446958641
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -0.0343375102515,
+      "net_sharpe_annualized": -1.78957505596
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -0.0877361212045,
+      "net_sharpe_annualized": -4.55738893507
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -0.181183690372,
+      "net_sharpe_annualized": -9.2947962056
+     }
+    }
+   },
+   "2025": {
+    "0.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.0807240721647,
+      "net_sharpe_annualized": 1.85570365528
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.387507893081,
+      "net_sharpe_annualized": -8.90178270313
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.855739858326,
+      "net_sharpe_annualized": -19.6195080323
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -9.28391523274,
+      "net_sharpe_annualized": -174.016938957
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -1.79220378882,
+      "net_sharpe_annualized": -40.7793068708
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -3.6651316498,
+      "net_sharpe_annualized": -81.0183168383
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -6.94275540651,
+      "net_sharpe_annualized": -140.836694549
+     }
+    },
+    "2.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.0222673743565,
+      "net_sharpe_annualized": 1.60155335961
+     },
+     "0.5": {
+      "net_mean_bp_per_period": 0.0145647334511,
+      "net_sharpe_annualized": 1.04797355513
+     },
+     "1.0": {
+      "net_mean_bp_per_period": 0.00686209254563,
+      "net_sharpe_annualized": 0.49384859765
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -0.131785443753,
+      "net_sharpe_annualized": -9.2105114025
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -0.00854318926528,
+      "net_sharpe_annualized": -0.614721176915
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -0.0393537528871,
+      "net_sharpe_annualized": -2.82395217365
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -0.0932722392253,
+      "net_sharpe_annualized": -6.61186866262
+     }
+    }
+   },
+   "all": {
+    "0.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.135120461251,
+      "net_sharpe_annualized": 2.17476392818
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.326353683203,
+      "net_sharpe_annualized": -5.25064130448
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.787827827656,
+      "net_sharpe_annualized": -12.6625950622
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -9.09436242782,
+      "net_sharpe_annualized": -131.019583316
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -1.71077611656,
+      "net_sharpe_annualized": -27.3924709446
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -3.55667269438,
+      "net_sharpe_annualized": -56.1207131247
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -6.78699170555,
+      "net_sharpe_annualized": -102.302511435
+     }
+    },
+    "2.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.0705039300453,
+      "net_sharpe_annualized": 2.18630271851
+     },
+     "0.5": {
+      "net_mean_bp_per_period": 0.0392227666528,
+      "net_sharpe_annualized": 1.21646430548
+     },
+     "1.0": {
+      "net_mean_bp_per_period": 0.00794160326024,
+      "net_sharpe_annualized": 0.246302092574
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -0.555119337805,
+      "net_sharpe_annualized": -16.7887117226
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -0.0546207235248,
+      "net_sharpe_annualized": -1.69324085255
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -0.179745377095,
+      "net_sharpe_annualized": -5.5570058959
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -0.398713520843,
+      "net_sharpe_annualized": -12.1992301279
+     }
+    }
+   }
+  },
+  "holdout_h15": {
+   "all": {
+    "0.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.155028991424,
+      "net_sharpe_annualized": 1.57751680084
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.122113865719,
+      "net_sharpe_annualized": -1.24223991997
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.399256722862,
+      "net_sharpe_annualized": -4.05803501963
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -5.38782815143,
+      "net_sharpe_annualized": -49.3159570118
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -0.953542437147,
+      "net_sharpe_annualized": -9.65799024077
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -2.06211386572,
+      "net_sharpe_annualized": -20.5999268442
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -4.00211386572,
+      "net_sharpe_annualized": -38.2668632516
+     }
+    },
+    "2.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.0356739105801,
+      "net_sharpe_annualized": 2.39320346129
+     },
+     "0.5": {
+      "net_mean_bp_per_period": 0.0213881962944,
+      "net_sharpe_annualized": 1.43686426286
+     },
+     "1.0": {
+      "net_mean_bp_per_period": 0.00710248200865,
+      "net_sharpe_annualized": 0.47738914772
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -0.250040375134,
+      "net_sharpe_annualized": -14.7893692879
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -0.0214689465628,
+      "net_sharpe_annualized": -1.44057717992
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -0.0786118037056,
+      "net_sharpe_annualized": -5.20146996204
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -0.178611803706,
+      "net_sharpe_annualized": -11.1873632436
+     }
+    }
+   }
+  },
+  "holdout_h5": {
+   "all": {
+    "0.0": {
+     "0.0": {
+      "net_mean_bp_per_period": 0.0438859339617,
+      "net_sharpe_annualized": 1.33344970054
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.273689959396,
+      "net_sharpe_annualized": -8.31089976161
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.591265852753,
+      "net_sharpe_annualized": -17.9096507895
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -6.30763193318,
+      "net_sharpe_annualized": -144.983223635
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -1.22641763947,
+      "net_sharpe_annualized": -36.7589023585
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -2.4967212129,
+      "net_sharpe_annualized": -71.8026667737
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -4.7197524664,
+      "net_sharpe_annualized": -120.436966059
+     }
+    },
+    "2.0": {
+     "0.0": {
+      "net_mean_bp_per_period": -0.00226330330611,
+      "net_sharpe_annualized": -0.365582775034
+     },
+     "0.5": {
+      "net_mean_bp_per_period": -0.00332749060308,
+      "net_sharpe_annualized": -0.537126833373
+     },
+     "1.0": {
+      "net_mean_bp_per_period": -0.00439167790004,
+      "net_sharpe_annualized": -0.708354776832
+     },
+     "10.0": {
+      "net_mean_bp_per_period": -0.0235470492454,
+      "net_sharpe_annualized": -3.66641656398
+     },
+     "2.0": {
+      "net_mean_bp_per_period": -0.00652005249397,
+      "net_sharpe_annualized": -1.04959823751
+     },
+     "4.0": {
+      "net_mean_bp_per_period": -0.0107768016818,
+      "net_sharpe_annualized": -1.72543755837
+     },
+     "7.5": {
+      "net_mean_bp_per_period": -0.0182261127606,
+      "net_sharpe_annualized": -2.87683724931
+     }
+    }
+   }
+  }
+ },
+ "label": "exploratory_post_hoc",
+ "magnitudes": {
+  "history_h15": {
+   "2021": {
+    "abs_f_bp": {
+     "max": 106.019128391,
+     "p50": 0.882019490432,
+     "p90": 3.0509510087,
+     "p99": 8.33503063788,
+     "p999": 19.7691759344
+    },
+    "mean_f_bp": 0.52507993706,
+    "median_abs_f_over_sd_y": 0.0178960770124,
+    "n": 523902,
+    "sd_y_bp": 49.285633372,
+    "share_abs_f_above_bp": {
+     "1": 0.450030730938,
+     "10": 0.00600684860909,
+     "2": 0.198088573817,
+     "3": 0.103103252135,
+     "5": 0.0361384381048,
+     "7.5": 0.013355551229
+    },
+    "share_positive": 0.545665028956
+   },
+   "2022": {
+    "abs_f_bp": {
+     "max": 40.4576575575,
+     "p50": 0.695053332796,
+     "p90": 1.85995458744,
+     "p99": 5.72866085351,
+     "p999": 12.2991802996
+    },
+    "mean_f_bp": -0.052219425179,
+    "median_abs_f_over_sd_y": 0.0202126192696,
+    "n": 525420,
+    "sd_y_bp": 34.38709865,
+    "share_abs_f_above_bp": {
+     "1": 0.310679075787,
+     "10": 0.00202885310799,
+     "2": 0.0878211716341,
+     "3": 0.041884587568,
+     "5": 0.0141410680979,
+     "7.5": 0.00485326024894
+    },
+    "share_positive": 0.348743862053
+   },
+   "2022-2025": {
+    "abs_f_bp": {
+     "max": 53.5123286866,
+     "p50": 0.529588605689,
+     "p90": 1.36373931683,
+     "p99": 4.15420104261,
+     "p999": 9.60710557004
+    },
+    "mean_f_bp": -0.112001105688,
+    "median_abs_f_over_sd_y": 0.0189052539353,
+    "n": 1927288,
+    "sd_y_bp": 28.0127739888,
+    "share_abs_f_above_bp": {
+     "1": 0.201837504307,
+     "10": 0.000882068481721,
+     "2": 0.0465659517415,
+     "3": 0.0207322413671,
+     "5": 0.00633688374545,
+     "7.5": 0.00208583252736
+    },
+    "share_positive": 0.33647280531
+   },
+   "2023": {
+    "abs_f_bp": {
+     "max": 53.5123286866,
+     "p50": 0.535620186268,
+     "p90": 1.18930768514,
+     "p99": 2.99179660878,
+     "p999": 7.35109687639
+    },
+    "mean_f_bp": -0.304776962864,
+    "median_abs_f_over_sd_y": 0.0237157715375,
+    "n": 525208,
+    "sd_y_bp": 22.5849783306,
+    "share_abs_f_above_bp": {
+     "1": 0.176728077257,
+     "10": 0.000437921737673,
+     "2": 0.023619213721,
+     "3": 0.00992368737719,
+     "5": 0.00294169167263,
+     "7.5": 0.000942483739775
+    },
+    "share_positive": 0.239927800034
+   },
+   "2024": {
+    "abs_f_bp": {
+     "max": 42.3085747003,
+     "p50": 0.466882742973,
+     "p90": 1.3024828194,
+     "p99": 3.71269033805,
+     "p999": 8.37643839788
+    },
+    "mean_f_bp": -0.00642454185414,
+    "median_abs_f_over_sd_y": 0.0165616006375,
+    "n": 526860,
+    "sd_y_bp": 28.1906775312,
+    "share_abs_f_above_bp": {
+     "1": 0.172932088221,
+     "10": 0.00059408571537,
+     "2": 0.0418574194283,
+     "3": 0.0170937250883,
+     "5": 0.0043408116008,
+     "7.5": 0.00136279087424
+    },
+    "share_positive": 0.401922711916
+   },
+   "2025": {
+    "abs_f_bp": {
+     "max": 20.9952502617,
+     "p50": 0.415796742106,
+     "p90": 1.07438316989,
+     "p99": 3.07522476624,
+     "p999": 6.91985063601
+    },
+    "mean_f_bp": -0.0713697065994,
+    "median_abs_f_over_sd_y": 0.0172020111408,
+    "n": 349800,
+    "sd_y_bp": 24.1714029076,
+    "share_abs_f_above_bp": {
+     "1": 0.119588336192,
+     "10": 0.000260148656375,
+     "2": 0.0261435105775,
+     "3": 0.0106689536878,
+     "5": 0.00271869639794,
+     "7.5": 0.000734705546026
+    },
+    "share_positive": 0.364419668382
+   },
+   "all": {
+    "abs_f_bp": {
+     "max": 106.019128391,
+     "p50": 0.580257868324,
+     "p90": 1.72979057793,
+     "p99": 5.5047659925,
+     "p999": 12.8176875728
+    },
+    "mean_f_bp": 0.0241646066632,
+    "median_abs_f_over_sd_y": 0.0172146960437,
+    "n": 2451190,
+    "sd_y_bp": 33.7071224988,
+    "share_abs_f_above_bp": {
+     "1": 0.254884770254,
+     "10": 0.00197740689216,
+     "2": 0.0789514480722,
+     "3": 0.0383377053594,
+     "5": 0.0127064813417,
+     "7.5": 0.00449455162594
+    },
+    "share_positive": 0.381184241124
+   }
+  },
+  "history_h5": {
+   "2021": {
+    "abs_f_bp": {
+     "max": 127.968249913,
+     "p50": 0.63710734366,
+     "p90": 2.09282903966,
+     "p99": 5.71630292019,
+     "p999": 12.8008324795
+    },
+    "mean_f_bp": 0.206634228399,
+    "median_abs_f_over_sd_y": 0.0217274495381,
+    "n": 524072,
+    "sd_y_bp": 29.3226935146,
+    "share_abs_f_above_bp": {
+     "1": 0.317786487353,
+     "10": 0.0020188065762,
+     "2": 0.108719794227,
+     "3": 0.0489207589797,
+     "5": 0.0143758872827,
+     "7.5": 0.00469210337511
+    },
+    "share_positive": 0.515064723931
+   },
+   "2022": {
+    "abs_f_bp": {
+     "max": 42.6362982693,
+     "p50": 0.43007471641,
+     "p90": 1.27689260715,
+     "p99": 3.54872020821,
+     "p999": 7.7383658468
+    },
+    "mean_f_bp": -0.0316927723511,
+    "median_abs_f_over_sd_y": 0.0212398539014,
+    "n": 525540,
+    "sd_y_bp": 20.2484780925,
+    "share_abs_f_above_bp": {
+     "1": 0.161011530997,
+     "10": 0.000449061917266,
+     "2": 0.0393461962933,
+     "3": 0.0153061612817,
+     "5": 0.00395783384709,
+     "7.5": 0.00110362674582
+    },
+    "share_positive": 0.403872207634
+   },
+   "2022-2025": {
+    "abs_f_bp": {
+     "max": 45.2865614842,
+     "p50": 0.355943016812,
+     "p90": 0.967346339066,
+     "p99": 2.61455869772,
+     "p999": 6.04322108856
+    },
+    "mean_f_bp": -0.0628615413496,
+    "median_abs_f_over_sd_y": 0.0216542260629,
+    "n": 1927728,
+    "sd_y_bp": 16.4375773938,
+    "share_abs_f_above_bp": {
+     "1": 0.0930146784194,
+     "10": 0.000210610625565,
+     "2": 0.0194280520903,
+     "3": 0.00704300606725,
+     "5": 0.00171756596366,
+     "7.5": 0.000518745383166
+    },
+    "share_positive": 0.413606068906
+   },
+   "2023": {
+    "abs_f_bp": {
+     "max": 45.2865614842,
+     "p50": 0.342019599343,
+     "p90": 0.83761060276,
+     "p99": 2.00571056354,
+     "p999": 4.83880384638
+    },
+    "mean_f_bp": -0.139314316339,
+    "median_abs_f_over_sd_y": 0.0259285562394,
+    "n": 525328,
+    "sd_y_bp": 13.1908462695,
+    "share_abs_f_above_bp": {
+     "1": 0.0584187402918,
+     "10": 0.000123732220632,
+     "2": 0.0100718027594,
+     "3": 0.00364914872232,
+     "5": 0.000911811287424,
+     "7.5": 0.000327414491518
+    },
+    "share_positive": 0.374482228246
+   },
+   "2024": {
+    "abs_f_bp": {
+     "max": 37.7128436667,
+     "p50": 0.340930873057,
+     "p90": 0.935590335225,
+     "p99": 2.34556942706,
+     "p999": 5.08248531799
+    },
+    "mean_f_bp": -0.0271346008321,
+    "median_abs_f_over_sd_y": 0.020649613413,
+    "n": 526980,
+    "sd_y_bp": 16.5102787271,
+    "share_abs_f_above_bp": {
+     "1": 0.0864397130821,
+     "10": 0.000153706022999,
+     "2": 0.0155660556378,
+     "3": 0.0049470568143,
+     "5": 0.00104747808266,
+     "7.5": 0.000362442597442
+    },
+    "share_positive": 0.445037762344
+   },
+   "2025": {
+    "abs_f_bp": {
+     "max": 16.6001782159,
+     "p50": 0.310612013387,
+     "p90": 0.776682323172,
+     "p99": 1.95072156055,
+     "p999": 4.25181377771
+    },
+    "mean_f_bp": -0.0486996418232,
+    "median_abs_f_over_sd_y": 0.0219093993849,
+    "n": 349880,
+    "sd_y_bp": 14.1771122034,
+    "share_abs_f_above_bp": {
+     "1": 0.0527266491368,
+     "10": 6.85949468389e-05,
+     "2": 0.00937464273465,
+     "3": 0.00288384589002,
+     "5": 0.000571624556991,
+     "7.5": 0.000162912998742
+    },
+    "share_positive": 0.439627872413
+   },
+   "all": {
+    "abs_f_bp": {
+     "max": 127.968249913,
+     "p50": 0.396331587309,
+     "p90": 1.21408626092,
+     "p99": 3.65020830179,
+     "p999": 8.42766944053
+    },
+    "mean_f_bp": -0.00525684804529,
+    "median_abs_f_over_sd_y": 0.0199107235103,
+    "n": 2451800,
+    "sd_y_bp": 19.9054337279,
+    "share_abs_f_above_bp": {
+     "1": 0.14105962966,
+     "10": 0.000597112325638,
+     "2": 0.0385141528673,
+     "3": 0.0159943714822,
+     "5": 0.00442328085488,
+     "7.5": 0.0014108002284
+    },
+    "share_positive": 0.435292846072
+   }
+  },
+  "holdout_h15": {
+   "2026-07": {
+    "abs_f_bp": {
+     "max": 14.3566303878,
+     "p50": 0.437971764003,
+     "p90": 1.00579790971,
+     "p99": 2.03384146868,
+     "p999": 4.37435134325
+    },
+    "mean_f_bp": -0.353489048431,
+    "median_abs_f_over_sd_y": 0.0245267950588,
+    "n": 44625,
+    "sd_y_bp": 17.8568689041,
+    "share_abs_f_above_bp": {
+     "1": 0.102005602241,
+     "10": 2.24089635854e-05,
+     "2": 0.0106666666667,
+     "3": 0.00264425770308,
+     "5": 0.000649859943978,
+     "7.5": 0.000179271708683
+    },
+    "share_positive": 0.208739495798
+   },
+   "2026-08": {
+    "abs_f_bp": {
+     "max": 63.4916762636,
+     "p50": 0.436643137124,
+     "p90": 1.0058940814,
+     "p99": 2.37456286072,
+     "p999": 5.67770895216
+    },
+    "mean_f_bp": -0.346596597482,
+    "median_abs_f_over_sd_y": 0.0231967873899,
+    "n": 44625,
+    "sd_y_bp": 18.8234314427,
+    "share_abs_f_above_bp": {
+     "1": 0.101669467787,
+     "10": 0.000156862745098,
+     "2": 0.0162913165266,
+     "3": 0.00533333333333,
+     "5": 0.00181512605042,
+     "7.5": 0.000291316526611
+    },
+    "share_positive": 0.209770308123
+   },
+   "all": {
+    "abs_f_bp": {
+     "max": 63.4916762636,
+     "p50": 0.437353681301,
+     "p90": 1.00584190853,
+     "p99": 2.21558029693,
+     "p999": 5.21087511601
+    },
+    "mean_f_bp": -0.350042822957,
+    "median_abs_f_over_sd_y": 0.0238363265906,
+    "n": 89250,
+    "sd_y_bp": 18.3481997379,
+    "share_abs_f_above_bp": {
+     "1": 0.101837535014,
+     "10": 8.96358543417e-05,
+     "2": 0.0134789915966,
+     "3": 0.00398879551821,
+     "5": 0.0012324929972,
+     "7.5": 0.000235294117647
+    },
+    "share_positive": 0.209254901961
+   }
+  },
+  "holdout_h5": {
+   "2026-07": {
+    "abs_f_bp": {
+     "max": 7.19102927492,
+     "p50": 0.181826186043,
+     "p90": 0.419842903695,
+     "p99": 0.871963549285,
+     "p999": 1.86858413733
+    },
+    "mean_f_bp": -0.110503808094,
+    "median_abs_f_over_sd_y": 0.0174649067279,
+    "n": 44635,
+    "sd_y_bp": 10.4109451528,
+    "share_abs_f_above_bp": {
+     "1": 0.00710204996079,
+     "10": 0.0,
+     "2": 0.000963369553041,
+     "3": 0.000268847317128,
+     "5": 2.2403943094e-05,
+     "7.5": 0.0
+    },
+    "share_positive": 0.291721743027
+   },
+   "2026-08": {
+    "abs_f_bp": {
+     "max": 35.7357584518,
+     "p50": 0.179686187119,
+     "p90": 0.423466538031,
+     "p99": 0.899922193663,
+     "p999": 2.02468246559
+    },
+    "mean_f_bp": -0.11706776189,
+    "median_abs_f_over_sd_y": 0.0161430863424,
+    "n": 44635,
+    "sd_y_bp": 11.1308447039,
+    "share_abs_f_above_bp": {
+     "1": 0.00770695642433,
+     "10": 2.2403943094e-05,
+     "2": 0.00103058138232,
+     "3": 0.000358463089504,
+     "5": 0.00011201971547,
+     "7.5": 6.7211829282e-05
+    },
+    "share_positive": 0.292774728352
+   },
+   "all": {
+    "abs_f_bp": {
+     "max": 35.7357584518,
+     "p50": 0.180749638763,
+     "p90": 0.421817426299,
+     "p99": 0.882967130499,
+     "p999": 1.9831661329
+    },
+    "mean_f_bp": -0.113785784992,
+    "median_abs_f_over_sd_y": 0.0167715048508,
+    "n": 89270,
+    "sd_y_bp": 10.7771866849,
+    "share_abs_f_above_bp": {
+     "1": 0.00740450319256,
+     "10": 1.1201971547e-05,
+     "2": 0.000996975467682,
+     "3": 0.000313655203316,
+     "5": 6.7211829282e-05,
+     "7.5": 3.3605914641e-05
+    },
+    "share_positive": 0.292248235689
+   }
+  }
+ },
+ "note": "Descriptive economics on stored forecasts. Not a strategy backtest; no execution, latency, adverse selection or capacity modelled.",
+ "phase_robustness": {
+  "history_h15": {
+   "breakeven_max": 0.971971464085,
+   "breakeven_mean": 0.303369620928,
+   "breakeven_min": -0.284336137295,
+   "k_bp": 0.0
+  },
+  "history_h5": {
+   "breakeven_max": 0.254062202737,
+   "breakeven_mean": 0.194945989401,
+   "breakeven_min": 0.146400901193,
+   "k_bp": 0.0
+  },
+  "holdout_h15": {
+   "breakeven_max": 0.719949806694,
+   "breakeven_mean": 0.261470819692,
+   "breakeven_min": -0.186796020775,
+   "k_bp": 0.0
+  },
+  "holdout_h5": {
+   "breakeven_max": 0.291158133946,
+   "breakeven_mean": 0.138482595516,
+   "breakeven_min": 0.059425809877,
+   "k_bp": 0.0
+  }
+ },
+ "strategy": {
+  "history_h15": {
+   "2021": {
+    "0.0": {
+     "breakeven_fee_bp_per_side": 0.416536251188,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.0496856728885,
+      0.730115886457
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.150755425638,
+     "gross_mean_bp_per_period": 0.301510851277,
+     "gross_sharpe_annualized": 1.14530591825,
+     "periods": 34927,
+     "sides_per_period": 0.723852606866,
+     "traded_share": 1.0
+    },
+    "1.0": {
+     "breakeven_fee_bp_per_side": 0.595177193371,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.118036574871,
+      1.0640801702
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.324081217248,
+     "gross_mean_bp_per_period": 0.295381838403,
+     "gross_sharpe_annualized": 1.37380111066,
+     "periods": 34927,
+     "sides_per_period": 0.496292266728,
+     "traded_share": 0.45572193432
+    },
+    "2.0": {
+     "breakeven_fee_bp_per_side": 1.33840160271,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.183590590372,
+      2.22338427309
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.790094829482,
+     "gross_mean_bp_per_period": 0.3180557535,
+     "gross_sharpe_annualized": 1.74990525638,
+     "periods": 34927,
+     "sides_per_period": 0.237638503164,
+     "traded_share": 0.201276949065
+    },
+    "3.0": {
+     "breakeven_fee_bp_per_side": 1.98639384187,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.169259779954,
+      3.69612217006
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 1.23494596751,
+     "gross_mean_bp_per_period": 0.260022121712,
+     "gross_sharpe_annualized": 1.67103664809,
+     "periods": 34927,
+     "sides_per_period": 0.130901594755,
+     "traded_share": 0.105276720016
+    },
+    "5.0": {
+     "breakeven_fee_bp_per_side": 5.3656406821,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.428099386111,
+      9.0736502423
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 3.64183756703,
+     "gross_mean_bp_per_period": 0.276523985105,
+     "gross_sharpe_annualized": 2.21372874639,
+     "periods": 34927,
+     "sides_per_period": 0.0515360609271,
+     "traded_share": 0.0379648982163
+    }
+   },
+   "2022": {
+    "0.0": {
+     "breakeven_fee_bp_per_side": 0.097948995059,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.358400510206,
+      0.557541056356
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.0306391212419,
+     "gross_mean_bp_per_period": 0.0612782424838,
+     "gross_sharpe_annualized": 0.336159773621,
+     "periods": 35028,
+     "sides_per_period": 0.625613794679,
+     "traded_share": 1.0
+    },
+    "1.0": {
+     "breakeven_fee_bp_per_side": -0.241965864446,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.897025246744,
+      0.365201658917
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": -0.156935036281,
+     "gross_mean_bp_per_period": -0.0964602983648,
+     "gross_sharpe_annualized": -0.729497876013,
+     "periods": 35028,
+     "sides_per_period": 0.398652506566,
+     "traded_share": 0.307325568117
+    },
+    "2.0": {
+     "breakeven_fee_bp_per_side": -0.415528006922,
+     "breakeven_fee_bp_per_side_ci95": [
+      -1.60916757958,
+      0.849181338993
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": -0.272702898408,
+     "gross_mean_bp_per_period": -0.0479729148108,
+     "gross_sharpe_annualized": -0.488934852138,
+     "periods": 35028,
+     "sides_per_period": 0.115450496745,
+     "traded_share": 0.0879582048647
+    },
+    "3.0": {
+     "breakeven_fee_bp_per_side": -1.16508616098,
+     "breakeven_fee_bp_per_side_ci95": [
+      -3.09182908435,
+      1.24157675052
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": -0.774633329101,
+     "gross_mean_bp_per_period": -0.0657248559463,
+     "gross_sharpe_annualized": -0.828029003498,
+     "periods": 35028,
+     "sides_per_period": 0.0564120132465,
+     "traded_share": 0.0424232042937
+    },
+    "5.0": {
+     "breakeven_fee_bp_per_side": 2.57757781204,
+     "breakeven_fee_bp_per_side_ci95": [
+      -1.01745247492,
+      5.22377044273
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 1.86330926172,
+     "gross_mean_bp_per_period": 0.05298207219,
+     "gross_sharpe_annualized": 0.967710390878,
+     "periods": 35028,
+     "sides_per_period": 0.0205549845838,
+     "traded_share": 0.0142171976704
+    }
+   },
+   "2022-2025": {
+    "0.0": {
+     "breakeven_fee_bp_per_side": 0.152673751881,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.0659586161072,
+      0.387627685018
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.0509811623981,
+     "gross_mean_bp_per_period": 0.101962324796,
+     "gross_sharpe_annualized": 0.680005505286,
+     "periods": 128485,
+     "sides_per_period": 0.667844495466,
+     "traded_share": 1.0
+    },
+    "1.0": {
+     "breakeven_fee_bp_per_side": 0.20045423928,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.150186568556,
+      0.528490733075
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.141872662191,
+     "gross_mean_bp_per_period": 0.0572039937537,
+     "gross_sharpe_annualized": 0.577295265771,
+     "periods": 128485,
+     "sides_per_period": 0.285371833288,
+     "traded_share": 0.201603299996
+    },
+    "2.0": {
+     "breakeven_fee_bp_per_side": 0.342968839574,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.531107586783,
+      1.21557307615
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.235885188042,
+     "gross_mean_bp_per_period": 0.0217443605648,
+     "gross_sharpe_annualized": 0.305036041667,
+     "periods": 128485,
+     "sides_per_period": 0.0634003969335,
+     "traded_share": 0.0460909833833
+    },
+    "3.0": {
+     "breakeven_fee_bp_per_side": 0.309093769197,
+     "breakeven_fee_bp_per_side_ci95": [
+      -1.19028899381,
+      2.08323370094
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.21863014717,
+     "gross_mean_bp_per_period": 0.00901167653354,
+     "gross_sharpe_annualized": 0.158249504134,
+     "periods": 128485,
+     "sides_per_period": 0.0291551542982,
+     "traded_share": 0.0206094096587
+    },
+    "5.0": {
+     "breakeven_fee_bp_per_side": 3.39111036165,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.374227662602,
+      6.52262818702
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 2.5264615754,
+     "gross_mean_bp_per_period": 0.0316188676752,
+     "gross_sharpe_annualized": 0.800800087482,
+     "periods": 128485,
+     "sides_per_period": 0.00932404560844,
+     "traded_share": 0.00625753979064
+    }
+   },
+   "2023": {
+    "0.0": {
+     "breakeven_fee_bp_per_side": 0.158822613786,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.253784319505,
+      0.656023569719
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.044594439669,
+     "gross_mean_bp_per_period": 0.089188879338,
+     "gross_sharpe_annualized": 0.722581621979,
+     "periods": 35013,
+     "sides_per_period": 0.561562848085,
+     "traded_share": 1.0
+    },
+    "1.0": {
+     "breakeven_fee_bp_per_side": 0.502080272302,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.057766707268,
+      0.887916060588
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.392925428276,
+     "gross_mean_bp_per_period": 0.140817075772,
+     "gross_sharpe_annualized": 1.91617325827,
+     "periods": 35013,
+     "sides_per_period": 0.28046725502,
+     "traded_share": 0.179190586354
+    },
+    "2.0": {
+     "breakeven_fee_bp_per_side": 2.37733961911,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.479631755777,
+      4.61259521635
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 1.86480720427,
+     "gross_mean_bp_per_period": 0.0874536152117,
+     "gross_sharpe_annualized": 1.77506980223,
+     "periods": 35013,
+     "sides_per_period": 0.0367863365036,
+     "traded_share": 0.023448433439
+    },
+    "3.0": {
+     "breakeven_fee_bp_per_side": 2.9779082883,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.492430145168,
+      7.7417093627
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 2.46185031788,
+     "gross_mean_bp_per_period": 0.0494999749747,
+     "gross_sharpe_annualized": 1.32622563508,
+     "periods": 35013,
+     "sides_per_period": 0.0166223973953,
+     "traded_share": 0.0100534087339
+    },
+    "5.0": {
+     "breakeven_fee_bp_per_side": 10.7815479035,
+     "breakeven_fee_bp_per_side_ci95": [
+      1.56848228819,
+      24.6480345767
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 9.00314824931,
+     "gross_mean_bp_per_period": 0.0498846360028,
+     "gross_sharpe_annualized": 1.94567790336,
+     "periods": 35013,
+     "sides_per_period": 0.00462685288321,
+     "traded_share": 0.00277039956588
+    }
+   },
+   "2024": {
+    "0.0": {
+     "breakeven_fee_bp_per_side": 0.188502332396,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.119587376013,
+      0.462158629817
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.0729504670383,
+     "gross_mean_bp_per_period": 0.145900934077,
+     "gross_sharpe_annualized": 0.964641635855,
+     "periods": 35124,
+     "sides_per_period": 0.774000683293,
+     "traded_share": 1.0
+    },
+    "1.0": {
+     "breakeven_fee_bp_per_side": 0.465845069572,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.180429184444,
+      1.08056348075
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.337367957131,
+     "gross_mean_bp_per_period": 0.116182747109,
+     "gross_sharpe_annualized": 1.19933409749,
+     "periods": 35124,
+     "sides_per_period": 0.24940211821,
+     "traded_share": 0.172189955586
+    },
+    "2.0": {
+     "breakeven_fee_bp_per_side": 0.588431711961,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.789294387477,
+      1.96491409462
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.415315752503,
+     "gross_mean_bp_per_period": 0.0342430935898,
+     "gross_sharpe_annualized": 0.494688524291,
+     "periods": 35124,
+     "sides_per_period": 0.0581938275823,
+     "traded_share": 0.0412253729644
+    },
+    "3.0": {
+     "breakeven_fee_bp_per_side": 2.42683747798,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.292317464695,
+      5.74706762694
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 1.78974024715,
+     "gross_mean_bp_per_period": 0.0590057853945,
+     "gross_sharpe_annualized": 1.06428920771,
+     "periods": 35124,
+     "sides_per_period": 0.0243138594693,
+     "traded_share": 0.0164844550735
+    },
+    "5.0": {
+     "breakeven_fee_bp_per_side": 2.67122512657,
+     "breakeven_fee_bp_per_side_ci95": [
+      -5.27962115985,
+      11.9224660963
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 2.0817133745,
+     "gross_mean_bp_per_period": 0.0171875890732,
+     "gross_sharpe_annualized": 0.43264213523,
+     "periods": 35124,
+     "sides_per_period": 0.00643434688532,
+     "traded_share": 0.00412823140872
+    }
+   },
+   "2025": {
+    "0.0": {
+     "breakeven_fee_bp_per_side": 0.1587927011,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.506781602642,
+      0.780567503184
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.0580355999773,
+     "gross_mean_bp_per_period": 0.116071199955,
+     "gross_sharpe_annualized": 0.90004429258,
+     "periods": 23320,
+     "sides_per_period": 0.730960548885,
+     "traded_share": 1.0
+    },
+    "1.0": {
+     "breakeven_fee_bp_per_side": 0.416650991052,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.265074376107,
+      1.08194412721
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.304942362414,
+     "gross_mean_bp_per_period": 0.0736464573378,
+     "gross_sharpe_annualized": 0.984933485984,
+     "periods": 23320,
+     "sides_per_period": 0.176758147513,
+     "traded_share": 0.120754716981
+    },
+    "2.0": {
+     "breakeven_fee_bp_per_side": 0.272015037017,
+     "breakeven_fee_bp_per_side_ci95": [
+      -2.15747398974,
+      3.45778245877
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.183087044146,
+     "gross_mean_bp_per_period": 0.00898162858075,
+     "gross_sharpe_annualized": 0.17365382725,
+     "periods": 23320,
+     "sides_per_period": 0.0330188679245,
+     "traded_share": 0.0245283018868
+    },
+    "3.0": {
+     "breakeven_fee_bp_per_side": -1.03468957032,
+     "breakeven_fee_bp_per_side_ci95": [
+      -3.78220355059,
+      3.00418602265
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": -0.748022330057,
+     "gross_mean_bp_per_period": -0.0148193103125,
+     "gross_sharpe_annualized": -0.361367274745,
+     "periods": 23320,
+     "sides_per_period": 0.0143224699828,
+     "traded_share": 0.00990566037736
+    },
+    "5.0": {
+     "breakeven_fee_bp_per_side": -1.59570500436,
+     "breakeven_fee_bp_per_side_ci95": [
+      -16.61302418,
+      8.34505068272
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": -1.12198008119,
+     "gross_mean_bp_per_period": -0.00615838123466,
+     "gross_sharpe_annualized": -0.229052075344,
+     "periods": 23320,
+     "sides_per_period": 0.00385934819897,
+     "traded_share": 0.00274442538593
+    }
+   },
+   "all": {
+    "0.0": {
+     "breakeven_fee_bp_per_side": 0.212723906778,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.0261115946394,
+      0.397634969468
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.072306497699,
+     "gross_mean_bp_per_period": 0.144612995398,
+     "gross_sharpe_annualized": 0.802283531424,
+     "periods": 163412,
+     "sides_per_period": 0.679815435831,
+     "traded_share": 1.0
+    },
+    "1.0": {
+     "breakeven_fee_bp_per_side": 0.327160307543,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.0353573741622,
+      0.619777818339
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.211222580193,
+     "gross_mean_bp_per_period": 0.108111133866,
+     "gross_sharpe_annualized": 0.814887590673,
+     "periods": 163412,
+     "sides_per_period": 0.330453087901,
+     "traded_share": 0.255917558074
+    },
+    "2.0": {
+     "breakeven_fee_bp_per_side": 0.845345826929,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.129824942277,
+      1.5251322759
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.536695393363,
+     "gross_mean_bp_per_period": 0.0850767230661,
+     "gross_sharpe_annualized": 0.809094799099,
+     "periods": 163412,
+     "sides_per_period": 0.100641323771,
+     "traded_share": 0.0792597850831
+    },
+    "3.0": {
+     "breakeven_fee_bp_per_side": 1.23102403276,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.0535777359267,
+      2.52242113659
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.809459122882,
+     "gross_mean_bp_per_period": 0.0626616032143,
+     "gross_sharpe_annualized": 0.712928525767,
+     "periods": 163412,
+     "sides_per_period": 0.0509020145399,
+     "traded_share": 0.0387058477958
+    },
+    "5.0": {
+     "breakeven_fee_bp_per_side": 4.57661889294,
+     "breakeven_fee_bp_per_side_ci95": [
+      1.49171523104,
+      7.42870110546
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 3.220822404,
+     "gross_mean_bp_per_period": 0.0839638670417,
+     "gross_sharpe_annualized": 1.24325366111,
+     "periods": 163412,
+     "sides_per_period": 0.0183462658801,
+     "traded_share": 0.0130345384672
+    }
+   }
+  },
+  "history_h5": {
+   "2021": {
+    "0.0": {
+     "breakeven_fee_bp_per_side": 0.332360453649,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.0445032829262,
+      0.685057250872
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.159064604312,
+     "gross_mean_bp_per_period": 0.318129208624,
+     "gross_sharpe_annualized": 3.46207614187,
+     "periods": 104814,
+     "sides_per_period": 0.957181292575,
+     "traded_share": 1.0
+    },
+    "1.0": {
+     "breakeven_fee_bp_per_side": 0.737942827981,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.319926597834,
+      1.19216811483
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.549692551937,
+     "gross_mean_bp_per_period": 0.354672161184,
+     "gross_sharpe_annualized": 4.96576769311,
+     "periods": 104814,
+     "sides_per_period": 0.480622817563,
+     "traded_share": 0.322609575057
+    },
+    "2.0": {
+     "breakeven_fee_bp_per_side": 1.26727916063,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.812517978766,
+      1.75925942832
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 1.00679837583,
+     "gross_mean_bp_per_period": 0.2183346412,
+     "gross_sharpe_annualized": 3.80027828633,
+     "periods": 104814,
+     "sides_per_period": 0.172286144981,
+     "traded_share": 0.108430171542
+    },
+    "3.0": {
+     "breakeven_fee_bp_per_side": 2.2402042253,
+     "breakeven_fee_bp_per_side_ci95": [
+      1.54606696501,
+      3.0101272107
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 1.8483592466,
+     "gross_mean_bp_per_period": 0.176029175488,
+     "gross_sharpe_annualized": 3.57915570438,
+     "periods": 104814,
+     "sides_per_period": 0.0785772892934,
+     "traded_share": 0.0476176846604
+    },
+    "5.0": {
+     "breakeven_fee_bp_per_side": 4.03998071855,
+     "breakeven_fee_bp_per_side_ci95": [
+      2.80978399317,
+      5.63630534098
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 3.44977777407,
+     "gross_mean_bp_per_period": 0.0959752703761,
+     "gross_sharpe_annualized": 2.57546269541,
+     "periods": 104814,
+     "sides_per_period": 0.0237563684241,
+     "traded_share": 0.0139103554869
+    }
+   },
+   "2022": {
+    "0.0": {
+     "breakeven_fee_bp_per_side": -0.0402206904274,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.186595255999,
+      0.114847977056
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": -0.0175017478981,
+     "gross_mean_bp_per_period": -0.0350034957963,
+     "gross_sharpe_annualized": -0.555672416044,
+     "periods": 105108,
+     "sides_per_period": 0.870285801271,
+     "traded_share": 1.0
+    },
+    "1.0": {
+     "breakeven_fee_bp_per_side": -0.00602924125945,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.236578416098,
+      0.27205727826
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": -0.00471772334573,
+     "gross_mean_bp_per_period": -0.0015335249061,
+     "gross_sharpe_annualized": -0.0374023448212,
+     "periods": 105108,
+     "sides_per_period": 0.254347908818,
+     "traded_share": 0.16252806637
+    },
+    "2.0": {
+     "breakeven_fee_bp_per_side": 0.864523353435,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.0697155387381,
+      1.69563958396
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.706503410849,
+     "gross_mean_bp_per_period": 0.0557496983063,
+     "gross_sharpe_annualized": 2.00695345932,
+     "periods": 105108,
+     "sides_per_period": 0.0644860524413,
+     "traded_share": 0.0394546561632
+    },
+    "3.0": {
+     "breakeven_fee_bp_per_side": 1.84528650172,
+     "breakeven_fee_bp_per_side_ci95": [
+      1.14927254937,
+      2.48744256106
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 1.58313956201,
+     "gross_mean_bp_per_period": 0.0487708442914,
+     "gross_sharpe_annualized": 2.31648123965,
+     "periods": 105108,
+     "sides_per_period": 0.0264299577577,
+     "traded_share": 0.0154032043232
+    },
+    "5.0": {
+     "breakeven_fee_bp_per_side": 3.13374988962,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.19752828329,
+      5.57924678932
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 2.88213493498,
+     "gross_mean_bp_per_period": 0.0225398153951,
+     "gross_sharpe_annualized": 1.6984151986,
+     "periods": 105108,
+     "sides_per_period": 0.00719260189519,
+     "traded_share": 0.00391026372874
+    }
+   },
+   "2022-2025": {
+    "0.0": {
+     "breakeven_fee_bp_per_side": 0.0934368754739,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.0156762608338,
+      0.169871312918
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.0426839141808,
+     "gross_mean_bp_per_period": 0.0853678283616,
+     "gross_sharpe_annualized": 1.66967650654,
+     "periods": 385545,
+     "sides_per_period": 0.913641727944,
+     "traded_share": 1.0
+    },
+    "1.0": {
+     "breakeven_fee_bp_per_side": 0.12596000031,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.0473180816445,
+      0.310289876751
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.101669626006,
+     "gross_mean_bp_per_period": 0.0193632320438,
+     "gross_sharpe_annualized": 0.634311988254,
+     "periods": 385545,
+     "sides_per_period": 0.15372524608,
+     "traded_share": 0.0952262381823
+    },
+    "2.0": {
+     "breakeven_fee_bp_per_side": 0.926125954862,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.40267647888,
+      1.47496282141
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.772281587839,
+     "gross_mean_bp_per_period": 0.0303147740221,
+     "gross_sharpe_annualized": 1.47007572588,
+     "periods": 385545,
+     "sides_per_period": 0.0327328846179,
+     "traded_share": 0.019626762116
+    },
+    "3.0": {
+     "breakeven_fee_bp_per_side": 1.91416503081,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.884752546223,
+      2.86362303113
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 1.66264860934,
+     "gross_mean_bp_per_period": 0.0237616720161,
+     "gross_sharpe_annualized": 1.5757779783,
+     "periods": 385545,
+     "sides_per_period": 0.0124135963377,
+     "traded_share": 0.00714572877355
+    },
+    "5.0": {
+     "breakeven_fee_bp_per_side": 4.55348102186,
+     "breakeven_fee_bp_per_side_ci95": [
+      2.05508560788,
+      7.14764615471
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 4.18559307344,
+     "gross_mean_bp_per_period": 0.0142434686285,
+     "gross_sharpe_annualized": 1.45091702309,
+     "periods": 385545,
+     "sides_per_period": 0.00312803952846,
+     "traded_share": 0.0017014875047
+    }
+   },
+   "2023": {
+    "0.0": {
+     "breakeven_fee_bp_per_side": 0.293657761906,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.146826697859,
+      0.429968343735
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.134677573478,
+     "gross_mean_bp_per_period": 0.269355146955,
+     "gross_sharpe_annualized": 6.4527824801,
+     "periods": 105065,
+     "sides_per_period": 0.917241707514,
+     "traded_share": 1.0
+    },
+    "1.0": {
+     "breakeven_fee_bp_per_side": 0.383705328875,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.0490387222472,
+      0.849141230762
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.327635609755,
+     "gross_mean_bp_per_period": 0.0411442843488,
+     "gross_sharpe_annualized": 1.76236171318,
+     "periods": 105065,
+     "sides_per_period": 0.107228858326,
+     "traded_share": 0.0627897016133
+    },
+    "2.0": {
+     "breakeven_fee_bp_per_side": 1.15939728373,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.246198694984,
+      2.60811573328
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 1.01838950598,
+     "gross_mean_bp_per_period": 0.0215183429617,
+     "gross_sharpe_annualized": 1.26194451259,
+     "periods": 105065,
+     "sides_per_period": 0.0185599390853,
+     "traded_share": 0.0105648884024
+    },
+    "3.0": {
+     "breakeven_fee_bp_per_side": 1.79907122353,
+     "breakeven_fee_bp_per_side_ci95": [
+      -1.19651011929,
+      5.58778615006
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 1.6071107704,
+     "gross_mean_bp_per_period": 0.0123288562408,
+     "gross_sharpe_annualized": 1.17607522992,
+     "periods": 105065,
+     "sides_per_period": 0.00685290058535,
+     "traded_share": 0.0038357207443
+    },
+    "5.0": {
+     "breakeven_fee_bp_per_side": 5.35582951121,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.180311843417,
+      11.4811014134
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 5.02109016676,
+     "gross_mean_bp_per_period": 0.0091757417981,
+     "gross_sharpe_annualized": 1.39979786009,
+     "periods": 105065,
+     "sides_per_period": 0.00171322514634,
+     "traded_share": 0.000913720078047
+    }
+   },
+   "2024": {
+    "0.0": {
+     "breakeven_fee_bp_per_side": 0.0267379407864,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.112570344023,
+      0.164192890771
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.0125419400793,
+     "gross_mean_bp_per_period": 0.0250838801586,
+     "gross_sharpe_annualized": 0.49085315939,
+     "periods": 105396,
+     "sides_per_period": 0.938138069756,
+     "traded_share": 1.0
+    },
+    "1.0": {
+     "breakeven_fee_bp_per_side": 0.104089305344,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.207389518573,
+      0.441894871375
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.0847339946177,
+     "gross_mean_bp_per_period": 0.0149680966241,
+     "gross_sharpe_annualized": 0.509216527841,
+     "periods": 105396,
+     "sides_per_period": 0.143800523739,
+     "traded_share": 0.0883240350677
+    },
+    "2.0": {
+     "breakeven_fee_bp_per_side": 0.713917473181,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.240641125601,
+      1.61164256959
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.600766677492,
+     "gross_mean_bp_per_period": 0.0190611007015,
+     "gross_sharpe_annualized": 0.993884776698,
+     "periods": 105396,
+     "sides_per_period": 0.0266993054765,
+     "traded_share": 0.0158639796577
+    },
+    "3.0": {
+     "breakeven_fee_bp_per_side": 2.16080160342,
+     "breakeven_fee_bp_per_side_ci95": [
+      -1.90746393,
+      5.05224071183
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 1.88251654844,
+     "gross_mean_bp_per_period": 0.0188616026713,
+     "gross_sharpe_annualized": 1.26564172182,
+     "periods": 105396,
+     "sides_per_period": 0.00872898402216,
+     "traded_share": 0.00500967778663
+    },
+    "5.0": {
+     "breakeven_fee_bp_per_side": 6.33338736414,
+     "breakeven_fee_bp_per_side_ci95": [
+      -2.01839166854,
+      16.1568182491
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 5.62967765701,
+     "gross_mean_bp_per_period": 0.011537538179,
+     "gross_sharpe_annualized": 1.07085511985,
+     "periods": 105396,
+     "sides_per_period": 0.00182170101332,
+     "traded_share": 0.00102470681999
+    }
+   },
+   "2025": {
+    "0.0": {
+     "breakeven_fee_bp_per_side": 0.0862009411536,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.0171852611214,
+      0.182420120998
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.0403620360823,
+     "gross_mean_bp_per_period": 0.0807240721647,
+     "gross_sharpe_annualized": 1.85570365528,
+     "periods": 69976,
+     "sides_per_period": 0.93646393049,
+     "traded_share": 1.0
+    },
+    "1.0": {
+     "breakeven_fee_bp_per_side": 0.282424948835,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.375092779756,
+      1.01725984608
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.231702186212,
+     "gross_mean_bp_per_period": 0.0246681903407,
+     "gross_sharpe_annualized": 1.11502860964,
+     "periods": 69976,
+     "sides_per_period": 0.0873442323082,
+     "traded_share": 0.0532325368698
+    },
+    "2.0": {
+     "breakeven_fee_bp_per_side": 1.44543765118,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.626249312383,
+      2.94034672528
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 1.22114560186,
+     "gross_mean_bp_per_period": 0.0222673743565,
+     "gross_sharpe_annualized": 1.60155335961,
+     "periods": 69976,
+     "sides_per_period": 0.0154052818109,
+     "traded_share": 0.00911741168401
+    },
+    "3.0": {
+     "breakeven_fee_bp_per_side": 2.04271516193,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.666405903604,
+      3.88805662794
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 1.83346141364,
+     "gross_mean_bp_per_period": 0.0107425285754,
+     "gross_sharpe_annualized": 1.1484869904,
+     "periods": 69976,
+     "sides_per_period": 0.00525894592432,
+     "traded_share": 0.00292957585458
+    },
+    "5.0": {
+     "breakeven_fee_bp_per_side": 12.0810706394,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.0543636587578,
+      21.5125649402
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 11.4917501204,
+     "gross_mean_bp_per_period": 0.0134663814719,
+     "gross_sharpe_annualized": 2.58817007929,
+     "periods": 69976,
+     "sides_per_period": 0.00111466788613,
+     "traded_share": 0.000585915170916
+    }
+   },
+   "all": {
+    "0.0": {
+     "breakeven_fee_bp_per_side": 0.146400901193,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.0552597917569,
+      0.246948155434
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.0675602306253,
+     "gross_mean_bp_per_period": 0.135120461251,
+     "gross_sharpe_annualized": 2.17476392818,
+     "periods": 490359,
+     "sides_per_period": 0.922948288907,
+     "traded_share": 1.0
+    },
+    "1.0": {
+     "breakeven_fee_bp_per_side": 0.407135868818,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.162135762564,
+      0.692647066063
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.316470091316,
+     "gross_mean_bp_per_period": 0.0910353540992,
+     "gross_sharpe_annualized": 2.13199565626,
+     "periods": 490359,
+     "sides_per_period": 0.223599444489,
+     "traded_share": 0.143829316888
+    },
+    "2.0": {
+     "breakeven_fee_bp_per_side": 1.1269390649,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.750703493921,
+      1.49443373888
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.913063507107,
+     "gross_mean_bp_per_period": 0.0705039300453,
+     "gross_sharpe_annualized": 2.18630271851,
+     "periods": 490359,
+     "sides_per_period": 0.0625623267851,
+     "traded_share": 0.0386084480962
+    },
+    "3.0": {
+     "breakeven_fee_bp_per_side": 2.12037443074,
+     "breakeven_fee_bp_per_side_ci95": [
+      1.53146916587,
+      2.67974650591
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 1.78230801943,
+     "gross_mean_bp_per_period": 0.0563087775223,
+     "gross_sharpe_annualized": 2.1346140068,
+     "periods": 490359,
+     "sides_per_period": 0.0265560538299,
+     "traded_share": 0.0157965898454
+    },
+    "5.0": {
+     "breakeven_fee_bp_per_side": 4.20753520064,
+     "breakeven_fee_bp_per_side_ci95": [
+      3.05280735386,
+      5.57130363804
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 3.67811024162,
+     "gross_mean_bp_per_period": 0.0317136018745,
+     "gross_sharpe_annualized": 1.64291353121,
+     "periods": 490359,
+     "sides_per_period": 0.00753733489138,
+     "traded_share": 0.00431112715378
+    }
+   }
+  },
+  "holdout_h15": {
+   "all": {
+    "0.0": {
+     "breakeven_fee_bp_per_side": 0.279691479373,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.219089397083,
+      0.788863624089
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.077514495712,
+     "gross_mean_bp_per_period": 0.155028991424,
+     "gross_sharpe_annualized": 1.57751680084,
+     "periods": 5950,
+     "sides_per_period": 0.554285714286,
+     "traded_share": 1.0
+    },
+    "1.0": {
+     "breakeven_fee_bp_per_side": 0.645040889414,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.218684390008,
+      1.01158478638
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.536151350204,
+     "gross_mean_bp_per_period": 0.112096181454,
+     "gross_sharpe_annualized": 3.34156501751,
+     "periods": 5950,
+     "sides_per_period": 0.173781512605,
+     "traded_share": 0.104537815126
+    },
+    "2.0": {
+     "breakeven_fee_bp_per_side": 1.2485868703,
+     "breakeven_fee_bp_per_side_ci95": [
+      0.84912970488,
+      1.45544861668
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 1.11715667343,
+     "gross_mean_bp_per_period": 0.0356739105801,
+     "gross_sharpe_annualized": 2.39320346129,
+     "periods": 5950,
+     "sides_per_period": 0.0285714285714,
+     "traded_share": 0.0159663865546
+    },
+    "3.0": {
+     "breakeven_fee_bp_per_side": 2.01611186733,
+     "breakeven_fee_bp_per_side_ci95": [
+      1.81936642991,
+      2.1636709454
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 1.84079779191,
+     "gross_mean_bp_per_period": 0.0142313778871,
+     "gross_sharpe_annualized": 1.90035040971,
+     "periods": 5950,
+     "sides_per_period": 0.00705882352941,
+     "traded_share": 0.00386554621849
+    },
+    "5.0": {
+     "breakeven_fee_bp_per_side": 5.59902647685,
+     "breakeven_fee_bp_per_side_ci95": [
+      -1.06128118295,
+      7.81912903012
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 4.97691242387,
+     "gross_mean_bp_per_period": 0.015056205652,
+     "gross_sharpe_annualized": 2.36007416192,
+     "periods": 5950,
+     "sides_per_period": 0.00268907563025,
+     "traded_share": 0.00151260504202
+    }
+   }
+  },
+  "holdout_h5": {
+   "all": {
+    "0.0": {
+     "breakeven_fee_bp_per_side": 0.0690951909128,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.0937352331002,
+      0.224406911681
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": 0.0219429669808,
+     "gross_mean_bp_per_period": 0.0438859339617,
+     "gross_sharpe_annualized": 1.33344970054,
+     "periods": 17854,
+     "sides_per_period": 0.635151786714,
+     "traded_share": 1.0
+    },
+    "1.0": {
+     "breakeven_fee_bp_per_side": -0.212558564091,
+     "breakeven_fee_bp_per_side_ci95": [
+      -0.419301748813,
+      -0.0766987569887
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": -0.176119953104,
+     "gross_mean_bp_per_period": -0.00276204698494,
+     "gross_sharpe_annualized": -0.344442077031,
+     "periods": 17854,
+     "sides_per_period": 0.0129942869945,
+     "traded_share": 0.00784138008289
+    },
+    "2.0": {
+     "breakeven_fee_bp_per_side": -1.06339519019,
+     "breakeven_fee_bp_per_side_ci95": [
+      -9.35740283595,
+      1.89875039758
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": -0.962119457794,
+     "gross_mean_bp_per_period": -0.00226330330611,
+     "gross_sharpe_annualized": -0.365582775034,
+     "periods": 17854,
+     "sides_per_period": 0.00212837459393,
+     "traded_share": 0.00117620701243
+    },
+    "3.0": {
+     "breakeven_fee_bp_per_side": -3.29563298602,
+     "breakeven_fee_bp_per_side_ci95": [
+      -3.92625980031,
+      -2.03437935743
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": -1.97737979161,
+     "gross_mean_bp_per_period": -0.00110752760816,
+     "gross_sharpe_annualized": -0.792731026431,
+     "periods": 17854,
+     "sides_per_period": 0.00033605914641,
+     "traded_share": 0.000280049288675
+    },
+    "5.0": {
+     "breakeven_fee_bp_per_side": null,
+     "breakeven_fee_bp_per_side_ci95": [
+      null,
+      null
+     ],
+     "breakeven_fee_bp_per_side_round_trip_each_trade": null,
+     "gross_mean_bp_per_period": 0.0,
+     "gross_sharpe_annualized": null,
+     "periods": 17854,
+     "sides_per_period": 0.0,
+     "traded_share": 0.0
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,1451 @@
+........................................................................ [  4%]
+........................................................................ [  9%]
+........................................................................ [ 13%]
+........................................................................ [ 18%]
+........................................................................ [ 22%]
+........................................................................ [ 27%]
+........................................................................ [ 32%]
+......................................................................EE [ 36%]
+EEE...........E...................EEEEEEEEEEEEEEEEEEFF.........EEEEE.EEE [ 41%]
+EEEEEEEE................................................................ [ 45%]
+........................................................................ [ 50%]
+........................................................................ [ 54%]
+.............................s.......................................... [ 59%]
+........................................................................ [ 64%]
+........................................................................ [ 68%]
+........................................................................ [ 73%]
+........................................................................ [ 77%]
+........................................................................ [ 82%]
+........................................................................ [ 86%]
+........................................................................ [ 91%]
+........................................................................ [ 96%]
+...............................................................          [100%]
+=================================== ERRORS ====================================
+__ ERROR at setup of test_authorization_absent_rejects_before_io[<lambda>0] ___
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223070C70>)
+
+tests\test_holdout_a.py:52: AssertionError
+__ ERROR at setup of test_authorization_absent_rejects_before_io[<lambda>1] ___
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223071120>)
+
+tests\test_holdout_a.py:52: AssertionError
+__ ERROR at setup of test_authorization_absent_rejects_before_io[<lambda>2] ___
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223072110>)
+
+tests\test_holdout_a.py:52: AssertionError
+__ ERROR at setup of test_authorization_absent_rejects_before_io[<lambda>3] ___
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223072B60>)
+
+tests\test_holdout_a.py:52: AssertionError
+__ ERROR at setup of test_authorization_absent_rejects_before_io[<lambda>4] ___
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223073880>)
+
+tests\test_holdout_a.py:52: AssertionError
+___________________ ERROR at setup of test_exact_four_urls ____________________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x00000262230732E0>)
+
+tests\test_holdout_a.py:52: AssertionError
+____________ ERROR at setup of test_status_stop_without_retry[301] ____________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x00000262230709A0>)
+
+tests\test_holdout_a.py:52: AssertionError
+____________ ERROR at setup of test_status_stop_without_retry[302] ____________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x00000262230716C0>)
+
+tests\test_holdout_a.py:52: AssertionError
+____________ ERROR at setup of test_status_stop_without_retry[307] ____________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026222FCC5E0>)
+
+tests\test_holdout_a.py:52: AssertionError
+____________ ERROR at setup of test_status_stop_without_retry[403] ____________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223071B70>)
+
+tests\test_holdout_a.py:52: AssertionError
+____________ ERROR at setup of test_status_stop_without_retry[404] ____________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223071120>)
+
+tests\test_holdout_a.py:52: AssertionError
+__________________ ERROR at setup of test_redirect_final_url __________________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x00000262230731F0>)
+
+tests\test_holdout_a.py:52: AssertionError
+______________ ERROR at setup of test_http_retry_exhaustion[429] ______________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026222FCDB70>)
+
+tests\test_holdout_a.py:52: AssertionError
+______________ ERROR at setup of test_http_retry_exhaustion[500] ______________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223071210>)
+
+tests\test_holdout_a.py:52: AssertionError
+______________ ERROR at setup of test_http_retry_exhaustion[503] ______________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223071300>)
+
+tests\test_holdout_a.py:52: AssertionError
+_________________ ERROR at setup of test_timeout_then_success _________________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026222FCD990>)
+
+tests\test_holdout_a.py:52: AssertionError
+__________ ERROR at setup of test_recorded_integrity_failures[text] ___________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026222FCD4E0>)
+
+tests\test_holdout_a.py:52: AssertionError
+_________ ERROR at setup of test_recorded_integrity_failures[zip_sha] _________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x00000262230724D0>)
+
+tests\test_holdout_a.py:52: AssertionError
+_______ ERROR at setup of test_recorded_integrity_failures[zip_length] ________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x00000262230709A0>)
+
+tests\test_holdout_a.py:52: AssertionError
+______________ ERROR at setup of test_download_order_and_counts _______________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026222FCF2E0>)
+
+tests\test_holdout_a.py:52: AssertionError
+_____________ ERROR at setup of test_budget_before_intent[12-0-0] _____________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026222FCE5C0>)
+
+tests\test_holdout_a.py:52: AssertionError
+_____________ ERROR at setup of test_budget_before_intent[0-3-0] ______________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026222FCC6D0>)
+
+tests\test_holdout_a.py:52: AssertionError
+__________ ERROR at setup of test_budget_before_intent[0-0-16777216] __________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223072B60>)
+
+tests\test_holdout_a.py:52: AssertionError
+________________ ERROR at setup of test_unsettled_intent_stops ________________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x00000262230714E0>)
+
+tests\test_holdout_a.py:52: AssertionError
+____________ ERROR at setup of test_short_segment_rule[15-20-True] ____________
+
+    @pytest.fixture
+    def config():
+>       return tomllib.loads((REPO / "configs/history-extension.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:65: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/history-extension.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223073100>)
+
+tests\test_holdout_a.py:52: AssertionError
+___________ ERROR at setup of test_short_segment_rule[15-400-False] ___________
+
+    @pytest.fixture
+    def config():
+>       return tomllib.loads((REPO / "configs/history-extension.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:65: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/history-extension.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x00000262230726B0>)
+
+tests\test_holdout_a.py:52: AssertionError
+____________ ERROR at setup of test_short_segment_rule[5-20-False] ____________
+
+    @pytest.fixture
+    def config():
+>       return tomllib.loads((REPO / "configs/history-extension.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:65: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/history-extension.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x00000262230707C0>)
+
+tests\test_holdout_a.py:52: AssertionError
+_____________ ERROR at setup of test_oracle_and_training_maturity _____________
+
+    @pytest.fixture
+    def config():
+>       return tomllib.loads((REPO / "configs/history-extension.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:65: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/history-extension.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223072F20>)
+
+tests\test_holdout_a.py:52: AssertionError
+_____ ERROR at setup of test_six_fits_reproduction_and_direct_statistics ______
+
+    @pytest.fixture
+    def config():
+>       return tomllib.loads((REPO / "configs/history-extension.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:65: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/history-extension.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x00000262230709A0>)
+
+tests\test_holdout_a.py:52: AssertionError
+_________ ERROR at setup of test_transport_error_not_retried[error0] __________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223073880>)
+
+tests\test_holdout_a.py:52: AssertionError
+_________ ERROR at setup of test_transport_error_not_retried[error1] __________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223070400>)
+
+tests\test_holdout_a.py:52: AssertionError
+_________ ERROR at setup of test_launch_budget_and_order[4-download] __________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026222FCFC40>)
+
+tests\test_holdout_a.py:52: AssertionError
+___________ ERROR at setup of test_launch_budget_and_order[0-audit] ___________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223073010>)
+
+tests\test_holdout_a.py:52: AssertionError
+_______ ERROR at setup of test_launch_budget_and_order[1-reproduction] ________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x00000262230708B0>)
+
+tests\test_holdout_a.py:52: AssertionError
+__________ ERROR at setup of test_write_failure_produces_no_fallback __________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x00000262230735B0>)
+
+tests\test_holdout_a.py:52: AssertionError
+________________ ERROR at setup of test_runtime_resource_gates ________________
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026222FCED40>)
+
+tests\test_holdout_a.py:52: AssertionError
+___________ ERROR at setup of test_constant_ic_null_keeps_holm_slot ___________
+
+    @pytest.fixture
+    def config():
+>       return tomllib.loads((REPO / "configs/history-extension.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:65: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/history-extension.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223070A90>)
+
+tests\test_holdout_a.py:52: AssertionError
+__________ ERROR at setup of test_both_h15_specs_share_pruned_index ___________
+
+    @pytest.fixture
+    def config():
+>       return tomllib.loads((REPO / "configs/history-extension.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:65: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/history-extension.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223073880>)
+
+tests\test_holdout_a.py:52: AssertionError
+_____ ERROR at setup of test_assembly_twelve_months_and_sha_chain[False] ______
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223070400>)
+
+tests\test_holdout_a.py:52: AssertionError
+______ ERROR at setup of test_assembly_twelve_months_and_sha_chain[True] ______
+
+    @pytest.fixture
+    def contract():
+>       return tomllib.loads((REPO / "configs/holdout-a-execution.toml").read_text(encoding="utf-8"))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_holdout_a.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:546: in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_abc.py:632: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/configs/holdout-a-execution.toml')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026222FCDF30>)
+
+tests\test_holdout_a.py:52: AssertionError
+================================== FAILURES ===================================
+________________________ test_exclusive_files_and_move ________________________
+
+tmp_path = WindowsPath('D:/zgs_project/QuantForge/.tmp/pytest/test_exclusive_files_and_move0')
+
+    def test_exclusive_files_and_move(tmp_path):
+        source, target = ha.RAW / ".partial/x", ha.RAW / "x"
+>       ha.write_bytes(source, b"x")
+
+tests\test_holdout_a.py:288: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\quantforge\holdout_a.py:90: in write_bytes
+    with path.open("xb") as handle:
+         ^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/.tmp/pytest/test_exclusive_files_and_move0/data/.partial/x')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026224060130>)
+
+tests\test_holdout_a.py:52: AssertionError
+______________________ test_move_permission_failure_once ______________________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x00000262240DBEE0>
+
+    def test_move_permission_failure_once(monkeypatch):
+        source = ha.RAW / ".partial/x"
+>       ha.write_bytes(source, b"x")
+
+tests\test_holdout_a.py:301: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\quantforge\holdout_a.py:90: in write_bytes
+    with path.open("xb") as handle:
+         ^^^^^^^^^^^^^^^
+C:\Users\ttrs_\miniconda3\Lib\pathlib\_local.py:537: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_holdout_a.py:57: in checked_io_open
+    check(path)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+path = WindowsPath('D:/zgs_project/QuantForge/.tmp/pytest/test_move_permission_failure_o0/data/.partial/x')
+
+    def check(path):
+        if isinstance(path, (str, Path)):
+            name = str(Path(path).absolute()).replace("\\", "/").lower()
+>           assert not any(name.startswith(r.replace("\\", "/")) for r in roots), "real data opened"
+E           AssertionError: real data opened
+E           assert not True
+E            +  where True = any(<generator object isolated.<locals>.check.<locals>.<genexpr> at 0x0000026223072200>)
+
+tests\test_holdout_a.py:52: AssertionError
+=========================== short test summary info ===========================
+SKIPPED [1] tests\test_phase2f_c1_backward_compat.py:20: Optional owner integration: QF_C1_HISTORICAL_RESULTS is unset
+ERROR tests/test_holdout_a.py::test_authorization_absent_rejects_before_io[<lambda>0]
+ERROR tests/test_holdout_a.py::test_authorization_absent_rejects_before_io[<lambda>1]
+ERROR tests/test_holdout_a.py::test_authorization_absent_rejects_before_io[<lambda>2]
+ERROR tests/test_holdout_a.py::test_authorization_absent_rejects_before_io[<lambda>3]
+ERROR tests/test_holdout_a.py::test_authorization_absent_rejects_before_io[<lambda>4]
+ERROR tests/test_holdout_a.py::test_exact_four_urls - AssertionError: real da...
+ERROR tests/test_holdout_a.py::test_status_stop_without_retry[301] - Assertio...
+ERROR tests/test_holdout_a.py::test_status_stop_without_retry[302] - Assertio...
+ERROR tests/test_holdout_a.py::test_status_stop_without_retry[307] - Assertio...
+ERROR tests/test_holdout_a.py::test_status_stop_without_retry[403] - Assertio...
+ERROR tests/test_holdout_a.py::test_status_stop_without_retry[404] - Assertio...
+ERROR tests/test_holdout_a.py::test_redirect_final_url - AssertionError: real...
+ERROR tests/test_holdout_a.py::test_http_retry_exhaustion[429] - AssertionErr...
+ERROR tests/test_holdout_a.py::test_http_retry_exhaustion[500] - AssertionErr...
+ERROR tests/test_holdout_a.py::test_http_retry_exhaustion[503] - AssertionErr...
+ERROR tests/test_holdout_a.py::test_timeout_then_success - AssertionError: re...
+ERROR tests/test_holdout_a.py::test_recorded_integrity_failures[text] - Asser...
+ERROR tests/test_holdout_a.py::test_recorded_integrity_failures[zip_sha] - As...
+ERROR tests/test_holdout_a.py::test_recorded_integrity_failures[zip_length]
+ERROR tests/test_holdout_a.py::test_download_order_and_counts - AssertionErro...
+ERROR tests/test_holdout_a.py::test_budget_before_intent[12-0-0] - AssertionE...
+ERROR tests/test_holdout_a.py::test_budget_before_intent[0-3-0] - AssertionEr...
+ERROR tests/test_holdout_a.py::test_budget_before_intent[0-0-16777216] - Asse...
+ERROR tests/test_holdout_a.py::test_unsettled_intent_stops - AssertionError: ...
+ERROR tests/test_holdout_a.py::test_short_segment_rule[15-20-True] - Assertio...
+ERROR tests/test_holdout_a.py::test_short_segment_rule[15-400-False] - Assert...
+ERROR tests/test_holdout_a.py::test_short_segment_rule[5-20-False] - Assertio...
+ERROR tests/test_holdout_a.py::test_oracle_and_training_maturity - AssertionE...
+ERROR tests/test_holdout_a.py::test_six_fits_reproduction_and_direct_statistics
+ERROR tests/test_holdout_a.py::test_transport_error_not_retried[error0] - Ass...
+ERROR tests/test_holdout_a.py::test_transport_error_not_retried[error1] - Ass...
+ERROR tests/test_holdout_a.py::test_launch_budget_and_order[4-download] - Ass...
+ERROR tests/test_holdout_a.py::test_launch_budget_and_order[0-audit] - Assert...
+ERROR tests/test_holdout_a.py::test_launch_budget_and_order[1-reproduction]
+ERROR tests/test_holdout_a.py::test_write_failure_produces_no_fallback - Asse...
+ERROR tests/test_holdout_a.py::test_runtime_resource_gates - AssertionError: ...
+ERROR tests/test_holdout_a.py::test_constant_ic_null_keeps_holm_slot - Assert...
+ERROR tests/test_holdout_a.py::test_both_h15_specs_share_pruned_index - Asser...
+ERROR tests/test_holdout_a.py::test_assembly_twelve_months_and_sha_chain[False]
+ERROR tests/test_holdout_a.py::test_assembly_twelve_months_and_sha_chain[True]
+FAILED tests/test_holdout_a.py::test_exclusive_files_and_move - AssertionErro...
+FAILED tests/test_holdout_a.py::test_move_permission_failure_once - Assertion...
+2 failed, 1532 passed, 1 skipped, 40 errors in 592.06s (0:09:52)

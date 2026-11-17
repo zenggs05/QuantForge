@@ -1,0 +1,561 @@
+{
+  "status": "passed",
+  "gate": "gate1",
+  "evidence_level": "real_data_integrity_only",
+  "gate2_authorised": false,
+  "gate1_success_conditions_satisfied": true,
+  "failure_type": "RevalidationHarnessAssertionError",
+  "failure_reason": "Scratch harness compared original insertion-order JSON against sort_keys=True serializer; values and original writer bytes match for both boundary files",
+  "implementation_commit": "87aacbe2b6c1c0e967d865ddde2b5b87ef356517",
+  "original_implementation_commit": "94dd63bd19321eb8aaa4a6e40b773e41b143bb3d",
+  "protocol_commit": "927145671910df600a1081d4ce6478439ca4b0a4",
+  "d032_merge_commit": "c72d13a",
+  "success_manifest_commit_b": "b4683f3c0051b486ef081f310919ab72e7d6f12b",
+  "success_reproduction_commit_c": "e9f8f176454ddd73b110df165e0402851af48e8b",
+  "semantics": "points at Y, the evidence-bearing commit; Z is located by Git history and the subsequent merge commit on main",
+  "real_data_ridge_fits": 0,
+  "real_data_statistical_tests_count": 0,
+  "real_data_runtime_evidence": [
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/runtime-refetch.json",
+    "docs/phase3a-gate1-evidence/d032-runtime-stop/runtime-resume.json",
+    "docs/phase3a-gate1-evidence/d033-runtime.json",
+    "docs/phase3a-gate1-evidence/d033-revalidation.json",
+    "docs/phase3a-gate1-evidence/d034-revalidation.json"
+  ],
+  "post_stop_reparse_note": "Three manual integrity-only calls after the stop: January once, all 29 retained months twice. Not a clean formal reproduction. No research function was invoked; these calls did not use the runtime monitor.",
+  "synthetic_ridge_fits_during_tests": 8046,
+  "synthetic_statistical_tests_during_tests": 25734,
+  "synthetic_count_scope": "Six complete instrumented pytest processes; focused ingestion tests contain no Ridge/CW/DM/IC calls",
+  "synthetic_test_counts": {
+    "passed": 1092,
+    "skipped": 1
+  },
+  "synthetic_new_tests_since_980": 112,
+  "synthetic_full_run_seconds": 390.02,
+  "additional_discarded_recovery_code_test": {
+    "passed": 122,
+    "seconds": 191.72,
+    "purpose": "Focused tests on an uncommitted recovery proposal, subsequently reverted; not validation evidence for deployed code"
+  },
+  "holdout_accessed": false,
+  "smoke_day_rows_read": 0,
+  "market_network_requests": 144,
+  "http_gets_count": 144,
+  "http_gets_count_total": 144,
+  "http_gets_pre_refetch": 4,
+  "http_gets_refetch_2020_02": 2,
+  "http_gets_resume_process": 58,
+  "normal_expected_http_gets": 136,
+  "http_gets_cap": 408,
+  "budget_zip_used_bytes": 152094624,
+  "budget_zip_used_bytes_total": 152094624,
+  "budget_zip_cap_bytes": 402653184,
+  "zip_reserved_bytes": 0,
+  "budget_zip_pre_refetch": 4301660,
+  "budget_zip_refetch_2020_02": 2077466,
+  "budget_zip_failed_2022_06": 1601170,
+  "checksum_bytes_used": 6336,
+  "checksum_bytes_cap": 1048576,
+  "checksum_reserved_bytes": 0,
+  "disk_reserve_bytes_at_end": 495905128448,
+  "history_data_disk_bytes": 437508882,
+  "budget_disk_reserve_bytes": 8589934592,
+  "months_downloaded_count": 68,
+  "months_ms_count": 60,
+  "months_us_count": 8,
+  "expected_months_downloaded_count": 68,
+  "expected_months_ms_count": 60,
+  "expected_months_us_count": 8,
+  "successful_rows": 2978475,
+  "market_rows_read": 11732347,
+  "acquisition_ledger_market_rows_read": 3195087,
+  "local_revalidation_rows_read_during_acquisition": 175266,
+  "post_stop_integrity_rows_read": 2580310,
+  "market_rows_read_scope": "CSV parse events: acquisition ledger + prior manual integrity rechecks + failed D-033 attempt + successful D-034 attempt; Parquet comparisons are not counted twice",
+  "environment_isolation": {
+    "main": {
+      ".venv": {
+        "before_count": 10052,
+        "after_count": 10052,
+        "before_bytes": 397794209,
+        "after_bytes": 397794209,
+        "changed_paths_size_or_mtime": 0,
+        "unchanged": true
+      },
+      "results": {
+        "before_count": 248,
+        "after_count": 248,
+        "before_bytes": 596100123,
+        "after_bytes": 596100123,
+        "changed_paths_size_or_mtime": 0,
+        "unchanged": true
+      },
+      "data": {
+        "before_count": 61,
+        "after_count": 61,
+        "before_bytes": 60685680,
+        "after_bytes": 60685680,
+        "changed_paths_size_or_mtime": 0,
+        "unchanged": true
+      }
+    },
+    "phase2f": {
+      ".venv": {
+        "before_count": 10052,
+        "after_count": 10052,
+        "before_bytes": 397797395,
+        "after_bytes": 397797395,
+        "changed_paths_size_or_mtime": 0,
+        "unchanged": true
+      },
+      "results": {
+        "before_count": 1,
+        "after_count": 1,
+        "before_bytes": 2,
+        "after_bytes": 2,
+        "changed_paths_size_or_mtime": 0,
+        "unchanged": true
+      },
+      "data": {
+        "before_count": 2,
+        "after_count": 2,
+        "before_bytes": 4,
+        "after_bytes": 4,
+        "changed_paths_size_or_mtime": 0,
+        "unchanged": true
+      }
+    }
+  },
+  "frozen_artifact_hashes": {
+    "configs/history-extension.toml": {
+      "sha256": "e9cbd19d884d046199f468f29e912cd6a9fbec1852e90ffc125b86d8df0bd9af",
+      "unchanged": true
+    },
+    "docs/confirmatory-protocol-v1-history-addendum.md": {
+      "sha256": "a4a99cfbfb9e33105d98ad44b439a57020a050b64b46b5a8e4a0bbc4b204fc07",
+      "unchanged": true
+    },
+    "docs/phase3a-analysis-plan.md": {
+      "sha256": "fea667f7689d2c45ab0697b0dd2e8877cf0894ae27e4a5f0277efae48e50cb3c",
+      "unchanged": true
+    },
+    "src/quantforge/datasets/research_splits.py": {
+      "sha256": "22c862f6e8e232dedfe17c3a9832f5b7d78737de1593d6b904e2c29c5949919c",
+      "unchanged": true
+    },
+    "src/quantforge/datasets/splits.py": {
+      "sha256": "3459e5be5185eee2638709c3db4250e150d8e1deff140d1459882cb5257d93cd",
+      "unchanged": true
+    },
+    "src/quantforge/datasets/window_splits.py": {
+      "sha256": "24de7804527d3dc805f46ee969d17267927e345b94af434303cd19793675fc22",
+      "unchanged": true
+    },
+    "src/quantforge/features/__init__.py": {
+      "sha256": "857819a0c3c718cf2b1100ea72995db989ed149f65d1ad3d5e4cd3eda1fcbec1",
+      "unchanged": true
+    },
+    "src/quantforge/labels/__init__.py": {
+      "sha256": "b968218639387cb82ab1beccef5c5bf3ed3674e5975c3d2b25cb4d318037746e",
+      "unchanged": true
+    },
+    "src/quantforge/models/baselines.py": {
+      "sha256": "a9269ca7f6147f653f608051746304596e898f49ec30f9e1714567e25a1ded83",
+      "unchanged": true
+    },
+    "src/quantforge/temporal.py": {
+      "sha256": "6c262bbd1c77e6696c7d310eb31b321f3f27ffeea02fbd64a70f3dcee9bd648c",
+      "unchanged": true
+    },
+    "docs/phase3a-download-manifest-draft.json": {
+      "sha256": "1a865966ff55094a5fa54fc245ed7f0e7543360fbd8a0a4da8459dda306ab0f6",
+      "unchanged": true
+    }
+  },
+  "plan_manifest_sha256": "ceb56c5683ff682240563c87991c96298b3f6c45baa93eee03134efc7d34c54a",
+  "deterministic_file_count": 207,
+  "deterministic_file_count_definition": "204 local ZIP/CHECKSUM/Parquet files, manifest, two boundary JSON files; additionally 68 embedded CSV digests and sidecar metadata audited",
+  "revalidation_status": "passed",
+  "refetch_elapsed_seconds": 5.927522899990436,
+  "resume_elapsed_seconds": 290.0304308999912,
+  "total_acquisition_process_seconds_including_original_stop": 676.0338811000111,
+  "peak_process_memory_bytes": 329981952,
+  "anchors": {
+    "GP1": "passed: fixed 68-month allowlist, exact official URLs, no Holdout/smoke access",
+    "GP2": "passed: 68 official ZIP checksums, CSV hashes and exact Parquet round trips reproduced",
+    "GP3": "passed: 60 ms and 8 us months; both transition values and original writer bytes match",
+    "GP4": "passed under D-031: graded gaps retained, no duplicate open times",
+    "GP5": "superseded by GP11 under D-031",
+    "GP6": "passed: cumulative GET/ZIP/CHECKSUM/disk limits respected, zero reservations",
+    "GP7": "passed: D-034 clean offline 68-month revalidation, 67 boundaries, 207 files; writer serializer byte/SHA comparisons match",
+    "GP8": "passed: 1092 synthetic tests plus one unchanged default skip",
+    "GP9": "passed: six metadata snapshots unchanged; all 273 local artifact metadata entries, 45 protected byte hashes and frozen fingerprints unchanged",
+    "GP10": "passed: all monthly and aggregate graded thresholds satisfied; soft warnings disclosed",
+    "GP11": "passed: all 67 adjacent pairs satisfy explicit missing-edge accounting"
+  },
+  "refetch_identity": "refetch_after_failure",
+  "history": [
+    {
+      "result": "fail-then-cleanup",
+      "commit": "1d6e1f2"
+    },
+    {
+      "result": "refetch-success",
+      "implementation_commit": "60581a1bcbd582ee305ebd7e13c2c37fb16010f5",
+      "evidence": "2020-02-refetch-success.json",
+      "documentation_commit_locator": "Git commit introducing this history.json"
+    },
+    {
+      "result": "later-runtime-stop",
+      "month": "2022-06",
+      "evidence": "2022-06-failure.json"
+    },
+    {
+      "result": "refetch-success",
+      "month": "2020-02",
+      "commit": "b4683f3c0051b486ef081f310919ab72e7d6f12b",
+      "original_failure_commit": "1d6e1f2"
+    },
+    {
+      "result": "D-033-June-recovery-and-68-month-acquisition",
+      "commit": "b4683f3c0051b486ef081f310919ab72e7d6f12b"
+    },
+    {
+      "result": "GP7-harness-stop",
+      "commit": "b4683f3c0051b486ef081f310919ab72e7d6f12b",
+      "successful_completion": false
+    },
+    {
+      "result": "D-034-GP7-pass",
+      "fix_commit": "ea8f78e9c829026a1dbe05beaab8faa51e246c72",
+      "evidence_commit": "e9f8f176454ddd73b110df165e0402851af48e8b"
+    }
+  ],
+  "deviations": [
+    "2022-06 atomic ledger replacement raised WinError 5; source of lock not established, partial ZIP discarded by downloader, no retry authorized after cleanup.",
+    "Uncommitted retry/recovery edits were briefly developed and tested after the stop, then reverted before any further network request or commit because JJ.1 requires case-specific authorization.",
+    "A post-refetch scratch check incorrectly compared the entire notes string to the required phrase; the actual note contains the phrase plus valid gap/anomaly explanations. No JJ anchor failed.",
+    "One synthetic-only test invocation wrote fixtures under results/phase3a-gate1 instead of .tmp/pytest; moved those fixtures into .tmp/pytest afterward. No other worktree was changed.",
+    "One local unchanged-byte os.replace probe rewrote the failed continuation ledger metadata timestamp; its bytes/SHA remain the recorded failure state. The stale temporary ledger was retained.",
+    "June failure diagnostics inherited last successful May metadata. June was not parsed; no June integrity claim is made.",
+    "D-033 explicit date interval is 39 remaining months, including 38 after June; prose counts were arithmetic typos.",
+    "Fixed ten-backoff tuple sums to 18.8 seconds, within the stated 18.9-second ceiling; tuple unchanged.",
+    "Initial D-033 merge command lacked Git identity; retried with established per-command identity. Git config unchanged.",
+    "Prior 68,371,336-byte carry-in equals 65.203987 MiB; approximate prose units were not used for accounting.",
+    "GP7 scratch harness incorrectly compared insertion-order timestamp evidence with sorted JSON bytes. All fields and original-writer bytes match. Failed execution evidence preserved; no fix, rerun or Gate 1 success claim.",
+    "Raw CRLF evidence is intentionally preserved under existing -text attributes. git diff --check recognizes CR-at-EOL using a per-command option, without Git config changes.",
+    "D-035 resolves the impossible self-referential Z SHA: success_reproduction_commit_c contains evidence commit Y; Z is located externally via Git history.",
+    "D-033 did not instrument start/finish UTC. Its original local report mtime is disclosed only as an artifact timestamp, not a reconstructed runtime boundary."
+  ],
+  "environment_isolation_checked_at_utc": "2026-11-09T03:30:08.620545+00:00",
+  "acquisition_status": "passed",
+  "failure_stage": "GP7 timestamp JSON byte comparison",
+  "d033_merge_commit": "7c2b246",
+  "stop_documentation_commit": "d0391cf5c33c5345d1a4ae7fea89ca97a7834312",
+  "prior_stop_documentation_commit": "e0caaaf6d8e2ce94e9ce4f5300d850911f274d91",
+  "ridge_fits": 0,
+  "cw_computed": false,
+  "dm_computed": false,
+  "ic_computed": false,
+  "synthetic_new_tests_d033": 22,
+  "synthetic_d033_counts": {
+    "scope": "existing synthetic pytest function entries, including validation-error calls",
+    "method": "Python 3.13 sys.monitoring local PY_START events; no function replacement",
+    "counts": {
+      "sklearn.Ridge.fit": 1341,
+      "forecast_tests.clark_west_differential": 2164,
+      "forecast_tests.dm_differential": 1067,
+      "forecast_tests.ic_product": 1058,
+      "forecast_tests.r2_oos": 1065,
+      "hac_tests._stats": 3889,
+      "forecast_tests.run_size_power_monte_carlo": 1,
+      "forecast_tests.mde": 8267,
+      "forecast_tests.normal_power": 6918,
+      "forecast_tests.months_required": 5956,
+      "forecast_tests.encompassing_approx": 403
+    },
+    "normal_returns": {
+      "sklearn.Ridge.fit": 1341,
+      "forecast_tests.clark_west_differential": 2158,
+      "forecast_tests.dm_differential": 1059,
+      "forecast_tests.ic_product": 1058,
+      "forecast_tests.r2_oos": 1059,
+      "hac_tests._stats": 3889,
+      "forecast_tests.run_size_power_monte_carlo": 1,
+      "forecast_tests.mde": 8264,
+      "forecast_tests.normal_power": 6917,
+      "forecast_tests.months_required": 5956,
+      "forecast_tests.encompassing_approx": 403
+    },
+    "synthetic_ridge_fits_during_tests": 1341,
+    "synthetic_statistical_tests_during_tests": 4289,
+    "elapsed_seconds": 405.0273060000036,
+    "collected": 1090,
+    "exitstatus": 0,
+    "test_counts": {
+      "passed": 1089,
+      "skipped": 1
+    }
+  },
+  "http_gets_d033_process": 80,
+  "budget_disk_reserve_bytes_at_end": 495905128448,
+  "unique_market_rows": 2978475,
+  "clean_revalidation_market_rows_read": 2978475,
+  "revalidation_clean_commit": "ea8f78e9c829026a1dbe05beaab8faa51e246c72",
+  "revalidation_elapsed_seconds": 42.96390370000154,
+  "revalidation_retry_count": 1,
+  "revalidation_post_stop_diagnosis": {
+    "network_requests": 0,
+    "market_rows_parsed": 0,
+    "diagnosis": "Scratch harness compared original insertion-order JSON against sort_keys=True serializer; values and original writer bytes match for both boundary files",
+    "boundary_checks": [
+      {
+        "month": "2024-12",
+        "actual_sha256": "28899d1bb0b22d5f3bff8635213f11f2bb01363c2273c55b11b6e2a17be5130d",
+        "expected_sorted_sha256": "97b561423286205492e2fa6c854e92cb95b197e1cfb6e2e1da899295584e7a71",
+        "json_values_equal": true,
+        "matches_original_writer_bytes": true,
+        "actual_keys": [
+          "month",
+          "expected_unit",
+          "detected_unit",
+          "first_open_raw",
+          "first_open_parsed_utc",
+          "last_open_parsed_utc"
+        ],
+        "sorted_keys": [
+          "detected_unit",
+          "expected_unit",
+          "first_open_parsed_utc",
+          "first_open_raw",
+          "last_open_parsed_utc",
+          "month"
+        ]
+      },
+      {
+        "month": "2025-01",
+        "actual_sha256": "197437de1f247315840b5c600a1b8dfdf50c03db9bcb0f242d63920fc29822ab",
+        "expected_sorted_sha256": "3b93570ab364b6184e2f6ce628f3be957212b41d51f8bd7c81d9371f0bb38caf",
+        "json_values_equal": true,
+        "matches_original_writer_bytes": true,
+        "actual_keys": [
+          "month",
+          "expected_unit",
+          "detected_unit",
+          "first_open_raw",
+          "first_open_parsed_utc",
+          "last_open_parsed_utc"
+        ],
+        "sorted_keys": [
+          "detected_unit",
+          "expected_unit",
+          "first_open_parsed_utc",
+          "first_open_raw",
+          "last_open_parsed_utc",
+          "month"
+        ]
+      }
+    ]
+  },
+  "d033_elapsed_seconds": 367.2184612000128,
+  "final_aggregates": {
+    "aggregate_expected_minutes": 2980800,
+    "aggregate_missing_minutes": 2325,
+    "aggregate_missing_ratio": 0.0007799919484702093,
+    "evaluate_expected_minutes": 2453760,
+    "evaluate_aggregate_missing_minutes": 1073,
+    "evaluate_aggregate_missing_ratio": 0.000437288080333855,
+    "aggregate_status_tier": "normal",
+    "evaluate_aggregate_status_tier": "normal",
+    "warmup_aggregate_expected_minutes": 527040,
+    "warmup_aggregate_missing_minutes": 1252,
+    "warmup_aggregate_missing_ratio": 0.002375531268973892,
+    "evaluate_months_over_3pct_count": 0,
+    "warmup_months_over_5pct_count": 0,
+    "boundary_gap_minutes_total": 0
+  },
+  "transfer_accounting": {
+    "successful_payload_bytes": {
+      "zip": 148415988,
+      "checksum": 5984
+    },
+    "successful_month_transfer_body_bytes": {
+      "zip": 148415988,
+      "checksum": 6160
+    },
+    "retry_body_bytes": {
+      "zip": 0,
+      "checksum": 176
+    },
+    "prior_failed_payload_bytes": {
+      "checksum": 176,
+      "zip": 3678636
+    },
+    "cumulative_body_bytes": {
+      "zip": 152094624,
+      "checksum": 6336
+    },
+    "unresolved_reserved_bytes": {
+      "zip": 0,
+      "checksum": 0
+    },
+    "cumulative_charged_bytes": {
+      "zip": 152094624,
+      "checksum": 6336
+    },
+    "cumulative_http_gets": 144,
+    "prior_failed_events": {
+      "2020-02": {
+        "zip_body_bytes": 2077466,
+        "checksum_body_bytes": 88
+      },
+      "2022-06": {
+        "zip_body_bytes": 1601170,
+        "checksum_body_bytes": 88
+      }
+    }
+  },
+  "soft_warning_months": [
+    "2021-04"
+  ],
+  "current_success_attempt_distribution": {
+    "1": 66,
+    "2": 2
+  },
+  "network_retry_events": [
+    {
+      "id": 51,
+      "month": "2022-01",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2022-01.zip",
+      "kind": "zip",
+      "month_attempt": 1,
+      "started_at_utc": "2026-11-06T07:27:29.580157+00:00",
+      "status": "failed",
+      "body_bytes": 0,
+      "reserved_bytes": 0,
+      "finished_at_utc": "2026-11-06T07:27:32.600857+00:00",
+      "error_type": "URLError",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)>",
+      "elapsed_seconds": 3.015995300025679
+    },
+    {
+      "id": 83,
+      "month": "2023-03",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2023-03.zip",
+      "kind": "zip",
+      "month_attempt": 1,
+      "started_at_utc": "2026-11-09T02:37:56.615057+00:00",
+      "status": "failed",
+      "body_bytes": 0,
+      "reserved_bytes": 0,
+      "scope": "D-033",
+      "finished_at_utc": "2026-11-09T02:37:59.643572+00:00",
+      "error_type": "URLError",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)>",
+      "elapsed_seconds": 3.0218149001011625
+    }
+  ],
+  "_2022_06_recovery": {
+    "incident_commit": "e0caaaf",
+    "incident_partial_bytes_charged": 1601170,
+    "incident_cumulative_gets_before_resume": 64,
+    "resume_commit": "b4683f3c0051b486ef081f310919ab72e7d6f12b",
+    "resume_checksum_sha_matches_archived_incident": true,
+    "resume_tier": "normal",
+    "resume_missing_minutes": 0,
+    "resume_anomalous_close_time_rows": 0,
+    "resume_zip_sha256": "0ced8899e9c3b2c098e1c5fc4993250bac22d8684d2d38404310351f35e32c0c",
+    "resume_checksum_sha256": "30ed4c4ce515aceb2df64d36fd1c87e720f7747c0d3f26c3579b7d718d05905d",
+    "resume_implementation_commit": "87aacbe2b6c1c0e967d865ddde2b5b87ef356517"
+  },
+  "persistence_retries_count_total": 1,
+  "persistence_wait_seconds_total": 0.1,
+  "raw_permission_error_count": 1,
+  "permission_error_hard_fail_count": 0,
+  "persistence_counter_scope": "D-033 acquisition process using the new helper; prior uninstrumented PermissionError remains separately charged and documented",
+  "resolved_in_commit": "ea8f78e9c829026a1dbe05beaab8faa51e246c72",
+  "failure_fields_scope": "Historical D-033 incident, resolved by D-034; original failed evidence remains immutable",
+  "revalidation_implementation_commit": "ea8f78e9c829026a1dbe05beaab8faa51e246c72",
+  "d034_merge_commit": "139a321",
+  "d035_merge_commit": "7ee5ab1",
+  "failed_revalidation_market_rows_read": 2978475,
+  "synthetic_new_tests_d034": 3,
+  "synthetic_d034_counts": {
+    "scope": "existing synthetic pytest function entries, including validation-error calls",
+    "method": "Python 3.13 sys.monitoring local PY_START events; no function replacement",
+    "counts": {
+      "sklearn.Ridge.fit": 1341,
+      "forecast_tests.clark_west_differential": 2164,
+      "forecast_tests.dm_differential": 1067,
+      "forecast_tests.ic_product": 1058,
+      "forecast_tests.r2_oos": 1065,
+      "hac_tests._stats": 3889,
+      "forecast_tests.run_size_power_monte_carlo": 1,
+      "forecast_tests.mde": 8267,
+      "forecast_tests.normal_power": 6918,
+      "forecast_tests.months_required": 5956,
+      "forecast_tests.encompassing_approx": 403
+    },
+    "normal_returns": {
+      "sklearn.Ridge.fit": 1341,
+      "forecast_tests.clark_west_differential": 2158,
+      "forecast_tests.dm_differential": 1059,
+      "forecast_tests.ic_product": 1058,
+      "forecast_tests.r2_oos": 1059,
+      "hac_tests._stats": 3889,
+      "forecast_tests.run_size_power_monte_carlo": 1,
+      "forecast_tests.mde": 8264,
+      "forecast_tests.normal_power": 6917,
+      "forecast_tests.months_required": 5956,
+      "forecast_tests.encompassing_approx": 403
+    },
+    "synthetic_ridge_fits_during_tests": 1341,
+    "synthetic_statistical_tests_during_tests": 4289,
+    "elapsed_seconds": 392.23081450001337,
+    "collected": 1093,
+    "exitstatus": 0,
+    "test_counts": {
+      "passed": 1092,
+      "skipped": 1
+    }
+  },
+  "d034_preservation": {
+    "passed": true,
+    "checked_at_utc": "2026-11-09T03:30:09.702008+00:00",
+    "protected_file_count": 45,
+    "market_artifact_stat_count": 273,
+    "changed_byte_hashes": [],
+    "changed_market_artifact_stats": [],
+    "network_requests": 0,
+    "market_rows_parsed": 0
+  },
+  "d034_new_network_requests": 0,
+  "d034_new_download_bytes": 0,
+  "prior_revalidation_time_metadata": {
+    "source": ".tmp/gate1-d033-revalidation.json",
+    "file_mtime_utc": "2026-11-09T02:46:17.847124+00:00",
+    "meaning": "Artifact last-write timestamp only; prior harness did not instrument start/finish UTC",
+    "elapsed_seconds": 48.31830680009443
+  },
+  "revalidation_runs": [
+    {
+      "run_number": 1,
+      "status": "failed",
+      "evidence": "docs/phase3a-gate1-evidence/d033-revalidation.json",
+      "clean_commit": "b4683f3c0051b486ef081f310919ab72e7d6f12b",
+      "elapsed_seconds": 48.31830680009443,
+      "started_at_utc": null,
+      "finished_at_utc": null,
+      "artifact_mtime_utc": "2026-11-09T02:46:17.847124+00:00"
+    },
+    {
+      "run_number": 2,
+      "status": "passed",
+      "evidence": "docs/phase3a-gate1-evidence/d034-revalidation.json",
+      "clean_commit": "ea8f78e9c829026a1dbe05beaab8faa51e246c72",
+      "started_at_utc": "2026-11-09T03:28:42.254672+00:00",
+      "finished_at_utc": "2026-11-09T03:29:25.218559+00:00",
+      "elapsed_seconds": 42.96390370000154
+    }
+  ]
+}

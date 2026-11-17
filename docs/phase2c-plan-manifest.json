@@ -1,0 +1,24 @@
+{
+  "status": "frozen_before_statistical_implementation",
+  "frozen_at_utc": "2026-11-03T01:04:30.804435+00:00",
+  "client_date": "2026-11-03",
+  "client_timezone": "Asia/Shanghai",
+  "base_git_commit": "a431190283c7c508751d4175a45ec84bff5e4bcf",
+  "plan_path": "docs/phase2c-analysis-plan.md",
+  "plan_sha256": "1dcb6c79d947a3c13e478efb367a1d77e8e3d671698fc0b6fb2c1864daac40d3",
+  "clean_baseline_check": {
+    "status": "passed",
+    "git_commit": "a431190283c7c508751d4175a45ec84bff5e4bcf",
+    "git_dirty": false,
+    "reference_run_id": "20261102T091156471478Z-20164d2d",
+    "clean_run_id": "20261103T010111153259Z-a2cb0858",
+    "clean_summary_path": "results/research-baseline/20261103T010111153259Z-a2cb0858/summary.json",
+    "clean_summary_sha256": "7aa9f334a9e5b5f1085edd2362676d86d0898fcdd376f92bb1886efbc3dc6f12",
+    "prediction_sha256": "66f74e1367ed816455d8df2af5c8fdd89009c893aa5fe064df29fe646c86407a",
+    "prediction_rows_exactly_equal": 1053840,
+    "config_equal": true,
+    "models_equal": true,
+    "non_timing_metrics_equal": true,
+    "folds_equal": true
+  }
+}

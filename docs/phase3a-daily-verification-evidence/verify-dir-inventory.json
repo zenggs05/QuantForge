@@ -1,0 +1,117 @@
+[
+  {
+    "name": "BTCUSDT-1m-2020-11-30.zip",
+    "bytes": 72911,
+    "sha256": "8160f7562f88fac4296b46abdf25a33d18c7b3b575b64423c8e91f137fd7f841"
+  },
+  {
+    "name": "BTCUSDT-1m-2020-11-30.zip.CHECKSUM",
+    "bytes": 91,
+    "sha256": "a82f5ae3dbba7c6f76ac3577272274c52b2b89bf0e2eeba9e596f577a0471af6"
+  },
+  {
+    "name": "BTCUSDT-1m-2020-12-21.zip",
+    "bytes": 63352,
+    "sha256": "59543b0862faf5953ce8c4e4efe3892d681711de345ced3ec5cf4dd9185a7154"
+  },
+  {
+    "name": "BTCUSDT-1m-2020-12-21.zip.CHECKSUM",
+    "bytes": 91,
+    "sha256": "12789ed572c0c22c623fa96890edc89dd2d0111586ec9a3be4c7ef5faab69ac2"
+  },
+  {
+    "name": "BTCUSDT-1m-2021-01-11.zip",
+    "bytes": 80999,
+    "sha256": "a2838ad0564be577320ee8d57fa280dae4a62978ff4793f02380f21fe64ca1a1"
+  },
+  {
+    "name": "BTCUSDT-1m-2021-01-11.zip.CHECKSUM",
+    "bytes": 91,
+    "sha256": "c773161e1f242a3449fc7f7d3a31e846cd3e508f0b41f42bcc567fd3b8fb83c9"
+  },
+  {
+    "name": "BTCUSDT-1m-2021-01-21.zip",
+    "bytes": 78726,
+    "sha256": "5f7f937fdb0be4b9b0cca613dffdf6bef4f03f37db3f4e28a5093f2f29ed84a1"
+  },
+  {
+    "name": "BTCUSDT-1m-2021-01-21.zip.CHECKSUM",
+    "bytes": 91,
+    "sha256": "8ae76c42e7b1c6981866c6e2d9348c56992efaa833a8ff5e07803c39d0257620"
+  },
+  {
+    "name": "BTCUSDT-1m-2021-02-11.zip",
+    "bytes": 70429,
+    "sha256": "f2c2fb98b3ac6a4839163f9e10d83a9d7a987ecd3a7d31ca1784ff52ead5aeae"
+  },
+  {
+    "name": "BTCUSDT-1m-2021-02-11.zip.CHECKSUM",
+    "bytes": 91,
+    "sha256": "db8825ad9f9914ed64f9e31fabff60b751abe41e639b9ff7969485ca2e52ebcb"
+  },
+  {
+    "name": "BTCUSDT-1m-2021-04-22.zip",
+    "bytes": 78606,
+    "sha256": "9044adf686eb593c455bca29b1ffd9f800d5f2bc260a524e286a71dac16be74e"
+  },
+  {
+    "name": "BTCUSDT-1m-2021-04-22.zip.CHECKSUM",
+    "bytes": 91,
+    "sha256": "9d3fc43a2db8bdbd1c39a0110fb283d00396cc63e88e8709e8ed268033672910"
+  },
+  {
+    "name": "BTCUSDT-1m-2021-04-23.zip",
+    "bytes": 79045,
+    "sha256": "3950336b09961d1b30c1fbdc6315c7ae3e5a4bd2651d47f43046ef604fb47c2a"
+  },
+  {
+    "name": "BTCUSDT-1m-2021-04-23.zip.CHECKSUM",
+    "bytes": 91,
+    "sha256": "945819512d93c49a4d3142b1cb28471bec030d005941e387717c0ec9e5b5b1ff"
+  },
+  {
+    "name": "BTCUSDT-1m-2021-09-23.zip",
+    "bytes": 73273,
+    "sha256": "456cabf12b7e1fee5484ac8ad35eeba06c77a740ecbd2d34b748b2da202bcb79"
+  },
+  {
+    "name": "BTCUSDT-1m-2021-09-23.zip.CHECKSUM",
+    "bytes": 91,
+    "sha256": "a6fee7ca4abb71ab77ea65abb7edffc2feaa36bf2879baeb699d7a87e07688ed"
+  },
+  {
+    "name": "BTCUSDT-1m-2021-09-29.zip",
+    "bytes": 66705,
+    "sha256": "35dc537929474ad75279dcb614ec0095f5c2d0ee36e64a6a05cfc744ed2018f8"
+  },
+  {
+    "name": "BTCUSDT-1m-2021-09-29.zip.CHECKSUM",
+    "bytes": 91,
+    "sha256": "ba9085f585172e1bc75cdf5d70b3c1d9777cd48460649dc53a08096c9ab01879"
+  },
+  {
+    "name": "BTCUSDT-1m-2022-04-13.zip",
+    "bytes": 71236,
+    "sha256": "690a8de5fe743386ac115fa0719bf01f9c3952ac5cf2e70e88e2b9d46744f17b"
+  },
+  {
+    "name": "BTCUSDT-1m-2022-04-13.zip.CHECKSUM",
+    "bytes": 91,
+    "sha256": "b579349443234f2aa474e78926d951fd42022a1a65dec6524691d0e37ee49e5c"
+  },
+  {
+    "name": "BTCUSDT-1m-2023-03-24.zip",
+    "bytes": 65200,
+    "sha256": "305d0f6cdb8a6cfd8063a7d48c66f14b33727d934857746d549663e94b41312d"
+  },
+  {
+    "name": "BTCUSDT-1m-2023-03-24.zip.CHECKSUM",
+    "bytes": 91,
+    "sha256": "e50d1875c88f0cf246e8b568e552f43604832fddaa76e754c5acadde9436f5c6"
+  },
+  {
+    "name": "failed/BTCUSDT-1m-2021-01-21.zip.checksum.attempt-1.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

@@ -1,0 +1,336 @@
+{
+  "status": "completed_statistical_diagnostics",
+  "run_id": "20261103T012342527623Z-d1bab75b",
+  "analysis_time_utc": "2026-11-03T01:24:02.048988+00:00",
+  "analysis_client_timezone": "Asia/Shanghai",
+  "output_directory": "results/statistical-diagnostics/20261103T012342527623Z-d1bab75b",
+  "config": {
+    "input": {
+      "summary_path": "results/research-baseline/20261103T010111153259Z-a2cb0858/summary.json",
+      "summary_sha256": "7aa9f334a9e5b5f1085edd2362676d86d0898fcdd376f92bb1886efbc3dc6f12",
+      "prediction_sha256": "66f74e1367ed816455d8df2af5c8fdd89009c893aa5fe064df29fe646c86407a"
+    },
+    "plan": {
+      "path": "docs/phase2c-analysis-plan.md",
+      "sha256": "1dcb6c79d947a3c13e478efb367a1d77e8e3d671698fc0b6fb2c1864daac40d3"
+    },
+    "analysis": {
+      "seed": 42,
+      "horizons": [
+        15,
+        5
+      ],
+      "baselines": [
+        "zero",
+        "historical_mean"
+      ],
+      "confidence": 0.95,
+      "roles": [
+        "validation",
+        "development_evaluation"
+      ],
+      "months": [
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06"
+      ]
+    },
+    "bootstrap": {
+      "replicates": 2000,
+      "main_block_length": 1440,
+      "block_lengths": [
+        60,
+        360,
+        1440,
+        2880
+      ],
+      "method": "non_circular_moving_block_percentile"
+    },
+    "hac": {
+      "main_lag": 60,
+      "lags": [
+        15,
+        60,
+        240
+      ],
+      "kernel": "bartlett",
+      "main_family_size": 32,
+      "global_family_size": 96
+    },
+    "output": {
+      "directory": "results/statistical-diagnostics"
+    }
+  },
+  "config_sha256": "992d7bbffdfb0b47bf650412cafb78fc251baedadc661f5e89565b3fe37e3770",
+  "plan_sha256": "1dcb6c79d947a3c13e478efb367a1d77e8e3d671698fc0b6fb2c1864daac40d3",
+  "provenance": {
+    "git_commit": "a431190283c7c508751d4175a45ec84bff5e4bcf",
+    "git_dirty": true,
+    "git_status": "M AGENTS.md\n M pyproject.toml\n M requirements-lock.txt\n M uv.lock\n?? configs/statistical-diagnostics.toml\n?? docs/phase2c-analysis-plan.md\n?? docs/phase2c-plan-manifest.json\n?? docs/phase2c-record.md\n?? scripts/run_statistical_diagnostics.py\n?? src/quantforge/diagnostics/\n?? tests/test_block_bootstrap.py\n?? tests/test_calibration.py\n?? tests/test_hac_tests.py\n?? tests/test_paired_losses.py\n?? tests/test_statistical_diagnostics.py",
+    "python": "3.13.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "dependency_versions": {
+      "quantforge": "0.1.0",
+      "numpy": "2.5.4",
+      "pandas": "3.0.6",
+      "pyarrow": "23.0.1",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.18.1",
+      "pytest": "9.2.0",
+      "threadpoolctl": "3.7.0",
+      "matplotlib": "3.11.2"
+    },
+    "source_sha256": {
+      "src/quantforge/__init__.py": "055268edd0b6f5c5ac561cd9dd4f7380da97ec7fa1a761f2c958b8d3ee822ddd",
+      "src/quantforge/data.py": "4580169fe8d3b604c395c6bfca9ef4dae493f468ca0104d672bcd83f3b38c484",
+      "src/quantforge/data_monthly.py": "1a436fed8abc4199cd9274dcfdcdd9aac1e429382f24b2f30bddb4cf85fa14c4",
+      "src/quantforge/datasets/__init__.py": "d94ef065433363f556a2e8e51355553d882edef9ccc8295eb135d3b64b3157cb",
+      "src/quantforge/datasets/research_dataset.py": "fde22a50a96492a4fc506ba7c98209fda1a70379153f0d01570c9ae761c4cb80",
+      "src/quantforge/datasets/research_splits.py": "22c862f6e8e232dedfe17c3a9832f5b7d78737de1593d6b904e2c29c5949919c",
+      "src/quantforge/datasets/splits.py": "3459e5be5185eee2638709c3db4250e150d8e1deff140d1459882cb5257d93cd",
+      "src/quantforge/diagnostics/__init__.py": "cbf67e504e5770e4729b083ee88cad6b2734f34d0cab6333d392f7020ecf1ddf",
+      "src/quantforge/diagnostics/block_bootstrap.py": "0ba1efc1549ce7246b590e469ee835c88432f2d57d09895e3e6f2cb296a98387",
+      "src/quantforge/diagnostics/calibration.py": "9d51212bcc5c5b879438ecff9ae3435deb1cbaaf1cc0aacaf0d271d6b479b79a",
+      "src/quantforge/diagnostics/experiment.py": "2f300961179448f02ecf47c969373d2530696466036b730b6d350f138ef7d969",
+      "src/quantforge/diagnostics/figures.py": "4fce742c0a959f951866d18c31a321ef967253db6377437a997b6270ed769f0c",
+      "src/quantforge/diagnostics/hac_tests.py": "75719159243325c62ce352bd76b6be42adb4fa6629b32ecf308084d92097f3ec",
+      "src/quantforge/diagnostics/paired_losses.py": "3e4968687a5fe04919e5b12fe21b57866281c015fa54221bce570b72f002d2bc",
+      "src/quantforge/experiment.py": "ca3a43fa3bfc9b3f27409c538de2d1a43eb9911a0b61fac549c08a12d0b10420",
+      "src/quantforge/features/__init__.py": "857819a0c3c718cf2b1100ea72995db989ed149f65d1ad3d5e4cd3eda1fcbec1",
+      "src/quantforge/labels/__init__.py": "b968218639387cb82ab1beccef5c5bf3ed3674e5975c3d2b25cb4d318037746e",
+      "src/quantforge/models/__init__.py": "6efe9a59a752b71f67d386633ef71ca6b0bce5bd27d650b5201d21e8c321d973",
+      "src/quantforge/models/baselines.py": "a9269ca7f6147f653f608051746304596e898f49ec30f9e1714567e25a1ded83",
+      "src/quantforge/research_experiment.py": "9f24440f559f7283ee5b67ab2988b3dac3e7a02aee4c0ef2facc08bd6b9caf41",
+      "src/quantforge/research_policy.py": "91dc87fb977468034ec1a734eb367a06007f1580eb272501c2f6edb3d9a39ff6",
+      "src/quantforge/temporal.py": "6c262bbd1c77e6696c7d310eb31b321f3f27ffeea02fbd64a70f3dcee9bd648c",
+      "scripts/run_baseline.py": "8a362f6c10d865aef2846a2f3faacdba49517ecd297ffb63cd64fd950a4de1a5",
+      "pyproject.toml": "6801305a862573f6371b3469cec6c5f06a481602cdde7efa2781cd969a31ed69",
+      "uv.lock": "3cc5c097fca53050546c8227ef1adc6d62e5f175b9fe4e76093d6abef3aeedaf",
+      "requirements-lock.txt": "7d475bfe752f44bfaf0bc6fcb3e55069e9ffd23ee0a1df52574346cfec42ad04",
+      "configs\\statistical-diagnostics.toml": "992d7bbffdfb0b47bf650412cafb78fc251baedadc661f5e89565b3fe37e3770",
+      "docs/phase2c-analysis-plan.md": "1dcb6c79d947a3c13e478efb367a1d77e8e3d671698fc0b6fb2c1864daac40d3",
+      "docs/phase2c-plan-manifest.json": "58e53fd4555c36731ded26b23edb86dc5a6296a6d078269e030dce2f42870500",
+      "scripts/run_statistical_diagnostics.py": "1c6c001124c49eba4649d3e05732653deee6454f0305fd05095373f62f8bcae8"
+    },
+    "numeric_thread_limit": 1
+  },
+  "input_audit": {
+    "status": "passed",
+    "input_rows": 1053840,
+    "paired_rows": 351280,
+    "groups": [
+      {
+        "month": "2026-03",
+        "role": "validation",
+        "fold": 1,
+        "horizon_minutes": 5,
+        "paired_rows": 44635
+      },
+      {
+        "month": "2026-03",
+        "role": "validation",
+        "fold": 1,
+        "horizon_minutes": 15,
+        "paired_rows": 44625
+      },
+      {
+        "month": "2026-04",
+        "role": "validation",
+        "fold": 2,
+        "horizon_minutes": 5,
+        "paired_rows": 43195
+      },
+      {
+        "month": "2026-04",
+        "role": "validation",
+        "fold": 2,
+        "horizon_minutes": 15,
+        "paired_rows": 43185
+      },
+      {
+        "month": "2026-05",
+        "role": "development_evaluation",
+        "fold": 3,
+        "horizon_minutes": 5,
+        "paired_rows": 44635
+      },
+      {
+        "month": "2026-05",
+        "role": "development_evaluation",
+        "fold": 3,
+        "horizon_minutes": 15,
+        "paired_rows": 44625
+      },
+      {
+        "month": "2026-06",
+        "role": "development_evaluation",
+        "fold": 4,
+        "horizon_minutes": 5,
+        "paired_rows": 43195
+      },
+      {
+        "month": "2026-06",
+        "role": "development_evaluation",
+        "fold": 4,
+        "horizon_minutes": 15,
+        "paired_rows": 43185
+      }
+    ],
+    "prediction_key": [
+      "bar_open_time",
+      "horizon_minutes",
+      "model"
+    ],
+    "pair_key": [
+      "bar_open_time",
+      "horizon_minutes"
+    ],
+    "dropped_rows": 0,
+    "loss_difference_definition": "Ridge loss minus comparator loss; negative favors Ridge",
+    "source_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05",
+      "2026-06"
+    ],
+    "holdout_accessed": false,
+    "model_versions": {
+      "2026-03/15/zero": "36fe5b5b27d47848f734c2eff4990eb560c354c411715afc16ec820f24b789eb",
+      "2026-03/15/historical_mean": "c8a85e31466801a5b6bcb830fc34a158d5591eaea3ff36c409c43a2c47153182",
+      "2026-03/15/ridge": "9a0268c7142884864b47af0e190f9a979ff0880bbdf3260bbf1690a307551085",
+      "2026-04/15/zero": "309fd1117aebbe29fd89737a2fd34edff1cfb3cd5ec9a5d4f4cbb58a34c780ca",
+      "2026-04/15/historical_mean": "81908b9adc68ae639f5c9f9cc23f4ae6b7435615f4ee4ec50ed536a8f50f0a2a",
+      "2026-04/15/ridge": "3276fb252da56da46e921bf4f0c6351718a7a526fa391f7ab55b34ad6ff8057d",
+      "2026-05/15/zero": "ac0eb2bdfa4005f7b9142eeef65e241b52c6f73fd996d91df0e287fa0a606962",
+      "2026-05/15/historical_mean": "8b7603d799752065c161ce14f1a07875fd6ac004f4e3f4d39e62411973660366",
+      "2026-05/15/ridge": "3c1fb9b0d32f2d8729389632d9f5d056773c3a7707d11609a2ed2c1b1f828764",
+      "2026-06/15/zero": "47c28cd2e2d1e6730a839579512cf1dc4a0eadfe9796edb67f25ef1686c3620b",
+      "2026-06/15/historical_mean": "c6edbb951e62f9230204b7bddbab8ffafe4821b98713b6c91f5b62aac58821e1",
+      "2026-06/15/ridge": "13751f8adbdbdd097ea636cd39e658bc96d82a2853c8b8e170c51bc467be3b29",
+      "2026-03/5/zero": "28bc54f65625e4799743890023e4502ef9fc19f942f830e4c867e79525e39b7c",
+      "2026-03/5/historical_mean": "8441ce333f7f1663c7f2040d59ded55e7c89b80ce291e03065e420f161d21504",
+      "2026-03/5/ridge": "1f1003212e048ab5e12f397361142c01832be4ba83d1226ba5be341532ae190c",
+      "2026-04/5/zero": "0ce949fdb7db1b4a638afd2d0fcd708e6999c0e100dcaae2181b4cf4d6f9f785",
+      "2026-04/5/historical_mean": "f992cee33e365c57f07d539122ade7c90a3a808d24ecc1146e940c84f3880e9b",
+      "2026-04/5/ridge": "042cb23284eee5a893596d3a8be36d91bbed58e81091b1ecec07b8d89b9ec8b9",
+      "2026-05/5/zero": "18ce43909349acf668024069adafc0901dc50a77c11d882fac5a422ff92e3417",
+      "2026-05/5/historical_mean": "864182c2a6e377d4ec77f638fddd4368f5ea7ee11657bda8d46f2ba8871b5936",
+      "2026-05/5/ridge": "efa608b1ffc98c96183c565a6dffe40a81aa0a11c227a1ff6b59597fa059c805",
+      "2026-06/5/zero": "7caf433de975659dfc62f6a995b9fffdd5184af96118bc4c6ade2e2686066582",
+      "2026-06/5/historical_mean": "414e8fb1f19aceed40d122ebcde987d9a6eb39abb0e47c17d712c744d1076407",
+      "2026-06/5/ridge": "fd78072ce930c05a9985980f3ca11e1f1e55de7809b83ff2e7d527aa73843d9f"
+    },
+    "interpretation": "Artifact/metadata consistency, not an independent reconstruction of fitted models or market data.",
+    "mode": "frozen_production_artifact",
+    "baseline_run_id": "20261103T010111153259Z-a2cb0858",
+    "baseline_git_commit": "a431190283c7c508751d4175a45ec84bff5e4bcf",
+    "baseline_git_dirty": false,
+    "summary_path": "results/research-baseline/20261103T010111153259Z-a2cb0858/summary.json",
+    "summary_sha256": "7aa9f334a9e5b5f1085edd2362676d86d0898fcdd376f92bb1886efbc3dc6f12",
+    "predictions_path": "results/research-baseline/20261103T010111153259Z-a2cb0858/predictions.parquet",
+    "predictions_sha256": "66f74e1367ed816455d8df2af5c8fdd89009c893aa5fe064df29fe646c86407a",
+    "plan_path": "docs/phase2c-analysis-plan.md",
+    "plan_sha256": "1dcb6c79d947a3c13e478efb367a1d77e8e3d671698fc0b6fb2c1864daac40d3",
+    "plan_manifest_sha256": "58e53fd4555c36731ded26b23edb86dc5a6296a6d078269e030dce2f42870500",
+    "verified_source_manifests": {
+      "data/processed/binance/spot/BTCUSDT/1m/development-manifest.json": "6fc42cd53ab30e1282bc9202046edd1fb43e5bc3fa8c44595f1639958c66acb8",
+      "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2025-09.json": "4327b550adbeca7629f2ddce884bc990c46afafc10f6610a91d7cad7019490ae",
+      "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2025-10.json": "abce20ad223b92afe304eb749c6aeaa4dc2099d25194eadf228b4ae93d2f2c95",
+      "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2025-11.json": "9fb672a5150a871e0bd80611069a2fe7311e46c4b78c246cb59ac5ecbf155d38",
+      "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2025-12.json": "8d24266b91a286dde3bcf15b70b36dcc815bb0686e4ed251dfd8d81352ec2251",
+      "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2026-01.json": "a7c9010e90324ac5df5703256a23fe7edc17224f0705fac1e7a1f726f436f11f",
+      "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2026-02.json": "d4bf7a8205bceeb16eae6393caf05632eedff9449daf1ea157785586d541a645",
+      "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2026-03.json": "40fa703c0a47ace428d246e55f5cba68b1b6fb68a884ee011903a733689753d1",
+      "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2026-04.json": "d5ee06da3a8966d31257b977404fcc048f47b113e27c6dfd4ee7e6295c058f9a",
+      "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2026-05.json": "aadd40028fbe7947b9f8392a3756d7551cc5ade6c5ba203af96b0523866fcc04",
+      "data/processed/binance/spot/BTCUSDT/1m/monthly/BTCUSDT-1m-2026-06.json": "904eec1c3ca69239c2f0ff4f66c2c33aacbb6a8851044c076dd9126985160602"
+    },
+    "baseline_source_code_sha256": {
+      "src/quantforge/__init__.py": "055268edd0b6f5c5ac561cd9dd4f7380da97ec7fa1a761f2c958b8d3ee822ddd",
+      "src/quantforge/data.py": "4580169fe8d3b604c395c6bfca9ef4dae493f468ca0104d672bcd83f3b38c484",
+      "src/quantforge/data_monthly.py": "1a436fed8abc4199cd9274dcfdcdd9aac1e429382f24b2f30bddb4cf85fa14c4",
+      "src/quantforge/datasets/__init__.py": "d94ef065433363f556a2e8e51355553d882edef9ccc8295eb135d3b64b3157cb",
+      "src/quantforge/datasets/research_dataset.py": "fde22a50a96492a4fc506ba7c98209fda1a70379153f0d01570c9ae761c4cb80",
+      "src/quantforge/datasets/research_splits.py": "22c862f6e8e232dedfe17c3a9832f5b7d78737de1593d6b904e2c29c5949919c",
+      "src/quantforge/datasets/splits.py": "3459e5be5185eee2638709c3db4250e150d8e1deff140d1459882cb5257d93cd",
+      "src/quantforge/experiment.py": "ca3a43fa3bfc9b3f27409c538de2d1a43eb9911a0b61fac549c08a12d0b10420",
+      "src/quantforge/features/__init__.py": "857819a0c3c718cf2b1100ea72995db989ed149f65d1ad3d5e4cd3eda1fcbec1",
+      "src/quantforge/labels/__init__.py": "b968218639387cb82ab1beccef5c5bf3ed3674e5975c3d2b25cb4d318037746e",
+      "src/quantforge/models/__init__.py": "6efe9a59a752b71f67d386633ef71ca6b0bce5bd27d650b5201d21e8c321d973",
+      "src/quantforge/models/baselines.py": "a9269ca7f6147f653f608051746304596e898f49ec30f9e1714567e25a1ded83",
+      "src/quantforge/research_experiment.py": "9f24440f559f7283ee5b67ab2988b3dac3e7a02aee4c0ef2facc08bd6b9caf41",
+      "src/quantforge/research_policy.py": "91dc87fb977468034ec1a734eb367a06007f1580eb272501c2f6edb3d9a39ff6",
+      "src/quantforge/temporal.py": "6c262bbd1c77e6696c7d310eb31b321f3f27ffeea02fbd64a70f3dcee9bd648c",
+      "scripts/run_baseline.py": "8a362f6c10d865aef2846a2f3faacdba49517ecd297ffb63cd64fd950a4de1a5",
+      "pyproject.toml": "f16ae14e902b2bfb059095637d71fa461a9c8a5c4485cd2c146f4f236d98d675",
+      "uv.lock": "f2fdfdee8144eb1240cbc1edcad7bb6d24cdf795dbcfd383e2499798dea48c19",
+      "requirements-lock.txt": "1c62be2a6041eaf239088479ea3cb49cb5634ffa136c3da2dbcf499358b40bad",
+      "scripts/run_research_baseline.py": "1972df7eaeaf80cb6481e5a23a38283ec9311fe2540a7f86755c88d82ec1d02b",
+      "configs/research-baseline.toml": "a344b39f651254e2a2b033184d95b8431a6b151f611679292b54a93410ddc05c",
+      "configs/research-periods.toml": "ff3fdc4912e3c894c00f67bd1a0713adc5956ea16386d3a463c38a29f6f50593"
+    },
+    "market_bar_payloads_read": false
+  },
+  "paired_observations": 351280,
+  "counts": {
+    "paired-loss-summary.csv": 32,
+    "bootstrap-results.csv": 128,
+    "hac-results.csv": 96,
+    "calibration-summary.csv": 24,
+    "calibration-quantiles.csv": 96,
+    "distribution-quantiles.csv": 864,
+    "loss-autocorrelation.csv": 3856
+  },
+  "timings_seconds": {
+    "pairing": 8.959199100005208,
+    "bootstrap": 2.299593499992625,
+    "hac": 1.315730699992855,
+    "calibration_acf": 0.6116187000006903,
+    "figures": 6.052685699993162
+  },
+  "holdout_accessed": false,
+  "predictors_modified": false,
+  "new_market_downloads": false,
+  "inference_scope": "post-observation diagnostics, conditional on observed months; not preregistered confirmation or profit",
+  "failures": [],
+  "limitations": [
+    "Two months per role; zero cross-month covariance assumption",
+    "Weak-dependence and moment assumptions may fail in financial tails",
+    "Nominal and Holm p-values do not correct prior observation or generalization bias",
+    "No new calibration fitted or applied; all fixed sensitivities retained"
+  ],
+  "elapsed_seconds": 19.527529900005902,
+  "artifacts_sha256": {
+    "paired-loss-summary.csv": "eaa78a6b00ac202da887d93381627ce2999517696d5ec5b3a63fd2fead14196e",
+    "bootstrap-results.csv": "a62b3ab0adf4d522a8f0db63328f9812b00f313fe620becb1afa1e029d7146f5",
+    "hac-results.csv": "0ab7ae30920261cc731743fe9e39c553b80204d03c0a8668ae4017ee990a2884",
+    "calibration-summary.csv": "f268518d6744fdc8f2340b98a8c8b69dbb63fc33d908dbcc5ffbc0d30331cc21",
+    "calibration-quantiles.csv": "d99efddfec355d3564c6e19baeb8be59a69f18bb6f790a44aa80b690fd52c2b5",
+    "distribution-quantiles.csv": "749ac78e270818ccc98386906ab5c69bf437bb21ead7ce351bb259162fb6ebe3",
+    "loss-autocorrelation.csv": "27bec03987457d7d0d36a94cf673635af3c7ccf61fb9c06c5ac9b57d9687c559",
+    "pairing-audit.json": "d4104b900cf17ce521c2b8fe493e6a80b1b3cc4a8d38bc75a364445d69876032",
+    "resolved-config.json": "711ca09139831bafbfc10f137866b5683950fefb22ac6ae1639e5963d8dc8b35",
+    "report.md": "a0989e6f4fc24578c7e6d19af8cda264ee6ff698edca05b9bbdc370e30a8723d",
+    "figures/prediction-target-15m.png": "37092f8ba038a5f5c60bfa7f90288bd3a3df51cf93390c1fe7eeffeef2abaf30",
+    "figures/quantile-calibration-15m.png": "fafd84b22535bc5c5bc4b278d5a967f7008c068622e8ea7f06a913879e6a86cf",
+    "figures/residual-distribution-15m.png": "319651678823ec3721f36fde9ab69539f6581721ba0a74972c57ab3779206796",
+    "figures/monthly-ic-15m.png": "8750ef3436ac5595888731078672f22f03ae08a0cf6599e490119400cb46d335",
+    "figures/monthly-mse-difference-15m.png": "8830ff4c1c298eeee0de506ae73394555eaef7fb7c4a9062af6026593964a2b1",
+    "figures/bootstrap-ci-15m.png": "c95cd336beb589e547a211c58cacacba1f76c9015b8f3a9a3075388398fa6ba3",
+    "figures/loss-acf-15m.png": "063b14586a4fa27f604701c970518a0c6b0e115fb1896a4dfa1765e08033eaa5",
+    "figures/prediction-target-5m.png": "102d4688cf603dd34b8f06fa18eebd5f0a71858dbc672c6f5c36a62691b41be2",
+    "figures/quantile-calibration-5m.png": "57865a6cb2793f942ef74dd4d0e880e41063421d4dd92420f629b06ad1efb1b5",
+    "figures/residual-distribution-5m.png": "b41794e91a213e776d826e7bf5d90e670866679ae420b338f1306039d1546261",
+    "figures/monthly-ic-5m.png": "6e711d42832c14acb09ba0e80550460c5b35156f95692f9383d82f9b6dc81196",
+    "figures/monthly-mse-difference-5m.png": "fc96a96d0221fde3c951803a4d3bc5c5ce57ae83d9ffb7fbd4e55cf9650a1631",
+    "figures/bootstrap-ci-5m.png": "7b54532ef2971a522b24cc7419d1ee468a9c4e54d559f967d5647fc969725ee8",
+    "figures/loss-acf-5m.png": "112dbc81cbec52b51a89b248ce1e23b1da5276e9ca0ee5ee550451f3aa0fb158"
+  }
+}

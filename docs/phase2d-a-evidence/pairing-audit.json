@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "input_rows": 2107680,
+  "paired_rows": 351280,
+  "dropped_rows": 0,
+  "pair_key": [
+    "decision_time",
+    "horizon_minutes",
+    "fold",
+    "month",
+    "role"
+  ],
+  "models": [
+    "expanding",
+    "rolling_1m",
+    "rolling_3m",
+    "rolling_6m",
+    "zero",
+    "historical_mean"
+  ],
+  "groups": 8,
+  "difference_definition": "Rolling loss minus Expanding loss; negative favors Rolling",
+  "holdout_accessed": false,
+  "bootstrap_rows": 192,
+  "hac_rows": 144,
+  "descriptive_rows": 48,
+  "bootstrap_non_estimable": 0,
+  "hac_non_estimable": 0
+}

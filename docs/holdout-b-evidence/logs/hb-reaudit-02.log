@@ -1,0 +1,1 @@
+{"gates": {"n_train": true, "short_segments": true, "structural_oracle": true, "undefined_ratio": true}, "ridge_fits": 0, "status": "reaudit_passed"}

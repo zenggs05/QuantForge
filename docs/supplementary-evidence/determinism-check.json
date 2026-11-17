@@ -1,0 +1,42 @@
+{
+ "all_byte_identical": true,
+ "files": {
+  "A0-reproduce-frozen.json": {
+   "byte_identical": true,
+   "formal_sha256": "4038b33ba8c7f115c080fc016b313558fd2cddddcb6fba3dbaab537c14be4f5c",
+   "reproduction_sha256": "4038b33ba8c7f115c080fc016b313558fd2cddddcb6fba3dbaab537c14be4f5c"
+  },
+  "A1-economic-magnitude.json": {
+   "byte_identical": true,
+   "formal_sha256": "508e28d4d4bc44517d8da6c5550ce190f6ee871a1cdb8bc50b410e7bf89cd0b6",
+   "reproduction_sha256": "508e28d4d4bc44517d8da6c5550ce190f6ee871a1cdb8bc50b410e7bf89cd0b6"
+  },
+  "A2-drift-and-timing.json": {
+   "byte_identical": true,
+   "formal_sha256": "912581de77f36de4a23df8f4fc8e7e485d2db3131dbdd92d2b71223552dcabf2",
+   "reproduction_sha256": "912581de77f36de4a23df8f4fc8e7e485d2db3131dbdd92d2b71223552dcabf2"
+  },
+  "A3-inference-robustness.json": {
+   "byte_identical": true,
+   "formal_sha256": "978204ae628033d2f92aac24cd5cbc99602c407d561edaa72804a37e0050734c",
+   "reproduction_sha256": "978204ae628033d2f92aac24cd5cbc99602c407d561edaa72804a37e0050734c"
+  },
+  "A4-bounds-and-calibration.json": {
+   "byte_identical": true,
+   "formal_sha256": "a1d045799fe467997d41d91ba7ee17715de560872529791f754fa1ca4e8a1624",
+   "reproduction_sha256": "a1d045799fe467997d41d91ba7ee17715de560872529791f754fa1ca4e8a1624"
+  },
+  "B6a-coefficient-paths.csv": {
+   "byte_identical": true,
+   "formal_sha256": "9c9478eacf525747be9e4499f3ba0e129494422939adf630ecb5283e8d0d9cef",
+   "reproduction_sha256": "9c9478eacf525747be9e4499f3ba0e129494422939adf630ecb5283e8d0d9cef"
+  },
+  "inputs.json": {
+   "byte_identical": true,
+   "formal_sha256": "045d678236502a27d28bf38749a95da7fbc6d3f07b446be2e5e8a143c6d876e1",
+   "reproduction_sha256": "045d678236502a27d28bf38749a95da7fbc6d3f07b446be2e5e8a143c6d876e1"
+  }
+ },
+ "label": "exploratory_post_hoc",
+ "method": "two independent processes of analysis/supplementary_a.py with identical inputs; reproduction written outside the repository and compared byte for byte"
+}
