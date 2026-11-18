@@ -9,8 +9,8 @@ authors:
     affiliation: "Independent researcher"
 repository-code: "https://github.com/zenggs05/QuantForge"
 license-url: "https://polyformproject.org/licenses/noncommercial/1.0.0"
-version: "1.1.0"
-date-released: "2026-11-17"
+version: "1.3.0"
+date-released: "2026-11-18"
 keywords:
   - return predictability
   - cryptocurrency
@@ -24,6 +24,20 @@ preferred-citation:
   authors:
     - family-names: "Zeng"
       given-names: "Gaoshan"
+      affiliation: "Independent researcher"
   year: 2026
+  month: 11
+  date-published: "2026-11-18"
   status: preprint
-  notes: "Preprint; SSRN/arXiv identifier to be added on posting."
+  publisher:
+    name: "Zenodo"
+  doi: "10.5281/zenodo.24330979"
+  url: "https://zenodo.org/records/24330979"
+  license: "CC-BY-NC-ND-4.0"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24330979"
+    description: "Preprint, version 1 (Zenodo)"
+  - type: doi
+    value: "10.5281/zenodo.24330978"
+    description: "Preprint, all versions (Zenodo concept DOI)"

@@ -1,8 +1,10 @@
 # QuantForge
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24330979.svg)](https://doi.org/10.5281/zenodo.24330979)
+
 **Statistically Detectable, Economically Small: A Pre-Registered Out-of-Sample Test of Minute-Level Bitcoin Return Predictability**
 
-This repository contains the code, frozen protocols, execution contracts and evidence for the preprint in [`paper/`](paper/). It is **source-available, not open source**: noncommercial use only, citation required. See [Licensing](#licensing).
+This repository contains the code, frozen protocols, execution contracts and evidence for the preprint in [`paper/`](paper/), published on Zenodo as [doi:10.5281/zenodo.24330979](https://doi.org/10.5281/zenodo.24330979). It is **source-available, not open source**: noncommercial use only, citation required. See [Licensing](#licensing).
 
 ## Summary
 
@@ -64,7 +66,22 @@ Nothing in this repository is investment advice. The study involves no trading a
 ## Citation
 
 ```
-Gaoshan Zeng (2026). Statistically Detectable, Economically Small: A Pre-Registered
-Out-of-Sample Test of Minute-Level Bitcoin Return Predictability. Preprint.
-https://github.com/zenggs05/QuantForge
+Zeng, G. (2026). Statistically Detectable, Economically Small: A Pre-Registered
+Out-of-Sample Test of Minute-Level Bitcoin Return Predictability. Preprint, Zenodo.
+https://doi.org/10.5281/zenodo.24330979
+```
+
+BibTeX:
+
+```bibtex
+@misc{zeng2026detectable,
+  author    = {Zeng, Gaoshan},
+  title     = {Statistically Detectable, Economically Small: A Pre-Registered
+               Out-of-Sample Test of Minute-Level Bitcoin Return Predictability},
+  year      = {2026},
+  publisher = {Zenodo},
+  note      = {Preprint},
+  doi       = {10.5281/zenodo.24330979},
+  url       = {https://doi.org/10.5281/zenodo.24330979}
+}
 ```
