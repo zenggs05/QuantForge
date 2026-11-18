@@ -78,3 +78,6 @@ docs/supplementary-evidence/* -text
 analysis/*.py text eol=lf
 docs/holdout-b-evidence/** -text
 src/quantforge/holdout_b.py text eol=lf
+paper/figures/*.pdf -text
+paper/figures/*.png -text
+paper/figures/*.py text eol=lf
